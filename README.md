@@ -26,6 +26,9 @@
 > 上一代工作库 `memoryV4.0.0`（466 文件，含治理工具/_curator_tools/.obsidian 等）已归档，需要时从本地历史归档取回。
 
 ---
+> 本库的RAG专项适配版位于独立仓库https://github.com/RhineLab-magellan/Magellan_AstrBot_knowledge_For_VRChat
+---
+---
 
 ## 🗂️ 目录结构
 
