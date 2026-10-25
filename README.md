@@ -1,4 +1,4 @@
-# 🧠 VRChat-Agent-Open-Memory-Library
+# 🧠 VRChat-Agent-Creator-Library
 
 > **VRChat 专属 AI Agent 开放记忆库** — 一个自包含、机器可解析的 VRChat 多领域知识包，专为 RAG 与 AI Agent 设计。
 
@@ -33,8 +33,8 @@
 
 ```bash
 # 1️⃣ 克隆仓库
-git clone https://github.com/RhineLab-magellan/VRChat-Agent-Open-Memory-Library.git
-cd VRChat-Agent-Open-Memory-Library
+git clone https://github.com/RhineLab-magellan/VRChat-Agent-Creator-Library.git
+cd VRChat-Agent-Creator-Library
 
 # 2️⃣ 指定知识根（414 个 Markdown 知识页）
 #    memoryV5.0.0/LLMWikiExample/LLMWikiPage/
@@ -73,6 +73,8 @@ VRChat 创作者的知识高度碎片化——官方文档、SDK 源码、开源
 - **给人类创作者**：作为 Obsidian 图谱打开的 Vault，从 `index.md` 路由到任意领域，从链接图看清知识拓扑。
 
 > 这是一个「**对外发布的知识包**」：纯知识内容，不携带任何个人路径与私人治理痕迹。
+
+> 📎 本库的 RAG 专项适配版位于独立仓库：[Magellan_AstrBot_knowledge_For_VRChat](https://github.com/RhineLab-magellan/Magellan_AstrBot_knowledge_For_VRChat)
 
 ---
 
