@@ -123,7 +123,7 @@ Obstacle Course 是 VRChat **第二次 World Jam(2021)** 的官方出品,作为 
 
 - **World 项目结构参考**:World Jam 是官方工程模板,可作为大型 World 项目的目录结构参考(Assets/_WorldJam2/{Scenes, Prefabs, _SubSystems})
 - **Editor 工具链对比**:Toolkit 窗口属于 Editor-only 工具,与 `sources/example-central.md` 中的 Example Central、ClientSim 工具同属"VRChat 官方 Editor 工具"范式
-- **Object Pool 模式**:PlayerDataManager 使用 `VRCObjectPool` 模式,建议在 `memory/patterns/` 考虑新增 `object-pool.md` 模式文档
+- **Object Pool 模式**:PlayerDataManager 使用 `VRCObjectPool` 模式,建议在 `concepts/patterns/` 考虑新增 `object-pool.md` 模式文档
 - **Trigger Collider 模式**:`OnPlayerDataEnter` 程序 + 自定义 Layer(`CoursePlayer` / `CourseTrigger`)是值得提炼的设计模式
 
 ---

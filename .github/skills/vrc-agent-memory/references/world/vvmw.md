@@ -308,7 +308,7 @@ related:
 
 ## 沉淀到知识库的内容
 
-### 通用模式（8 个）→ `FACT.md` + `memory/patterns/`
+### 通用模式（8 个）→ `FACT.md` + `concepts/patterns/`
 
 | 模式 | 文档 | 来源 |
 |------|------|------|
@@ -355,5 +355,5 @@ related:
 | `entities/world/udon/external-urls.md` | VRCUrl 基础 |
 | `entities/api/persistence.md` | PlayerData API（持久化用） |
 | `entities/world/performance-guide.md` | World 性能优化（多实例屏幕场景） |
-| `memory/world/udon/video-players/` | 视频播放器底层知识 |
+| `entities/world/udon/video-players/` | 视频播放器底层知识 |
 | `concepts/hybrid/udon-world-plugins.md` | 推荐 Udon 世界插件索引 |

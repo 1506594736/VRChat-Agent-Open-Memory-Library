@@ -470,5 +470,5 @@ _FUR_TintColorBase/Tip — 基部/尖端颜色
 ## 相关文档
 
 - `entities/avatar/shader/index.md` — Shader 知识库索引
-- `memory/avatar/shader/liltoon/` — lilToon 详细文档
-- `memory/avatar/shader/scss/` — SCSS 详细文档
+- `entities/avatar/shader/liltoon/` — lilToon 详细文档
+- `entities/avatar/shader/other-shaders.md` — SCSS 详细文档

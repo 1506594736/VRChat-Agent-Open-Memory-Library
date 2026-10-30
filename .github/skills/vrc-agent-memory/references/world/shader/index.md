@@ -72,6 +72,6 @@ world/shader/
 
 ## 相关文档
 
-- `memory/world/bakery/` — Bakery GPU Lightmapper
-- `memory/avatar/shader/` — Avatar Shader 知识库
+- `entities/world/bakery/` — Bakery GPU Lightmapper
+- `entities/avatar/shader/` — Avatar Shader 知识库
 - `entities/world/performance-guide.md` — World 性能优化指南

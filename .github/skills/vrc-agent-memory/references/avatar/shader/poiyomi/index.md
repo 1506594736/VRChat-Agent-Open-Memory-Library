@@ -120,7 +120,7 @@ related:
 ## 4. 知识库结构
 
 ```
-memory/avatar/shader/poiyomi/         ← 本知识库(提炼知识)
+entities/avatar/shader/poiyomi/         ← 本知识库(提炼知识)
 ├── index.md                          ← 本文件
 ├── installation.md                   ← 安装与版本
 ├── shader-variants.md                ← 5 变体详解

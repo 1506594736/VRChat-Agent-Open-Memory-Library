@@ -275,8 +275,8 @@ public override void OnPlayerLeft(VRCPlayerApi player)
 |---|---|
 | `entities/api/player-api.md` | **底层 API 总览**(简略版),本文件为**应用层详解** |
 | `entities/api/events-reference.md` | 玩家事件回调 (`OnPlayerJoined`/`OnPlayerLeft`/`OnPlayerSuspendChanged` 等),应补充 3 个 Drone Trigger 事件 |
-| `memory/world/udon/players/*.md` | 本目录其他 6 个子页面 |
-| `memory/world/udon/players/drones/` | **Drone API 子分类** (task-12 已完成,3 个 .md) |
+| `entities/world/udon/players/*.md` | 本目录其他 6 个子页面 |
+| `entities/world/udon/players/drones/` | **Drone API 子分类** (task-12 已完成,3 个 .md) |
 
 ---
 

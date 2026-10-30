@@ -293,4 +293,4 @@ void CopyIntoFlags()
 
 - `sources/open-source-projects.md` §音频同步类目
 
-如需了解项目安装、VPM 配置、源码版本,参阅 `memory/sources/` 目录
+如需了解项目安装、VPM 配置、源码版本,参阅 `entities/world/` 目录

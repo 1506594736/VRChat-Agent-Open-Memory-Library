@@ -170,5 +170,5 @@ Pedestal 配合投票 UI,玩家在多个 Pedestal 中选择喜欢的 Avatar。
 
 - 官方文档: https://creators.vrchat.com/worlds/components/vrc_avatarpedestal/
 - 关联 API: [VRC_SceneDescriptor](./vrc-scenedescriptor.md)
-- Avatar 域: [../../../memory/avatar/](../../../memory/avatar/)
+- Avatar 域: [../../../entities/avatar/](../../../entities/avatar/)
 - SDK Prefabs: [../sdk-prefabs.md](../sdk-prefabs.md)

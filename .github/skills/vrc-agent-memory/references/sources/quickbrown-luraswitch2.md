@@ -201,7 +201,7 @@ LuraSwitch2/
 ## 沉淀记录
 
 ### 已沉淀到知识库
-- 6 个新 Pattern 文档(`memory/patterns/*.md`)
+- 6 个新 Pattern 文档(`concepts/patterns/*.md`)
 - 4 个新 FAIL 案例(`concepts/patterns/index.md` FAIL-29 ~ FAIL-32)
 - `FACT.md` 案例研究型参考工程追加
 - `_always-load.md` 文档速查表

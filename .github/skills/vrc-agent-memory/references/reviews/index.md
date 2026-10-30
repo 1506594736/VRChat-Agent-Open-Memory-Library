@@ -153,9 +153,9 @@ related:
 
 | 关系 | 目录 |
 |------|------|
-| **执行规则** | `memory/rules/` |
-| **实现模式** | `memory/patterns/` |
-| **API 速查** | `memory/api/` |
+| **执行规则** | `concepts/rules/` |
+| **实现模式** | `concepts/patterns/` |
+| **API 速查** | `entities/api/` |
 | **审查记录** | `特殊Agent提示词/<phase>_review_*.md` |
 | **失败案例** | `concepts/patterns/index.md` |
 | **设计模式来源** | `FACT.md` §VRCTD/§VVMW/§AudioLink |

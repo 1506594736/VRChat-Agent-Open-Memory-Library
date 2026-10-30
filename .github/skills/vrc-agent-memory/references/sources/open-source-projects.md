@@ -42,7 +42,7 @@ related:
 >
 > **⚠️ 本目录是知识库溯源层**
 >
-> 本目录(`memory/sources/`)记录**所有参考工程和开源项目**的原始信息,作为知识主目录(`rules/`、`api/`、`patterns/`、`world/`、`avatar/`、`hybrid/`)中"去项目化"内容的**唯一溯源依据**。
+> 本目录(`entities/world/`)记录**所有参考工程和开源项目**的原始信息,作为知识主目录(`rules/`、`api/`、`patterns/`、`world/`、`avatar/`、`hybrid/`)中"去项目化"内容的**唯一溯源依据**。
 >
 > **设计原则**:
 > - 知识主目录中的内容已"去项目化"(删除项目名/作者/Stars 等元数据)
@@ -61,7 +61,7 @@ related:
 | A1 | 多机位导演系统(VRCTD) | `FACT.md` §多机位导演系统 | 5 层同步 + NetworkCallable + 双缓冲 + 指数衰减 + Slerp + 所有权分层 + NoVariableSync UI |
 | **A2/C16** | **VizVid (VVMW)** | `entities/world/vvmw.md` + `entities/world/vvmw.md` | **双重身份**: 案例研究沉淀 8 模式（Manual Sync + Owner Authority + 时间同步算法 + 阈值同步 + 冷却期 + 双缓冲 + Performer + Strategy）+ 工具推荐给创作者直接使用。5 大模块 + 9 大集成（AudioLink/LTCGI/VRCLightVolumes/Topaz/UdonAuth/YTTL）+ 13 个 Releases + PC/Quest 跨平台 + 12+ 语言本地化 |
 | A3 | 音频同步系统(AudioLink) | `FACT.md` §音频同步系统 + `concepts/hybrid/audio-link.md` | Shader-Centric + Master 时间锚点 + 位域压缩 + 漂移校正 + 平台兼容预处理 |
-| A4 | VRChat Agent Skills 模板(参考工程) | `memory/rules/`、`concepts/patterns/advanced-sync-patterns.md` | SMART 原则 + 18 条 NEVER 清单 + 5 层存储决策框架 + 6 种 Networking Anti-Patterns |
+| A4 | VRChat Agent Skills 模板(参考工程) | `concepts/rules/`、`concepts/patterns/advanced-sync-patterns.md` | SMART 原则 + 18 条 NEVER 清单 + 5 层存储决策框架 + 6 种 Networking Anti-Patterns |
 | A5 | 第三方客户端(VRCX) | `entities/vrchatsdk/index.md` | API 客户端最佳实践 + 跨平台状态同步 UX |
 | **A6/C15** | **QuickBrown LuraSwitch2 (Lura's Switch)** | `entities/world/luraswitch2.md` + `entities/world/luraswitch2.md` | **双重身份**: 案例研究沉淀 6 模式 + 工具推荐给创作者直接使用。BOOTH 免费 + UV License。Master-Follower Syncer + Exclusive Selector + SoftDetent + Fade-Snap + Editor Preview + MaterialPropertyBlock + 4 个 FAIL 案例 |
 | A7 | TLP UdonVoiceUtils (UVU) | `sources/udonvoiceutils.md` | **10 个核心模式**: 双副本同步 + 执行顺序链 + 策略模式 + 对象池 + 优先级仲裁 + Master 所有权三层防御 + Gizmos 关系可视化 + Trigger 事件兜底 + 编译期 DEBUG 剥离 + 自动宏定义 |
@@ -80,14 +80,14 @@ related:
 
 ### 🅱️ 项目推荐型参考工程 — 完整元数据
 
-**项目详情已沉淀到 `memory/avatar/shader/`,本节仅作为溯源索引**
+**项目详情已沉淀到 `entities/avatar/shader/`,本节仅作为溯源索引**
 
 | 序号 | 项目 | 完整文档 | 沉淀位置 |
 |------|------|---------|---------|
-| B1 | Avatar Toon Shader A | `memory/avatar/shader/liltoon/` | 16 文件 + 索引 |
+| B1 | Avatar Toon Shader A | `entities/avatar/shader/liltoon/` | 16 文件 + 索引 |
 | B2 | Cel Shading Shader(双阴影) | `entities/avatar/shader/scss.md` | 单文件 |
-| B3 | World 模块化 Shader 套件 | `memory/avatar/shader/orl/` | 4 文件 + 索引 |
-| B4 | Google Filament PBR 替代 | `memory/avatar/shader/filamented/` | 4 文件 + 索引 |
+| B3 | World 模块化 Shader 套件 | `entities/avatar/shader/orl/` | 4 文件 + 索引 |
+| B4 | Google Filament PBR 替代 | `entities/avatar/shader/filamented/` | 4 文件 + 索引 |
 | B5 | Unlit 扩展专业效果 | `entities/avatar/shader/unlitwf/index.md` | 单文件 |
 
 > **设计说明**:这 5 个项目**作为工具被创作者使用**(安装到 Avatar/World),保留项目名和 VPM 安装链接
@@ -95,7 +95,7 @@ related:
 
 ### 🅲️ 工具使用指南型参考工程 — 完整元数据
 
-**项目详情已沉淀到 `memory/avatar/`,本节仅作为溯源索引**
+**项目详情已沉淀到 `entities/avatar/`,本节仅作为溯源索引**
 
 | 序号 | 项目 | 完整文档 | 沉淀位置 |
 |------|------|---------|---------|
@@ -105,12 +105,12 @@ related:
 | C4 | Mesh 简化(Meshia) | `entities/avatar/meshia-mesh-simplification.md` | 20K |
 | C5 | 贴图 Atlas 化(TTT) | `entities/avatar/tex-trans-tool.md` | 24K |
 | C6 | MA 响应式层压缩(MA2BT) | `entities/avatar/ma2bt.md` | 20K |
-| C7 | Avatar 性能检测 | `memory/avatar/lilAvatarUtils`、`entities/avatar/thry-avatar-evaluator-metrics.md` | — |
+| C7 | Avatar 性能检测 | `entities/avatar/ndmf-tools.md`、`entities/avatar/thry-avatar-evaluator-metrics.md` | — |
 | C8 | Avatar 压缩(LAC) | `entities/avatar/lac-avatar-compressor.md` | 11K |
 | C9 | PC/Quest 平台切换 | `entities/platform/easyquestswitch.md` | — |
 | C10 | World 光照系统 | `entities/world/vrc-light-volumes.md` | 13K |
-| C11 | 光照烘焙(Bakery) | `memory/world/bakery/` | 2 文件 |
-| C12 | 编辑器模拟(ClientSim) | `memory/world/clientsim/` | 8 文件 |
+| C11 | 光照烘焙(Bakery) | `entities/world/bakery/` | 2 文件 |
+| C12 | 编辑器模拟(ClientSim) | `entities/world/clientsim/` | 8 文件 |
 | C13 | Creator Economy(SDK) | `entities/world/creator-economy.md` | — |
 | C14 | Example Central(SDK) | `sources/example-central.md` | — |
 | **C15** ⭐NEW 2026-06-20 | **Lura's Switch (QuickBrown LuraSwitch2)** | `entities/world/luraswitch2.md` | 9 种开关 Prefab + 3 同步模式 + 多入口 + PC/Quest 适配 + UV License 免费商用 |

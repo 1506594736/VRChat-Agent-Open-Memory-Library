@@ -112,7 +112,7 @@ confidence: High
 ### anatawa12's gists pack (v0.25.2)
 - **核心功能**: 多个独立小工具 (Bone Mapper, Recursive Bounding Box, etc.) 通过 Tools 菜单选择性启用
 - **应用场景**: Avatar 杂项微调
-- **知识库参考**: `memory/avatar/`
+- **知识库参考**: `entities/avatar/`
 
 ### Continuous Avatar Uploader (v0.3.12)
 - **核心功能**: 批量上传多个 Avatar 并自动打版本 tag

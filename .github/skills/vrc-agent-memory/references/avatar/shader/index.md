@@ -195,7 +195,7 @@ avatar/shader/
 - 需要大量社区资源/教程
 - Quest Avatar 优化
 
-**详细文档**：`memory/avatar/shader/liltoon/`（16个文件）
+**详细文档**：`entities/avatar/shader/liltoon/`（16个文件）
 
 ---
 
@@ -364,7 +364,7 @@ avatar/shader/
 - VFX 特效（护盾/激光/故障等）
 - 需要 LTCGI / AreaLit 光照的 World
 
-**详细文档**：`memory/avatar/shader/orl/`（4个文件）
+**详细文档**：`entities/avatar/shader/orl/`（4个文件）
 
 ---
 
@@ -412,7 +412,7 @@ avatar/shader/
 | LTCGI | ❌ | ✅ | ✅ |
 | 复杂度 | 低 | 中 | 高 |
 
-**详细文档**：`memory/avatar/shader/filamented/`（4个文件）
+**详细文档**：`entities/avatar/shader/filamented/`（4个文件）
 
 ---
 
@@ -599,7 +599,7 @@ struct drawing {
 - `entities/avatar/performance-rank.md` — Avatar 性能排名
 - `entities/avatar/optimization-guide.md` — Avatar 优化指南
 - `entities/avatar/ndmf-tools.md` — NDMF 工具链
-- `memory/world/shader/` — World Shader 知识库
-- `memory/world/bakery/` — Bakery 光照烘焙
+- `entities/world/shader/` — World Shader 知识库
+- `entities/world/bakery/` — Bakery 光照烘焙
 
 ---

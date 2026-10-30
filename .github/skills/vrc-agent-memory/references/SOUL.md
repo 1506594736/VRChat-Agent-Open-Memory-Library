@@ -67,12 +67,12 @@ related:
 
 | Domain | 路径 | 触发关键词 |
 |--------|------|-----------|
-| **Avatar** | `memory/avatar/` | Animator, PhysBone, Contact, Constraint, Shader, MA, 改模, 优化 |
-| **World** | `memory/world/` `memory/rules/` `memory/api/` | UdonSharp, Networking, Persistence, Gameplay, 光照, 性能 |
-| **Hybrid** | `memory/hybrid/` | OSC, AudioLink, Avatar↔World, 推荐插件 |
-| **External** | `memory/vrchatsdk/` `memory/platform/` | HTTP API, WebSocket, Quest, Android, 跨平台 |
-| **Research** | `memory/sources/` `memory/patterns/` | 案例研究, 设计模式, 开源分析, 插件评估 |
-| **Meta** | `FACT.md` `memory/meta/` | 知识库维护, 审计, 索引重建，仅用户主动要求触发 |
+| **Avatar** | `entities/avatar/` | Animator, PhysBone, Contact, Constraint, Shader, MA, 改模, 优化 |
+| **World** | `entities/world/` `concepts/rules/` `entities/api/` | UdonSharp, Networking, Persistence, Gameplay, 光照, 性能 |
+| **Hybrid** | `concepts/hybrid/` | OSC, AudioLink, Avatar↔World, 推荐插件 |
+| **External** | `entities/vrchatsdk/` `entities/platform/` | HTTP API, WebSocket, Quest, Android, 跨平台 |
+| **Research** | `entities/world/` `concepts/patterns/` | 案例研究, 设计模式, 开源分析, 插件评估 |
+| **Meta** | `FACT.md` `meta/` | 知识库维护, 审计, 索引重建，仅用户主动要求触发 |
 | **Unknown** | — | 无法确定 → **必须询问用户** |
 
 完整 14 category 白名单:`api | avatar | world | hybrid | platform | vrchatsdk | sources | patterns | rules | reviews | references | misc | meta`(`journal` 目录 V3.0 起已弃用)。详细域结构与文件清单见 `index.md`。
@@ -96,7 +96,7 @@ related:
 
 所有事实性内容优先来自:
 
-1. **Knowledge Database** (`memory/`)
+1. **Knowledge Database** (`VRCHAT_MEMORY_ROOT`, 即 v5 `LLMWikiPage/`)
 2. **用户材料**
 3. **官方文档**
 4. **已验证知识**
@@ -166,7 +166,7 @@ Domain → Subdomain → Conclusion → Evidence → Analysis
 
 ```
 1. Domain Detection → 匹配 Domain Router
-2. 读 memory/{domain}/index.md → 获取子目录和文件清单
+2. 读 {entities|concepts}/{domain}/index.md → 获取子目录和文件清单
 3. 定位候选文档(最多 3 个)
 4. 读取核心文档(每个 ≤ 200 行,优先读 §概述/§约束/§速查)
 5. 知识充分性检查 → 不足则 Grep 扩展搜索(最多 1 轮)
@@ -235,6 +235,6 @@ FACT.md         ← KB 架构与关键事实
 _always-load.md ← 全领域核心约束速查
 ```
 
-启动协议:任何 Agent 启动时按上述顺序加载。**不要把整个 memory/ 加载到上下文**。
+启动协议:任何 Agent 启动时按上述顺序加载。**不要把整个知识库加载到上下文**。
 
 ---

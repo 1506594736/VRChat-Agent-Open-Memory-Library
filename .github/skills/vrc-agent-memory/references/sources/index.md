@@ -47,7 +47,7 @@ confidence: High
 - 维护状态
 - 知识库引用
 
-**核心原则**: Evidence supports conclusions, but **is not the conclusion itself**。来源必须通过验证才能晋升到 `memory/rules/`、`memory/api/`、`memory/patterns/`。
+**核心原则**: Evidence supports conclusions, but **is not the conclusion itself**。来源必须通过验证才能晋升到 `concepts/rules/`、`entities/api/`、`concepts/patterns/`。
 
 ---
 
@@ -69,7 +69,7 @@ confidence: High
 |------|------|------|------|
 | **[official-docs.md](official-docs.md)** | VRChat/UdonSharp 官方文档 URL + 版本信息 | A | ⚠️ 占位为主 |
 
-**对应本地化**: `memory/world/udon/` (15+ 文档)、`memory/world/scene-components/` (9 文档)、`memory/world/examples/` (10+ 文档)
+**对应本地化**: `entities/world/udon/` (15+ 文档)、`entities/world/scene-components/` (9 文档)、`entities/world/examples/` (10+ 文档)
 
 ### 🌍 社区来源
 
@@ -87,7 +87,7 @@ confidence: High
 | **[example-central.md](example-central.md)** | Example Central 使用 | A | ✅ 完整 |
 | **[vrc-avatar-performance-tools.md](vrc-avatar-performance-tools.md)** ⭐NEW | Thry Avatar Evaluator + VRAM Checker(409 Stars / 7 项官方未覆盖指标 + PC/Quest 双套 VRAM 阈值) | A | ✅ 完整 (2026-06-17) |
 
-**关联**: `memory/world/clientsim/` (4 系统文档 + 3 编辑器文档) 详细记录 ClientSim 架构
+**关联**: `entities/world/clientsim/` (4 系统文档 + 3 编辑器文档) 详细记录 ClientSim 架构
 **关联**: `entities/avatar/thry-avatar-evaluator-metrics.md` — 工具检测的 7 项指标详细阈值与方法
 
 ### 📦 开源项目源
@@ -202,9 +202,9 @@ vpm-package-template.md
 
 3. 分类存储
    ↓
-   - 概念/API → memory/api/ 或 memory/world/
-   - 规则 → memory/rules/
-   - 模式 → memory/patterns/
+   - 概念/API → entities/api/ 或 entities/world/
+   - 规则 → concepts/rules/
+   - 模式 → concepts/patterns/
    - 阶段报告 → 特殊Agent提示词/
 
 4. 更新来源文件
@@ -250,6 +250,6 @@ vpm-package-template.md
 
 | 目录 | 关系 |
 |------|------|
-| `memory/references/` | 对比分析、跨验证记录 |
+| `comparisons/` | 对比分析、跨验证记录 |
 | `特殊Agent提示词/` | 阶段报告(取代 V3.0 前的 journal/) |
 | `FACT.md` | 案例研究来源标注(多机位导演系统 / 视频播放器 / 音频同步系统 参考工程) |

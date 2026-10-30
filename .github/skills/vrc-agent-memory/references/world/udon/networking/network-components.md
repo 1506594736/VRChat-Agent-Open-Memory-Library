@@ -425,7 +425,7 @@ T+20s: Player B 加入 → 自动看到 Object1 激活(Object2 仍 inactive)
 | PlayerObject 配额 | 100 KB/玩家 |
 | 压缩后容量 | 最多 300 KB 原始数据(可压缩时) |
 
-> 详见 `entities/api/persistence.md` 和 `memory/world/persistence/`。
+> 详见 `entities/api/persistence.md` 和 `entities/world/udon/persistence/`。
 
 ---
 

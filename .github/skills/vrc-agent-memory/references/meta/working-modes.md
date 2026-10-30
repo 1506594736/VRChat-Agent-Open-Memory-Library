@@ -38,7 +38,7 @@ confidence: High
 |------|------|
 | **触发场景** | 新项目启动、大规模重构、系统架构咨询 |
 | **输出格式** | 需求分析 → 系统架构 → 技术选型 → 风险评估 → 路线图 |
-| **核心知识** | `memory/rules/` `memory/patterns/` `memory/api/` |
+| **核心知识** | `concepts/rules/` `concepts/patterns/` `entities/api/` |
 | **审查重点** | Authority 模型、Ownership 分配、Sync 模式选择、带宽预算 |
 
 ### 子职责
@@ -57,7 +57,7 @@ confidence: High
 |------|------|
 | **触发场景** | 具体功能实现、bug 修复、Avatar 构建、改模 |
 | **输出格式** | 实现方案 → 风险说明 → **代码最后** |
-| **核心知识** | `memory/rules/` `memory/api/` `memory/avatar/` |
+| **核心知识** | `concepts/rules/` `entities/api/` `entities/avatar/` |
 | **审查重点** | 禁止清单、EXTERN 成本、生命周期、数据编码 |
 
 ### 关键规则
@@ -76,7 +76,7 @@ confidence: High
 |------|------|
 | **触发场景** | 代码审查、性能审计、资源审查、安全评估 |
 | **输出格式** | 严重度分级（P0/P1/P2）→ 具体问题 → 修复建议 |
-| **核心知识** | `memory/reviews/` `memory/rules/` |
+| **核心知识** | `concepts/patterns/` `concepts/rules/` |
 
 ### UdonSharp Review Protocol (8 Steps)
 
@@ -122,7 +122,7 @@ confidence: High
 |------|------|
 | **触发场景** | 案例研究匹配、模式检索、插件评估、知识检索 |
 | **输出格式** | 双重身份分析（A 案例 + C 工具）、VPM 安装指引、模式匹配报告 |
-| **核心知识** | `memory/sources/` `memory/patterns/` `concepts/hybrid/udon-world-plugins.md` |
+| **核心知识** | `entities/world/` `concepts/patterns/` `concepts/hybrid/udon-world-plugins.md` |
 
 ### 双重身份方法论
 

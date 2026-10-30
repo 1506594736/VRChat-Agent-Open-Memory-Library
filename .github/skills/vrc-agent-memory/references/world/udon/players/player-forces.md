@@ -243,4 +243,4 @@ public void StartShopDialog(VRCPlayerApi player)
 | `entities/api/player-api.md` | 底层 API 简略版 |
 | `entities/world/udon/players/player-positions.md` | 位置、速度、传送 API |
 | `entities/world/udon/players/index.md` | `UseAttachedStation` |
-| `memory/world/udon/networking/` | 移动参数变化是否需要同步 |
+| `entities/world/udon/networking/` | 移动参数变化是否需要同步 |

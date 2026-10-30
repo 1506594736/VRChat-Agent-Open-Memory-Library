@@ -282,7 +282,7 @@ bool sleeping = VRC.SDK3.Network.Stats.IsSleeping(gameObject);
 | **PlayerData** | 测试 PlayerData 持久化 |
 | **Main** | 模拟多个玩家交互 |
 
-> 详细文档见 `memory/world/clientsim/` 和 `entities/world/clientsim/index.md`。
+> 详细文档见 `entities/world/clientsim/` 和 `entities/world/clientsim/index.md`。
 
 ---
 

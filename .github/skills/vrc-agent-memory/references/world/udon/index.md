@@ -76,7 +76,7 @@ related:
   - [Visual Studio](https://visualstudio.microsoft.com/vs/unity-tools/) — 免费
   - [Rider](https://www.jetbrains.com/rider/) — 非商业用途免费
 - **适用**: 已熟悉编程,或需要写复杂脚本
-- **文档**: `memory/world/udon/udonsharp/`(本目录)
+- **文档**: `entities/world/udon/udonsharp/`(本目录)
 
 ### 方式 3: 直接编写 Udon Assembly
 
@@ -149,13 +149,13 @@ related:
 
 | 子页面 | 路径 | 核心内容 |
 |---|---|---|
-| Udon Node Graph | `memory/world/udon/graph/` | 可视化编程 |
-| UdonSharp | `memory/world/udon/udonsharp/` | C# 入口 |
-| **Player API** | `memory/world/udon/players/` | 玩家交互 |
+| Udon Node Graph | `entities/world/udon/graph/` | 可视化编程 |
+| UdonSharp | `entities/world/udon/udonsharp/` | C# 入口 |
+| **Player API** | `entities/world/udon/players/` | 玩家交互 |
 | **AI Navigation** | `entities/world/udon/ai-navigation.md` | NavMeshAgent + 寻路 |
 | **Animation Events** | `entities/world/udon/animation-events.md` | Animator Event 触发的白名单 |
 | **Avatar Events** | `entities/world/udon/avatar-events.md` | OnAvatarChanged 玩家切 Avatar |
-| Data Containers | `memory/world/udon/data-containers/` | JSON 序列化 + 位/字节操作 ⭐ |
+| Data Containers | `entities/world/udon/data-containers/` | JSON 序列化 + 位/字节操作 ⭐ |
 | **Data Tokens** | `entities/world/udon/data-containers/data-tokens.md` | DataToken 类型系统 + 隐式装箱 + 提取值 |
 | **Data Lists** | `entities/world/udon/data-containers/data-lists.md` | DataList 完整 API + 嵌套 + 性能基准 |
 | **Data Dictionaries** | `entities/world/udon/data-containers/data-dictionaries.md` | DataDictionary 完整 API + 键值对 |
@@ -165,15 +165,15 @@ related:
 | **External URLs** | `entities/world/udon/external-urls.md` | VRCUrl + 白名单 |
 | **Image Loading** | `entities/world/udon/image-loading.md` | VRCImageDownloader + 4KB 限制 |
 | **Input Events** | `entities/world/udon/input-events.md` | Interact/Use/Trigger/Collision |
-| Midi in Udon | `memory/world/udon/midi/` | MIDI 钢琴输入 |
-| Networking | `memory/world/udon/networking/` | 网络同步 |
-| Persistence | `memory/world/udon/persistence/` | PlayerData + PlayerObject(实战教程 8 文档,2026-06-21) |
+| Midi in Udon | `entities/world/udon/midi/` | MIDI 钢琴输入 |
+| Networking | `entities/world/udon/networking/` | 网络同步 |
+| Persistence | `entities/world/udon/persistence/` | PlayerData + PlayerObject(实战教程 8 文档,2026-06-21) |
 | **String Loading** | `entities/world/udon/string-loading.md` | VRCStringDownloader |
 | UI Events | `entities/world/udon/ui-events.md` | Unity UI 事件白名单 |
-| **Video Players** | `memory/world/udon/video-players/` | VRCUnityVideoPlayer / AVPro + 5s 限流 ⭐NEW 2026-06-15 |
-| VM and Assembly | `memory/world/udon/vm-and-assembly/` | Udon VM 字节码细节 |
-| VRCGraphics | `memory/world/udon/vrc-graphics/` | VRCGraphics API |
-| **VRCTween** | `memory/world/udon/vrctween/` | ⭐ **官方补间系统**(DOTween 封装,7 大类 + 虚拟补间)NEW 2026-06-21 |
+| **Video Players** | `entities/world/udon/video-players/` | VRCUnityVideoPlayer / AVPro + 5s 限流 ⭐NEW 2026-06-15 |
+| VM and Assembly | `entities/world/udon/vm-and-assembly.md` | Udon VM 字节码细节 |
+| VRCGraphics | `entities/world/udon/vrc-graphics/` | VRCGraphics API |
+| **VRCTween** | `entities/world/udon/vrctween/` | ⭐ **官方补间系统**(DOTween 封装,7 大类 + 虚拟补间)NEW 2026-06-21 |
 | World Debug Views | `entities/world/udon/world-debug-views.md` | 调试视图 |
 
 ---

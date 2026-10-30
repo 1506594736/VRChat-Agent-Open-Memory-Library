@@ -118,6 +118,6 @@ avatar/shader/
 
 ## 相关文档
 
-- `memory/world/shader/` — World Shader 知识库
+- `entities/world/shader/` — World Shader 知识库
 - `entities/avatar/performance-rank.md` — Avatar 性能排名
-- `memory/world/bakery/` — Bakery 光照烘焙
+- `entities/world/bakery/` — Bakery 光照烘焙

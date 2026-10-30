@@ -32,7 +32,7 @@ related:
 ---
 # Pattern: Owner Authoritative Interaction
 
-本文档为基础模式。详细 Networking 文档、所有权 API 流程、风险分析见 `memory/world/udon/networking/` 子分类。
+本文档为基础模式。详细 Networking 文档、所有权 API 流程、风险分析见 `entities/world/udon/networking/` 子分类。
 
 ---
 

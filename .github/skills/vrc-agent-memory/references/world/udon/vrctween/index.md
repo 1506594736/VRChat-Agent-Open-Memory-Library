@@ -197,4 +197,4 @@ VRCTween 是 VRChat 团队对 **DOTween** 库 (Demigiant, http://dotween.demigia
 | 缓动可视化 | https://easings.net/ | 31 种 ease 曲线视觉对比 |
 | VRChat Canny | https://vrchat.canny.io/udon | VRCTween 相关 Bug 报告 / 功能请求 |
 
-> **校对状态** (2026-06-22): 本知识库 7 个本地化文档与官方 2026-05-28 版本**逐项对齐**,覆盖率 >95%。逐字校验项包括 11 个 Control Methods、6 个 Query Properties、8 个 Settings、31 种 Ease 速查、`OnRewind`/`ChangeEndValue`/`From`/`SetSpeedBased` 等行为细节。无结构更新需求,见 `memory/JOURNAL.jsonl` 2026-06-22 审计记录。
+> **校对状态** (2026-06-22): 本知识库 7 个本地化文档与官方 2026-05-28 版本**逐项对齐**,覆盖率 >95%。逐字校验项包括 11 个 Control Methods、6 个 Query Properties、8 个 Settings、31 种 Ease 速查、`OnRewind`/`ChangeEndValue`/`From`/`SetSpeedBased` 等行为细节。无结构更新需求,见 `JOURNAL.jsonl (已移除的 v3 工作日志)` 2026-06-22 审计记录。

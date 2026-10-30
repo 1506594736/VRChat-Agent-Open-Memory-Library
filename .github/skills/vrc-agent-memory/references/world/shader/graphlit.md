@@ -266,6 +266,6 @@ Custom Lighting = Unlit Graph + Main Light Node + Lightmap UVs + Blend Final Col
 
 ## 相关文档
 
-- `memory/avatar/shader/liltoon/` — lilToon Avatar 着色器
-- `memory/world/bakery/` — Bakery GPU Lightmapper
+- `entities/avatar/shader/liltoon/` — lilToon Avatar 着色器
+- `entities/world/bakery/` — Bakery GPU Lightmapper
 - `concepts/hybrid/osc-protocol.md` — AudioLink 协议（Graphlit Toon 需手动集成）

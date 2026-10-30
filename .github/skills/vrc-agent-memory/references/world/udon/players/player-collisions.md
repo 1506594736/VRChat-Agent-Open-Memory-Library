@@ -251,6 +251,6 @@ public override void OnPlayerTriggerExit(VRCPlayerApi player)
 | 知识库 | 关系 |
 |---|---|
 | `entities/api/player-api.md` | 底层 API 简略版 |
-| `memory/world/examples/udon-example-scene/` | 官方碰撞示例 |
-| `memory/world/udon/networking/` | 碰撞 + 网络同步的相关注意事项 |
+| `entities/world/examples/udon-example-scene/` | 官方碰撞示例 |
+| `entities/world/udon/networking/` | 碰撞 + 网络同步的相关注意事项 |
 | `entities/world/performance-guide.md` | Trigger 性能优化 |

@@ -354,7 +354,7 @@ ffmpeg -i input.mp4 -c copy -movflags +faststart output.mp4
 | `entities/api/networking.md` | Manual Sync 规范 |
 | **`FACT.md` → 视频播放器时间同步算法模式(参考工程)** | **生产级视频同步参考** |
 | `FACT.md` → 音频同步系统(参考工程) | 音频同步(无网络)参考 |
-| `memory/world/udon/networking/` | 网络同步基础 |
+| `entities/world/udon/networking/` | 网络同步基础 |
 | `concepts/patterns/manual-sync-state.md` | Manual Sync 模式 |
 
 ---

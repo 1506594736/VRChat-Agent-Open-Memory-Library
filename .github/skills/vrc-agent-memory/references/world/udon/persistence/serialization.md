@@ -335,6 +335,6 @@ PlayerData.SetBytes(player, "Game-Save", bytes);
 ## 相关知识库
 
 - `entities/api/persistence.md` - API 速查
-- `memory/world/udon/data-containers/` - VRCJson / DataList / DataDictionary 详解
+- `entities/world/udon/data-containers/` - VRCJson / DataList / DataDictionary 详解
 - `entities/world/udon/networking/variables.md` - UdonSynced 字段类型
 - `entities/world/examples/persistence/playerdata-types.md` - 18 种类型演示示例

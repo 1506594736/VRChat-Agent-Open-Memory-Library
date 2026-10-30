@@ -295,7 +295,7 @@ Poiyomi 10.0 (2026+ 当前分阶段推出) ← 我们抓取的版本
 
 1. **单一来源原则** [FACT 引用 kb-protocol.md]
    - 原始数据(65 .md)放 `参考文献/Poiyomi/`,作为"外部参考"
-   - 提炼知识放 `memory/avatar/shader/poiyomi/`,作为"知识库"
+   - 提炼知识放 `entities/avatar/shader/poiyomi/`,作为"知识库"
    - 不重复内容,通过链接引用
 
 2. **先 Journal 后 KB** [FACT 引用 kb-protocol.md]
@@ -350,7 +350,7 @@ Poiyomi 10.0 (2026+ 当前分阶段推出) ← 我们抓取的版本
 | 创建主索引 | `参考文献/Poiyomi/INDEX.md` | ✅ |
 | 更新索引 | `entities/avatar/shader/index.md` (1.1→1.2) | ✅ |
 | 更新引用 | `entities/avatar/shader/other-shaders.md` (1.0→1.1) | ✅ |
-| Journal 记录 | `memory/JOURNAL.jsonl` (1 条 session 记录) | ✅ |
+| Journal 记录 | `JOURNAL.jsonl (已移除的 v3 工作日志)` (1 条 session 记录) | ✅ |
 
 ### 3.4 Stage 2: 结构化提炼 (本周 P1)
 
@@ -359,7 +359,7 @@ Poiyomi 10.0 (2026+ 当前分阶段推出) ← 我们抓取的版本
 #### 3.4.1 推荐目录结构
 
 ```
-memory/avatar/shader/poiyomi/
+entities/avatar/shader/poiyomi/
 ├── index.md                 ← poiyomi 总览(指向 INDEX + 7 主题)
 ├── installation.md          ← 安装与版本(含 VPM 鉴权流程)
 ├── shader-variants.md       ← 5 变体详解(Nano→Tera)
@@ -527,7 +527,7 @@ Week 2 (2026-07-08 ~ 2026-07-14)
 | 决策 | 来源 | 时间 |
 |------|------|------|
 | Poiyomi 加入 Avatar Shader 主流梯队 | `entities/avatar/shader/index.md` v1.2 | 2026-07-01 |
-| Poiyomi 文档本地化完成 | `memory/JOURNAL.jsonl` session 记录 | 2026-07-01 |
+| Poiyomi 文档本地化完成 | `JOURNAL.jsonl (已移除的 v3 工作日志)` session 记录 | 2026-07-01 |
 | 65 文档 + INDEX 保留为"原始参考" | 本计划 §3.1 原则 1 | 2026-07-01 |
 | Stage 2 提炼为 7-8 个主题文档 | 本计划 §3.4 | 2026-07-01 |
 

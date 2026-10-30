@@ -171,7 +171,7 @@ VRChat Worlds 仅支持 **4 个外部 Scripted Asset**：**TextMeshPro**（必�
 - **状态**: ⚠ **已弃用**——VRChat 推荐使用 PhysBones
 - **版本限制**: ✅ **仅 v1.3.0 及以下可用**
 - **Quest 兼容**: ❌ 不可用
-- **替代方案**: **VRChat PhysBones**（`memory/avatar/` 中已记录）
+- **替代方案**: **VRChat PhysBones**（`entities/avatar/` 中已记录）
 
 **Dynamic Bone 组件**:
 - DynamicBone（**已弃用**）→ 改用 VRCPhysBone
@@ -190,7 +190,7 @@ VRChat Worlds 仅支持 **4 个外部 Scripted Asset**：**TextMeshPro**（必�
 |---|---|
 | `entities/api/not-exposed.md` | 黑名单 API——其他第三方 Asset 不会暴露给 Udon |
 | `entities/world/whitelisted-world-components.md` | 完整白名单组件清单 |
-| `memory/avatar/` | PhysBones 在 Avatar 域的详细文档 |
+| `entities/avatar/` | PhysBones 在 Avatar 域的详细文档 |
 | `entities/world/performance-guide.md` | 后期处理对 GPU 的影响 |
 | `sources/example-central.md` | Post Processing v2 实战案例 |
 

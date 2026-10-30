@@ -752,7 +752,7 @@ private int GetPendingPlayerUpdates(int playerCount) {
 |------|------|
 | **同步模式基础** | `concepts/patterns/manual-sync-state.md`, `concepts/patterns/owner-authoritative-interaction.md` |
 | **高级同步** | `concepts/patterns/advanced-sync-patterns.md` (Packed Sync, Rate-Limited, **Dual-Copy** 已收录), `concepts/patterns/bit-packed-flags.md` |
-| **执行顺序** | `entities/avatar/animator-system.md`, `memory/world/examples/obstacle-course/` |
+| **执行顺序** | `entities/avatar/animator-system.md`, `entities/world/examples/obstacle-course/` |
 | **MVC 模式** | `entities/world/udon/udonsharp/compilation.md` (TLP UdonUtils 介绍) |
 | **VRChat 音频 API** | `entities/world/udon/vrc-graphics/index.md` (VRCShader 部分) |
 | **失败案例** | `concepts/patterns/index.md` (FAIL-29 ~ 32 已收录 LuraSwitch2) |
@@ -774,4 +774,4 @@ private int GetPendingPlayerUpdates(int playerCount) {
 
 ---
 
-> **本文件为参考工程溯源层文档**,模式细节已沉淀到 `memory/patterns/` 后的独立文档中。
+> **本文件为参考工程溯源层文档**,模式细节已沉淀到 `concepts/patterns/` 后的独立文档中。

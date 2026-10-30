@@ -151,7 +151,7 @@ related:
 ### 知识库索引
 
 ```
-memory/
+LLMWikiPage/entities/avatar/shader/
 ├── avatar/shader/           # Avatar Shader 知识
 │   ├── liltoon/            # lilToon（动漫风格）
 │   ├── scss/              # SCSS（双阴影系统）

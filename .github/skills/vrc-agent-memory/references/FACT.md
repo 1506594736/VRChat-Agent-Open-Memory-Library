@@ -45,7 +45,7 @@ confidence: High
 ## 知识库结构
 
 ```
-memory/
+LLMWikiPage/   (= memoryV5.0.0/LLMWikiExample/LLMWikiPage/)
 ├── avatar/                    # Avatar 相关
 │   ├── shader/               # Shader 知识库
 │   │   ├── index.md          # 索引
@@ -238,7 +238,7 @@ memory/
 
 ## 知识完整性原则
 
-> ⚠️ **所有知识库索引必须指向 memory/ 目录内部**
+> ⚠️ **所有知识库索引必须指向 `VRCHAT_MEMORY_ROOT`（LLMWikiPage/）内部**
 > - 外部文档随时可能删除或丢失
 > - 工具安装链接（VPM/BOOTH）可以保留（操作指引，非知识本身）
 > - 知识来源路径必须本地化（`参考工程/`、`参考文献/`）
@@ -303,7 +303,7 @@ for ($i=0; $i -lt $path.Length; $i++) {
 
 #### VRCShader.SetGlobal 限制
 - 属性名必须以 `_Udon` 为前缀(用于全局设置)
-- 详见 `memory/world/udon/vrc-graphics/`
+- 详见 `entities/world/udon/vrc-graphics/`
 
 #### Networking Specs
 - **总带宽**: ~11 KB/s

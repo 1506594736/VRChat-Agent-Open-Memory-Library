@@ -24,7 +24,7 @@
 - **修改**: `BACKUP_ROOT` 改为动态候选列表(v3.0.0 / v2.0.0 / v1.0.0)
 - **执行**: 解压 `memoryV3.0.zip` -> `知识库备份/memory v3.0.0/memory/`(354 文件)
 - **验证**: 脚本跑通,扫描 352 当前文件 vs 350 备份 -> 2 新增 / 0 删除 / 13 知识遗漏 / 8 描述改写
-- **备份**: `memory/_curator_tools/a24_pre_audit_fix/pure_knowledge_audit.py`
+- **备份**: `_curator_tools/a24_pre_audit_fix/pure_knowledge_audit.py`
 
 ### P0-2 [DONE] 1 条真正死链修复
 - **位置**: `entities/world/scene-components/textmeshpro.md:227`
@@ -42,8 +42,8 @@
 ## 3. P1 修复(4/6)
 
 ### P1-1 [DONE] 2 个空目录删除
-- **删除**: `memory/world/scene-components/textmeshpro/`(空)
-- **删除**: `memory/world/scene-components/patterns/`(空)
+- **删除**: `entities/world/scene-components/textmeshpro.md`(空)
+- **删除**: `entities/world/scene-components/`(空)
 - **原因**: 协议声明但未填充,实际无内容
 - **验证**: `scene-components/` 现在 10 个 .md + 0 子目录
 
@@ -124,7 +124,7 @@
 entities/avatar/contact.md              8.4K  v1.0  5 tags  新建
 concepts/rules/quest-constraints.md    9.7K  v1.0  6 tags  新建
 Auxiliary script/strip_body_meta.py  4.5K        新建
-memory/_curator_tools/a24_pre_audit_fix/         A24 修复前快照
+_curator_tools/a24_pre_audit_fix/         A24 修复前快照
   governance_script.py
   pure_knowledge_audit.py
   textmeshpro.md.bak
@@ -138,7 +138,7 @@ memory/_curator_tools/a24_pre_audit_fix/         A24 修复前快照
 
 ## 7. 备份与可回滚
 
-所有 A24 修复前的关键文件已备份到 `memory/_curator_tools/a24_pre_audit_fix/`:
+所有 A24 修复前的关键文件已备份到 `_curator_tools/a24_pre_audit_fix/`:
 
 | 文件 | 用途 |
 |------|------|
@@ -159,7 +159,7 @@ memory/_curator_tools/a24_pre_audit_fix/         A24 修复前快照
 |--------|----------|
 | `_always-load.md` | v3.0 / 2026-07-01 [DONE] |
 | `index.md` | v3.0 / 2026-07-01 [DONE] |
-| `memory/<domain>/index.md`(已更新 avatar / rules) | v1.4 / v1.1 / 2026-07-01 [DONE] |
+| `<domain>/index.md`(已更新 avatar / rules) | v1.4 / v1.1 / 2026-07-01 [DONE] |
 | `FACT.md` | v3.0 / 2026-07-01 [DONE] |
 | `SOUL.md` | v3.0 / 2026-07-01 [DONE] |
 | 协议 `知识库整理Agent_V3.1.md` | V3.1.1 / 2026-07-01 [DONE] |

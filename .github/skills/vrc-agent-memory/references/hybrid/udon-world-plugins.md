@@ -47,7 +47,7 @@ related:
 - `sources/open-source-projects.md` = **案例研究**型参考工程(不推荐给创作者,仅分析其设计模式)
 - 本文档 = **工具使用**型推荐(创作者可直接装到自己的 World 中使用)
 
-**与 `memory/world/examples/` 的区别**:
+**与 `entities/world/examples/` 的区别**:
 - `world/examples/` = VRChat 官方示例(教学性质,提供完整工程参考)
 - 本文档 = 第三方插件(生产性质,提供特定功能)
 
@@ -268,8 +268,8 @@ https://xtlcdn.github.io/vpm/
 |------|------|
 | **案例研究溯源** | `sources/open-source-projects.md`(所有推荐插件都必须先入案例研究) |
 | **设计模式沉淀** | `concepts/patterns/index.md`(插件实现的通用模式) |
-| **官方示例互补** | `memory/world/examples/`(基础教学 vs 工业级) |
-| **API 参考** | `memory/api/`(VRCPlayerApi 音频相关 API) |
+| **官方示例互补** | `entities/world/examples/`(基础教学 vs 工业级) |
+| **API 参考** | `entities/api/`(VRCPlayerApi 音频相关 API) |
 | **失败案例参考** | `concepts/patterns/index.md`(避免重蹈覆辙) |
 
 ---

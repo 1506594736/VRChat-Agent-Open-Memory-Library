@@ -178,5 +178,5 @@ VRCX 支持自定义主题，可在 GitHub Wiki 查看主题制作指南。
 
 ## 相关知识库条目
 
-- `memory/vrchatsdk/` — VRChat HTTP API 完整文档（18 个文件）
+- `entities/vrchatsdk/` — VRChat HTTP API 完整文档（18 个文件）
 - `sources/open-source-projects.md` — 开源项目参考（待补充 VRCX）

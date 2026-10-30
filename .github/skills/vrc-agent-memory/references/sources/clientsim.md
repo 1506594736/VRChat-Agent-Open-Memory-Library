@@ -27,7 +27,7 @@ related:
 > Last indexed: 26 May 2025 (commit 2fc16f)
 
 > ⚠️ **本文档定位**:ClientSim **项目仓库**元数据(发展历史、双向同步、贡献流程)。
-> 配套的**用户使用文档**已迁移至 `memory/world/clientsim/`(2026-06-15):
+> 配套的**用户使用文档**已迁移至 `entities/world/clientsim/`(2026-06-15):
 > - [ClientSim 使用文档(用户视角)](../world/clientsim/index.md) - 5 大特性、4 个调试窗口、Networking 差异
 > - [PlayerObject Editor](../world/clientsim/playerobject-editor.md) - 调试 PlayerObject
 > - [PlayerData Editor](../world/clientsim/playerdata-editor.md) - 调试 PlayerData

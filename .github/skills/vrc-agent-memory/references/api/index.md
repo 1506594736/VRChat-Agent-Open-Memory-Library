@@ -136,12 +136,12 @@ related:
 
 | 关系 | 目录 |
 |------|------|
-| **应用层详解** | `memory/world/udon/networking/` （10 个文档） |
+| **应用层详解** | `entities/world/udon/networking/` （10 个文档） |
 | **语言限制** | `concepts/rules/udonsharp-language-limits.md` |
 | **API 暴露规则** | `entities/api/udon-type-exposure.md` |
-| **设计模式** | `memory/patterns/` |
-| **场景组件** | `memory/world/scene-components/` |
-| **VRChat 官方文档本地化** | `memory/world/udon/` （15+ 文档） |
+| **设计模式** | `concepts/patterns/` |
+| **场景组件** | `entities/world/scene-components/` |
+| **VRChat 官方文档本地化** | `entities/world/udon/` （15+ 文档） |
 
 ---
 

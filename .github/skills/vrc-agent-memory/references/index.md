@@ -432,26 +432,26 @@ hybrid/
 
 | 领域 | Grep pattern | 路径 |
 |---|---|---|
-| World/网络 | `networking\|sync\|SetOwner\|RequestSerialization` | `memory/rules/` |
-| World/性能 | `EXTERN\|boxing\|Update\|GC\|loop` | `memory/rules/` |
-| World/陷阱 | `FAIL-\|静默\|陷阱` | `memory/reviews/` |
-| World/后处理 | `bloom\|vignette\|grain\|motion blur\|chromatic` | `memory/misc/` |
-| **World/Persistence** | `PlayerData\|PlayerObject\|VRCEnablePersistence\|OnPlayerRestored` | `memory/world/udon/persistence/` |
-| API | API 方法名 | `memory/api/` |
-| Avatar | `animator\|physbone\|contact\|constraint\|cloth\|benchmark` | `memory/avatar/` |
-| **Shader/Avatar专用** | `liltoon\|scss\|cel.*shader\|toon.*shadow` | `memory/avatar/shader/` |
-| **Shader/World专用** | `orl.*shader\|filamented\|pbr.*world\|configurable` | `memory/avatar/shader/` |
-| **Shader/通用** | `unlitwf\|fur\|water.*shader\|gem.*shader\|grass.*shader` | `memory/avatar/shader/` |
-| Hybrid/OSC | `osc\|hybrid\|cross-domain\|AudioLink\|ALPass` | `memory/hybrid/` |
-| **VRCGraphics** | `VRCGraphics\|VRCShader\|SetGlobal\|Blit` | `memory/world/` |
-| **VRCCameraSettings** | `VRCCameraSettings\|GetEyePosition\|GetCurrentCamera\|OnVRCCameraSettingsChanged` | `memory/world/` |
-| **VRCQualitySettings** | `VRCQualitySettings\|SetShadowDistance\|OnVRCQualitySettingsChanged` | `memory/world/` |
-| **Data Containers** | `DataList\|DataDictionary\|DataToken\|VRCJson` | `memory/world/` |
-| **Platform** | `android\|quest\|mobile\|cross-platform` | `memory/platform/` |
-| **Creator Economy** | `Store\|UdonProduct\|OpenListing` | `memory/world/` |
-| **光照系统** | `LightVolume\|PointLight\|SH\|体素` | `memory/world/` |
-| **World Shader** | `Graphlit\|node editor\|PBR\|Filament` | `memory/world/shader/` |
-| **Udon Example** | `ButtonSync\|SendEventOn\|PlayerTrigger\|UdonSyncPlayer\|VRCWorldSettings` | `memory/world/examples/udon-example-scene/` |
+| World/网络 | `networking\|sync\|SetOwner\|RequestSerialization` | `concepts/rules/` |
+| World/性能 | `EXTERN\|boxing\|Update\|GC\|loop` | `concepts/rules/` |
+| World/陷阱 | `FAIL-\|静默\|陷阱` | `concepts/patterns/` |
+| World/后处理 | `bloom\|vignette\|grain\|motion blur\|chromatic` | `concepts/misc/` |
+| **World/Persistence** | `PlayerData\|PlayerObject\|VRCEnablePersistence\|OnPlayerRestored` | `entities/world/udon/persistence/` |
+| API | API 方法名 | `entities/api/` |
+| Avatar | `animator\|physbone\|contact\|constraint\|cloth\|benchmark` | `entities/avatar/` |
+| **Shader/Avatar专用** | `liltoon\|scss\|cel.*shader\|toon.*shadow` | `entities/avatar/shader/` |
+| **Shader/World专用** | `orl.*shader\|filamented\|pbr.*world\|configurable` | `entities/avatar/shader/` |
+| **Shader/通用** | `unlitwf\|fur\|water.*shader\|gem.*shader\|grass.*shader` | `entities/avatar/shader/` |
+| Hybrid/OSC | `osc\|hybrid\|cross-domain\|AudioLink\|ALPass` | `concepts/hybrid/` |
+| **VRCGraphics** | `VRCGraphics\|VRCShader\|SetGlobal\|Blit` | `entities/world/` |
+| **VRCCameraSettings** | `VRCCameraSettings\|GetEyePosition\|GetCurrentCamera\|OnVRCCameraSettingsChanged` | `entities/world/` |
+| **VRCQualitySettings** | `VRCQualitySettings\|SetShadowDistance\|OnVRCQualitySettingsChanged` | `entities/world/` |
+| **Data Containers** | `DataList\|DataDictionary\|DataToken\|VRCJson` | `entities/world/` |
+| **Platform** | `android\|quest\|mobile\|cross-platform` | `entities/platform/` |
+| **Creator Economy** | `Store\|UdonProduct\|OpenListing` | `entities/world/` |
+| **光照系统** | `LightVolume\|PointLight\|SH\|体素` | `entities/world/` |
+| **World Shader** | `Graphlit\|node editor\|PBR\|Filament` | `entities/world/shader/` |
+| **Udon Example** | `ButtonSync\|SendEventOn\|PlayerTrigger\|UdonSyncPlayer\|VRCWorldSettings` | `entities/world/examples/udon-example-scene/` |
 
 ---
 

@@ -308,7 +308,7 @@ float4 frag() : SV_Target {
 ## 相关知识
 
 - `entities/world/udon/vrc-graphics/index.md` — VRC Graphics 总览
-- `memory/avatar/shader/liltoon/` — lilToon 中对 `_VRChat` 变量的使用
+- `entities/avatar/shader/liltoon/` — lilToon 中对 `_VRChat` 变量的使用
 - `entities/avatar/shader/scss.md` — SCSS 时间同步
 - `entities/api/udon-type-exposure.md` — `Rendering` 命名空间
 - 官方文档: https://creators.vrchat.com/worlds/udon/vrc-graphics/vrchat-shader-globals/

@@ -133,7 +133,7 @@ confidence: High
 - **核心功能**: 所有 VRChat SDK 的依赖基础
 - **包含**: VRCSDK Core API、Udon API、SDK 通用工具类
 - **强制依赖**: 所有其他 VRChat 包
-- **知识库参考**: `memory/api/` (Udon API 完整白名单)
+- **知识库参考**: `entities/api/` (Udon API 完整白名单)
 
 ### VRChat SDK - Avatars (com.vrchat.avatars, v3.10.4)
 - **核心功能**: Avatar 3.0 系统 (Playable Layers, Expression Menu, Parameters)
@@ -150,8 +150,8 @@ confidence: High
 - **VPM 依赖**: `com.vrchat.base`
 - **应用场景**: 任何 World 项目必须
 - **知识库参考**:
-  - `memory/world/udon/` (Udon 完整知识)
-  - `memory/world/scene-components/` (VRCSceneDescriptor 等 9 个核心组件)
+  - `entities/world/udon/` (Udon 完整知识)
+  - `entities/world/scene-components/` (VRCSceneDescriptor 等 9 个核心组件)
   - `entities/api/persistence.md`
 
 ### VRChat Package Resolver Tool (com.vrchat.core.vpm-resolver, v0.1.29)

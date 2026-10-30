@@ -231,9 +231,9 @@ public override void OnPersistenceUsageUpdated(VRCPlayerApi player) {
 | 知识库文件 | 关系 |
 |-----------|------|
 | `entities/api/persistence.md` | **API 速查表**(本文是实战教程) |
-| `memory/world/examples/persistence/` | 9 个 Example Central 官方示例笔记 |
+| `entities/world/examples/persistence/` | 9 个 Example Central 官方示例笔记 |
 | `entities/world/udon/index.md` | Udon 总览(VM 关系 + 3 种创建方式) |
-| `memory/world/udon/networking/` | 网络同步(与 PlayerObject 强相关) |
+| `entities/world/udon/networking/` | 网络同步(与 PlayerObject 强相关) |
 | `concepts/rules/networking-rules.md` | 网络同步规则 |
 | `concepts/patterns/manual-sync-state.md` | Manual Sync 模式 |
 | `concepts/patterns/late-joiner-state-restore.md` | Late Joiner 状态恢复 |

@@ -283,7 +283,7 @@ a = b + c;        ≈ PUSH×2 + EXTERN(+?) + COPY           ≈ ~40 bytes
 
 ## 10. Udon 官方文档本地化索引(2026-06-15)
 
-> 10 个 Udon 核心单页已本地化到 `memory/world/udon/`,跨引用如下:
+> 10 个 Udon 核心单页已本地化到 `entities/world/udon/`,跨引用如下:
 
 | 主题 | 本地化文档 | VM 架构关联 |
 |---|---|---|

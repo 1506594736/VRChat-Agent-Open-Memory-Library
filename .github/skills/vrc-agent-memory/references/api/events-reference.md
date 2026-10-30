@@ -98,7 +98,7 @@ related:
 
 ## 5. Udon MIDI Events(2026-06-15 新增)
 
-> **来源**: VRChat 官方 MIDI 文档 (`memory/world/udon/midi/`)
+> **来源**: VRChat 官方 MIDI 文档 (`entities/world/udon/midi/`)
 > **平台限制**: **桌面端独占**,Quest 完全不支持
 > **必须组件**: 场景中需有 `VRC Midi Listener` 组件 + 勾选对应 `Active Events`
 > **实时性**: Realtime(设备输入) + Playback(文件回放) 共用相同事件签名
@@ -180,7 +180,7 @@ related:
 
 ## 8. 相关知识库(Udon 官方文档本地化)
 
-> 10 个 Udon 核心单页已本地化到 `memory/world/udon/`,涵盖事件、输入、动画、外部资源、调试等基础系统。
+> 10 个 Udon 核心单页已本地化到 `entities/world/udon/`,涵盖事件、输入、动画、外部资源、调试等基础系统。
 
 | 主题 | 本地化文档 | 关联内容 |
 |---|---|---|

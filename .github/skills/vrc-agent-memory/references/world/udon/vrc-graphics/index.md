@@ -287,6 +287,6 @@ int VRC_GetTimezoneOffsetSeconds();
 - `entities/world/udon/vrc-graphics/vrchat-shader-globals.md` — `_VRChat*` 全局变量详细
 - `entities/world/udon/vrc-graphics/asyncgpureadback.md` (旧版,如有) — 历史参考
 - `entities/world/performance-guide.md` — 渲染性能优化
-- `memory/avatar/shader/` — Avatar Shader 全局变量集成
+- `entities/avatar/shader/` — Avatar Shader 全局变量集成
 - `concepts/rules/udonsharp-language-limits.md` — UdonSharp 语言限制(末尾已补充 VRC Graphics 限制)
 - `entities/api/udon-type-exposure.md` — 暴露类型清单(VRCGraphics/VRCShader 已确认在 `Rendering` 命名空间)

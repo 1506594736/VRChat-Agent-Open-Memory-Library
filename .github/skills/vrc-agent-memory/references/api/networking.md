@@ -214,7 +214,7 @@ int allQueued = NetworkCalling.GetAllQueuedEvents();
 
 ## 深入阅读(应用层详解)
 
-> 本文档为 **API 速查表**。完整的应用层详解、模式、案例、风险分析见 `memory/world/udon/networking/` 子分类。
+> 本文档为 **API 速查表**。完整的应用层详解、模式、案例、风险分析见 `entities/world/udon/networking/` 子分类。
 
 | 子页面 | 主题 |
 |--------|------|

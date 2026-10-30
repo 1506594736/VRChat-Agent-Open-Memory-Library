@@ -109,7 +109,7 @@ confidence: High
 - **核心功能**: C# 编译到 Udon 字节码
 - **VPM 依赖**: `com.vrchat.base`, `com.vrchat.worlds`
 - **应用场景**: 几乎所有 Udon World 都依赖
-- **知识库参考**: `memory/world/udon/` (UdonSharp 全部知识)
+- **知识库参考**: `entities/world/udon/` (UdonSharp 全部知识)
 
 ### VRWorld Toolkit (v2.1.5)
 - **作者**: VRLabs

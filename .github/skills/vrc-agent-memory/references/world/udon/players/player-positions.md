@@ -412,5 +412,5 @@ public void DelayedRestore()
 | `entities/api/player-api.md` | 底层 API 简略版 |
 | `entities/world/udon/players/player-forces.md` | 移动/速度/力相关 |
 | `entities/world/udon/players/player-avatar-scaling.md` | `GetPlayerEyeHeightAsMeters` |
-| `memory/world/udon/networking/` | 网络更新事件、传送同步 |
+| `entities/world/udon/networking/` | 网络更新事件、传送同步 |
 | `entities/world/udon/networking/network-components.md` | `OnDeserialization` 注意事项 |

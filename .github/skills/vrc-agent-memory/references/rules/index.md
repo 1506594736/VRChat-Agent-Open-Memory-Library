@@ -200,11 +200,11 @@ confidence: High
 
 | 关系 | 目录 |
 |------|------|
-| **设计模式（合规实现）** | `memory/patterns/` |
-| **审查清单（如何检查）** | `memory/reviews/` |
+| **设计模式（合规实现）** | `concepts/patterns/` |
+| **审查清单（如何检查）** | `concepts/patterns/` |
 | **失败案例（违反后果）** | `concepts/patterns/index.md` |
-| **API 速查（暴露状态）** | `memory/api/` |
-| **应用层详解** | `memory/world/udon/networking/` |
+| **API 速查（暴露状态）** | `entities/api/` |
+| **应用层详解** | `entities/world/udon/networking/` |
 
 ---
 

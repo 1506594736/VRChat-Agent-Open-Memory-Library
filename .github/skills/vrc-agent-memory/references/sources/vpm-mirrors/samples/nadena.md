@@ -96,7 +96,7 @@ confidence: High
 - **核心功能**: Avatar 组件化系统, 提供 MA Menu Installer / Merge Armature / Object Toggle / World Constraint / Replace Bone 等组件
 - **应用场景**: 几乎所有非平凡 Avatar 都依赖 MA 进行组件化
 - **VPM 依赖**: `nadena.dev.ndmf >=1.11.0 <2.0.0-a` (强制)
-- **知识库参考**: `memory/avatar/` (Modular Avatar 完整使用)
+- **知识库参考**: `entities/avatar/` (Modular Avatar 完整使用)
 - **GitHub**: <https://github.com/bdunderscore/modular-avatar>
 
 ### Non-Destructive Modular Framework (nadena.dev.ndmf, v1.14.0)

@@ -392,8 +392,8 @@ Q10: 需要"跨模块解耦通信"吗?
 | **规则约束** | `concepts/rules/networking-rules.md`, `concepts/rules/udonsharp-language-limits.md` |
 | **失败案例** | `concepts/patterns/index.md` |
 | **API 速查** | `entities/api/networking.md` |
-| **应用层详解** | `memory/world/udon/networking/` |
-| **设计模式来源** | 3 个参考工程(多机位导演系统 / 视频播放器 / 音频同步系统) 已沉淀到 `FACT.md`,具体项目信息见 `memory/sources/` |
+| **应用层详解** | `entities/world/udon/networking/` |
+| **设计模式来源** | 3 个参考工程(多机位导演系统 / 视频播放器 / 音频同步系统) 已沉淀到 `FACT.md`,具体项目信息见 `entities/world/` |
 
 ---
 
