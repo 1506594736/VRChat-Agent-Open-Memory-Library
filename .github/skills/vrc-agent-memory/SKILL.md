@@ -45,6 +45,21 @@ Before recommending an avatar optimization tool, determine which class it belong
 
 Confirm the class from the page metadata and stated dependencies rather than from the author's or community's description. If a tool is editor-only measurement, state that explicitly and assign the actual fix to a build-time tool. Do not present a measurement tool as an optimization measure, and do not assume a tool is an NDMF plugin because it ships as a VPM package.
 
+## Validate UdonSharp output
+
+Knowledge pages describe the constraints; they do not enforce them. After writing or modifying any UdonSharp `.cs` file, run the bundled static validator before delivering:
+
+```
+powershell -NoProfile -ExecutionPolicy Bypass -File udon-guard/validate.ps1 <path-to-file-or-directory>
+```
+
+- Exit code `1` means BLOCKED/ERROR findings. Fix them and re-run; do not deliver code that still fails.
+- Exit code `0` with WARNING items means the code may still be wrong at runtime, notably missing `RequestSerialization()` or an ownership guard. Treat those as defects, not noise.
+- The validator catches known high-frequency patterns, not complete type checking. A pass is not proof the code compiles.
+- When a rule is unclear, look it up in the knowledge pages listed in `udon-guard/README.md` rather than guessing a workaround.
+
+`udon-guard/` sits outside the knowledge root and is not covered by the read-only rule below; it is this repository's own tooling, not VRChat knowledge.
+
 ## Assess evidence
 
 - Read `confidence` case-insensitively without rewriting source files. High confidence is a publisher assessment, not proof. Distinguish official documentation, reproduced tests, community reports, inference, and unknowns.
