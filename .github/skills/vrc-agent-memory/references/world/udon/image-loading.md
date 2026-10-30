@@ -45,7 +45,7 @@ related:
 SDK 包含易用的 `ImageDownload` 脚本,或用 `VRCImageDownloader` 对象**自己写**。
 
 > **官方推荐**: 查看 [Image Loader Example](/worlds/examples/image-loading) 快速开始
-> **本地化示例**: `memory/world/examples/image-loading.md` ⭐ 完整 Prefab + GitHub Pages
+> **本地化示例**: `entities/world/examples/image-loading.md` ⭐ 完整 Prefab + GitHub Pages
 
 ---
 
@@ -384,17 +384,17 @@ public override void OnImageLoadSuccess(IVRCImageDownload result)
 
 ### 关联文档
 
-- `memory/world/examples/image-loading.md` - 完整图片加载示例
-- `memory/api/events-reference.md` - OnImageLoadSuccess 事件签名
+- `entities/world/examples/image-loading.md` - 完整图片加载示例
+- `entities/api/events-reference.md` - OnImageLoadSuccess 事件签名
 
 ---
 
 ## 与知识库互补
 
-- **完整 Image Loading 示例**: `memory/world/examples/image-loading.md` ⭐ SlideshowFrame Prefab
-- **External URLs + 白名单**: `memory/world/udon/external-urls.md` ⭐
-- **String Loading**: `memory/world/udon/string-loading.md` ⭐ 类似机制
-- **Udon 事件**: `memory/api/events-reference.md` ⭐ OnImageLoad* 事件
+- **完整 Image Loading 示例**: `entities/world/examples/image-loading.md` ⭐ SlideshowFrame Prefab
+- **External URLs + 白名单**: `entities/world/udon/external-urls.md` ⭐
+- **String Loading**: `entities/world/udon/string-loading.md` ⭐ 类似机制
+- **Udon 事件**: `entities/api/events-reference.md` ⭐ OnImageLoad* 事件
 
 ---
 

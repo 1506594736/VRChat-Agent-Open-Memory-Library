@@ -104,7 +104,7 @@ confidence: High
 - **核心功能**: 非破坏性 Avatar 构建框架 — 多个 NDMF 插件按顺序处理 Avatar 而不修改原始 prefab
 - **应用场景**: AAO (Avatar Optimizer), HhotateA AvatarPoseLibrary, lilEmo 等数十个包都依赖 NDMF
 - **VPM 依赖**: 无 (被依赖方)
-- **知识库参考**: `memory/api/udonsharp-runtime.md` (NDMF 执行顺序机制)
+- **知识库参考**: `entities/api/udonsharp-runtime.md` (NDMF 执行顺序机制)
 - **GitHub**: <https://github.com/bdunderscore/ndmf>
 
 ### bd_'s misc tools (nadena.dev.misc-vrc-tools, v0.0.8)
@@ -128,7 +128,7 @@ nadena Modular Avatar 与 VRCFury **功能有部分重叠** (都是为了简化 
   - 简单 Avatar 装配 → MA (业内主流, 生态更广)
   - 复杂/特殊需求 → VRCFury (灵活度更高)
   - 两者**可共存**, 但同一 Avatar 建议只用一种以避免冲突
-- **知识库参考**: `memory/avatar/vrcfury-reference.md` §3 (MA vs VRCFury 决策树)
+- **知识库参考**: `entities/avatar/vrcfury-reference.md` §3 (MA vs VRCFury 决策树)
 
 ---
 

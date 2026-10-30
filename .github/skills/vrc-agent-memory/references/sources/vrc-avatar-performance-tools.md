@@ -273,11 +273,11 @@ Avatar 制作完成
 
 ## 关联文档
 
-- `memory/avatar/thry-avatar-evaluator-metrics.md` — 本工具检测的 7 项指标完整阈值与方法
-- `memory/avatar/performance-rank.md` — VRChat 官方 Performance Rank 标准
-- `memory/avatar/performance-benchmarks.md` — JustSleightly 性能基准测试
-- `memory/avatar/optimization-guide.md` — Kuriko 完整最佳化实操指南
-- `memory/avatar/ndmf-tools.md` — NDMF 工具生态
+- `entities/avatar/thry-avatar-evaluator-metrics.md` — 本工具检测的 7 项指标完整阈值与方法
+- `entities/avatar/performance-rank.md` — VRChat 官方 Performance Rank 标准
+- `entities/avatar/performance-benchmarks.md` — JustSleightly 性能基准测试
+- `entities/avatar/optimization-guide.md` — Kuriko 完整最佳化实操指南
+- `entities/avatar/ndmf-tools.md` — NDMF 工具生态
 
 ---
 

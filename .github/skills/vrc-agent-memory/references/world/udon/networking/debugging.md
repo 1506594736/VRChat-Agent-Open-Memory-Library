@@ -211,7 +211,7 @@ public override bool OnOwnershipRequest(VRCPlayerApi requester, VRCPlayerApi new
 | 同步数据大小 | 字节数监控 |
 | 同步频率 | 频率监控 |
 
-> 详见 `memory/world/udon/world-debug-views.md`。
+> 详见 `entities/world/udon/world-debug-views.md`。
 
 ### 工具 2:Debug.Log 关键节点
 
@@ -282,7 +282,7 @@ bool sleeping = VRC.SDK3.Network.Stats.IsSleeping(gameObject);
 | **PlayerData** | 测试 PlayerData 持久化 |
 | **Main** | 模拟多个玩家交互 |
 
-> 详细文档见 `memory/world/clientsim/` 和 `memory/sources/clientsim.md`。
+> 详细文档见 `memory/world/clientsim/` 和 `entities/world/clientsim/index.md`。
 
 ---
 
@@ -521,11 +521,11 @@ public class NetworkDebugger : UdonSharpBehaviour {
 
 | 文档 | 关系 |
 |------|------|
-| `memory/world/udon/networking/index.md` | Networking 概述 |
-| `memory/world/udon/networking/ownership.md` | 所有权调试 |
-| `memory/world/udon/networking/late-joiners.md` | Late Joiner 调试 |
-| `memory/world/udon/networking/performance.md` | 性能调试 |
-| `memory/sources/clientsim.md` | ClientSim 使用 |
-| `memory/world/udon/world-debug-views.md` | World Debug Views |
-| `memory/world/udon/using-build-test.md` | Build & Test 模式 |
-| `memory/api/networking.md` | API 速查 |
+| `entities/world/udon/networking/index.md` | Networking 概述 |
+| `entities/world/udon/networking/ownership.md` | 所有权调试 |
+| `entities/world/udon/networking/late-joiners.md` | Late Joiner 调试 |
+| `entities/world/udon/networking/performance.md` | 性能调试 |
+| `entities/world/clientsim/index.md` | ClientSim 使用 |
+| `entities/world/udon/world-debug-views.md` | World Debug Views |
+| `entities/world/udon/using-build-test.md` | Build & Test 模式 |
+| `entities/api/networking.md` | API 速查 |

@@ -144,7 +144,7 @@ public void Win()
 - **导入**: VRChat SDK → 🏠 Example Central
 - **内容**: NavMesh 场景、NPC Prefab、Course Prefab
 
-> **详细示例分析**: `memory/world/examples/ai-navigation.md` ⭐ 完整代码 + 网络同步模式
+> **详细示例分析**: `entities/world/examples/ai-navigation.md` ⭐ 完整代码 + 网络同步模式
 
 ---
 
@@ -185,11 +185,11 @@ public void Win()
 
 ## 与知识库互补
 
-- **完整 AI Navigation 示例**: `memory/world/examples/ai-navigation.md` ⭐ 包含 Manual Sync 模式
-- **Networking 模式**: `memory/api/networking.md` ⭐ Manual + Owner Authority
-- **VRCObjectSync**: `memory/world/sdk-prefabs.md` ⭐ 自动位置同步
-- **VRC Pickup**: `memory/world/whitelisted-world-components.md`
-- **NavMesh API 暴露**: `memory/api/udon-type-exposure.md` → Grep "NavMesh"
+- **完整 AI Navigation 示例**: `entities/world/examples/ai-navigation.md` ⭐ 包含 Manual Sync 模式
+- **Networking 模式**: `entities/api/networking.md` ⭐ Manual + Owner Authority
+- **VRCObjectSync**: `entities/world/sdk-prefabs.md` ⭐ 自动位置同步
+- **VRC Pickup**: `entities/world/whitelisted-world-components.md`
+- **NavMesh API 暴露**: `entities/api/udon-type-exposure.md` → Grep "NavMesh"
 
 ---
 

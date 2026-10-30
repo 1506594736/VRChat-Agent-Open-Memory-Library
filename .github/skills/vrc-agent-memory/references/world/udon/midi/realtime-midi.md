@@ -288,8 +288,8 @@ Launchpad / APC 等 MIDI 控制器有**特殊模式**(Session Mode / User Mode):
 |----------|------|------|
 | **MIDI 总览** | [`./index.md`](./index.md) | 3 个事件签名 + 技术参数速查 |
 | **MIDI 文件回放** | [`./midi-playback.md`](./midi-playback.md) | VRCMidiPlayer 组件 |
-| **MIDI Playback 示例** | `memory/world/examples/midi-playback.md` | 4-Grid LogoButton 实现 |
-| **Udon 事件完整参考** | `memory/api/events-reference.md` | 事件方法 + 调用约束 |
+| **MIDI Playback 示例** | `entities/world/examples/midi-playback.md` | 4-Grid LogoButton 实现 |
+| **Udon 事件完整参考** | `entities/api/events-reference.md` | 事件方法 + 调用约束 |
 | **VRChat 启动参数** | https://docs.vrchat.com/docs/launch-options | `--midi=` 等启动参数完整列表 |
 | **rtpMIDI** | https://www.tobias-erichsen.de/software/rtpmidi.html | Windows 蓝牙 MIDI / 虚拟端口工具 |
 

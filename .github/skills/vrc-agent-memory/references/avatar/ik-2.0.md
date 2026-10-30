@@ -232,9 +232,9 @@ confidence: High
 
 ## 10. 相关文档
 
-- `memory/avatar/full-body-tracking.md` — FBT 完整设置
-- `memory/world/udon/players/player-positions.md` — FBT 与 AvatarRoot
-- `memory/platform/cross-platform-content.md` — 跨平台
+- `entities/avatar/full-body-tracking.md` — FBT 完整设置
+- `entities/world/udon/players/player-positions.md` — FBT 与 AvatarRoot
+- `entities/platform/cross-platform-content.md` — 跨平台
 
 ---
 

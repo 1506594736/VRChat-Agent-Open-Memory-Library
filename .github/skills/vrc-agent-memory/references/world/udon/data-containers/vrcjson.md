@@ -725,7 +725,7 @@ void PrintJsonPretty(DataDictionary data)
 
 > **【关键】** Udon **不能**用 .NET `JsonUtility`,因为它**未被 Udon 暴露**。
 >
-> 详见 `memory/api/not-exposed.md`。
+> 详见 `entities/api/not-exposed.md`。
 
 | 维度 | VRCJson | .NET JsonUtility(不可用) |
 |------|---------|--------------------------|
@@ -744,7 +744,7 @@ void PrintJsonPretty(DataDictionary data)
 
 > **【官方】** `.NET JsonUtility` 未被 Udon 暴露(白名单外)。VRChat 提供的 VRCJson 是**唯一**可用方案。
 >
-> 详见 `memory/api/udon-type-exposure.md`。
+> 详见 `entities/api/udon-type-exposure.md`。
 
 ### 13.2 为什么 VRCJson 只支持 DataList/Dictionary 根?
 
@@ -767,7 +767,7 @@ void PrintJsonPretty(DataDictionary data)
 - **DataList**: [`./data-lists.md`](./data-lists.md) — 序列化源
 - **DataDictionary**: [`./data-dictionaries.md`](./data-dictionaries.md) — 序列化源
 - **位/字节操作**: [`./byte-and-bit-operations.md`](./byte-and-bit-operations.md) — 自定义序列化协议
-- **网络同步**: `memory/api/networking.md` — JSON 同步模式
-- **未暴露 API**: `memory/api/not-exposed.md` — .NET JsonUtility 不可用原因
-- **类型暴露**: `memory/api/udon-type-exposure.md` — Udon 白名单
+- **网络同步**: `entities/api/networking.md` — JSON 同步模式
+- **未暴露 API**: `entities/api/not-exposed.md` — .NET JsonUtility 不可用原因
+- **类型暴露**: `entities/api/udon-type-exposure.md` — Udon 白名单
 - **官方源**: https://creators.vrchat.com/worlds/udon/data-containers/vrcjson/

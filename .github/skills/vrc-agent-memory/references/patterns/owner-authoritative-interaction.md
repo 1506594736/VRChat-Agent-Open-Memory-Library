@@ -105,21 +105,21 @@ OnDeserialization:
 
 | 文档 | 关系 |
 |------|------|
-| `memory/world/udon/networking/ownership.md` | **所有权 API 详解、SetOwner 流程、Master vs InstanceOwner、OnOwnershipRequest 业务规则** |
-| `memory/world/udon/networking/events.md` | Network Event 速率限制、`[NetworkCallable]`、`SendCustomNetworkEvent(Owner)` 模式 |
-| `memory/world/udon/networking/variables.md` | `[UdonSynced]` 字段写入权限、FieldChangeCallback 自动触发 |
-| `memory/world/udon/networking/late-joiners.md` | Owner 离开时的转移与 Late Joiner 同步保证 |
-| `memory/world/udon/networking/network-components.md` | VRCPickup 自动所有权机制、VRCObjectPool Owner 控制 |
-| `memory/world/udon/networking/compatibility.md` | 跨平台所有权兼容性、PC/Quest 字段一致性 |
-| `memory/world/udon/networking/performance.md` | 所有权转移的带宽成本、最小化转移策略 |
-| `memory/world/udon/networking/debugging.md` | 所有权冲突诊断、`OnOwnershipRequest` 调试 |
-| `memory/world/udon/networking/index.md` | Networking 概述、决策树 |
-| `memory/api/networking.md` | API 速查(Networking 类成员) |
+| `entities/world/udon/networking/ownership.md` | **所有权 API 详解、SetOwner 流程、Master vs InstanceOwner、OnOwnershipRequest 业务规则** |
+| `entities/world/udon/networking/events.md` | Network Event 速率限制、`[NetworkCallable]`、`SendCustomNetworkEvent(Owner)` 模式 |
+| `entities/world/udon/networking/variables.md` | `[UdonSynced]` 字段写入权限、FieldChangeCallback 自动触发 |
+| `entities/world/udon/networking/late-joiners.md` | Owner 离开时的转移与 Late Joiner 同步保证 |
+| `entities/world/udon/networking/network-components.md` | VRCPickup 自动所有权机制、VRCObjectPool Owner 控制 |
+| `entities/world/udon/networking/compatibility.md` | 跨平台所有权兼容性、PC/Quest 字段一致性 |
+| `entities/world/udon/networking/performance.md` | 所有权转移的带宽成本、最小化转移策略 |
+| `entities/world/udon/networking/debugging.md` | 所有权冲突诊断、`OnOwnershipRequest` 调试 |
+| `entities/world/udon/networking/index.md` | Networking 概述、决策树 |
+| `entities/api/networking.md` | API 速查(Networking 类成员) |
 
 ## Related Patterns
 - `manual-sync-state.md` - Manual Sync 模式(本模式的基础)
 
 ## 相关 Scene Components
 
-- `memory/world/scene-components/vrc-objectsync.md` - **物理对象所有权**:`VRCObjectSync` 自动处理碰撞所有权转移(Allow Collision Ownership Transfer),适合物理交互;与本模式互补,本模式适合离散状态,ObjectSync 适合物理 Transform
-- `memory/world/scene-components/vrc-station.md` - **Station 事件驱动**:`OnStationEntered` / `OnStationExited` 是典型的"事件触发所有权变更"模式,可结合本模式实现多人载具
+- `entities/world/scene-components/vrc-objectsync.md` - **物理对象所有权**:`VRCObjectSync` 自动处理碰撞所有权转移(Allow Collision Ownership Transfer),适合物理交互;与本模式互补,本模式适合离散状态,ObjectSync 适合物理 Transform
+- `entities/world/scene-components/vrc-station.md` - **Station 事件驱动**:`OnStationEntered` / `OnStationExited` 是典型的"事件触发所有权变更"模式,可结合本模式实现多人载具

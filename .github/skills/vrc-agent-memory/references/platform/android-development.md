@@ -175,8 +175,8 @@ SDK 包含 Quest 优化示例。
 
 ## 相关文档
 
-- `memory/avatar/performance-rank.md` - 性能排名标准
-- `memory/avatar/optimization-guide.md` - Avatar 优化
-- `memory/world/performance-guide.md` - World 优化
-- `memory/platform/mobile-ui-optimization.md` - 移动端 UI
-- `memory/platform/cross-platform-content.md` - 跨平台内容
+- `entities/avatar/performance-rank.md` - 性能排名标准
+- `entities/avatar/optimization-guide.md` - Avatar 优化
+- `entities/world/performance-guide.md` - World 优化
+- `entities/platform/mobile-ui-optimization.md` - 移动端 UI
+- `entities/platform/cross-platform-content.md` - 跨平台内容

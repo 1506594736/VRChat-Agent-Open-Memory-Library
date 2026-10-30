@@ -351,13 +351,13 @@ private void Update()
 
 ## 与知识库互补
 
-- **Udon 事件完整参考**: `memory/api/events-reference.md` ⭐ InputXxx 事件签名
-- **Collision/Trigger 事件**: `memory/api/events-reference.md` ⭐ OnTriggerXxx/OnCollisionXxx
-- **Interact 事件**: `memory/api/events-reference.md` ⭐ Interact()
-- **UI Events**: `memory/world/udon/ui-events.md` ⭐ UI 事件白名单(不同机制)
-- **Animation Events**: `memory/world/udon/animation-events.md` ⭐ Animator 事件白名单
-- **OSC 输入控制**: `memory/hybrid/osc-protocol.md` ⭐ Input Control API(注意:官方 OSC 不暴露 X/Y/A/B)
-- **Avatar Expression Parameters**: `memory/avatar/playable-layers.md` ⭐ Avatar 端 VR InputDriver 绑定
+- **Udon 事件完整参考**: `entities/api/events-reference.md` ⭐ InputXxx 事件签名
+- **Collision/Trigger 事件**: `entities/api/events-reference.md` ⭐ OnTriggerXxx/OnCollisionXxx
+- **Interact 事件**: `entities/api/events-reference.md` ⭐ Interact()
+- **UI Events**: `entities/world/udon/ui-events.md` ⭐ UI 事件白名单(不同机制)
+- **Animation Events**: `entities/world/udon/animation-events.md` ⭐ Animator 事件白名单
+- **OSC 输入控制**: `concepts/hybrid/osc-protocol.md` ⭐ Input Control API(注意:官方 OSC 不暴露 X/Y/A/B)
+- **Avatar Expression Parameters**: `entities/avatar/playable-layers.md` ⭐ Avatar 端 VR InputDriver 绑定
 
 ---
 

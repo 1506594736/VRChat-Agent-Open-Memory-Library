@@ -148,13 +148,13 @@ confidence: High
   - NDMF Processor (`animator-as-code.v1.ndmf-processor`)
   - Modular Avatar 适配器 (`animator-as-code.v1.modular-avatar`)
 - **应用场景**: 替代 Animator Controller 拖拽配置, 用 C# 代码生成复杂动画
-- **知识库参考**: `memory/avatar/playable-layers.md`
+- **知识库参考**: `entities/avatar/playable-layers.md`
 
 ### ComboGestureExpressions (CGE) - v3.1.5101
 - **核心功能**: 复杂手势/动作组合菜单系统
 - **依赖**: `dev.hai-vr.resilience.toolkit` + 多个 AAC 子包 + `com.vrchat.avatars ^3.3.0`
 - **应用场景**: 复杂 Avatar 菜单 (表情/动作组合)
-- **知识库参考**: `memory/avatar/playable-layers.md`
+- **知识库参考**: `entities/avatar/playable-layers.md`
 
 ### Prefabulous 系列
 - **核心功能**: 跨 Avatar Prefab 共享/转换系统
@@ -173,7 +173,7 @@ confidence: High
 ### Auto-reset OSC config file - v1.1.2
 - **核心功能**: 每次 Avatar 上传后自动删除 OSC 配置文件
 - **应用场景**: 防止 OSC 配置漂移
-- **知识库参考**: `memory/hybrid/osc-protocol.md`
+- **知识库参考**: `concepts/hybrid/osc-protocol.md`
 
 ### HVR Basis 系列 (Unity 6 专用) - v0.0.1
 - **核心功能**: Unity 6 平台 Avatar 优化 (Basis Framework)

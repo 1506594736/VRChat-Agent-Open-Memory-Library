@@ -117,7 +117,7 @@ confidence: High
 > - 11 个变量(数量、网格、碰撞、trail penalty)
 > - **Quest 端默认启用且不可禁用**
 > - Penalty 计算公式**【推断】** 来自官方变量描述,实际实现可能略有差异
-> - 详见 `memory/avatar/avatar-particle-system-limits.md` §4.2 Penalty 系统
+> - 详见 `entities/avatar/avatar-particle-system-limits.md` §4.2 Penalty 系统
 
 ---
 
@@ -313,7 +313,7 @@ v0.9.0 起 TTT 与 AAO 通过 API 深度协作：
 > - 默认: Max Affected Transforms = 32, Max Collision Checks = 8
 > - 超出 → 所有 Dynamic Bone + Collider 组件被禁用(非部分禁用)
 > - 配置: `config.json` 在 `%AppData%\..\LocalLow\VRChat\vrchat\`
-> - 详见 `memory/avatar/avatar-dynamic-bone-limits.md`
+> - 详见 `entities/avatar/avatar-dynamic-bone-limits.md`
 
 ### 两种实装方式
 

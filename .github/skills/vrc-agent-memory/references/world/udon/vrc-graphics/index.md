@@ -30,9 +30,9 @@ related:
 
 > 来源: VRChat 官方文档 — https://creators.vrchat.com/worlds/udon/vrc-graphics/
 > SDK: 3.5.0+
-> 父文档: `memory/world/udon/vrc-graphics/index.md` 自身(原 `memory/world/vrc-graphics.md` 已删除,内容已整合至本文件及子页面)
+> 父文档: `entities/world/udon/vrc-graphics/index.md` 自身(原 `entities/world/udon/vrc-graphics/index.md` 已删除,内容已整合至本文件及子页面)
 > 子页面: `asyncgpureadback.md`、`vrchat-shader-globals.md`
-> 互链文档: `memory/world/vrc-camera-settings.md`、`memory/world/vrc-quality-settings.md`
+> 互链文档: `entities/world/vrc-camera-settings.md`、`entities/world/vrc-quality-settings.md`
 
 ---
 
@@ -44,8 +44,8 @@ Udon 提供对 Unity Graphics 功能子集的访问,通过 4 个 VRC 命名空�
 |------|----------|------|----------|
 | **VRCShader** | `VRC.SDK3.Rendering` (推断) | 全局 Shader 参数设置器 | 本文件 + `vrchat-shader-globals.md` |
 | **VRCGraphics** | `VRC.SDK3.Rendering` (推断) | Unity `Graphics` 类子集(Blit/DrawMeshInstanced) | 本文件 |
-| **VRCCameraSettings** | `VRC.SDK3.Rendering` (推断) | 屏幕/手持相机访问、VR 双眼位置 | `memory/world/vrc-camera-settings.md` |
-| **VRCQualitySettings** | `VRC.SDK3.Rendering` (推断) | 质量设置只读访问 + 阴影距离覆盖 | `memory/world/vrc-quality-settings.md` |
+| **VRCCameraSettings** | `VRC.SDK3.Rendering` (推断) | 屏幕/手持相机访问、VR 双眼位置 | `entities/world/vrc-camera-settings.md` |
+| **VRCQualitySettings** | `VRC.SDK3.Rendering` (推断) | 质量设置只读访问 + 阴影距离覆盖 | `entities/world/vrc-quality-settings.md` |
 
 **与 Unity Graphics 的关系**:
 - `VRCGraphics` **不是** `UnityEngine.Graphics` 的完全替代,而是其**白名单子集**
@@ -283,10 +283,10 @@ int VRC_GetTimezoneOffsetSeconds();
 
 ## 相关知识库
 
-- `memory/world/udon/vrc-graphics/asyncgpureadback.md` — AsyncGPUReadback 详细
-- `memory/world/udon/vrc-graphics/vrchat-shader-globals.md` — `_VRChat*` 全局变量详细
-- `memory/world/udon/async-gpu-readback.md` (旧版,如有) — 历史参考
-- `memory/world/performance-guide.md` — 渲染性能优化
+- `entities/world/udon/vrc-graphics/asyncgpureadback.md` — AsyncGPUReadback 详细
+- `entities/world/udon/vrc-graphics/vrchat-shader-globals.md` — `_VRChat*` 全局变量详细
+- `entities/world/udon/vrc-graphics/asyncgpureadback.md` (旧版,如有) — 历史参考
+- `entities/world/performance-guide.md` — 渲染性能优化
 - `memory/avatar/shader/` — Avatar Shader 全局变量集成
-- `memory/rules/udonsharp-language-limits.md` — UdonSharp 语言限制(末尾已补充 VRC Graphics 限制)
-- `memory/api/udon-type-exposure.md` — 暴露类型清单(VRCGraphics/VRCShader 已确认在 `Rendering` 命名空间)
+- `concepts/rules/udonsharp-language-limits.md` — UdonSharp 语言限制(末尾已补充 VRC Graphics 限制)
+- `entities/api/udon-type-exposure.md` — 暴露类型清单(VRCGraphics/VRCShader 已确认在 `Rendering` 命名空间)

@@ -321,7 +321,7 @@ public class Cleanup : IVRCSDKBuildProcessScene {
 
 ## 关联文档
 
-- `memory/sources/ulocalization.md` — 项目溯源
-- `memory/patterns/iid-object-identity.md` — 配套 ID 映射
-- `memory/patterns/code-generation-type-erasure.md` — 配套类型擦除
-- `memory/FACT.md` § ULocalization
+- `concepts/patterns/index.md` — 项目溯源
+- `concepts/patterns/iid-object-identity.md` — 配套 ID 映射
+- `concepts/patterns/code-generation-type-erasure.md` — 配套类型擦除
+- `FACT.md` § ULocalization

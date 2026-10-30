@@ -243,7 +243,7 @@ avatar/shader/
 - 复杂 Outline 控制
 - 双色调系统（Crosstone）
 
-**详细文档**：`memory/avatar/shader/scss.md`
+**详细文档**：`entities/avatar/shader/scss.md`
 
 ---
 
@@ -486,7 +486,7 @@ struct drawing {
 - 独特 Toon 效果需求（非标准 PBR）
 - 与 lilToon 形成互补的专业效果选择
 
-**详细文档**：`memory/avatar/shader/unlitwf/index.md`
+**详细文档**：`entities/avatar/shader/unlitwf/index.md`
 
 ---
 
@@ -596,9 +596,9 @@ struct drawing {
 
 ## 七、相关文档
 
-- `memory/avatar/performance-rank.md` — Avatar 性能排名
-- `memory/avatar/optimization-guide.md` — Avatar 优化指南
-- `memory/avatar/ndmf-tools.md` — NDMF 工具链
+- `entities/avatar/performance-rank.md` — Avatar 性能排名
+- `entities/avatar/optimization-guide.md` — Avatar 优化指南
+- `entities/avatar/ndmf-tools.md` — NDMF 工具链
 - `memory/world/shader/` — World Shader 知识库
 - `memory/world/bakery/` — Bakery 光照烘焙
 

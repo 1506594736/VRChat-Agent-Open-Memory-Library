@@ -99,31 +99,31 @@ Sardinal 是 HoshinoLabs 推出的**通用消息总线（Pub/Sub with parameters
 
 Udon 没有委托/函数指针，Sardinal 用 `MD5(Type.FullName)` 作为主题 ID，运行时 `Array.IndexOf` 查表。比 ULocalization 的 500+ hash 方法精简得多 —— Sardinal 只需 hash **类型**，不需要 hash **方法**。
 
-→ 沉淀到 `memory/patterns/hash-based-dispatch.md`（变体，10-字段版）
+→ 沉淀到 `concepts/patterns/hash-based-dispatch.md`（变体，10-字段版）
 
 ### 2. Slot-Based Parameter Passing（16 槽位变体）
 
 `SendCustomEvent` 不支持参数，Sardinal 用 **16 个 `Publish` 重载**（每个 `params object[]`），运行时通过 `SetProgramVariable` 传参。比 ULocalization 的 3 object 槽位**数量更多但模式相同**。
 
-→ 沉淀到 `memory/patterns/slot-parameter-passing.md`（变体，16-参数版）
+→ 沉淀到 `concepts/patterns/slot-parameter-passing.md`（变体，16-参数版）
 
 ### 3. Code Generation with Type Erasure（10 字段变体）
 
 Udon 没有泛型，Sardinal 用 Sardinject 注入 **10 个 `object[]` / `string[]` / `int[]` 字段**（`_0`~`_9`）作为统一存储。比 ULocalization 的 27 字段**精简 60%**。
 
-→ 沉淀到 `memory/patterns/code-generation-type-erasure.md`（变体，10-字段版）
+→ 沉淀到 `concepts/patterns/code-generation-type-erasure.md`（变体，10-字段版）
 
 ### 4. Build-Time vs Runtime Separation（同 ULocalization 模式）
 
 Editor 端用 C# 反射 + Sardinject 注入 10 字段到 Udon Shim；Runtime 端仅做 O(1) 数组查表。
 
-→ 沉淀到 `memory/patterns/build-time-vs-runtime-separation.md`（变体，更精简的 10 字段版）
+→ 沉淀到 `comparisons/build-time-vs-runtime.md`（变体，更精简的 10 字段版）
 
 ### 5. IID Object Identity（部分使用）
 
 Udon 不能用 Dictionary 索引对象，Sardinal 用 `GetUdonTypeID()`（long）+ `long[] _2` 做 Udon Type 索引，但不像 ULocalization 那样用 IID 跨 Build 引用 —— Sardinal 是**单 Build 内**使用。
 
-→ 沉淀到 `memory/patterns/iid-object-identity.md`（变体，Udon Type ID 版）
+→ 沉淀到 `concepts/patterns/iid-object-identity.md`（变体，Udon Type ID 版）
 
 ### 6. 🆕 Channel-Based Pub/Sub Routing（频道路由）⭐S NEW
 
@@ -141,7 +141,7 @@ signal.WithChannel("UI").Publish(enemy);     // 只触发 UI
 signal.Publish(enemy);                        // 触发所有（频道=null）
 ```
 
-→ 沉淀到 `memory/patterns/channel-routing.md`（**Sardinal 独有**）
+→ 沉淀到 `concepts/patterns/channel-routing.md`（**Sardinal 独有**）
 
 ### 7. 🆕 Inherited Subscriber（基类订阅者自动继承）⭐S NEW
 
@@ -158,7 +158,7 @@ public class Goblin : BaseEnemy {  // 无需重写 OnGameOver
 
 通过 `Concat(self.BaseType?.GetSubscriberSchemas())` 递归扫描基类。
 
-→ 沉淀到 `memory/patterns/inherited-subscriber.md`（**Sardinal 独有**）
+→ 沉淀到 `concepts/patterns/inherited-subscriber.md`（**Sardinal 独有**）
 
 ### 8. 🆕 Hybrid Static+Dynamic Subscription（双订阅模式）⭐S NEW
 
@@ -169,7 +169,7 @@ public class Goblin : BaseEnemy {  // 无需重写 OnGameOver
 
 适用：场景常驻对象（静态）+ 容器/Pool 动态生成（动态）混合场景。
 
-→ 沉淀到 `memory/patterns/hybrid-subscription-modes.md`（**Sardinal 独有**）
+→ 沉淀到 `concepts/patterns/hybrid-subscription-modes.md`（**Sardinal 独有**）
 
 ### 9. Sardinject 强依赖（DI 容器集成）
 
@@ -275,18 +275,18 @@ public void HandleUI(...) { ... }
 
 | 沉淀位置 | 提取内容 |
 |----------|----------|
-| `memory/FACT.md` § Sardinal(参考工程) | 5 核心模式摘要 + 3 个新模式 + 8 字段工程参数 + 与 ULocalization 对比 |
-| `memory/patterns/hash-based-dispatch.md` | 变体：10 字段版 + 16 参数 Publish（更精简） |
-| `memory/patterns/slot-parameter-passing.md` | 变体：16-参数 Publish 重载（vs ULocalization 3 槽位） |
-| `memory/patterns/code-generation-type-erasure.md` | 变体：10 字段注入（vs ULocalization 27 字段） |
-| `memory/patterns/build-time-vs-runtime-separation.md` | 变体：10 字段 + 编译期 `Array.IndexOf` 查表 |
-| `memory/patterns/iid-object-identity.md` | 变体：Udon Type ID + `long[] _2` |
-| `memory/patterns/channel-routing.md` ⭐S NEW | Sardinal 独有：频道过滤 |
-| `memory/patterns/inherited-subscriber.md` ⭐S NEW | Sardinal 独有：基类订阅者自动继承 |
-| `memory/patterns/hybrid-subscription-modes.md` ⭐S NEW | Sardinal 独有：静态+动态双订阅 |
-| `memory/sources/open-source-projects.md` | A9 案例研究型参考工程条目 |
-| `memory/sources/index.md` | 新来源登记 |
-| `memory/patterns/index.md` | 29-31 号新模式 + 决策树更新 + 速查表 |
+| `FACT.md` § Sardinal(参考工程) | 5 核心模式摘要 + 3 个新模式 + 8 字段工程参数 + 与 ULocalization 对比 |
+| `concepts/patterns/hash-based-dispatch.md` | 变体：10 字段版 + 16 参数 Publish（更精简） |
+| `concepts/patterns/slot-parameter-passing.md` | 变体：16-参数 Publish 重载（vs ULocalization 3 槽位） |
+| `concepts/patterns/code-generation-type-erasure.md` | 变体：10 字段注入（vs ULocalization 27 字段） |
+| `comparisons/build-time-vs-runtime.md` | 变体：10 字段 + 编译期 `Array.IndexOf` 查表 |
+| `concepts/patterns/iid-object-identity.md` | 变体：Udon Type ID + `long[] _2` |
+| `concepts/patterns/channel-routing.md` ⭐S NEW | Sardinal 独有：频道过滤 |
+| `concepts/patterns/inherited-subscriber.md` ⭐S NEW | Sardinal 独有：基类订阅者自动继承 |
+| `concepts/patterns/hybrid-subscription-modes.md` ⭐S NEW | Sardinal 独有：静态+动态双订阅 |
+| `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` | A9 案例研究型参考工程条目 |
+| `entities/vrchatsdk/index.md` | 新来源登记 |
+| `concepts/patterns/index.md` | 29-31 号新模式 + 决策树更新 + 速查表 |
 | *(Session 分析报告 V3.0 起写入 `特殊Agent提示词/`)* | 工作过程记录 |
 
 ---

@@ -27,7 +27,7 @@
 - **备份**: `memory/_curator_tools/a24_pre_audit_fix/pure_knowledge_audit.py`
 
 ### P0-2 [DONE] 1 条真正死链修复
-- **位置**: `memory/world/scene-components/textmeshpro.md:227`
+- **位置**: `entities/world/scene-components/textmeshpro.md:227`
 - **原内容**: `[TextMeshPro 总览](../textmeshpro.md)`(指向不存在的 `world/textmeshpro.md`)
 - **修复**: 删除该行,改为更精确的 TMP 子组件分类列表
 - **验证**: governance 脚本从 1 死链 -> **0 死链**
@@ -48,10 +48,10 @@
 - **验证**: `scene-components/` 现在 10 个 .md + 0 子目录
 
 ### P1-2 [DONE] 缺失文档补建
-- **新建**: `memory/avatar/contact.md` (8.4K, v1.0, 5 tags)
+- **新建**: `entities/avatar/contact.md` (8.4K, v1.0, 5 tags)
   - 完整 Avatar Contact 系统文档(SDK 2026.2.1+ 公开 API)
   - 汇总 16 个散落 Contact 知识点
-- **新建**: `memory/rules/quest-constraints.md` (9.7K, v1.0, 6 tags)
+- **新建**: `concepts/rules/quest-constraints.md` (9.7K, v1.0, 6 tags)
   - Quest 兼容性约束清单(World + Avatar)
   - 覆盖性能等级、Udon 性能、Shader、物理、音频等
 - **索引同步**: `avatar/index.md` v1.3->v1.4 + `rules/index.md` v1.0->v1.1
@@ -121,8 +121,8 @@
 ## 6. 新增文件清单
 
 ```
-memory/avatar/contact.md              8.4K  v1.0  5 tags  新建
-memory/rules/quest-constraints.md    9.7K  v1.0  6 tags  新建
+entities/avatar/contact.md              8.4K  v1.0  5 tags  新建
+concepts/rules/quest-constraints.md    9.7K  v1.0  6 tags  新建
 Auxiliary script/strip_body_meta.py  4.5K        新建
 memory/_curator_tools/a24_pre_audit_fix/         A24 修复前快照
   governance_script.py
@@ -157,10 +157,10 @@ memory/_curator_tools/a24_pre_audit_fix/         A24 修复前快照
 
 | 同步点 | A24 状态 |
 |--------|----------|
-| `memory/_always-load.md` | v3.0 / 2026-07-01 [DONE] |
-| `memory/index.md` | v3.0 / 2026-07-01 [DONE] |
+| `_always-load.md` | v3.0 / 2026-07-01 [DONE] |
+| `index.md` | v3.0 / 2026-07-01 [DONE] |
 | `memory/<domain>/index.md`(已更新 avatar / rules) | v1.4 / v1.1 / 2026-07-01 [DONE] |
-| `memory/FACT.md` | v3.0 / 2026-07-01 [DONE] |
+| `FACT.md` | v3.0 / 2026-07-01 [DONE] |
 | `SOUL.md` | v3.0 / 2026-07-01 [DONE] |
 | 协议 `知识库整理Agent_V3.1.md` | V3.1.1 / 2026-07-01 [DONE] |
 

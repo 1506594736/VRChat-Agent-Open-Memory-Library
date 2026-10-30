@@ -188,11 +188,11 @@ VRChat Worlds 仅支持 **4 个外部 Scripted Asset**：**TextMeshPro**（必�
 
 | 现有知识 | 关联 |
 |---|---|
-| `memory/api/not-exposed.md` | 黑名单 API——其他第三方 Asset 不会暴露给 Udon |
-| `memory/world/whitelisted-world-components.md` | 完整白名单组件清单 |
+| `entities/api/not-exposed.md` | 黑名单 API——其他第三方 Asset 不会暴露给 Udon |
+| `entities/world/whitelisted-world-components.md` | 完整白名单组件清单 |
 | `memory/avatar/` | PhysBones 在 Avatar 域的详细文档 |
-| `memory/world/performance-guide.md` | 后期处理对 GPU 的影响 |
-| `memory/sources/example-central.md` | Post Processing v2 实战案例 |
+| `entities/world/performance-guide.md` | 后期处理对 GPU 的影响 |
+| `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` | Post Processing v2 实战案例 |
 
 ### Asset 选择决策
 
@@ -284,7 +284,7 @@ VRChat Worlds 仅支持 **4 个外部 Scripted Asset**：**TextMeshPro**（必�
 #endif
 ```
 
-或者使用 **EasyQuestSwitch** 自动平台切换（`memory/platform/easyquestswitch.md`）。
+或者使用 **EasyQuestSwitch** 自动平台切换（`entities/platform/easyquestswitch.md`）。
 
 ---
 
@@ -296,4 +296,4 @@ VRChat Worlds 仅支持 **4 个外部 Scripted Asset**：**TextMeshPro**（必�
 - **VRChat Feedback**: https://feedback.vrchat.com
 - **Final IK Asset Store**: https://assetstore.unity.com/packages/tools/animation/final-ik-14290
 - **Dynamic Bone Asset Store**: https://assetstore.unity.com/packages/tools/animation/dynamic-bone-16743
-- **相关知识**: `memory/platform/easyquestswitch.md` (PC/Quest 自动切换)
+- **相关知识**: `entities/platform/easyquestswitch.md` (PC/Quest 自动切换)

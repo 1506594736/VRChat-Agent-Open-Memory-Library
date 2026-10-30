@@ -154,10 +154,10 @@ public override void MidiControlChange(int channel, int number, int value) { }
 |----------|------|------|
 | **MIDI 文件回放** | [`./midi-playback.md`](./midi-playback.md) | `VRCMidiPlayer` 组件 + MidiData/MidiTrack/MidiBlock 类 |
 | **实时 MIDI 输入** | [`./realtime-midi.md`](./realtime-midi.md) | `VRC Midi Listener` 组件 + 设备选择 |
-| **MIDI Playback 示例** | `memory/world/examples/midi-playback.md` | 4-Grid LogoButton 完整实现 |
-| **Udon 事件完整参考** | `memory/api/events-reference.md` | 3 个 MIDI 事件签名 + 调用约束 |
-| **MIDI 节点(图)** | `memory/world/udon/graph/event-nodes.md` | Udon Node Graph 中的 MIDI 事件节点 |
-| **AudioLink** | `memory/hybrid/audiolink-system.md` | 音频数据驱动的另一种方式(Shader-Centric) |
+| **MIDI Playback 示例** | `entities/world/examples/midi-playback.md` | 4-Grid LogoButton 完整实现 |
+| **Udon 事件完整参考** | `entities/api/events-reference.md` | 3 个 MIDI 事件签名 + 调用约束 |
+| **MIDI 节点(图)** | `entities/world/udon/graph/event-nodes.md` | Udon Node Graph 中的 MIDI 事件节点 |
+| **AudioLink** | `concepts/hybrid/audio-link.md` | 音频数据驱动的另一种方式(Shader-Centric) |
 
 ---
 
@@ -165,5 +165,5 @@ public override void MidiControlChange(int channel, int number, int value) { }
 
 | 页面 | 路径 | 核心内容 |
 |------|------|---------|
-| Midi Playback | `memory/world/udon/midi/midi-playback.md` | MIDI 文件回放、VRCMidiPlayer 组件、4 个数据类 |
-| Realtime Midi | `memory/world/udon/midi/realtime-midi.md` | 实时 MIDI 设备输入、Listener 组件、运行时设备选择 |
+| Midi Playback | `entities/world/udon/midi/midi-playback.md` | MIDI 文件回放、VRCMidiPlayer 组件、4 个数据类 |
+| Realtime Midi | `entities/world/udon/midi/realtime-midi.md` | 实时 MIDI 设备输入、Listener 组件、运行时设备选择 |

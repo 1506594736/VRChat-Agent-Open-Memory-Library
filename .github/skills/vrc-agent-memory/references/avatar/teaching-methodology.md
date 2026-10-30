@@ -1052,7 +1052,7 @@ related:
 # 第六部分:MA 教程的具体技术提炼(2026-06-17 新增)
 
 > **与 §R-§Z 的关系**：§R-§Z 是"教学风格"归纳,§BB 是"具体技术细节"提炼。
-> **学习来源**:官方 6 个教程的原文精读,详见 `memory/avatar/modular-avatar-tutorials-detailed.md`
+> **学习来源**:官方 6 个教程的原文精读,详见 `entities/avatar/modular-avatar-tutorials-detailed.md`
 
 ## BB. MA 教程的 5 大玩家友好设计
 
@@ -1205,10 +1205,10 @@ related:
 
 | 文档 | 内容 |
 |------|------|
-| `memory/avatar/teaching-methodology.md` (本文) | 教学风格 + 具体技术提炼 + Samples 拆解教学法(原则 43-45) |
-| `memory/avatar/modular-avatar.md` | MA 主文档(组件 + 教学决策树 + **§9.6 Samples 实战案例** ⭐NEW) |
-| **`memory/avatar/modular-avatar-tutorials-detailed.md`** | 6 个教程的原文精读 + 玩家视角操作分解 |
-| `memory/avatar/avatar-modding-guide.md` | 改模完整流程 |
+| `entities/avatar/teaching-methodology.md` (本文) | 教学风格 + 具体技术提炼 + Samples 拆解教学法(原则 43-45) |
+| `entities/avatar/modular-avatar.md` | MA 主文档(组件 + 教学决策树 + **§9.6 Samples 实战案例** ⭐NEW) |
+| **`entities/avatar/modular-avatar-tutorials-detailed.md`** | 6 个教程的原文精读 + 玩家视角操作分解 |
+| `entities/avatar/avatar-modding-guide.md` | 改模完整流程 |
 
 **官方教程**:
 - https://modular-avatar.nadena.dev/docs/tutorials
@@ -1219,7 +1219,7 @@ related:
 # 第七部分:MA 组件级"零基础 → 高级"语言转换案例库(2026-06-17 新增)
 
 > **与 §BB-§FF 的关系**:§BB-§FF 是"教程技术提炼"(适用于教学整篇),§GG-§QQ 是"组件级语言转换"(适用于回答单个组件问题)
-> **学习来源**:本次系统学习官方 Component Reference 27 个组件 + 4 个横切页的原文,详见 `memory/avatar/ma-component-cards.md`
+> **学习来源**:本次系统学习官方 Component Reference 27 个组件 + 4 个横切页的原文,详见 `entities/avatar/ma-component-cards.md`
 > **目标**:让 Agent 在回答"X 组件怎么用"时,自动判断"用零基础语言还是专业语言",并给出**具体可复用的话术**
 
 ## GG. 总体转换原则
@@ -1590,11 +1590,11 @@ Agent: "MA 主要在 Generating phase(Resolving 之后):
 
 | 文档 | 内容 |
 |------|------|
-| `memory/avatar/teaching-methodology.md` (本文) | 教学风格 + MA 教程技术提炼 + 组件级语言转换 |
-| `memory/avatar/ma-component-cards.md` ⭐NEW | 27 个组件的"教学卡"(When/How/Limitations) |
-| `memory/avatar/modular-avatar.md` | MA 主文档(组件 + 教学决策树) |
-| `memory/avatar/modular-avatar-tutorials-detailed.md` | 6 个教程的原文精读 |
-| `memory/avatar/avatar-modding-guide.md` | 改模完整流程 |
+| `entities/avatar/teaching-methodology.md` (本文) | 教学风格 + MA 教程技术提炼 + 组件级语言转换 |
+| `entities/avatar/ma-component-cards.md` ⭐NEW | 27 个组件的"教学卡"(When/How/Limitations) |
+| `entities/avatar/modular-avatar.md` | MA 主文档(组件 + 教学决策树) |
+| `entities/avatar/modular-avatar-tutorials-detailed.md` | 6 个教程的原文精读 |
+| `entities/avatar/avatar-modding-guide.md` | 改模完整流程 |
 
 **下一版待做**: 实验性功能(Resonite 支持 / Portable Avatar Components)精读
 
@@ -1674,7 +1674,7 @@ Agent: "MA 主要在 Generating phase(Resolving 之后):
 ### MM.4 玩家问题回答的"5 步问题诊断法" ⭐核心
 
 > 整合官方 problems + 教学法原则
-> **来源**: `memory/avatar/modular-avatar.md` §8.6
+> **来源**: `entities/avatar/modular-avatar.md` §8.6
 
 ```
 步骤 1: 看到问题 → 截图保存
@@ -2365,7 +2365,7 @@ MA 在生成 Avatar 时**自动改名**(如 `On` → `_On_internal_1`)
 ## VV. Samples 实战案例的教学策略
 
 > 来源: [官方 Samples](https://modular-avatar.nadena.dev/docs/samples)
-> 配套详细文档: `memory/avatar/modular-avatar.md` §9.6
+> 配套详细文档: `entities/avatar/modular-avatar.md` §9.6
 
 ### VV.1 Samples 的教学定位
 
@@ -2429,11 +2429,11 @@ MA 在生成 Avatar 时**自动改名**(如 `On` → `_On_internal_1`)
 
 | 文档 | 内容 |
 |------|------|
-| `memory/avatar/teaching-methodology.md` (本文) | 教学风格 + MA 教程技术提炼 + 组件级语言转换 + 问题诊断 + **边界场景与 FAQ 教学策略** |
-| `memory/avatar/ma-component-cards.md` | 27 个组件的"教学卡"(When/How/Limitations) |
-| `memory/avatar/modular-avatar.md` | MA 主文档(组件 + 教学决策树 + FAQ) |
-| `memory/avatar/modular-avatar-tutorials-detailed.md` | 6 个教程的原文精读 |
-| `memory/avatar/avatar-modding-guide.md` | 改模完整流程 |
+| `entities/avatar/teaching-methodology.md` (本文) | 教学风格 + MA 教程技术提炼 + 组件级语言转换 + 问题诊断 + **边界场景与 FAQ 教学策略** |
+| `entities/avatar/ma-component-cards.md` | 27 个组件的"教学卡"(When/How/Limitations) |
+| `entities/avatar/modular-avatar.md` | MA 主文档(组件 + 教学决策树 + FAQ) |
+| `entities/avatar/modular-avatar-tutorials-detailed.md` | 6 个教程的原文精读 |
+| `entities/avatar/avatar-modding-guide.md` | 改模完整流程 |
 
 **MA 官方参考**:
 - FAQ: https://modular-avatar.nadena.dev/docs/faq

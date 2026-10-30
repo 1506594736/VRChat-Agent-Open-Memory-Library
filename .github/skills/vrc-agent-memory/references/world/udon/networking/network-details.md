@@ -583,9 +583,9 @@ total_bandwidth = Σ all_objects
 
 | 文档 | 关系 |
 |------|------|
-| `memory/world/udon/networking/index.md` | Networking 概述 |
-| `memory/world/udon/networking/variables.md` | synced 变量类型 |
-| `memory/world/udon/networking/performance.md` | 性能优化 |
-| `memory/world/udon/networking/debugging.md` | 调试方法 |
-| `memory/world/udon/networking/network-components.md` | VRCObjectSync 等 |
-| `memory/api/networking.md` | API 速查 |
+| `entities/world/udon/networking/index.md` | Networking 概述 |
+| `entities/world/udon/networking/variables.md` | synced 变量类型 |
+| `entities/world/udon/networking/performance.md` | 性能优化 |
+| `entities/world/udon/networking/debugging.md` | 调试方法 |
+| `entities/world/udon/networking/network-components.md` | VRCObjectSync 等 |
+| `entities/api/networking.md` | API 速查 |

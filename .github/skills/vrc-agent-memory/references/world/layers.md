@@ -170,11 +170,11 @@ VRChat SDK 在创建 Unity 项目时**自动配置 32 个 Layer 中的 22 个**�
 
 | 现有知识 | 关联 |
 |---|---|
-| `memory/world/items.md` | Layer 3 (`Item`) 详述、Items 与 Udon 不可交互 |
-| `memory/api/udon-type-exposure.md` | `Utilities.IsValid` 暴露状态 |
-| `memory/rules/networking-rules.md` | Networked Object Layer 选择 |
-| `memory/sources/example-central.md` | Pickup / Mirror 示例参考实现 |
-| `memory/api/pickups.md` | Layer 13/14 (`Pickup`, `PickupNoEnvironment`) 行为 |
+| `entities/world/items.md` | Layer 3 (`Item`) 详述、Items 与 Udon 不可交互 |
+| `entities/api/udon-type-exposure.md` | `Utilities.IsValid` 暴露状态 |
+| `concepts/rules/networking-rules.md` | Networked Object Layer 选择 |
+| `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` | Pickup / Mirror 示例参考实现 |
+| `entities/api/pickups.md` | Layer 13/14 (`Pickup`, `PickupNoEnvironment`) 行为 |
 
 ### Layer 选择决策树
 

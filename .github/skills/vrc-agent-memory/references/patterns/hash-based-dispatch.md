@@ -196,8 +196,8 @@ var hash = $"__{signature.ComputeHashMD5()}";  // "__xxx..."
 
 ## 关联文档
 
-- `memory/sources/ulocalization.md` — ULocalization 项目溯源
-- `memory/patterns/slot-parameter-passing.md` — 配套的 slot 传参模式
-- `memory/patterns/code-generation-type-erasure.md` — 代码生成策略
-- `memory/FACT.md` § ULocalization(参考工程) — 案例研究摘要
-- `memory/reviews/common-failures.md` — FAIL-23: `internal` 关键字导致方法随机不可用
+- `concepts/patterns/index.md` — ULocalization 项目溯源
+- `concepts/patterns/slot-parameter-passing.md` — 配套的 slot 传参模式
+- `concepts/patterns/code-generation-type-erasure.md` — 代码生成策略
+- `FACT.md` § ULocalization(参考工程) — 案例研究摘要
+- `concepts/patterns/index.md` — FAIL-23: `internal` 关键字导致方法随机不可用

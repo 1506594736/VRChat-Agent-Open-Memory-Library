@@ -28,7 +28,7 @@ related:
 # Position Sync(位置同步)
 
 > SDK Version: 3.4.x+
-> 关联底层: `memory/api/persistence.md`
+> 关联底层: `entities/api/persistence.md`
 
 ## 数据层选择
 
@@ -116,7 +116,7 @@ transform.position = syncedPosition(立即传送)
 
 ## 与 Networking 的关系
 
-可与 `memory/api/networking.md` 中的同步机制互链:
+可与 `entities/api/networking.md` 中的同步机制互链:
 - 此示例使用 **Manual 同步模式** + 0.5s 周期
 - 替代方案:Continuous 同步(每帧序列化,带宽高)或 NetworkCallable(事件驱动)
 

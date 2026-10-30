@@ -192,7 +192,7 @@ confidence: High
 | **P2 性能问题** | 帧率/CPU 影响 | 高频路径必须验证 |
 | **P3 反模式** | 可用但应避免 | 审查时建议改写 |
 
-> 完整严重度模型见 `memory/reviews/severity-model.md`
+> 完整严重度模型见 `concepts/patterns/index.md`
 
 ---
 
@@ -202,7 +202,7 @@ confidence: High
 |------|------|
 | **设计模式（合规实现）** | `memory/patterns/` |
 | **审查清单（如何检查）** | `memory/reviews/` |
-| **失败案例（违反后果）** | `memory/reviews/common-failures.md` |
+| **失败案例（违反后果）** | `concepts/patterns/index.md` |
 | **API 速查（暴露状态）** | `memory/api/` |
 | **应用层详解** | `memory/world/udon/networking/` |
 
@@ -217,4 +217,4 @@ confidence: High
 4. 标注发现日期
 5. 关联现有规则或失败案例
 
-详见 `memory/_always-load.md` 中"知识优先级"部分。
+详见 `_always-load.md` 中"知识优先级"部分。

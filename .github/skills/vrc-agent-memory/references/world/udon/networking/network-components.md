@@ -425,7 +425,7 @@ T+20s: Player B 加入 → 自动看到 Object1 激活(Object2 仍 inactive)
 | PlayerObject 配额 | 100 KB/玩家 |
 | 压缩后容量 | 最多 300 KB 原始数据(可压缩时) |
 
-> 详见 `memory/api/persistence.md` 和 `memory/world/persistence/`。
+> 详见 `entities/api/persistence.md` 和 `memory/world/persistence/`。
 
 ---
 
@@ -494,11 +494,11 @@ public class PhysicsCrate : UdonSharpBehaviour {
 
 | 文档 | 关系 |
 |------|------|
-| `memory/world/udon/networking/index.md` | Networking 概述 |
-| `memory/world/udon/networking/events.md` | 完整事件列表 |
-| `memory/world/udon/networking/ownership.md` | 所有权 API 详解 |
-| `memory/world/udon/networking/variables.md` | synced 变量 |
-| `memory/world/udon/networking/late-joiners.md` | Late Joiner 同步 |
-| `memory/world/udon/networking/debugging.md` | Network 调试 |
-| `memory/api/networking.md` | API 速查 |
-| `memory/api/persistence.md` | PlayerData/PlayerObject 配额 |
+| `entities/world/udon/networking/index.md` | Networking 概述 |
+| `entities/world/udon/networking/events.md` | 完整事件列表 |
+| `entities/world/udon/networking/ownership.md` | 所有权 API 详解 |
+| `entities/world/udon/networking/variables.md` | synced 变量 |
+| `entities/world/udon/networking/late-joiners.md` | Late Joiner 同步 |
+| `entities/world/udon/networking/debugging.md` | Network 调试 |
+| `entities/api/networking.md` | API 速查 |
+| `entities/api/persistence.md` | PlayerData/PlayerObject 配额 |

@@ -26,7 +26,7 @@ related:
 
 > 来源: VRChat 官方文档 — https://creators.vrchat.com/worlds/udon/vrc-graphics/vrchat-shader-globals/
 > Last Published: 2026-02-23
-> 父文档: `memory/world/udon/vrc-graphics/index.md` (本文件即父文档内 VRC Graphics 体系一部分,原 `memory/world/vrc-graphics.md` 占位页已删除)
+> 父文档: `entities/world/udon/vrc-graphics/index.md` (本文件即父文档内 VRC Graphics 体系一部分,原 `entities/world/udon/vrc-graphics/index.md` 占位页已删除)
 
 ---
 
@@ -307,8 +307,8 @@ float4 frag() : SV_Target {
 
 ## 相关知识
 
-- `memory/world/udon/vrc-graphics/index.md` — VRC Graphics 总览
+- `entities/world/udon/vrc-graphics/index.md` — VRC Graphics 总览
 - `memory/avatar/shader/liltoon/` — lilToon 中对 `_VRChat` 变量的使用
-- `memory/avatar/shader/scss.md` — SCSS 时间同步
-- `memory/api/udon-type-exposure.md` — `Rendering` 命名空间
+- `entities/avatar/shader/scss.md` — SCSS 时间同步
+- `entities/api/udon-type-exposure.md` — `Rendering` 命名空间
 - 官方文档: https://creators.vrchat.com/worlds/udon/vrc-graphics/vrchat-shader-globals/

@@ -264,8 +264,8 @@ public override void OnContactEnter(ContactReceiverInfo info) {
 
 ## 相关文档
 
-- **World Dynamics API**:`memory/api/dynamics.md`(SDK 3.10.0+ 完整说明)
-- **PhysBone 限制**:`memory/avatar/avatar-dynamic-bone-limits.md`
-- **Avatar 性能基准**:`memory/avatar/performance-benchmarks.md`
-- **Quest 兼容性**:`memory/rules/quest-constraints.md`
-- **lilToon 接触功能(Shader 端)**:`memory/avatar/shader/liltoon/fur.md`
+- **World Dynamics API**:`entities/api/dynamics.md`(SDK 3.10.0+ 完整说明)
+- **PhysBone 限制**:`entities/avatar/avatar-dynamic-bone-limits.md`
+- **Avatar 性能基准**:`entities/avatar/performance-benchmarks.md`
+- **Quest 兼容性**:`concepts/rules/quest-constraints.md`
+- **lilToon 接触功能(Shader 端)**:`entities/avatar/shader/liltoon/fur.md`

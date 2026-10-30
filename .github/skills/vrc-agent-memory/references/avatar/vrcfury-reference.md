@@ -599,10 +599,10 @@ VRCFury 官方仓库 ID：`com.vrcfury.vcc`，包名：`com.vrcfury.vrcfury`。
 - **PR#238**：https://github.com/VRCFury/VRCFury/pull/238（Pointer-Based Float Sync 技术实现）
 - **社区**：Discord（技术支持）
 - **知识库交叉引用**：
-  - `memory/avatar/modular-avatar.md` §7.21 Sync Parameter Sequence 兼容性
-  - `memory/avatar/ma-component-cards.md` Sync Parameter Sequence 卡片
-  - `memory/avatar/ndmf-tools.md` §MA 与 VRCFury 兼容性
-  - `memory/avatar/avatar-optimizer.md` AAO（功能更现代的优化工具）
-  - `memory/avatar/ma2bt.md` MA2BT（MA 层的 Direct BlendTree 转换）
-  - `memory/avatar/meshia-mesh-simplification.md` Meshia（Mesh 减面）
-  - `memory/avatar/lac-avatar-compressor.md` LAC（纹理压缩）
+  - `entities/avatar/modular-avatar.md` §7.21 Sync Parameter Sequence 兼容性
+  - `entities/avatar/ma-component-cards.md` Sync Parameter Sequence 卡片
+  - `entities/avatar/ndmf-tools.md` §MA 与 VRCFury 兼容性
+  - `entities/avatar/avatar-optimizer.md` AAO（功能更现代的优化工具）
+  - `entities/avatar/ma2bt.md` MA2BT（MA 层的 Direct BlendTree 转换）
+  - `entities/avatar/meshia-mesh-simplification.md` Meshia（Mesh 减面）
+  - `entities/avatar/lac-avatar-compressor.md` LAC（纹理压缩）

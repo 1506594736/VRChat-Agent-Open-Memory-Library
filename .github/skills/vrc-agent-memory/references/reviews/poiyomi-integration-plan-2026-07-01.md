@@ -188,15 +188,15 @@ confidence: High
 
 | 文件 | 内容性质 | 版本 | 状态 |
 |------|----------|------|------|
-| `memory/sources/vpm-mirrors/samples/poiyomi.md` | VPM 包元数据 | 8.1.166 Toon / 9.3.66 Pro | 🔴 同步失败,信息陈旧 |
-| `memory/world/vrc-light-volumes.md` | Light Volumes 兼容 (Line 340, 439) | "Poiyomi Toon 9.2.67+" | ✅ 准确 |
-| `memory/avatar/avatar-optimizer.md` | UV Tile Discard 设计 (Line 341) | 未指定版本 | ⚠️ 上下文简短 |
-| `memory/avatar/teaching-methodology.md` | 教学资源列表 (Line 129) | 无版本 | ✅ 概述性引用 |
-| `memory/avatar/shader/index.md` | **新增 Poiyomi 章节** | 1.2 (2026-07-01) | ✅ 已更新 |
-| `memory/avatar/shader/other-shaders.md` | **新增 Poiyomi 引用** | 1.1 (2026-07-01) | ✅ 已更新 |
-| `memory/avatar/shader/filamented/comparison.md` | 对比表格 (推测) | 推测 | ⚠️ 待验证 |
-| `memory/avatar/shader/filamented/overview.md` | 概述 (推测) | 推测 | ⚠️ 待验证 |
-| `memory/avatar/vrcfury-reference.md` | 推测提及 | 推测 | ⚠️ 待验证 |
+| `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）` | VPM 包元数据 | 8.1.166 Toon / 9.3.66 Pro | 🔴 同步失败,信息陈旧 |
+| `entities/world/vrc-light-volumes.md` | Light Volumes 兼容 (Line 340, 439) | "Poiyomi Toon 9.2.67+" | ✅ 准确 |
+| `entities/avatar/avatar-optimizer.md` | UV Tile Discard 设计 (Line 341) | 未指定版本 | ⚠️ 上下文简短 |
+| `entities/avatar/teaching-methodology.md` | 教学资源列表 (Line 129) | 无版本 | ✅ 概述性引用 |
+| `entities/avatar/shader/index.md` | **新增 Poiyomi 章节** | 1.2 (2026-07-01) | ✅ 已更新 |
+| `entities/avatar/shader/other-shaders.md` | **新增 Poiyomi 引用** | 1.1 (2026-07-01) | ✅ 已更新 |
+| `comparisons/filamented-comparison.md` | 对比表格 (推测) | 推测 | ⚠️ 待验证 |
+| `entities/avatar/shader/filamented/overview.md` | 概述 (推测) | 推测 | ⚠️ 待验证 |
+| `entities/avatar/vrcfury-reference.md` | 推测提及 | 推测 | ⚠️ 待验证 |
 
 **总计 9 个文件中提及 Poiyomi**,其中 2 个已主动更新,7 个为被动引用。
 
@@ -278,14 +278,14 @@ Poiyomi 10.0 (2026+ 当前分阶段推出) ← 我们抓取的版本
 
 | 文档 | 影响 | 优先级 | 操作 |
 |------|------|--------|------|
-| `memory/avatar/index.md` | 需添加 Poiyomi 子域引用 | P1 | Stage 3 |
-| `memory/index.md` | 需添加 Poiyomi 路由 | P1 | Stage 3 |
+| `entities/avatar/index.md` | 需添加 Poiyomi 子域引用 | P1 | Stage 3 |
+| `index.md` | 需添加 Poiyomi 路由 | P1 | Stage 3 |
 | `_always-load.md` | 需添加 Poiyomi 关键约束 | P2 | Stage 3 |
-| `memory/avatar/shader/index.md` | ✅ 已更新 (1.2) | P0 | 已完成 |
-| `memory/avatar/shader/other-shaders.md` | ✅ 已更新 (1.1) | P0 | 已完成 |
-| `memory/sources/vpm-mirrors/samples/poiyomi.md` | 需添加 10.0 演进说明 | P1 | Stage 3 |
-| `memory/FACT.md` | 需添加 Poiyomi 完整入库记录 | P1 | Stage 3 |
-| `memory/avatar/performance-rank.md` | 无需更新(与 Poiyomi 关系间接) | - | 跳过 |
+| `entities/avatar/shader/index.md` | ✅ 已更新 (1.2) | P0 | 已完成 |
+| `entities/avatar/shader/other-shaders.md` | ✅ 已更新 (1.1) | P0 | 已完成 |
+| `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）` | 需添加 10.0 演进说明 | P1 | Stage 3 |
+| `FACT.md` | 需添加 Poiyomi 完整入库记录 | P1 | Stage 3 |
+| `entities/avatar/performance-rank.md` | 无需更新(与 Poiyomi 关系间接) | - | 跳过 |
 
 ---
 
@@ -348,8 +348,8 @@ Poiyomi 10.0 (2026+ 当前分阶段推出) ← 我们抓取的版本
 | 操作 | 文件 | 状态 |
 |------|------|------|
 | 创建主索引 | `参考文献/Poiyomi/INDEX.md` | ✅ |
-| 更新索引 | `memory/avatar/shader/index.md` (1.1→1.2) | ✅ |
-| 更新引用 | `memory/avatar/shader/other-shaders.md` (1.0→1.1) | ✅ |
+| 更新索引 | `entities/avatar/shader/index.md` (1.1→1.2) | ✅ |
+| 更新引用 | `entities/avatar/shader/other-shaders.md` (1.0→1.1) | ✅ |
 | Journal 记录 | `memory/JOURNAL.jsonl` (1 条 session 记录) | ✅ |
 
 ### 3.4 Stage 2: 结构化提炼 (本周 P1)
@@ -394,11 +394,11 @@ memory/avatar/shader/poiyomi/
 
 | 操作 | 文件 | 内容 |
 |------|------|------|
-| 添加 Poiyomi 路由 | `memory/index.md` | 在 Avatar 域添加 `shader/poiyomi/index.md` 引用 |
-| 更新 Poiyomi 章节 | `memory/avatar/index.md` | 添加 Poiyomi 子域引用 |
+| 添加 Poiyomi 路由 | `index.md` | 在 Avatar 域添加 `shader/poiyomi/index.md` 引用 |
+| 更新 Poiyomi 章节 | `entities/avatar/index.md` | 添加 Poiyomi 子域引用 |
 | 关键约束 | `_always-load.md` | 添加 Poiyomi 5 变体速查 |
-| 10.0 演进说明 | `memory/sources/vpm-mirrors/samples/poiyomi.md` | 添加"10.0 版本演进"章节 |
-| 入库记录 | `memory/FACT.md` | 添加 Poiyomi 完整入库记录 |
+| 10.0 演进说明 | `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）` | 添加"10.0 版本演进"章节 |
+| 入库记录 | `FACT.md` | 添加 Poiyomi 完整入库记录 |
 
 ### 3.6 Stage 4: 缺口修复 (长期 P2)
 
@@ -461,8 +461,8 @@ Week 2 (2026-07-08 ~ 2026-07-14)
 ### 4.1 立即可做的 (P0 - 今天已完成)
 
 - [x] 创建 `参考文献/Poiyomi/INDEX.md`
-- [x] 更新 `memory/avatar/shader/index.md` (Poiyomi §1.3 章节)
-- [x] 更新 `memory/avatar/shader/other-shaders.md` (Poiyomi 引用)
+- [x] 更新 `entities/avatar/shader/index.md` (Poiyomi §1.3 章节)
+- [x] 更新 `entities/avatar/shader/other-shaders.md` (Poiyomi 引用)
 
 ### 4.2 本周建议 (P1)
 
@@ -513,20 +513,20 @@ Week 2 (2026-07-08 ~ 2026-07-14)
 | **AudioLink 启用** | `11-audio-link.md` §Audio Link Toggle |
 | **Modular Shader 创建** | `32-modular-shader-system.md` §File Structure |
 | **Quest 优化** | `INDEX.md` §5 + 00-introduction.md §其他游戏系统 |
-| **VRC Light Volumes 兼容** | `memory/world/vrc-light-volumes.md` Line 340-341 |
+| **VRC Light Volumes 兼容** | `entities/world/vrc-light-volumes.md` Line 340-341 |
 
 ### 5.3 引用入口
 
 - **主索引**: `参考文献/Poiyomi/INDEX.md`
-- **Avatar Shader 集成**: `memory/avatar/shader/index.md` §1.3 Poiyomi Shaders
-- **VPM 包元数据**: `memory/sources/vpm-mirrors/samples/poiyomi.md`
-- **本计划**: `memory/reviews/poiyomi-integration-plan-2026-07-01.md`
+- **Avatar Shader 集成**: `entities/avatar/shader/index.md` §1.3 Poiyomi Shaders
+- **VPM 包元数据**: `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）`
+- **本计划**: `本 skill 的 `reviews/poiyomi-integration-plan-2026-07-01.md`（v3 附录页，v5 未收录）`
 
 ### 5.4 关联决策记录
 
 | 决策 | 来源 | 时间 |
 |------|------|------|
-| Poiyomi 加入 Avatar Shader 主流梯队 | `memory/avatar/shader/index.md` v1.2 | 2026-07-01 |
+| Poiyomi 加入 Avatar Shader 主流梯队 | `entities/avatar/shader/index.md` v1.2 | 2026-07-01 |
 | Poiyomi 文档本地化完成 | `memory/JOURNAL.jsonl` session 记录 | 2026-07-01 |
 | 65 文档 + INDEX 保留为"原始参考" | 本计划 §3.1 原则 1 | 2026-07-01 |
 | Stage 2 提炼为 7-8 个主题文档 | 本计划 §3.4 | 2026-07-01 |

@@ -26,13 +26,13 @@ related:
 
 > SDK Version: VRChat SDK 3.x (核心 VM 变化极小)
 > Last Verified: 2026-06-15
-> **关联参考**:`memory/world/udon/vm-and-assembly.md` - 官方字节码规范(汇编语法 + Extern 签名格式)
+> **关联参考**:`entities/world/udon/vm-and-assembly.md` - 官方字节码规范(汇编语法 + Extern 签名格式)
 
 ---
 
 ## 1. Opcode Set — 只有 9 条指令
 
-Udon VM 的指令集极其精简。所有 UdonSharp 代码最终编译为这 9 条指令的组合。**完整规范(Udon Assembly 语法、9 Opcodes 详解、Extern 签名格式)见 [`memory/world/udon/vm-and-assembly.md`](../world/udon/vm-and-assembly.md)**。
+Udon VM 的指令集极其精简。所有 UdonSharp 代码最终编译为这 9 条指令的组合。**完整规范(Udon Assembly 语法、9 Opcodes 详解、Extern 签名格式)见 [`entities/world/udon/vm-and-assembly.md`](../world/udon/vm-and-assembly.md)**。
 
 | Opcode | 值 | 操作数 | 含义 |
 |---|---|---|---|
@@ -261,12 +261,12 @@ a = b + c;        ≈ PUSH×2 + EXTERN(+?) + COPY           ≈ ~40 bytes
 
 ## 9. 相关知识
 
-- `memory/api/events-reference.md` — Udon 事件完整参考
-- `memory/rules/udonsharp-language-limits.md` — UdonSharp 语言限制(本 VM 架构的直接结果)
-- `memory/world/udon/vm-and-assembly.md` — **官方 Udon 字节码规范**(Udon Assembly 语法、9 Opcodes 完整说明、Extern 签名格式、Udon Types 命名规则)
-- `memory/api/udon-type-exposure.md` — Udon 类型暴露规则
-- `memory/world/udon/ui-events.md` — UI 事件白名单(EXEC 不经 Udon VM)
-- `memory/world/udon/world-debug-views.md` — Debug 视图(含 Suffering 字段、Net Objects 统计)
+- `entities/api/events-reference.md` — Udon 事件完整参考
+- `concepts/rules/udonsharp-language-limits.md` — UdonSharp 语言限制(本 VM 架构的直接结果)
+- `entities/world/udon/vm-and-assembly.md` — **官方 Udon 字节码规范**(Udon Assembly 语法、9 Opcodes 完整说明、Extern 签名格式、Udon Types 命名规则)
+- `entities/api/udon-type-exposure.md` — Udon 类型暴露规则
+- `entities/world/udon/ui-events.md` — UI 事件白名单(EXEC 不经 Udon VM)
+- `entities/world/udon/world-debug-views.md` — Debug 视图(含 Suffering 字段、Net Objects 统计)
 
 ### 双向对照表(本逆向分析 ↔ 官方字节码规范)
 
@@ -287,13 +287,13 @@ a = b + c;        ≈ PUSH×2 + EXTERN(+?) + COPY           ≈ ~40 bytes
 
 | 主题 | 本地化文档 | VM 架构关联 |
 |---|---|---|
-| Udon 总览 | `memory/world/udon/index.md` | 9 Opcodes 概述、类型命名规则、this 含义 |
-| **事件执行顺序** ⭐ | `memory/world/udon/event-execution-order.md` | `_onEnable → _start` 无间隔,RunEventAdvanced 时序 |
-| Animation Events | `memory/world/udon/animation-events.md` | 12 个 EXTERN 入口(RunProgram/SendCustomEvent/Animator) |
-| Avatar Events | `memory/world/udon/avatar-events.md` | OnAvatarChanged/OnAvatarEyeHeightChanged 时序 |
-| Input Events | `memory/world/udon/input-events.md` | Button/Axis 事件签名,UdonInputEventArgs |
-| External URLs | `memory/world/udon/external-urls.md` | VRCUrl 白名单 + 5s 限流 |
-| Image Loading | `memory/world/udon/image-loading.md` | VRCImageDownloader EXTERN 链 |
-| String Loading | `memory/world/udon/string-loading.md` | VRCStringDownloader EXTERN 链 |
-| AI Navigation | `memory/world/udon/ai-navigation.md` | NavMeshAgent 集成 + Owner 计算 |
-| Debugging Udon | `memory/world/udon/debugging-udon-projects.md` | 错误日志 + Halt 行为 + EXTERN Debug.Log 成本 |
+| Udon 总览 | `entities/world/udon/index.md` | 9 Opcodes 概述、类型命名规则、this 含义 |
+| **事件执行顺序** ⭐ | `entities/world/udon/event-execution-order.md` | `_onEnable → _start` 无间隔,RunEventAdvanced 时序 |
+| Animation Events | `entities/world/udon/animation-events.md` | 12 个 EXTERN 入口(RunProgram/SendCustomEvent/Animator) |
+| Avatar Events | `entities/world/udon/avatar-events.md` | OnAvatarChanged/OnAvatarEyeHeightChanged 时序 |
+| Input Events | `entities/world/udon/input-events.md` | Button/Axis 事件签名,UdonInputEventArgs |
+| External URLs | `entities/world/udon/external-urls.md` | VRCUrl 白名单 + 5s 限流 |
+| Image Loading | `entities/world/udon/image-loading.md` | VRCImageDownloader EXTERN 链 |
+| String Loading | `entities/world/udon/string-loading.md` | VRCStringDownloader EXTERN 链 |
+| AI Navigation | `entities/world/udon/ai-navigation.md` | NavMeshAgent 集成 + Owner 计算 |
+| Debugging Udon | `entities/world/udon/debugging-udon-projects.md` | 错误日志 + Halt 行为 + EXTERN Debug.Log 成本 |

@@ -180,7 +180,7 @@ public override void OnPickupUseUp() {
 ## 限制与扩展点
 
 - **无 Persistence 集成**:绘制结果**不持久化**,重进 World 丢失
-- **性能瓶颈**:极长 Line 的 points 数组可能超出 Manual Sync 单次序列化限制(约 200 字节/serialization for continuous;280,496 字节 for manual,详见 `memory/api/networking.md`)
+- **性能瓶颈**:极长 Line 的 points 数组可能超出 Manual Sync 单次序列化限制(约 200 字节/serialization for continuous;280,496 字节 for manual,详见 `entities/api/networking.md`)
 - **可扩展**:
   - 颜色/粗细变化(添加 synced color/width 变量)
   - 撤销功能(添加栈结构)
@@ -190,7 +190,7 @@ public override void OnPickupUseUp() {
 
 ## 与相关知识库关联
 
-- **Manual Sync 模式**:`memory/api/networking.md`
-- **VRCPickup 行为**:`memory/api/pickups.md`
+- **Manual Sync 模式**:`entities/api/networking.md`
+- **VRCPickup 行为**:`entities/api/pickups.md`
 - **OnDeserialization 数组同步**:[index.md#cubearraysync](index.md)
 - **Continuous Sync 模式**:参考 [index.md#pickupcube](index.md#41-pickupcube) 的 `SyncPickupColor` 模式

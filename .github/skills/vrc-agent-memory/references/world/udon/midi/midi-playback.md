@@ -42,7 +42,7 @@ related:
 - 预录 MIDI 演奏的精确回放
 
 ### 快速开始
-可直接加载 **MidiPlaybackScene 示例** 起步: 详见 [`memory/world/examples/midi-playback.md`](../../examples/midi-playback.md)
+可直接加载 **MidiPlaybackScene 示例** 起步: 详见 [`entities/world/examples/midi-playback.md`](../../examples/midi-playback.md)
 
 ---
 
@@ -168,7 +168,7 @@ public override void MidiNoteOff(int channel, int number, int velocity)
 
 ## 💡 完整 UdonSharp 示例
 
-> **【FACT 验证】** 来自 Example Central 4-Grid LogoButton,完整代码见 [`memory/world/examples/midi-playback.md`](../../examples/midi-playback.md#完整-udonsharp-代码logobuttoncs)
+> **【FACT 验证】** 来自 Example Central 4-Grid LogoButton,完整代码见 [`entities/world/examples/midi-playback.md`](../../examples/midi-playback.md#完整-udonsharp-代码logobuttoncs)
 
 核心逻辑:
 ```csharp
@@ -281,10 +281,10 @@ var child = grids[gridIndex].GetChild(noteNumber % 12);
 |----------|------|------|
 | **MIDI 总览** | [`./index.md`](./index.md) | 3 个事件签名 + 技术参数速查 |
 | **实时 MIDI** | [`./realtime-midi.md`](./realtime-midi.md) | 真实设备输入 |
-| **MIDI Playback 示例** | `memory/world/examples/midi-playback.md` | 4-Grid LogoButton 完整实现 |
-| **Udon 事件完整参考** | `memory/api/events-reference.md` | 事件方法 + 调用约束 |
-| **AudioLink** | `memory/hybrid/audiolink-system.md` | 音频驱动视觉的另一种方式 |
-| **MIDI 节点(图)** | `memory/world/udon/graph/event-nodes.md` | Node Graph 中的 MIDI 事件 |
+| **MIDI Playback 示例** | `entities/world/examples/midi-playback.md` | 4-Grid LogoButton 完整实现 |
+| **Udon 事件完整参考** | `entities/api/events-reference.md` | 事件方法 + 调用约束 |
+| **AudioLink** | `concepts/hybrid/audio-link.md` | 音频驱动视觉的另一种方式 |
+| **MIDI 节点(图)** | `entities/world/udon/graph/event-nodes.md` | Node Graph 中的 MIDI 事件 |
 | **MIDI Standard Files** | https://midi.org/standard-midi-files | SMF 规范 |
 
 ---

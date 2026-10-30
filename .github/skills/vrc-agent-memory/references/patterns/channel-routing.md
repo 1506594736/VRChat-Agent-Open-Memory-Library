@@ -27,7 +27,7 @@ related:
 
 > SDK Version: 3.10.x
 > Last Verified: 2026-06-20
-> Reference: `memory/sources/sardinal.md`
+> Reference: `entities/world/luraswitch2.md`
 > 来源标注: ⭐S (Sardinal 独有模式)
 
 ---
@@ -276,8 +276,8 @@ signal.Publish(enemy);                     // 触发所有
 
 ## 关联文档
 
-- `memory/sources/sardinal.md` — 项目溯源
-- `memory/patterns/inherited-subscriber.md` — 配套基类继承
-- `memory/patterns/hybrid-subscription-modes.md` — 配套双订阅模式
-- `memory/patterns/slot-parameter-passing.md` — 配套参数传递（16 重载）
-- `memory/FACT.md` § Sardinal
+- `entities/world/luraswitch2.md` — 项目溯源
+- `concepts/patterns/inherited-subscriber.md` — 配套基类继承
+- `concepts/patterns/hybrid-subscription-modes.md` — 配套双订阅模式
+- `concepts/patterns/slot-parameter-passing.md` — 配套参数传递（16 重载）
+- `FACT.md` § Sardinal

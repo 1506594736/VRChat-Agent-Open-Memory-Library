@@ -216,9 +216,9 @@ public class LogoButton : UdonSharpBehaviour
 
 ## 与知识库互补
 
-- **Udon 事件完整参考**: `memory/api/events-reference.md`
-- **VRC SDK3 MIDI 命名空间**: `memory/api/vrchat-sdk3.md`(待建)
-- **AudioLink 系统**: `memory/hybrid/audiolink-system.md`(参考音频驱动视觉的另一种方式)
+- **Udon 事件完整参考**: `entities/api/events-reference.md`
+- **VRC SDK3 MIDI 命名空间**: `v5 `entities/api/index.md``(待建)
+- **AudioLink 系统**: `concepts/hybrid/audio-link.md`(参考音频驱动视觉的另一种方式)
 
 ## 相关 Udon 文档链接
 

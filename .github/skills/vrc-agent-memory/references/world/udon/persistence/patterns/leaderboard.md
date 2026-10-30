@@ -452,9 +452,9 @@ Assets/
 
 ## 相关知识库
 
-- `memory/api/persistence.md` - API 速查
-- `memory/world/udon/persistence/player-data.md` - PlayerData 详细 API
-- `memory/world/udon/persistence/limits-and-quirks.md` - 100KB 限制
-- `memory/world/examples/persistence/leaderboard.md` - 官方 Example Central 笔记
-- `memory/patterns/late-joiner-state-restore.md` - Late Joiner 模式
-- `memory/patterns/master-follower-syncer.md` - Master-Follower 同步模式
+- `entities/api/persistence.md` - API 速查
+- `entities/world/udon/persistence/player-data.md` - PlayerData 详细 API
+- `entities/world/udon/persistence/limits-and-quirks.md` - 100KB 限制
+- `entities/world/examples/persistence/leaderboard.md` - 官方 Example Central 笔记
+- `concepts/patterns/late-joiner-state-restore.md` - Late Joiner 模式
+- `concepts/patterns/master-follower-syncer.md` - Master-Follower 同步模式

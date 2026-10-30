@@ -136,5 +136,5 @@ ClientSim 提供多个 Editor Window 辅助调试:
 
 ## 相关引用
 
-- `memory/sources/clientsim.md` - ClientSim **项目仓库**元数据(发展历史、双向同步、贡献流程),与本目录的**用户使用文档**互补
-- `memory/sources/example-central.md` - Example Central 中涉及的 ClientSim 相关引用
+- `entities/world/clientsim/index.md` - ClientSim **项目仓库**元数据(发展历史、双向同步、贡献流程),与本目录的**用户使用文档**互补
+- `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` - Example Central 中涉及的 ClientSim 相关引用

@@ -168,6 +168,6 @@ else
 
 ## 相关文档
 
-- `memory/platform/android-development.md` - Android 开发
-- `memory/platform/cross-platform-content.md` - 跨平台内容
-- `memory/api/ui.md` - UI API 参考
+- `entities/platform/android-development.md` - Android 开发
+- `entities/platform/cross-platform-content.md` - 跨平台内容
+- `entities/api/ui.md` - UI API 参考

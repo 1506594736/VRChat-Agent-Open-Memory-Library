@@ -236,10 +236,10 @@ effective_max = ps_max_particles
 
 ## 10. 相关文档
 
-- `memory/avatar/performance-rank.md` — Performance Rank 标准
-- `memory/avatar/optimization-guide.md` — Particle System 优化
-- `memory/avatar/avatar-dynamic-bone-limits.md` — 用户端 DB Limits(同 config.json)
-- `memory/platform/android-development.md` — Quest 端开发
+- `entities/avatar/performance-rank.md` — Performance Rank 标准
+- `entities/avatar/optimization-guide.md` — Particle System 优化
+- `entities/avatar/avatar-dynamic-bone-limits.md` — 用户端 DB Limits(同 config.json)
+- `entities/platform/android-development.md` — Quest 端开发
 
 ---
 

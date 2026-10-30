@@ -106,7 +106,7 @@ confidence: High
 - **VPM 依赖**: `nadena.dev.ndmf >=1.8.0 <2.0.0`, `com.vrchat.avatars >=3.7.0 <3.11.0`
 - **应用场景**: Quest Avatar 性能优化的**最强工具** (官方工具链之外)
 - **关键指标**: 可降低 30-60% Avatar Polycount, 50%+ Bonecount
-- **知识库参考**: `memory/avatar/optimization-guide.md`
+- **知识库参考**: `entities/avatar/optimization-guide.md`
 - **GitHub**: <https://github.com/anatawa12/AvatarOptimizer>
 
 ### anatawa12's gists pack (v0.25.2)

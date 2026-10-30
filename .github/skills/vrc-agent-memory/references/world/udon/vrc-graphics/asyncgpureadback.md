@@ -27,7 +27,7 @@ related:
 
 > 来源: VRChat 官方文档 — https://creators.vrchat.com/worlds/udon/vrc-graphics/asyncgpureadback/
 > SDK: 3.5.0+
-> 父文档: `memory/world/udon/vrc-graphics/index.md` (本文件即父文档内 VRC Graphics 体系一部分,原 `memory/world/vrc-graphics.md` 占位页已删除)
+> 父文档: `entities/world/udon/vrc-graphics/index.md` (本文件即父文档内 VRC Graphics 体系一部分,原 `entities/world/udon/vrc-graphics/index.md` 占位页已删除)
 
 ---
 
@@ -267,7 +267,7 @@ public void ProcessDataOnMainThread()
 **关键优势**:
 - 音频驱动 Shader → **零网络同步开销**
 - GPU 端直接计算 → CPU 端几乎无开销
-- 完整参考实现见 `memory/world/audiolink-architecture.md`
+- 完整参考实现见 `concepts/hybrid/audio-link.md`
 
 ---
 
@@ -288,7 +288,7 @@ public void ProcessDataOnMainThread()
 
 ## 相关知识
 
-- `memory/world/udon/vrc-graphics/index.md` — VRC Graphics 总览
-- `memory/hybrid/audio-link.md` — 音频同步系统 API 完整架构(深度使用 readback)
-- `memory/api/udon-type-exposure.md` — `Rendering` 命名空间 7 个类型(VRCAsyncGPUReadback 等)
+- `entities/world/udon/vrc-graphics/index.md` — VRC Graphics 总览
+- `concepts/hybrid/audio-link.md` — 音频同步系统 API 完整架构(深度使用 readback)
+- `entities/api/udon-type-exposure.md` — `Rendering` 命名空间 7 个类型(VRCAsyncGPUReadback 等)
 - Unity 官方文档: [AsyncGPUReadback](https://docs.unity3d.com/ScriptReference/Rendering.AsyncGPUReadback.html)

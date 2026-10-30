@@ -639,11 +639,11 @@ AtlasTexture GameObject:
 
 ### 内部知识库
 
-- `memory/avatar/ndmf-tools.md` — NDMF 生态与 TexTransTool 简介
-- `memory/avatar/optimization-guide.md` — 完整 Avatar 优化实操（AtlasTexture 章节）
-- `memory/avatar/performance-rank.md` — Performance Rank 标准
-- `memory/avatar/modular-avatar.md` — Modular Avatar（与 TTT 互补）
-- `memory/avatar/avatar-modding-guide.md` — Avatar 改模通用指南
+- `entities/avatar/ndmf-tools.md` — NDMF 生态与 TexTransTool 简介
+- `entities/avatar/optimization-guide.md` — 完整 Avatar 优化实操（AtlasTexture 章节）
+- `entities/avatar/performance-rank.md` — Performance Rank 标准
+- `entities/avatar/modular-avatar.md` — Modular Avatar（与 TTT 互补）
+- `entities/avatar/avatar-modding-guide.md` — Avatar 改模通用指南
 
 ### 官方资源
 

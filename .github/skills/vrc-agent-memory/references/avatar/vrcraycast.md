@@ -170,9 +170,9 @@ confidence: High
 - **VRChat 2026.2.1 Release Notes**(Build 1835)
 - **VRChat 2026.2.1 Open Beta Notes**(Build 1833)
 - **SDK 3.10.3 Changelog** - 引入 VRCRaycast
-- 相关:`memory/api/dynamics.md` (SDK 时间线)
-- 相关:`memory/avatar/accessories.md` (与 Accessories 协同)
-- 相关:`memory/avatar/performance-rank.md` (性能等级与剥离阈值)
+- 相关:`entities/api/dynamics.md` (SDK 时间线)
+- 相关:`entities/avatar/accessories.md` (与 Accessories 协同)
+- 相关:`entities/avatar/performance-rank.md` (性能等级与剥离阈值)
 
 ---
 

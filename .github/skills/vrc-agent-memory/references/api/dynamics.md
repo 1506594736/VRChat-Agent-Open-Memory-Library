@@ -108,7 +108,7 @@ World-side constraints 类似 Unity Joint 系统，但在 VRChat 的约束框架
 
 > **🔴 注意**:VRCRaycast 是 **Avatar 组件**,**不属于 World Dynamics**。但因同属 SDK 3.10.3 引入,在此处简要说明。
 >
-> **完整文档**:`memory/avatar/vrcraycast.md`
+> **完整文档**:`entities/avatar/vrcraycast.md`
 
 ### 速查
 
@@ -124,4 +124,4 @@ World-side constraints 类似 Unity Joint 系统，但在 VRChat 的约束框架
 | **无实时光照修复** | Animator 移动 raycast 时参数正确返回 |
 | **第一人称对称** | 头部 raycast 在头部隐藏**之前**应用 |
 
-详见 `memory/avatar/vrcraycast.md` 完整文档。
+详见 `entities/avatar/vrcraycast.md` 完整文档。

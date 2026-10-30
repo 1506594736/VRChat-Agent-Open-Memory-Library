@@ -139,10 +139,10 @@ confidence: High
 
 | 系统 | 范围 | 文档 |
 |------|------|------|
-| **Interaction Permissions(本文档)** | 控制 Avatar 交互(手柄互动,Who can interact) | `memory/avatar/avatar-interaction-permissions.md` |
-| **Safety System** | 控制看到其他玩家 Avatar 的特性(What you see) | `memory/avatar/safety-system.md` |
-| **Trust Rank** | 决定用户上传/可见性 | `memory/avatar/trust-rank.md` |
-| **Safe Mode** | 紧急屏蔽**所有**用户所有特性(Shift+Esc) | `memory/avatar/safety-system.md` §5 |
+| **Interaction Permissions(本文档)** | 控制 Avatar 交互(手柄互动,Who can interact) | `entities/avatar/avatar-interaction-permissions.md` |
+| **Safety System** | 控制看到其他玩家 Avatar 的特性(What you see) | `entities/avatar/safety-system.md` |
+| **Trust Rank** | 决定用户上传/可见性 | `entities/avatar/trust-rank.md` |
+| **Safe Mode** | 紧急屏蔽**所有**用户所有特性(Shift+Esc) | `entities/avatar/safety-system.md` §5 |
 | **PANIC 按钮(本文档)** | 紧急停止交互 + Safety Shield → Maximum | (Quick Menu 中) |
 
 ### 关键区别

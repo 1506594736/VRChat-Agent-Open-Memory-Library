@@ -26,7 +26,7 @@ related:
 # Simple RPG(简单 RPG)
 
 > SDK Version: 3.4.x+
-> 关联底层: `memory/api/persistence.md`
+> 关联底层: `entities/api/persistence.md`
 
 ## 数据层选择
 

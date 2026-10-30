@@ -659,7 +659,7 @@ if (VRCJson.TrySerializeToJson(big, JsonExportType.Minify, out DataToken result)
 - **DataDictionary**: [`./data-dictionaries.md`](./data-dictionaries.md) — 键值对容器
 - **VRCJSON**: [`./vrcjson.md`](./vrcjson.md) — 序列化/反序列化
 - **位/字节操作**: [`./byte-and-bit-operations.md`](./byte-and-bit-operations.md) — ToArray 底层
-- **网络同步**: `memory/api/networking.md` — JSON 同步模式
+- **网络同步**: `entities/api/networking.md` — JSON 同步模式
 - **网络子目录**: `memory/world/udon/networking/` — 完整网络文档
-- **Udon 限制**: `memory/rules/udonsharp-language-limits.md` — C# List 在 Udon 不可用
+- **Udon 限制**: `concepts/rules/udonsharp-language-limits.md` — C# List 在 Udon 不可用
 - **官方源**: https://creators.vrchat.com/worlds/udon/data-containers/data-lists/

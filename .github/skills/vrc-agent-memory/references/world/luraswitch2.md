@@ -79,7 +79,7 @@ confidence: High
 - **现代化设计**:2D/3D 双形态,带 Emission 反馈和哈普提克斯
 - **完整 Editor 体验**:`[ExecuteAlways]` 预览 + HelpBox + Custom Inspector
 
-> **对 Agent 的意义**:该 Prefab 集已沉淀出 6 个**通用 Udon 模式**(参见 `memory/sources/quickbrown-luraswitch2.md`),
+> **对 Agent 的意义**:该 Prefab 集已沉淀出 6 个**通用 Udon 模式**(参见 `entities/world/luraswitch2.md`),
 > 同时也是**工具使用指南型参考工程**(C15)。两层身份互补:模式层给创作者"理解原理",工具层给创作者"直接用"。
 > 注意:这 6 个 Pattern 提炼自旧 v3.00,LuraSwitch2 v1.06 内部 API 已完全重写,二开参考时请以新源码为准。
 
@@ -328,7 +328,7 @@ v1.05 强化了**所有操作反馈**:
 > ⚠️ **历史说明**:这 6 个 Pattern 提炼自 v3.00 (Persistence)。LuraSwitch2 v1.06 内部 API 已完全重写,
 > 模式**思想仍然适用**,但直接拷贝 v3.00 代码到 v1.06 项目会失败。二开时请以 v1.06 源码为准。
 
-### 失败案例(4 个)→ `memory/reviews/common-failures.md`
+### 失败案例(4 个)→ `concepts/patterns/index.md`
 
 | ID | 标题 | 来源 | v1.06 状态 |
 |----|------|------|-----------|
@@ -337,7 +337,7 @@ v1.05 强化了**所有操作反馈**:
 | FAIL-31 | Editor 反射访问私有字段导致重命名后静默崩 | `MirrorControllerEditor.cs` | v1.06 已重构 |
 | FAIL-32 | `SendCustomEventDelayedFrames(1)` 在低帧率设备不可靠 | 全局 | v1.06 SavePoint 改用延迟初始化 |
 
-### 溯源 → `memory/sources/quickbrown-luraswitch2.md`
+### 溯源 → `entities/world/luraswitch2.md`
 
 包含完整项目档案(基于 v3.00 案例研究,作为历史参考)
 
@@ -370,8 +370,8 @@ v1.05 强化了**所有操作反馈**:
 > BOOTH:https://lura.booth.pm/items/1969082
 
 **作为知识来源时**:
-> 来源:`memory/sources/quickbrown-luraswitch2.md`(基于 v3.00 案例研究 + 6 个 Pattern 来源)
-> 工具使用:`memory/world/luraswitch2.md`(本文档,基于 v1.06 重写)
+> 来源:`entities/world/luraswitch2.md`(基于 v3.00 案例研究 + 6 个 Pattern 来源)
+> 工具使用:`entities/world/luraswitch2.md`(本文档,基于 v1.06 重写)
 
 ---
 
@@ -379,17 +379,17 @@ v1.05 强化了**所有操作反馈**:
 
 | 文档 | 关系 |
 |------|------|
-| `memory/sources/quickbrown-luraswitch2.md` | **本项目的案例研究型源文档**(基于 v3.00,作为历史参考) |
-| `memory/sources/udon-world-plugins.md` | Udon World 插件索引 |
-| `memory/world/vvmw.md` | VVMW 视频管理(可与 Slider_Video 配合) |
-| `memory/patterns/master-follower-syncer.md` | Syncer 模式(来自本项目) |
-| `memory/patterns/exclusive-control-selector.md` | 互斥控制(来自本项目) |
-| `memory/patterns/soft-detent-interpolation.md` | 软吸附(来自本项目) |
-| `memory/patterns/fade-then-snap.md` | 淡入淡出(来自本项目) |
-| `memory/patterns/editor-preview-component.md` | Editor 预览(来自本项目) |
-| `memory/patterns/material-propertyblock-safe-update.md` | MPB 共享材质(来自本项目) |
-| `memory/reviews/common-failures.md` | FAIL-29 ~ FAIL-32 |
-| `memory/world/performance-guide.md` | World 性能优化(背景知识) |
-| `memory/rules/networking-rules.md` | 网络同步规则 |
-| `memory/api/persistence.md` | PlayerData API(LocalSave 用) |
-| `memory/platform/cross-platform-content.md` | PC/Quest 平台适配 |
+| `entities/world/luraswitch2.md` | **本项目的案例研究型源文档**(基于 v3.00,作为历史参考) |
+| `concepts/hybrid/udon-world-plugins.md` | Udon World 插件索引 |
+| `entities/world/vvmw.md` | VVMW 视频管理(可与 Slider_Video 配合) |
+| `concepts/patterns/master-follower-syncer.md` | Syncer 模式(来自本项目) |
+| `concepts/patterns/exclusive-control-selector.md` | 互斥控制(来自本项目) |
+| `concepts/patterns/soft-detent-interpolation.md` | 软吸附(来自本项目) |
+| `concepts/patterns/fade-then-snap.md` | 淡入淡出(来自本项目) |
+| `concepts/patterns/editor-preview-component.md` | Editor 预览(来自本项目) |
+| `concepts/patterns/material-propertyblock-safe-update.md` | MPB 共享材质(来自本项目) |
+| `concepts/patterns/index.md` | FAIL-29 ~ FAIL-32 |
+| `entities/world/performance-guide.md` | World 性能优化(背景知识) |
+| `concepts/rules/networking-rules.md` | 网络同步规则 |
+| `entities/api/persistence.md` | PlayerData API(LocalSave 用) |
+| `entities/platform/cross-platform-content.md` | PC/Quest 平台适配 |

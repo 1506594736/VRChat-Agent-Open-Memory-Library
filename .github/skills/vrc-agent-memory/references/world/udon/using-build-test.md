@@ -29,7 +29,7 @@ related:
 > 来源:https://creators.vrchat.com/worlds/udon/using-build-test/
 > 本地化日期:2026-06-15
 > 状态:FACT(VRChat 官方测试流程)
-> 关联:`memory/sources/clientsim.md` - 替代的编辑器内模拟方案
+> 关联:`entities/world/clientsim/index.md` - 替代的编辑器内模拟方案
 
 ---
 
@@ -54,7 +54,7 @@ related:
 
 > **FACT**:在 Edit 模式直接运行 VRChat 客户端的开销较大,**ClientSim** 提供轻量级模拟。
 
-参考 `memory/sources/clientsim.md` 获取详细信息。
+参考 `entities/world/clientsim/index.md` 获取详细信息。
 
 ---
 
@@ -395,11 +395,11 @@ public void ClearTestData()
 
 | 相关文档 | 用途 |
 |----------|------|
-| `memory/sources/clientsim.md` | Edit 模式内模拟(轻量替代) |
-| `memory/world/udon/ui-events.md` | UI 事件测试 |
-| `memory/world/udon/world-debug-views.md` | Debug 视图 |
-| `memory/api/persistence.md` | PlayerData 完整 API |
-| `memory/api/networking.md` | 网络同步测试 |
+| `entities/world/clientsim/index.md` | Edit 模式内模拟(轻量替代) |
+| `entities/world/udon/ui-events.md` | UI 事件测试 |
+| `entities/world/udon/world-debug-views.md` | Debug 视图 |
+| `entities/api/persistence.md` | PlayerData 完整 API |
+| `entities/api/networking.md` | 网络同步测试 |
 
 ---
 

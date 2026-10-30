@@ -231,7 +231,7 @@ Data Containers 还支持底层二进制操作，用于高级用例（如位域�
 
 ### 位域压缩 (Bitset)
 
-8 个独立 `[UdonSynced] bool` → 1 个 `[UdonSynced] byte`,**节省 87.5% 序列化空间**。详见 `memory/patterns/bit-packed-flags.md`。
+8 个独立 `[UdonSynced] bool` → 1 个 `[UdonSynced] byte`,**节省 87.5% 序列化空间**。详见 `concepts/patterns/bit-packed-flags.md`。
 
 ### 快速跳转
 
@@ -243,10 +243,10 @@ Data Containers 还支持底层二进制操作，用于高级用例（如位域�
 
 ## 相关文档
 
-- `memory/world/udon/data-containers/byte-and-bit-operations.md` — **位/字节操作**
-- `memory/api/networking.md` — 网络同步模式
-- `memory/patterns/bit-packed-flags.md` — 位域压缩模式
-- `memory/rules/udonsharp-language-limits.md` — 集合类型限制（List/Dictionary 禁用）
+- `entities/world/udon/data-containers/byte-and-bit-operations.md` — **位/字节操作**
+- `entities/api/networking.md` — 网络同步模式
+- `concepts/patterns/bit-packed-flags.md` — 位域压缩模式
+- `concepts/rules/udonsharp-language-limits.md` — 集合类型限制（List/Dictionary 禁用）
 
 ---
 

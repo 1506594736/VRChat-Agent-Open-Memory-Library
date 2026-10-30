@@ -105,6 +105,6 @@ public class GameState : UdonSharpBehaviour {
 
 ## 相关 Scene Components
 
-- `memory/world/scene-components/vrc-objectsync.md` - **物理对象 Late Joiner**:`VRCObjectSync` 内置 late joiner 同步(Transform 自动同步),新加入玩家看到一致物理位置
-- `memory/world/scene-components/vrc-enablepersistence.md` - **跨实例 Late Joiner**:`VRCEnablePersistence` 实现**跨实例**数据恢复(下次进入 World),与本模式"同实例内"late joiner 互补
-- `memory/world/scene-components/vrc-scenedescriptor.md` - **Spawn Point Late Joiner**:`VRCSceneDescriptor` 的 Spawn Order 决定新玩家出生位置,本质是另一类 late joiner 处理
+- `entities/world/scene-components/vrc-objectsync.md` - **物理对象 Late Joiner**:`VRCObjectSync` 内置 late joiner 同步(Transform 自动同步),新加入玩家看到一致物理位置
+- `entities/world/scene-components/vrc-enablepersistence.md` - **跨实例 Late Joiner**:`VRCEnablePersistence` 实现**跨实例**数据恢复(下次进入 World),与本模式"同实例内"late joiner 互补
+- `entities/world/scene-components/vrc-scenedescriptor.md` - **Spawn Point Late Joiner**:`VRCSceneDescriptor` 的 Spawn Order 决定新玩家出生位置,本质是另一类 late joiner 处理

@@ -505,9 +505,9 @@ public class HitDetector : UdonSharpBehaviour {
 
 | 文档 | 关系 |
 |------|------|
-| `memory/world/udon/networking/index.md` | Networking 概述 |
-| `memory/world/udon/networking/late-joiners.md` | Late Joiner 与 Event 关系 |
-| `memory/world/udon/networking/variables.md` | 变量同步(状态持久化) |
-| `memory/world/udon/networking/ownership.md` | Owner 模式 + 事件 |
-| `memory/api/networking.md` | API 速查 |
-| `memory/api/udon-type-exposure.md` | Udon Type Exposure |
+| `entities/world/udon/networking/index.md` | Networking 概述 |
+| `entities/world/udon/networking/late-joiners.md` | Late Joiner 与 Event 关系 |
+| `entities/world/udon/networking/variables.md` | 变量同步(状态持久化) |
+| `entities/world/udon/networking/ownership.md` | Owner 模式 + 事件 |
+| `entities/api/networking.md` | API 速查 |
+| `entities/api/udon-type-exposure.md` | Udon Type Exposure |

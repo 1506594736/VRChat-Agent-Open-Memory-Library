@@ -140,7 +140,7 @@ if (player.isLocal) continue;  // 关键: 自己的语音不受影响
 - 根据距离、阵营、Tag 过滤
 - 维护一个"被静音玩家 ID 列表"代替全局开关
 
-**互补示例**: `memory/world/examples/player-join-zones.md`
+**互补示例**: `entities/world/examples/player-join-zones.md`
 
 ---
 
@@ -161,10 +161,10 @@ if (player.isLocal) continue;  // 关键: 自己的语音不受影响
 
 ## 与知识库互补
 
-- **VRCPlayerApi 完整 API**: `memory/api/player-api.md`(待建)
-- **Player Audio API**: `memory/world/players/player-audio.md`(待建)
-- **PlayerJoinZones(区域选择)**: `memory/world/examples/player-join-zones.md` ⭐ 直接互补
-- **VRCPlayerApi.SetVoiceGain vs SetVoiceDistanceFar**: 互链 `memory/api/player-api.md`
+- **VRCPlayerApi 完整 API**: `entities/api/player-api.md`(待建)
+- **Player Audio API**: `entities/world/udon/players/player-audio.md`(待建)
+- **PlayerJoinZones(区域选择)**: `entities/world/examples/player-join-zones.md` ⭐ 直接互补
+- **VRCPlayerApi.SetVoiceGain vs SetVoiceDistanceFar**: 互链 `entities/api/player-api.md`
 
 ## ⭐ 工业级升级方案: TLP UdonVoiceUtils
 
@@ -187,8 +187,8 @@ if (player.isLocal) continue;  // 关键: 自己的语音不受影响
 | 调试 | 无 | ✅ Gizmos + Custom Editor |
 
 **完整资源**:
-- **推荐插件索引**: `memory/hybrid/udon-world-plugins.md` ⭐NEW 2026-06-20
-- **深度案例研究**: `memory/sources/udonvoiceutils.md` (35 个 .cs + 10 大难题 + 10 个设计模式)
+- **推荐插件索引**: `concepts/hybrid/udon-world-plugins.md` ⭐NEW 2026-06-20
+- **深度案例研究**: `本 skill 的 `sources/udonvoiceutils.md`（v3 附录页，v5 未收录）` (35 个 .cs + 10 大难题 + 10 个设计模式)
 - **VPM 仓库**: `https://raw.githubusercontent.com/Guribo/UdonVoiceUtils/main/package.json`
 
 ## 相关 Udon 文档链接

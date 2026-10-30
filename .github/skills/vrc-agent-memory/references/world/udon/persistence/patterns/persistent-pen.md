@@ -609,10 +609,10 @@ Assets/
 
 ## 相关知识库
 
-- `memory/api/persistence.md` - API 速查
-- `memory/world/udon/persistence/player-object.md` - PlayerObject 详细 API
-- `memory/world/udon/persistence/limits-and-quirks.md` - 100KB 限制
-- `memory/world/examples/persistence/persistent-pen.md` - 官方 Example Central 笔记
-- `memory/world/udon/networking/ownership.md` - 所有权机制
-- `memory/world/udon/networking/variables.md` - UdonSynced 字段类型
-- `memory/patterns/manual-sync-state.md` - Manual Sync 模式
+- `entities/api/persistence.md` - API 速查
+- `entities/world/udon/persistence/player-object.md` - PlayerObject 详细 API
+- `entities/world/udon/persistence/limits-and-quirks.md` - 100KB 限制
+- `entities/world/examples/persistence/persistent-pen.md` - 官方 Example Central 笔记
+- `entities/world/udon/networking/ownership.md` - 所有权机制
+- `entities/world/udon/networking/variables.md` - UdonSynced 字段类型
+- `concepts/patterns/manual-sync-state.md` - Manual Sync 模式

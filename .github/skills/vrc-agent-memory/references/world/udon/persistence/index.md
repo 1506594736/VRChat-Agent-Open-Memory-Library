@@ -36,7 +36,7 @@ confidence: High
 
 > SDK Version: 3.10+(Storage Information API) / 3.7+(核心 PlayerData/PlayerObject)
 > 官方文档:https://creators.vrchat.com/worlds/udon/persistence/
-> 定位:**实战教程**(非 API 参考,API 速查见 `memory/api/persistence.md`)
+> 定位:**实战教程**(非 API 参考,API 速查见 `entities/api/persistence.md`)
 
 ---
 
@@ -230,14 +230,14 @@ public override void OnPersistenceUsageUpdated(VRCPlayerApi player) {
 
 | 知识库文件 | 关系 |
 |-----------|------|
-| `memory/api/persistence.md` | **API 速查表**(本文是实战教程) |
+| `entities/api/persistence.md` | **API 速查表**(本文是实战教程) |
 | `memory/world/examples/persistence/` | 9 个 Example Central 官方示例笔记 |
-| `memory/world/udon/index.md` | Udon 总览(VM 关系 + 3 种创建方式) |
+| `entities/world/udon/index.md` | Udon 总览(VM 关系 + 3 种创建方式) |
 | `memory/world/udon/networking/` | 网络同步(与 PlayerObject 强相关) |
-| `memory/rules/networking-rules.md` | 网络同步规则 |
-| `memory/patterns/manual-sync-state.md` | Manual Sync 模式 |
-| `memory/patterns/late-joiner-state-restore.md` | Late Joiner 状态恢复 |
-| `memory/sources/clientsim.md` | ClientSim 编辑器模拟(含 PlayerData 调试窗口) |
+| `concepts/rules/networking-rules.md` | 网络同步规则 |
+| `concepts/patterns/manual-sync-state.md` | Manual Sync 模式 |
+| `concepts/patterns/late-joiner-state-restore.md` | Late Joiner 状态恢复 |
+| `entities/world/clientsim/index.md` | ClientSim 编辑器模拟(含 PlayerData 调试窗口) |
 
 ---
 

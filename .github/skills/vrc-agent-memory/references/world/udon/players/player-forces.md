@@ -26,7 +26,7 @@ related:
 # Player Forces — 玩家移动力 / 速度 / 重力
 
 > Subtype: API 详解
-> 底层引用: `memory/api/player-api.md`
+> 底层引用: `entities/api/player-api.md`
 > 抓取日期: 2026-06-15
 
 ---
@@ -240,7 +240,7 @@ public void StartShopDialog(VRCPlayerApi player)
 
 | 知识库 | 关系 |
 |---|---|
-| `memory/api/player-api.md` | 底层 API 简略版 |
-| `memory/world/udon/players/player-positions.md` | 位置、速度、传送 API |
-| `memory/world/udon/players/index.md` | `UseAttachedStation` |
+| `entities/api/player-api.md` | 底层 API 简略版 |
+| `entities/world/udon/players/player-positions.md` | 位置、速度、传送 API |
+| `entities/world/udon/players/index.md` | `UseAttachedStation` |
 | `memory/world/udon/networking/` | 移动参数变化是否需要同步 |

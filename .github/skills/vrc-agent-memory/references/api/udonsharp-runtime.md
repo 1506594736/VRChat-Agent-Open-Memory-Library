@@ -31,7 +31,7 @@ confidence: High
 ---
 # UdonSharpBehaviour Runtime System
 
-> **关联参考**:`memory/world/udon/vm-and-assembly.md` - EXTERN 签名规则、Udon Types 命名、9 Opcodes 详解
+> **关联参考**:`entities/world/udon/vm-and-assembly.md` - EXTERN 签名规则、Udon Types 命名、9 Opcodes 详解
 
 ---
 
@@ -139,7 +139,7 @@ UdonSharp 使用 **Odin Serializer** 处理 Unity 标准序列化不支持的复
 - Nested collections（嵌套集合）
 - 复杂数据结构
 
-**知识库关联**：`memory/rules/udonsharp-language-limits.md` 禁止使用 `List<T>` 等集合类，但支持通过 Odin Serializer 实现复杂数据序列化。
+**知识库关联**：`concepts/rules/udonsharp-language-limits.md` 禁止使用 `List<T>` 等集合类，但支持通过 Odin Serializer 实现复杂数据序列化。
 
 ---
 
@@ -187,11 +187,11 @@ UdonSharp 在构建过程中自动处理组件转换：
 
 ## 相关知识
 
-- `memory/api/events-reference.md` — Udon 事件完整参考
-- `memory/rules/udonsharp-language-limits.md` — UdonSharp 语言限制
-- `memory/rules/udon-vm-architecture.md` — Udon VM 架构
-- `memory/world/udon/vm-and-assembly.md` — **官方 Udon 字节码规范**(EXTERN 签名格式、Udon Types 命名规则、9 Opcodes 详解)
-- `memory/world/udon/ui-events.md` — Unity UI 事件白名单(直接调用组件方法)
+- `entities/api/events-reference.md` — Udon 事件完整参考
+- `concepts/rules/udonsharp-language-limits.md` — UdonSharp 语言限制
+- `concepts/rules/udon-vm-architecture.md` — Udon VM 架构
+- `entities/world/udon/vm-and-assembly.md` — **官方 Udon 字节码规范**(EXTERN 签名格式、Udon Types 命名规则、9 Opcodes 详解)
+- `entities/world/udon/ui-events.md` — Unity UI 事件白名单(直接调用组件方法)
 
 ---
 
@@ -201,20 +201,20 @@ UdonSharp 在构建过程中自动处理组件转换：
 
 | 主题 | 本地化文档 |
 |---|---|
-| Udon 总览 | `memory/world/udon/index.md` |
-| 事件执行顺序 | `memory/world/udon/event-execution-order.md` |
-| Animation Events | `memory/world/udon/animation-events.md` |
-| Avatar Events | `memory/world/udon/avatar-events.md` |
-| Input Events | `memory/world/udon/input-events.md` |
-| External URLs | `memory/world/udon/external-urls.md` |
-| Image Loading | `memory/world/udon/image-loading.md` |
-| String Loading | `memory/world/udon/string-loading.md` |
-| AI Navigation | `memory/world/udon/ai-navigation.md` |
-| Debugging Udon | `memory/world/udon/debugging-udon-projects.md` |
+| Udon 总览 | `entities/world/udon/index.md` |
+| 事件执行顺序 | `entities/world/udon/event-execution-order.md` |
+| Animation Events | `entities/world/udon/animation-events.md` |
+| Avatar Events | `entities/world/udon/avatar-events.md` |
+| Input Events | `entities/world/udon/input-events.md` |
+| External URLs | `entities/world/udon/external-urls.md` |
+| Image Loading | `entities/world/udon/image-loading.md` |
+| String Loading | `entities/world/udon/string-loading.md` |
+| AI Navigation | `entities/world/udon/ai-navigation.md` |
+| Debugging Udon | `entities/world/udon/debugging-udon-projects.md` |
 
 ### 跨引用要点
 
-- **`SetProgramVariable` 在 Input Events 上下文中**: `memory/world/udon/input-events.md` 中跨脚本通信模式
-- **`SetProgramVariable` 在 String Loading 上下文中**: `memory/world/udon/string-loading.md` 中配置注入模式
-- **`GetProgramVariable` 在 UI Events 上下文**: `memory/world/udon/ui-events.md` 中 UI 触发器模式
-- **`FieldChangeCallback` 时序**: `memory/world/udon/event-execution-order.md` 中同步变量触发时序
+- **`SetProgramVariable` 在 Input Events 上下文中**: `entities/world/udon/input-events.md` 中跨脚本通信模式
+- **`SetProgramVariable` 在 String Loading 上下文中**: `entities/world/udon/string-loading.md` 中配置注入模式
+- **`GetProgramVariable` 在 UI Events 上下文**: `entities/world/udon/ui-events.md` 中 UI 触发器模式
+- **`FieldChangeCallback` 时序**: `entities/world/udon/event-execution-order.md` 中同步变量触发时序

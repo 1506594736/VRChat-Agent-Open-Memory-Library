@@ -89,7 +89,7 @@ confidence: High
 
 ## 主要功能详细说明
 
-> 来源: 知识库 `memory/avatar/vrcfury-reference.md` (基于 2026-06-17 深度更新)
+> 来源: 知识库 `entities/avatar/vrcfury-reference.md` (基于 2026-06-17 深度更新)
 
 ### 核心架构
 - **Prefab Blueprint 系统**: 复制一个 GameObject 作为模板, 自动应用到所有引用者
@@ -128,7 +128,7 @@ confidence: High
 - **不冲突**, 但**有功能重叠** (Avatar 装配/组件化)
 - **简单 Avatar**: MA 够用
 - **复杂 Avatar (大量 Toggle, 复杂约束)**: VRCFury 优势更大
-- **决策树**: 见 `memory/avatar/vrcfury-reference.md` §3
+- **决策树**: 见 `entities/avatar/vrcfury-reference.md` §3
 
 ---
 
@@ -149,7 +149,7 @@ confidence: High
 
 VRCFury 是少数**完全不写 description 的社区包**, 这导致:
 - 知识库无法从 VPM 提取功能描述
-- 必须依赖**知识库 `memory/avatar/vrcfury-reference.md`** 或**官方文档** 了解功能
+- 必须依赖**知识库 `entities/avatar/vrcfury-reference.md`** 或**官方文档** 了解功能
 - 对自动化工具有挑战 (e.g. AI Agent 无法从 VPM index 推断 VRCFury 能做什么)
 
 **建议**: 给 VRCFury 写补丁, 在 `packages.{id}.versions.{ver}.description` 填入官方文档摘要

@@ -111,6 +111,6 @@ related:
 
 ## 相关知识库
 
-- `memory/avatar/shader/index.md` — Shader 知识库索引
-- `memory/avatar/optimization-guide.md` — Avatar 优化
-- `memory/avatar/ndmf-tools.md` — NDMF 工具链
+- `entities/avatar/shader/index.md` — Shader 知识库索引
+- `entities/avatar/optimization-guide.md` — Avatar 优化
+- `entities/avatar/ndmf-tools.md` — NDMF 工具链

@@ -30,7 +30,7 @@ related:
 > 来源: https://creators.vrchat.com/worlds/udon/avatar-events/
 > 抓取日期: 2026-06-15
 > 状态: ✅ FACT (官方文档)
-> 关联: `memory/api/events-reference.md`
+> 关联: `entities/api/events-reference.md`
 
 ---
 
@@ -190,7 +190,7 @@ public override void OnAvatarEyeHeightChanged(VRCPlayerApi player, float previou
 | `OnAvatarEyeHeightChanged` | Eye Height 变化 | 顺序**不固定**于 OnAvatarChanged |
 | `OnPlayerLeft` | 玩家离开 | **不影响** Avatar 事件 |
 
-> 详细事件执行顺序: `memory/world/udon/event-execution-order.md` ⭐ **关键文档**
+> 详细事件执行顺序: `entities/world/udon/event-execution-order.md` ⭐ **关键文档**
 
 ---
 
@@ -205,7 +205,7 @@ Avatar Prefab Height = 1.5m
   → 其他客户端 OnAvatarEyeHeightChanged 收到 +0.2m
 ```
 
-> 详细 Avatar Scaling 系统: `memory/world/udon/players/player-avatar-scaling.md`
+> 详细 Avatar Scaling 系统: `entities/world/udon/players/player-avatar-scaling.md`
 
 ---
 
@@ -266,10 +266,10 @@ public override void OnAvatarEyeHeightChanged(VRCPlayerApi player, float previou
 
 ## 与知识库互补
 
-- **Udon 事件完整参考**: `memory/api/events-reference.md` ⭐
-- **事件执行顺序**: `memory/world/udon/event-execution-order.md` ⭐ 关键时序
-- **Player API**: `memory/api/player-api.md` ⭐
-- **Player Avatar Scaling**: `memory/world/udon/players/player-avatar-scaling.md` ⭐
+- **Udon 事件完整参考**: `entities/api/events-reference.md` ⭐
+- **事件执行顺序**: `entities/world/udon/event-execution-order.md` ⭐ 关键时序
+- **Player API**: `entities/api/player-api.md` ⭐
+- **Player Avatar Scaling**: `entities/world/udon/players/player-avatar-scaling.md` ⭐
 
 ---
 

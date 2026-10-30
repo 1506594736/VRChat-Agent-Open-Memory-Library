@@ -78,7 +78,7 @@ related:
 | 想让某个菜单只在 VRChat 出现？ | Platform Filter 加 Include VRChat | [§7.12](#712-platform-filter-) |
 
 > **配套详细教程**（每个教程的"官方原文 + 玩家视角操作 + 验证 + 易错点"）：
-> [`memory/avatar/modular-avatar-tutorials-detailed.md`](./modular-avatar-tutorials-detailed.md)
+> [`entities/avatar/modular-avatar-tutorials-detailed.md`](./modular-avatar-tutorials-detailed.md)
 
 ---
 
@@ -657,7 +657,7 @@ OutfitName (GameObject) ← MA 加了 Merge Armature
 > **教学要点**：**90% 玩家永远不应该学这个教程**。但创作者必须理解，因为某些复杂场景（复杂多状态机、多参数联动）必须用 Animator。
 
 > **配套详细教程**（包含完整玩家操作分解、验证步骤、易错点）：
-> [`memory/avatar/modular-avatar-tutorials-detailed.md` 教程 6](./modular-avatar-tutorials-detailed.md#六教程-6-手动构建动画器为什么用)
+> [`entities/avatar/modular-avatar-tutorials-detailed.md` 教程 6](./modular-avatar-tutorials-detailed.md#六教程-6-手动构建动画器为什么用)
 
 ---
 
@@ -2604,14 +2604,14 @@ Step 5: 选菜单 + 验证
 
 | 知识类别 | 文档位置 | 状态 |
 |---------|---------|------|
-| **官方教程** | `memory/avatar/modular-avatar.md`（本文）§6 | ✅ |
-| **组件参考** | `memory/avatar/modular-avatar.md` §7 | ✅ |
-| **反应式系统** | `memory/avatar/modular-avatar.md` §5 | ✅ |
-| **高级话题** | `memory/avatar/modular-avatar.md` §9 | ✅ |
-| **Samples 实战** | `memory/avatar/modular-avatar.md`（本文）§9.6 | |
-| **教学法** | `memory/avatar/teaching-methodology.md` | ✅ |
-| **教学法（MA 专项）** | `memory/avatar/modular-avatar.md` §4 | ✅（本文）|
-| **创作者向完整版** | `memory/avatar/modular-avatar.md` §9.3 | |
+| **官方教程** | `entities/avatar/modular-avatar.md`（本文）§6 | ✅ |
+| **组件参考** | `entities/avatar/modular-avatar.md` §7 | ✅ |
+| **反应式系统** | `entities/avatar/modular-avatar.md` §5 | ✅ |
+| **高级话题** | `entities/avatar/modular-avatar.md` §9 | ✅ |
+| **Samples 实战** | `entities/avatar/modular-avatar.md`（本文）§9.6 | |
+| **教学法** | `entities/avatar/teaching-methodology.md` | ✅ |
+| **教学法（MA 专项）** | `entities/avatar/modular-avatar.md` §4 | ✅（本文）|
+| **创作者向完整版** | `entities/avatar/modular-avatar.md` §9.3 | |
 
 ---
 
@@ -2789,9 +2789,9 @@ MMD World 是 VRChat 里一类特殊的世界（通常带音乐和舞蹈），
 - [Experimental Features 页面](https://modular-avatar.nadena.dev/docs/experimental-features)
 
 **相关知识库**：
-- `memory/avatar/modular-avatar-tutorials-detailed.md` — 教程精读详细版（27KB）
-- `memory/avatar/teaching-methodology.md` — 教学法原则
-- `memory/avatar/animator-system.md` — Animator 系统
-- `memory/avatar/ndmf-tools.md` — NDMF 生态
-- `memory/avatar/optimization-guide.md` — 性能优化
-- `memory/avatar/avatar-modding-guide.md` — 改模指南
+- `entities/avatar/modular-avatar-tutorials-detailed.md` — 教程精读详细版（27KB）
+- `entities/avatar/teaching-methodology.md` — 教学法原则
+- `entities/avatar/animator-system.md` — Animator 系统
+- `entities/avatar/ndmf-tools.md` — NDMF 生态
+- `entities/avatar/optimization-guide.md` — 性能优化
+- `entities/avatar/avatar-modding-guide.md` — 改模指南

@@ -31,7 +31,7 @@ related:
 > 来源:https://creators.vrchat.com/worlds/udon/ui-events/
 > 本地化日期:2026-06-15
 > 状态:FACT(VRChat 官方白名单)
-> 关联:`memory/api/udonsharp-runtime.md` - UdonSharp 运行时类型暴露
+> 关联:`entities/api/udonsharp-runtime.md` - UdonSharp 运行时类型暴露
 
 ---
 
@@ -444,10 +444,10 @@ public class ComplexButtonHandler : UdonSharpBehaviour
 
 | 相关文档 | 用途 |
 |----------|------|
-| `memory/api/udonsharp-runtime.md` | UdonSharp 完整运行时 |
-| `memory/api/udon-type-exposure.md` | 类型暴露规则 |
-| `memory/api/events-reference.md` | Udon 事件完整 API |
-| `memory/world/udon/using-build-test.md` | 测试 UI 事件 |
+| `entities/api/udonsharp-runtime.md` | UdonSharp 完整运行时 |
+| `entities/api/udon-type-exposure.md` | 类型暴露规则 |
+| `entities/api/events-reference.md` | Udon 事件完整 API |
+| `entities/world/udon/using-build-test.md` | 测试 UI 事件 |
 
 ---
 

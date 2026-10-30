@@ -185,7 +185,7 @@ VRCWorld 是上传 World 到 VRChat 的标准入口 Prefab,包含四个组件:
 - `RequestSerialization` — Manual Sync 程序通知 Udon 序列化的标准调用
 - `sendChange` 开关 — 触发 Variable Change 事件,让所有人响应新值
 
-**参见**:`memory/api/networking.md` 的 Manual Sync 模式
+**参见**:`entities/api/networking.md` 的 Manual Sync 模式
 
 ### 3.2 ButtonSyncAnyone(扩展:非 Owner 也能点击)
 
@@ -216,7 +216,7 @@ VRCWorld 是上传 World 到 VRChat 的标准入口 Prefab,包含四个组件:
 - 如果不添加自定义逻辑,所有所有权请求自动批准
 - 可基于 `requester`、`newOwner` 或两者构建自定义逻辑
 
-**参见**:`memory/api/networking.md` 所有权系统
+**参见**:`entities/api/networking.md` 所有权系统
 
 ### 3.4 SliderSync(滑块 + 同步)
 
@@ -455,11 +455,11 @@ public override void OnDeserialization() {
 
 ## 相关知识库关联
 
-- **Networking 模式**:`memory/api/networking.md` 包含 Manual Sync / Continuous 完整规范
-- **Pickup 行为**:`memory/api/pickups.md` 包含 VRCPickup / VRCObjectSync 完整 API
-- **UI 转发**:`memory/api/ui.md` 包含 VRC_UIShape 使用规范
-- **性能基线**:`memory/world/performance-guide.md` 可引用本场景作为 **基础性能基线**
-- **事件驱动状态机**:`memory/patterns/event-driven-state-machine.md` 关联 Sync 程序的 Variable Change 事件模式
+- **Networking 模式**:`entities/api/networking.md` 包含 Manual Sync / Continuous 完整规范
+- **Pickup 行为**:`entities/api/pickups.md` 包含 VRCPickup / VRCObjectSync 完整 API
+- **UI 转发**:`entities/api/ui.md` 包含 VRC_UIShape 使用规范
+- **性能基线**:`entities/world/performance-guide.md` 可引用本场景作为 **基础性能基线**
+- **事件驱动状态机**:`concepts/patterns/event-driven-state-machine.md` 关联 Sync 程序的 Variable Change 事件模式
 
 ---
 

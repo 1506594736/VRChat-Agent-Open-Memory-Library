@@ -134,19 +134,19 @@ public class DoorController : UdonSharpBehaviour {
 
 | 文档 | 关系 |
 |------|------|
-| `memory/world/udon/networking/performance.md` | **10 条带宽优化规则、合并序列化、位域压缩** |
-| `memory/world/udon/networking/network-details.md` | 内部字节细节、Manual 280KB vs Continuous 200B 差异 |
-| `memory/world/udon/networking/variables.md` | `[UdonSynced]` 字段类型与序列化大小 |
-| `memory/world/udon/networking/late-joiners.md` | Manual Sync 的 Late Joiner 自动同步保证 |
-| `memory/world/udon/networking/ownership.md` | Manual 写入的 Owner 权限 |
-| `memory/world/udon/networking/compatibility.md` | 字段增删与跨版本兼容 |
-| `memory/world/udon/networking/index.md` | Manual vs Continuous 决策树 |
-| `memory/patterns/bit-packed-flags.md` | 8 bool → 1 byte 的位域压缩模式 |
-| `memory/patterns/late-joiner-state-restore.md` | Late Joiner 状态恢复模式 |
-| `memory/patterns/owner-authoritative-interaction.md` | Owner 模式 |
-| `memory/api/networking.md` | API 速查 |
+| `entities/world/udon/networking/performance.md` | **10 条带宽优化规则、合并序列化、位域压缩** |
+| `entities/world/udon/networking/network-details.md` | 内部字节细节、Manual 280KB vs Continuous 200B 差异 |
+| `entities/world/udon/networking/variables.md` | `[UdonSynced]` 字段类型与序列化大小 |
+| `entities/world/udon/networking/late-joiners.md` | Manual Sync 的 Late Joiner 自动同步保证 |
+| `entities/world/udon/networking/ownership.md` | Manual 写入的 Owner 权限 |
+| `entities/world/udon/networking/compatibility.md` | 字段增删与跨版本兼容 |
+| `entities/world/udon/networking/index.md` | Manual vs Continuous 决策树 |
+| `concepts/patterns/bit-packed-flags.md` | 8 bool → 1 byte 的位域压缩模式 |
+| `concepts/patterns/late-joiner-state-restore.md` | Late Joiner 状态恢复模式 |
+| `concepts/patterns/owner-authoritative-interaction.md` | Owner 模式 |
+| `entities/api/networking.md` | API 速查 |
 
 ## 相关 Scene Components
 
-- `memory/world/scene-components/vrc-objectsync.md` - **与本模式的关键区别**: `VRCObjectSync` 是**自动物理同步**模式(每帧同步 Transform),本模式是**手动状态同步**模式(按需同步变量)。决策见 `vrc-objectsync.md#与-manual-sync-区别` 决策树
-- `memory/world/scene-components/vrc-enablepersistence.md` - **本模式 + 持久化**: 在 PlayerObject 上使用本模式,数据会**跨实例持久化**(100KB/玩家/World),适合"玩家解锁进度、关卡状态"等场景
+- `entities/world/scene-components/vrc-objectsync.md` - **与本模式的关键区别**: `VRCObjectSync` 是**自动物理同步**模式(每帧同步 Transform),本模式是**手动状态同步**模式(按需同步变量)。决策见 `vrc-objectsync.md#与-manual-sync-区别` 决策树
+- `entities/world/scene-components/vrc-enablepersistence.md` - **本模式 + 持久化**: 在 PlayerObject 上使用本模式,数据会**跨实例持久化**(100KB/玩家/World),适合"玩家解锁进度、关卡状态"等场景

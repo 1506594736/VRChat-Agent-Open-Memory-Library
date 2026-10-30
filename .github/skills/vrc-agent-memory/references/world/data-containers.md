@@ -37,9 +37,9 @@ confidence: Medium
 
 | 主题 | 权威文档 |
 |------|---------|
-| **Data Containers 总览** | `memory/world/udon/data-containers/index.md` |
-| **Byte/Bit Operations（位域压缩）** | `memory/world/udon/data-containers/byte-and-bit-operations.md` |
-| **位域压缩 Pattern** | `memory/patterns/bit-packed-flags.md` |
+| **Data Containers 总览** | `entities/world/udon/data-containers/index.md` |
+| **Byte/Bit Operations（位域压缩）** | `entities/world/udon/data-containers/byte-and-bit-operations.md` |
+| **位域压缩 Pattern** | `concepts/patterns/bit-packed-flags.md` |
 
 ## 关键要点（已覆盖在权威文档中）
 

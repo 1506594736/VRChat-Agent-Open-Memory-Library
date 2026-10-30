@@ -26,8 +26,8 @@ related:
 
 > 来源: [官方教程](https://modular-avatar.nadena.dev/docs/tutorials)
 > 范围: **6 个教程的官方原文 + 玩家视角操作分解 + 验证步骤 + 易错点 + 教学衔接逻辑**
-> 配套文档: `memory/avatar/modular-avatar.md`(主文档)
-> 教学法归属: `memory/avatar/teaching-methodology.md`
+> 配套文档: `entities/avatar/modular-avatar.md`(主文档)
+> 教学法归属: `entities/avatar/teaching-methodology.md`
 
 ---
 

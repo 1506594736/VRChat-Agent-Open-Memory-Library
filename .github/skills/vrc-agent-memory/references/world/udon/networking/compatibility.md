@@ -254,7 +254,7 @@ VRChat 序列化基于 **字段声明顺序**,不基于名称。重命名不影�
 
 | 文档 | 关系 |
 |------|------|
-| `memory/world/udon/networking/variables.md` | UdonSynced 字段定义 |
-| `memory/world/udon/networking/events.md` | Network Events(同样受兼容约束) |
-| `memory/world/udon/networking/index.md` | Networking 概述 |
-| `memory/api/networking.md` | API 速查 |
+| `entities/world/udon/networking/variables.md` | UdonSynced 字段定义 |
+| `entities/world/udon/networking/events.md` | Network Events(同样受兼容约束) |
+| `entities/world/udon/networking/index.md` | Networking 概述 |
+| `entities/api/networking.md` | API 速查 |

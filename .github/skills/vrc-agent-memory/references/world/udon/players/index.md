@@ -30,7 +30,7 @@ related:
 # Player API 总览 (VRCPlayerApi)
 
 > Subtype: API 总览
-> 底层引用: `memory/api/player-api.md`
+> 底层引用: `entities/api/player-api.md`
 > 抓取日期: 2026-06-15
 
 ---
@@ -91,7 +91,7 @@ public override void OnPlayerLeft(VRCPlayerApi player)
 }
 ```
 
-> 📌 **底层引用**: `memory/api/player-api.md` 错误案例 — "缓存 VRCPlayerApi 引用过长(玩家离开后引用失效)"
+> 📌 **底层引用**: `entities/api/player-api.md` 错误案例 — "缓存 VRCPlayerApi 引用过长(玩家离开后引用失效)"
 
 ---
 
@@ -178,7 +178,7 @@ public override void OnPlayerLeft(VRCPlayerApi player)
 - **输入**: `VRCPlayerApi, GameObject`
 - **输出**: `Boolean`
 - **说明**: 该 Player 是否是给定 GameObject 的 Owner
-- **重要**: 与 Sync 强相关,详见 `memory/api/networking.md`
+- **重要**: 与 Sync 强相关,详见 `entities/api/networking.md`
 
 ---
 
@@ -273,8 +273,8 @@ public override void OnPlayerLeft(VRCPlayerApi player)
 
 | 现有知识库 | 关系 |
 |---|---|
-| `memory/api/player-api.md` | **底层 API 总览**(简略版),本文件为**应用层详解** |
-| `memory/api/events-reference.md` | 玩家事件回调 (`OnPlayerJoined`/`OnPlayerLeft`/`OnPlayerSuspendChanged` 等),应补充 3 个 Drone Trigger 事件 |
+| `entities/api/player-api.md` | **底层 API 总览**(简略版),本文件为**应用层详解** |
+| `entities/api/events-reference.md` | 玩家事件回调 (`OnPlayerJoined`/`OnPlayerLeft`/`OnPlayerSuspendChanged` 等),应补充 3 个 Drone Trigger 事件 |
 | `memory/world/udon/players/*.md` | 本目录其他 6 个子页面 |
 | `memory/world/udon/players/drones/` | **Drone API 子分类** (task-12 已完成,3 个 .md) |
 

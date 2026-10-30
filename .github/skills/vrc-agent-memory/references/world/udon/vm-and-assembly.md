@@ -29,7 +29,7 @@ related:
 > 来源:https://creators.vrchat.com/worlds/udon/vm-and-assembly/
 > 本地化日期:2026-06-15
 > 状态:FACT(VRChat 官方字节码规范)
-> **⭐ 关键文档**:与 `memory/rules/udon-vm-architecture.md` 配套,与 `memory/api/udonsharp-runtime.md` 强相关
+> **⭐ 关键文档**:与 `concepts/rules/udon-vm-architecture.md` 配套,与 `entities/api/udonsharp-runtime.md` 强相关
 > **⚠️ 高级主题**:仅在性能优化或调试极端问题时参考
 
 ---
@@ -239,7 +239,7 @@ _start:
 > **FACT**:**前两个事件是 `_onEnable` 和 `_start`(按此顺序)**。它们**总是先于其他事件运行**,中间无间隔。
 > 任何试图绕过这一点的调用都将被忽略。
 
-参考 `memory/world/udon/event-execution-order.md` 获取完整执行顺序。
+参考 `entities/world/udon/event-execution-order.md` 获取完整执行顺序。
 
 #### 自定义事件
 
@@ -479,11 +479,11 @@ end:
 
 | 相关文档 | 用途 |
 |----------|------|
-| `memory/rules/udon-vm-architecture.md` | Udon VM 架构(高级规则) |
-| `memory/api/udonsharp-runtime.md` | UdonSharp 运行时系统 |
-| `memory/api/udon-type-exposure.md` | Udon 类型暴露规则 |
-| `memory/rules/udonsharp-language-limits.md` | UdonSharp 语言限制 |
-| `memory/api/events-reference.md` | 事件完整参考 |
+| `concepts/rules/udon-vm-architecture.md` | Udon VM 架构(高级规则) |
+| `entities/api/udonsharp-runtime.md` | UdonSharp 运行时系统 |
+| `entities/api/udon-type-exposure.md` | Udon 类型暴露规则 |
+| `concepts/rules/udonsharp-language-limits.md` | UdonSharp 语言限制 |
+| `entities/api/events-reference.md` | 事件完整参考 |
 
 > **关联说明**:
 > - **`udon-vm-architecture.md`** 应引用本文档作为字节码参考

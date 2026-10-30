@@ -360,7 +360,7 @@ public override void OnPlayerRestored(VRCPlayerApi player) {
 |------|---------|---------|
 | **已发布 World** | VRChat 服务器(跨平台/跨实例) | 同账号同 World 多开 → 数据冲突 |
 | **Build & Test** | 本地(测试客户端) | 关闭测试客户端 → 数据删除 |
-| **ClientSim** | 项目内 JSON 文件 | 见 `memory/sources/clientsim.md` |
+| **ClientSim** | 项目内 JSON 文件 | 见 `entities/world/clientsim/index.md` |
 | 重新 Build & Reload | 数据 **不重置** | 可继续测试 |
 | 关闭测试客户端 | 数据 **删除** | 重新 Build & Test → 全新数据 |
 
@@ -511,10 +511,10 @@ public override void OnPlayerLeft(VRCPlayerApi player)
 
 ## 相关知识库
 
-- `memory/api/persistence.md` - API 速查
-- `memory/patterns/late-joiner-state-restore.md` - Late Joiner 状态恢复
-- `memory/patterns/manual-sync-state.md` - Manual Sync 模式
-- `memory/patterns/bit-packed-flags.md` - 位域压缩同步
-- `memory/world/udon/networking/performance.md` - 网络性能优化
-- `memory/world/udon/event-execution-order.md` - 事件时序
-- `memory/sources/clientsim.md` - ClientSim 调试
+- `entities/api/persistence.md` - API 速查
+- `concepts/patterns/late-joiner-state-restore.md` - Late Joiner 状态恢复
+- `concepts/patterns/manual-sync-state.md` - Manual Sync 模式
+- `concepts/patterns/bit-packed-flags.md` - 位域压缩同步
+- `entities/world/udon/networking/performance.md` - 网络性能优化
+- `entities/world/udon/event-execution-order.md` - 事件时序
+- `entities/world/clientsim/index.md` - ClientSim 调试

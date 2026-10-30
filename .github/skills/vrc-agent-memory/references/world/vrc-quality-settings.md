@@ -245,7 +245,7 @@ public override void OnVRCQualitySettingsChanged()
 
 ## 相关文档
 
-- `memory/world/udon/vrc-graphics/index.md` - VRCShader / VRCGraphics API
-- `memory/world/vrc-camera-settings.md` - VRCCameraSettings
-- `memory/world/performance-guide.md` - 渲染性能优化
-- `memory/world/bakery/light-baking-guide.md` - Bakery 光照烘焙
+- `entities/world/udon/vrc-graphics/index.md` - VRCShader / VRCGraphics API
+- `entities/world/vrc-camera-settings.md` - VRCCameraSettings
+- `entities/world/performance-guide.md` - 渲染性能优化
+- `entities/world/bakery/light-baking-guide.md` - Bakery 光照烘焙

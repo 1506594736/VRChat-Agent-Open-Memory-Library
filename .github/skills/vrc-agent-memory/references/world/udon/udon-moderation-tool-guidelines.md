@@ -205,9 +205,9 @@ public class ReportButton : UdonSharpBehaviour
 
 | 相关文档 | 用途 |
 |----------|------|
-| `memory/api/events-reference.md` | 完整 Udon 事件 API |
-| `memory/api/networking.md` | Networking API |
-| `memory/world/udon/using-build-test.md` | 测试版主工具 |
+| `entities/api/events-reference.md` | 完整 Udon 事件 API |
+| `entities/api/networking.md` | Networking API |
+| `entities/world/udon/using-build-test.md` | 测试版主工具 |
 | VRChat Creator Guidelines (官方) | 完整规则定义 |
 
 ---

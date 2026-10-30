@@ -212,7 +212,7 @@ bool VRCJson.TrySerializeToJson(DataToken input, JsonExportType exportType, out 
 
 **性能含义**(【推断】):DataList/DataDictionary 比原生数组慢 **5-10 倍**——VM EXTERN + 类型检查 + DataToken 装箱的开销。
 
-详见 `memory/rules/udonsharp-language-limits.md` 和 `memory/api/not-exposed.md`。
+详见 `concepts/rules/udonsharp-language-limits.md` 和 `entities/api/not-exposed.md`。
 
 ---
 
@@ -299,7 +299,7 @@ if (config.TryGetValue("user", out DataToken userToken)
   - [`../world/udon/data-containers/byte-and-bit-operations.md`](../world/udon/data-containers/byte-and-bit-operations.md) — 位/字节底层
   - [`../world/udon/data-containers/index.md`](../world/udon/data-containers/index.md) — 父索引
 - **网络同步**: [`networking.md`](networking.md) — 容器同步模式
-- **位域压缩**: `memory/patterns/bit-packed-flags.md` — 字节级压缩
-- **Udon 限制**: `memory/rules/udonsharp-language-limits.md` — C# List/Dictionary 不可用
-- **未暴露 API**: `memory/api/not-exposed.md` — JsonUtility 不可用原因
+- **位域压缩**: `concepts/patterns/bit-packed-flags.md` — 字节级压缩
+- **Udon 限制**: `concepts/rules/udonsharp-language-limits.md` — C# List/Dictionary 不可用
+- **未暴露 API**: `entities/api/not-exposed.md` — JsonUtility 不可用原因
 - **官方源**: https://creators.vrchat.com/worlds/udon/data-containers/

@@ -157,8 +157,8 @@ related:
 | **实现模式** | `memory/patterns/` |
 | **API 速查** | `memory/api/` |
 | **审查记录** | `特殊Agent提示词/<phase>_review_*.md` |
-| **失败案例** | `memory/reviews/common-failures.md` |
-| **设计模式来源** | `memory/FACT.md` §VRCTD/§VVMW/§AudioLink |
+| **失败案例** | `concepts/patterns/index.md` |
+| **设计模式来源** | `FACT.md` §VRCTD/§VVMW/§AudioLink |
 
 ---
 
@@ -166,18 +166,18 @@ related:
 
 | 工具 | 用途 | 位置 |
 |------|------|------|
-| **API Checker** | C# 代码静态分析（Udon 暴露检查） | `memory/api/api-checker.md` |
-| **Udon Type Exposure Tree** | API 暴露状态查询 | `memory/api/udon-type-exposure.md` |
-| **Common Failures** | 失败模式匹配 | `memory/reviews/common-failures.md` |
+| **API Checker** | C# 代码静态分析（Udon 暴露检查） | `entities/api/api-checker.md` |
+| **Udon Type Exposure Tree** | API 暴露状态查询 | `entities/api/udon-type-exposure.md` |
+| **Common Failures** | 失败模式匹配 | `concepts/patterns/index.md` |
 
 ---
 
 ## 案例参考
 
 完整的审查应用案例：
-- VRCTD 5 层同步体系审查（参见 `memory/FACT.md` §VRCTD）
-- VVMW 时间同步审查（参见 `memory/FACT.md` §VVMW）
-- AudioLink 数据传递审查（参见 `memory/FACT.md` §AudioLink）
+- VRCTD 5 层同步体系审查（参见 `FACT.md` §VRCTD）
+- VVMW 时间同步审查（参见 `FACT.md` §VVMW）
+- AudioLink 数据传递审查（参见 `FACT.md` §AudioLink）
 
 ---
 

@@ -213,7 +213,7 @@ Quest Scene (无 Network ID 或 ID 不一致)
 |------|------|----------------|
 | **Network ID Utility** | 管理 GameObject 的网络 ID 分配 | **Editor Only** |
 | **Network Stats**(见 `network-stats.md`) | 运行时监控网络流量 | Runtime (Udon) |
-| **ClientSim**(见 `memory/sources/clientsim.md`) | Editor 内模拟网络环境 | **Editor Only** |
+| **ClientSim**(见 `entities/world/clientsim/index.md`) | Editor 内模拟网络环境 | **Editor Only** |
 
 ---
 

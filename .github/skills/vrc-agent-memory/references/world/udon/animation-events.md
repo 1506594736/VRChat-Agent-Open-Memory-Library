@@ -86,7 +86,7 @@ confidence: Medium
 | 数量 | **13 个方法**(很窄) | **28 个组件**(很广) |
 | 主要用法 | 同步动画时间 + Udon 逻辑 | UI 直接控制组件 |
 
-> UI Events 完整白名单: `memory/world/udon/ui-events.md` ⭐ 28 个组件 100+ 成员
+> UI Events 完整白名单: `entities/world/udon/ui-events.md` ⭐ 28 个组件 100+ 成员
 
 ---
 
@@ -97,7 +97,7 @@ confidence: Medium
 - World Animator 中的 **Animation Event** 是 Animator 时间轴到达某帧时触发的方法调用
 - 本页白名单定义了**可被 Animation Event 调用的方法**
 
-> 详细 Animator 系统: `memory/world/udon/udonsharp/compilation.md` 和 `memory/api/animator.md`
+> 详细 Animator 系统: `entities/world/udon/udonsharp/compilation.md` 和 `entities/api/animator.md`
 
 ---
 
@@ -160,10 +160,10 @@ AnimationClip
 
 ## 与知识库互补
 
-- **UI Events 白名单**: `memory/world/udon/ui-events.md`
-- **Udon 事件完整参考**: `memory/api/events-reference.md`
-- **Animator API**: `memory/api/animator.md`
-- **UdonSharp 编译管线**: `memory/world/udon/udonsharp/compilation.md`
+- **UI Events 白名单**: `entities/world/udon/ui-events.md`
+- **Udon 事件完整参考**: `entities/api/events-reference.md`
+- **Animator API**: `entities/api/animator.md`
+- **UdonSharp 编译管线**: `entities/world/udon/udonsharp/compilation.md`
 
 ---
 

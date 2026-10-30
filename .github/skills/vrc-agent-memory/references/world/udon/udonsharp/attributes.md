@@ -72,7 +72,7 @@ related:
 
 **用途**：标记字段在网络上**为所有玩家同步**。
 
-**【FACT】** 详细同步机制见 [memory/api/networking.md](../../../api/networking.md)。
+**【FACT】** 详细同步机制见 [entities/api/networking.md](../../../api/networking.md)。
 
 ### 2.2 示例
 
@@ -163,7 +163,7 @@ public class Example : UdonSharpBehaviour
 └─ 不确定 → 用 Any（默认），后期收紧
 ```
 
-> **【R-HIGH】** `None` 模式**无法**使用 `SendCustomNetworkEvent` 或 `NetworkCallable`，是常见踩坑点。详见 [memory/api/networking.md](../../../api/networking.md)。
+> **【R-HIGH】** `None` 模式**无法**使用 `SendCustomNetworkEvent` 或 `NetworkCallable`，是常见踩坑点。详见 [entities/api/networking.md](../../../api/networking.md)。
 
 ---
 
@@ -171,11 +171,11 @@ public class Example : UdonSharpBehaviour
 
 | 现有知识库 | 应补充/引用 |
 |-----------|----------|
-| `memory/api/networking.md` | **核心** — 详细的 UdonSynced、RequestSerialization、NetworkEvent、NetworkCallable 机制 |
-| `memory/patterns/manual-sync-state.md` | 引用本文 §3.3 `Manual` 模式 |
-| `memory/patterns/owner-authoritative-interaction.md` | 引用本文 §3.3 `Manual` 模式 |
-| `memory/rules/udonsharp-language-limits.md` | 引用本文 §2.3 同步模式 |
-| `memory/api/udonsharp-runtime.md` | FieldChangeCallback 配合 [UdonSynced] 使用 |
+| `entities/api/networking.md` | **核心** — 详细的 UdonSynced、RequestSerialization、NetworkEvent、NetworkCallable 机制 |
+| `concepts/patterns/manual-sync-state.md` | 引用本文 §3.3 `Manual` 模式 |
+| `concepts/patterns/owner-authoritative-interaction.md` | 引用本文 §3.3 `Manual` 模式 |
+| `concepts/rules/udonsharp-language-limits.md` | 引用本文 §2.3 同步模式 |
+| `entities/api/udonsharp-runtime.md` | FieldChangeCallback 配合 [UdonSynced] 使用 |
 
 ---
 
@@ -203,7 +203,7 @@ public class RecursiveExample : UdonSharpBehaviour
 
 ### 5.2 `[NetworkCallable]` (SDK 3.8.1+)
 
-**【FACT - memory/api/networking.md 已记录】** 用于声明方法可**远程调用并传递参数**。
+**【FACT - entities/api/networking.md 已记录】** 用于声明方法可**远程调用并传递参数**。
 
 ```csharp
 using UdonSharp;
@@ -227,11 +227,11 @@ NetworkCalling.SendCustomNetworkEvent(
 );
 ```
 
-> **【未确认】** 官方 attributes 页面未列出此 Attribute，详细信息见 `memory/api/networking.md`。
+> **【未确认】** 官方 attributes 页面未列出此 Attribute，详细信息见 `entities/api/networking.md`。
 
 ### 5.3 `[FieldChangeCallback]`
 
-**【FACT - memory/api/udonsharp-runtime.md 已记录】** 字段变化时**自动触发回调**。
+**【FACT - entities/api/udonsharp-runtime.md 已记录】** 字段变化时**自动触发回调**。
 
 ```csharp
 [UdonSynced, FieldChangeCallback(nameof(OnToggleChanged))]
@@ -280,4 +280,4 @@ private void OnToggleChanged() { /* 自动调用 */ }
 
 - **【未确认】** `NetworkCallable`、`RecursiveMethod`、`FieldChangeCallback` 官方 attributes 页面未列出，需通过源码/UdonSharp 文档间接确认
 - **【未确认】** UdonSyncMode 枚举的 `Smooth` 实现细节（插值系数、是否可配置）
-- **【未确认】** 多个 `[UdonSynced]` 字段在同一次 `RequestSerialization` 调用中的**带宽聚合**行为（需配合 `memory/api/networking.md` 带宽限制理解）
+- **【未确认】** 多个 `[UdonSynced]` 字段在同一次 `RequestSerialization` 调用中的**带宽聚合**行为（需配合 `entities/api/networking.md` 带宽限制理解）

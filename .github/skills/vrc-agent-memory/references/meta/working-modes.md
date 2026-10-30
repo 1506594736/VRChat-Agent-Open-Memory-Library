@@ -104,11 +104,11 @@ confidence: High
 |------|------|
 | **触发场景** | 玩家改模问题、工具使用困惑、新手引导 |
 | **输出格式** | 3 步修复模板、通俗解释、操作验证 |
-| **核心知识** | `memory/avatar/teaching-methodology.md` `memory/avatar/modular-avatar.md` |
+| **核心知识** | `entities/avatar/teaching-methodology.md` `entities/avatar/modular-avatar.md` |
 
 ### 教学触发规则
 
-1. **先读取** `memory/avatar/teaching-methodology.md`（45 条教学原则）
+1. **先读取** `entities/avatar/teaching-methodology.md`（45 条教学原则）
 2. **语气切换**：通俗、耐心、使用类比
 3. **5 步诊断法**：症状确认 → 环境排查 → 原因定位 → 3 步修复 → 边界判断
 
@@ -122,7 +122,7 @@ confidence: High
 |------|------|
 | **触发场景** | 案例研究匹配、模式检索、插件评估、知识检索 |
 | **输出格式** | 双重身份分析（A 案例 + C 工具）、VPM 安装指引、模式匹配报告 |
-| **核心知识** | `memory/sources/` `memory/patterns/` `memory/hybrid/udon-world-plugins.md` |
+| **核心知识** | `memory/sources/` `memory/patterns/` `concepts/hybrid/udon-world-plugins.md` |
 
 ### 双重身份方法论
 
@@ -140,7 +140,7 @@ confidence: High
 |------|------|
 | **触发场景** | 知识库维护、过期检测、审计修复（**仅内部触发**） |
 | **输出格式** | 审计报告 → P0/P1/P2 分级 → 修复计划 |
-| **核心知识** | `memory/FACT.md` `Auxiliary script/` |
+| **核心知识** | `FACT.md` `Auxiliary script/` |
 
 ### 维护 Protocol
 
@@ -152,4 +152,4 @@ confidence: High
 5. 记录：FACT.md 追加时间戳条目 + journal 追加 session 记录
 ```
 
-> 详细脚本说明见 `memory/meta/auxiliary-scripts.md`
+> 详细脚本说明见 `meta/auxiliary-scripts.md`

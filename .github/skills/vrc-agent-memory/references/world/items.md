@@ -108,7 +108,7 @@ Items 是 VRChat 提供的一项新特性，允许用户在世界中生成工具
 > 1. Use a [LayerMask](https://docs.unity3d.com/ScriptReference/LayerMask.html) when possible, and avoid the "Item" layer (previously "reserved3").
 > 2. Call `Utilities.IsValid` on any object passed back through a Physics call and look for a `true` result to ensure you don't operate further on a "protected" object.
 
-**适用 Physics 方法**: 详见 `memory/world/layers.md` → "Physics and Layers" 章节。
+**适用 Physics 方法**: 详见 `entities/world/layers.md` → "Physics and Layers" 章节。
 
 ---
 
@@ -116,10 +116,10 @@ Items 是 VRChat 提供的一项新特性，允许用户在世界中生成工具
 
 | 现有知识 | 关联 |
 |---|---|
-| `memory/world/layers.md` | Layer 3 (`Item`) 定义、Physics 方法清单、LayerMask 用法 |
-| `memory/api/udon-type-exposure.md` | `Utilities.IsValid` API（Udon 暴露的 Unity Object 验证方法） |
-| `memory/rules/networking-rules.md` | Owner Authority、Manual Sync、连续同步模式 |
-| `memory/api/pickups.md` | Pickup 系统（与 Item 不同的概念，Pickup 是 World 自带的对象） |
+| `entities/world/layers.md` | Layer 3 (`Item`) 定义、Physics 方法清单、LayerMask 用法 |
+| `entities/api/udon-type-exposure.md` | `Utilities.IsValid` API（Udon 暴露的 Unity Object 验证方法） |
+| `concepts/rules/networking-rules.md` | Owner Authority、Manual Sync、连续同步模式 |
+| `entities/api/pickups.md` | Pickup 系统（与 Item 不同的概念，Pickup 是 World 自带的对象） |
 
 ### Pickup vs Item 概念区分
 

@@ -191,7 +191,7 @@ A: 使用条件判断预检查，避免异常。或使用 `Debug.Log` 记录错�
 
 ## 相关知识
 
-- `memory/api/udon-type-exposure.md` — Udon Type Exposure Tree 索引
-- `memory/api/exposed-types.md` — 已暴露类型详细清单
-- `memory/api/not-exposed.md` — 未暴露 API 黑名单
-- `memory/rules/udonsharp-language-limits.md` — UdonSharp 语言限制
+- `entities/api/udon-type-exposure.md` — Udon Type Exposure Tree 索引
+- `entities/api/exposed-types.md` — 已暴露类型详细清单
+- `entities/api/not-exposed.md` — 未暴露 API 黑名单
+- `concepts/rules/udonsharp-language-limits.md` — UdonSharp 语言限制

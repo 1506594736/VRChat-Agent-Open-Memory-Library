@@ -192,11 +192,11 @@ memory/
 - **纹理编码数据传递**：音频数据通过 CustomRenderTexture 传递 Shader，零网络同步开销
 - **时间同步系统**：Master 权威时间锚点 + 双时间源融合 + 漂移校正
 - **同步策略**：Manual Sync + Owner Transfer 混合模式
-- **位域压缩**：byte 存储多个 bool(`_flags`)→ 详见 `memory/world/udon/data-containers/byte-and-bit-operations.md`
+- **位域压缩**：byte 存储多个 bool(`_flags`)→ 详见 `entities/world/udon/data-containers/byte-and-bit-operations.md`
 - **性能热点**：SendAudioOutputData 每帧 8 次 SetFloatArray(约 2ms 开销)
 - **实验性功能保护**：audioDataToggle 默认关闭(VRCAsyncGPUReadback 成本高)
 
-> **📚 参考实现**:本节提炼自开源 VRChat 音频同步框架,见 `memory/sources/open-source-projects.md` §音频同步类目
+> **📚 参考实现**:本节提炼自开源 VRChat 音频同步框架,见 `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` §音频同步类目
 
 ### 多机位导演系统网络同步架构 ✅ (参考工程)
 - **5 层同步体系**：Manual + Continuous + NetworkCallable + SafeMod(排除) + NoVariableSync
@@ -207,7 +207,7 @@ memory/
 - **所有权分层**：操作者 vs 被跟踪者所有权分离
 - **UI 转发模式**：NoVariableSync + SetProgramVariable
 
-> **📚 参考实现**:本节提炼自开源 VRChat 多机位导演系统,见 `memory/sources/open-source-projects.md` §多机位导演类目
+> **📚 参考实现**:本节提炼自开源 VRChat 多机位导演系统,见 `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` §多机位导演类目
 
 ---
 
@@ -218,21 +218,21 @@ memory/
 
 | 类别 | 数量 | 索引位置 |
 |------|------|---------|
-| 核心设计模式 | 14 个 | `memory/patterns/index.md` + 各模式独立文档 |
-| LuraSwitch2 实战模式 | 6 个 | `memory/patterns/index.md` #8-#13 |
-| UdonVoiceUtils 工程化模式 | 10 个 | `memory/patterns/index.md` #14-#23 |
-| ULocalization 沙箱适配模式 | 5 个 | `memory/patterns/index.md` #24-#28 |
-| Sardinal 消息总线模式 | 3 个 | `memory/patterns/index.md` #29-#31 |
-| 案例研究 A1-A9 | 9 个 | `memory/sources/open-source-projects.md` |
-| 推荐工具 C1-C16 | 16 个 | `memory/hybrid/udon-world-plugins.md` |
+| 核心设计模式 | 14 个 | `concepts/patterns/index.md` + 各模式独立文档 |
+| LuraSwitch2 实战模式 | 6 个 | `concepts/patterns/index.md` #8-#13 |
+| UdonVoiceUtils 工程化模式 | 10 个 | `concepts/patterns/index.md` #14-#23 |
+| ULocalization 沙箱适配模式 | 5 个 | `concepts/patterns/index.md` #24-#28 |
+| Sardinal 消息总线模式 | 3 个 | `concepts/patterns/index.md` #29-#31 |
+| 案例研究 A1-A9 | 9 个 | `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` |
+| 推荐工具 C1-C16 | 16 个 | `concepts/hybrid/udon-world-plugins.md` |
 
 **快速查阅入口**：
-- 网络同步：`memory/patterns/manual-sync-state.md` / `advanced-sync-patterns.md`
-- 沙箱适配：`memory/patterns/hash-based-dispatch.md` / `build-time-vs-runtime-separation.md`
-- 消息总线：`memory/patterns/channel-routing.md` / `hybrid-subscription-modes.md`
-- 视频同步：`memory/sources/vvmw.md`（案例）/ `memory/world/vvmw.md`（工具）
-- Shader 选型：`memory/avatar/shader/index.md`
-- VRChatSDK 概览：`memory/vrchatsdk/index.md`
+- 网络同步：`concepts/patterns/manual-sync-state.md` / `advanced-sync-patterns.md`
+- 沙箱适配：`concepts/patterns/hash-based-dispatch.md` / `build-time-vs-runtime-separation.md`
+- 消息总线：`concepts/patterns/channel-routing.md` / `hybrid-subscription-modes.md`
+- 视频同步：`entities/world/vvmw.md`（案例）/ `entities/world/vvmw.md`（工具）
+- Shader 选型：`entities/avatar/shader/index.md`
+- VRChatSDK 概览：`entities/vrchatsdk/index.md`
 
 ---
 
@@ -309,12 +309,12 @@ for ($i=0; $i -lt $path.Length; $i++) {
 - **总带宽**: ~11 KB/s
 - **Manual sync**: 280,496 bytes/serialization
 - **Continuous sync**: ~200 bytes/serialization
-- 详见 `memory/api/networking.md`
+- 详见 `entities/api/networking.md`
 
 #### Persistence Compression
 - 实际存储: 100 KB/player/world（压缩后）
 - 可压缩数据: ~300 KB 原始数据
-- 详见 `memory/api/persistence.md`
+- 详见 `entities/api/persistence.md`
 
 ---
 
@@ -325,6 +325,6 @@ for ($i=0; $i -lt $path.Length; $i++) {
 | 内容类别 | 存储位置 | 理由 |
 |---------|---------|------|
 | 人格身份、语气、核心使命 | `SOUL.md` | 每个会话必须加载 |
-| 知识库结构、核心约束、长期经验 | `memory/FACT.md`(本文件) | 每个会话必须加载 |
+| 知识库结构、核心约束、长期经验 | `FACT.md`(本文件) | 每个会话必须加载 |
 | 6 工作模式、Domain/Knowledge First、Knowledge Priority、Evidence、Failure Policy、Output、Retrieval、Entry Points、Ultimate Goal | `特殊Agent提示词/知识库整理Agent_V3.1.md` | 仅 Curator 模式按需参考 |
 | 废弃文件处理规则、多文档同步 Checklist、Phase 历史、A 阶段记录 | `特殊Agent提示词/知识库整理Agent_V3.1.md` | 过程性/规则性,无需每次加载 |

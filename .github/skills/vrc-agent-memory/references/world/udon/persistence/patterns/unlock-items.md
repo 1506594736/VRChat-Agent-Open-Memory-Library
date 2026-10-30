@@ -540,9 +540,9 @@ public bool PurchaseItem(int itemId, int price) {
 
 ## 相关知识库
 
-- `memory/api/persistence.md` - API 速查
-- `memory/world/udon/persistence/player-data.md` - PlayerData 详细 API
-- `memory/world/udon/persistence/limits-and-quirks.md` - 100KB 限制
-- `memory/world/examples/persistence/unlock-items.md` - 官方 Example Central 笔记
-- `memory/world/examples/persistence/persistent-idle-game.md` - Idle Game(类似模式)
-- `memory/world/udon/persistence/patterns/leaderboard.md` - 排行榜模式
+- `entities/api/persistence.md` - API 速查
+- `entities/world/udon/persistence/player-data.md` - PlayerData 详细 API
+- `entities/world/udon/persistence/limits-and-quirks.md` - 100KB 限制
+- `entities/world/examples/persistence/unlock-items.md` - 官方 Example Central 笔记
+- `entities/world/examples/persistence/persistent-idle-game.md` - Idle Game(类似模式)
+- `entities/world/udon/persistence/patterns/leaderboard.md` - 排行榜模式

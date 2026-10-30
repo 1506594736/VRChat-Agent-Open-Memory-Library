@@ -28,7 +28,7 @@ related:
 
 > SDK Version: 3.10.x
 > Last Verified: 2026-06-20
-> Reference: `memory/sources/sardinal.md`
+> Reference: `entities/world/luraswitch2.md`
 > 来源标注: ⭐S (Sardinal 独有模式)
 
 ---
@@ -309,8 +309,8 @@ public class Dragon : BaseEnemy {
 
 ## 关联文档
 
-- `memory/sources/sardinal.md` — 项目溯源
-- `memory/patterns/channel-routing.md` — 配套频道路由
-- `memory/patterns/hybrid-subscription-modes.md` — 配套双订阅模式
-- `memory/patterns/build-time-vs-runtime-separation.md` — 依赖 Editor 反射
-- `memory/FACT.md` § Sardinal
+- `entities/world/luraswitch2.md` — 项目溯源
+- `concepts/patterns/channel-routing.md` — 配套频道路由
+- `concepts/patterns/hybrid-subscription-modes.md` — 配套双订阅模式
+- `comparisons/build-time-vs-runtime.md` — 依赖 Editor 反射
+- `FACT.md` § Sardinal

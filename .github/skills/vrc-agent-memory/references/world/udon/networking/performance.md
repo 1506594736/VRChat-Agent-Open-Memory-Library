@@ -517,12 +517,12 @@ public class PerformanceTestObject : UdonSharpBehaviour {
 
 | 文档 | 关系 |
 |------|------|
-| `memory/world/udon/networking/index.md` | Networking 概述 |
-| `memory/world/udon/networking/variables.md` | 同步变量类型 |
-| `memory/world/udon/networking/events.md` | Network Event 速率限制 |
-| `memory/world/udon/networking/ownership.md` | 所有权与性能 |
-| `memory/world/udon/networking/network-components.md` | VRCObjectSync/ObjectPool |
-| `memory/world/udon/networking/network-details.md` | 内部字节细节 |
-| `memory/patterns/bit-packed-flags.md` | 位域压缩模式 |
-| `memory/patterns/advanced-sync-patterns.md` | 高级同步模式 |
-| `memory/api/networking.md` | API 速查 |
+| `entities/world/udon/networking/index.md` | Networking 概述 |
+| `entities/world/udon/networking/variables.md` | 同步变量类型 |
+| `entities/world/udon/networking/events.md` | Network Event 速率限制 |
+| `entities/world/udon/networking/ownership.md` | 所有权与性能 |
+| `entities/world/udon/networking/network-components.md` | VRCObjectSync/ObjectPool |
+| `entities/world/udon/networking/network-details.md` | 内部字节细节 |
+| `concepts/patterns/bit-packed-flags.md` | 位域压缩模式 |
+| `concepts/patterns/advanced-sync-patterns.md` | 高级同步模式 |
+| `entities/api/networking.md` | API 速查 |

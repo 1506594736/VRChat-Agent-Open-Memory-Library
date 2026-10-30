@@ -29,7 +29,7 @@ related:
 > SDK Version: VRChat SDK 3.x
 > UdonSharp Version: 1.x
 > Last Verified: 2026-06-15
-> **字节码级参考**:`memory/world/udon/vm-and-assembly.md` - PUSH/COPY/EXTERN 实现的底层细节,所有 UdonSharp 限制的最终约束来源
+> **字节码级参考**:`entities/world/udon/vm-and-assembly.md` - PUSH/COPY/EXTERN 实现的底层细节,所有 UdonSharp 限制的最终约束来源
 
 ---
 
@@ -291,9 +291,9 @@ void DoString(string x) { }
 
 如需理解某个限制的底层原因,参考:
 
-- **`memory/world/udon/vm-and-assembly.md`** - 完整 9 Opcodes 说明、Udon Assembly 语法、Extern 签名格式
-- **`memory/rules/udon-vm-architecture.md`** - Udon VM 内部实现(强类型堆、LightweightStack、10 秒硬限制)
-- **`memory/api/udon-type-exposure.md`** - 哪些 C# 类型/成员被白名单暴露
+- **`entities/world/udon/vm-and-assembly.md`** - 完整 9 Opcodes 说明、Udon Assembly 语法、Extern 签名格式
+- **`concepts/rules/udon-vm-architecture.md`** - Udon VM 内部实现(强类型堆、LightweightStack、10 秒硬限制)
+- **`entities/api/udon-type-exposure.md`** - 哪些 C# 类型/成员被白名单暴露
 
 > **关键洞察**:本规则集(RULE-LL-01 ~ RULE-LL-13)的每条规则都对应 Udon VM 的一种能力缺失。例如:
 > - **RULE-LL-02 禁用 `List<T>`** ↔ Udon VM 无泛型集合运行时
@@ -305,7 +305,7 @@ void DoString(string x) { }
 
 ## RULE-LL-14: VRC Graphics API 限制(2026-06-15 新增)
 
-> 详细文档: `memory/world/udon/vrc-graphics/index.md`、`asyncgpureadback.md`、`vrchat-shader-globals.md`
+> 详细文档: `entities/world/udon/vrc-graphics/index.md`、`asyncgpureadback.md`、`vrchat-shader-globals.md`
 
 ### 14.1 VRCShader 属性名 `_Udon` 前缀限制 🔴
 
@@ -395,7 +395,7 @@ float4 _UdonMyCustomVar;  // 专门用于 Udon SetGlobal
 
 | 主题 | 文档 |
 |------|------|
-| VRC Graphics 总览 | `memory/world/udon/vrc-graphics/index.md` |
-| VRCAsyncGPUReadback 完整 API | `memory/world/udon/vrc-graphics/asyncgpureadback.md` |
-| `_VRChat*` 全局变量清单 | `memory/world/udon/vrc-graphics/vrchat-shader-globals.md` |
-| 渲染性能优化 | `memory/world/performance-guide.md` |
+| VRC Graphics 总览 | `entities/world/udon/vrc-graphics/index.md` |
+| VRCAsyncGPUReadback 完整 API | `entities/world/udon/vrc-graphics/asyncgpureadback.md` |
+| `_VRChat*` 全局变量清单 | `entities/world/udon/vrc-graphics/vrchat-shader-globals.md` |
+| 渲染性能优化 | `entities/world/performance-guide.md` |

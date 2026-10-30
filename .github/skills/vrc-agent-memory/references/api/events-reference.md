@@ -120,9 +120,9 @@ related:
 4. 在 UdonBehaviour 中 `public override` 实现上述方法
 
 详细文档:
-- 总览与事件: `memory/world/udon/midi/index.md`
-- 文件回放(`VRCMidiPlayer` 组件): `memory/world/udon/midi/midi-playback.md`
-- 实时输入(`VRC Midi Listener` 组件): `memory/world/udon/midi/realtime-midi.md`
+- 总览与事件: `entities/world/udon/midi/index.md`
+- 文件回放(`VRCMidiPlayer` 组件): `entities/world/udon/midi/midi-playback.md`
+- 实时输入(`VRC Midi Listener` 组件): `entities/world/udon/midi/realtime-midi.md`
 
 ---
 
@@ -184,20 +184,20 @@ related:
 
 | 主题 | 本地化文档 | 关联内容 |
 |---|---|---|
-| Udon 总览 | `memory/world/udon/index.md` | 概念、3 种创建方式、VM 细节、9 条指令 |
-| **事件执行顺序** ⭐关键 | `memory/world/udon/event-execution-order.md` | `_onEnable → _start` 无间隔执行 |
-| Animation Events | `memory/world/udon/animation-events.md` | Animator 事件白名单 (12 方法) |
-| Avatar Events | `memory/world/udon/avatar-events.md` | OnAvatarChanged / OnAvatarEyeHeightChanged |
-| Input Events | `memory/world/udon/input-events.md` | Interact/InputUse/InputJump/InputGrab + UdonInputEventArgs |
-| UI Events | `memory/world/udon/ui-events.md` | Unity UI 事件白名单 (28 组件) |
-| Debugging | `memory/world/udon/debugging-udon-projects.md` | Debug 模式 + 错误日志 + UdonSharp 异常监听 |
-| External URLs | `memory/world/udon/external-urls.md` | VRCUrl + 域白名单 + 5s 限流 |
-| Image Loading | `memory/world/udon/image-loading.md` | VRCImageDownloader + 2048x2048 + 32MB |
-| String Loading | `memory/world/udon/string-loading.md` | VRCStringDownloader + 100MB |
-| AI Navigation | `memory/world/udon/ai-navigation.md` | NavMeshAgent + 运行时 NavMesh + Owner 计算 |
-| VM and Assembly | `memory/world/udon/vm-and-assembly.md` | 字节码逆向、9 Opcode、类型命名规则 |
-| Using Build & Test | `memory/world/udon/using-build-test.md` | 本地测试流程 |
-| World Debug Views | `memory/world/udon/world-debug-views.md` | 调试视图 |
+| Udon 总览 | `entities/world/udon/index.md` | 概念、3 种创建方式、VM 细节、9 条指令 |
+| **事件执行顺序** ⭐关键 | `entities/world/udon/event-execution-order.md` | `_onEnable → _start` 无间隔执行 |
+| Animation Events | `entities/world/udon/animation-events.md` | Animator 事件白名单 (12 方法) |
+| Avatar Events | `entities/world/udon/avatar-events.md` | OnAvatarChanged / OnAvatarEyeHeightChanged |
+| Input Events | `entities/world/udon/input-events.md` | Interact/InputUse/InputJump/InputGrab + UdonInputEventArgs |
+| UI Events | `entities/world/udon/ui-events.md` | Unity UI 事件白名单 (28 组件) |
+| Debugging | `entities/world/udon/debugging-udon-projects.md` | Debug 模式 + 错误日志 + UdonSharp 异常监听 |
+| External URLs | `entities/world/udon/external-urls.md` | VRCUrl + 域白名单 + 5s 限流 |
+| Image Loading | `entities/world/udon/image-loading.md` | VRCImageDownloader + 2048x2048 + 32MB |
+| String Loading | `entities/world/udon/string-loading.md` | VRCStringDownloader + 100MB |
+| AI Navigation | `entities/world/udon/ai-navigation.md` | NavMeshAgent + 运行时 NavMesh + Owner 计算 |
+| VM and Assembly | `entities/world/udon/vm-and-assembly.md` | 字节码逆向、9 Opcode、类型命名规则 |
+| Using Build & Test | `entities/world/udon/using-build-test.md` | 本地测试流程 |
+| World Debug Views | `entities/world/udon/world-debug-views.md` | 调试视图 |
 
 ---
 

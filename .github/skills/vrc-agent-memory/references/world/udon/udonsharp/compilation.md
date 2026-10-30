@@ -28,7 +28,7 @@ related:
 ---
 # UdonSharp 编译管线
 
-UdonSharp 1.x **迁移说明**: 本文档为 `memory/world/udon/udonsharp/compilation.md` 的权威位置。
+UdonSharp 1.x **迁移说明**: 本文档为 `entities/world/udon/udonsharp/compilation.md` 的权威位置。
 
 ---
 
@@ -191,14 +191,14 @@ CompilationContext.LoadSyntaxTreesAndCreateModules();
 
 ## 相关文档
 
-- `memory/world/udon/udonsharp/index.md` — UdonSharp 总览
-- `memory/world/udon/udonsharp/configuration.md` — UdonSharp 配置
-- `memory/world/udon/udonsharp/attributes.md` — UdonSharp Attributes
-- `memory/world/udon/udonsharp/performance-tips.md` — 性能优化
-- `memory/rules/udonsharp-language-limits.md` — UdonSharp 语言限制
-- `memory/rules/udon-vm-architecture.md` — Udon VM 架构
-- `memory/api/udonsharp-runtime.md` — UdonSharpBehaviour 运行时系统
-- `memory/world/udon/vm-and-assembly.md` — Udon 字节码规范
+- `entities/world/udon/udonsharp/index.md` — UdonSharp 总览
+- `entities/world/udon/udonsharp/configuration.md` — UdonSharp 配置
+- `entities/world/udon/udonsharp/attributes.md` — UdonSharp Attributes
+- `entities/world/udon/udonsharp/performance-tips.md` — 性能优化
+- `concepts/rules/udonsharp-language-limits.md` — UdonSharp 语言限制
+- `concepts/rules/udon-vm-architecture.md` — Udon VM 架构
+- `entities/api/udonsharp-runtime.md` — UdonSharpBehaviour 运行时系统
+- `entities/world/udon/vm-and-assembly.md` — Udon 字节码规范
 
 ---
 

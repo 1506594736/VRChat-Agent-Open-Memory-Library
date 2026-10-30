@@ -211,7 +211,7 @@ vrchat.com/home/content/worlds
   - CE: Trust Rank "New User" 或更高(更宽松)
   - 但 CL 和 CE 是独立的
 
-详见 `memory/world/creator-economy.md`
+详见 `entities/world/creator-economy.md`
 
 ---
 
@@ -289,6 +289,6 @@ vrchat.com/home/content/worlds
 
 ## 11. 相关文档
 
-- `memory/world/creator-economy.md` — Creator Economy(不同发布通道)
-- `memory/world/performance-guide.md` — World 性能优化
-- `memory/world/scene-components/vrc-scenedescriptor.md` — World 场景配置
+- `entities/world/creator-economy.md` — Creator Economy(不同发布通道)
+- `entities/world/performance-guide.md` — World 性能优化
+- `entities/world/scene-components/vrc-scenedescriptor.md` — World 场景配置

@@ -101,7 +101,7 @@ confidence: High
 - **核心功能**: 业内主流卡通渲染 Shader
 - **特性**: PBR 兼容, Outline, MatCap, 颜色混合, 阴影模式, 8 灯光支持, VRChat Light Volumes 兼容
 - **应用场景**: 几乎所有日式 VRChat Avatar 头部/服装
-- **知识库参考**: `memory/avatar/shader/liltoon/index.md` (16 个详细文档)
+- **知识库参考**: `entities/avatar/shader/liltoon/index.md` (16 个详细文档)
 - **文档**: <https://lilxyzw.github.io/lilToon/>
 
 ### lilAvatarUtils (v1.0.0)

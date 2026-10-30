@@ -140,10 +140,10 @@ confidence: High
 - **VPM 依赖**: `com.vrchat.base`
 - **应用场景**: 任何 Avatar 项目必须
 - **知识库参考**:
-  - `memory/avatar/playable-layers.md`
-  - `memory/avatar/avatar-fallback-system.md`
-  - `memory/avatar/full-body-tracking.md`
-  - `memory/avatar/ik-2.0.md`
+  - `entities/avatar/playable-layers.md`
+  - `entities/avatar/avatar-fallback-system.md`
+  - `entities/avatar/full-body-tracking.md`
+  - `entities/avatar/ik-2.0.md`
 
 ### VRChat SDK - Worlds (com.vrchat.worlds, v3.10.4)
 - **核心功能**: World SDK + Udon 工具
@@ -152,12 +152,12 @@ confidence: High
 - **知识库参考**:
   - `memory/world/udon/` (Udon 完整知识)
   - `memory/world/scene-components/` (VRCSceneDescriptor 等 9 个核心组件)
-  - `memory/api/persistence.md`
+  - `entities/api/persistence.md`
 
 ### VRChat Package Resolver Tool (com.vrchat.core.vpm-resolver, v0.1.29)
 - **核心功能**: VPM 协议解析器 (下载依赖、版本检查)
 - **应用场景**: 任何 VPM 项目自动安装
-- **知识库参考**: `memory/sources/vpm-package-template.md` (VPM 包开发模板)
+- **知识库参考**: `entities/platform/index.md` (VPM 包开发模板)
 
 ---
 

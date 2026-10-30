@@ -139,5 +139,5 @@ public class StateMachine : UdonSharpBehaviour {
 
 ## 相关 Scene Components
 
-- `memory/world/scene-components/vrc-station.md` - **典型事件源**:`OnStationEntered` / `OnStationExited` 是本模式的常见事件源,实现"玩家坐下 → 状态机进入 ACTIVE 阶段"的转换
-- `memory/world/scene-components/vrc-portalmarker.md` - **多 World 状态机**:Portal Marker 触发的 World 跳转是大型状态转换,可用本模式管理多 World 流程
+- `entities/world/scene-components/vrc-station.md` - **典型事件源**:`OnStationEntered` / `OnStationExited` 是本模式的常见事件源,实现"玩家坐下 → 状态机进入 ACTIVE 阶段"的转换
+- `entities/world/scene-components/vrc-portalmarker.md` - **多 World 状态机**:Portal Marker 触发的 World 跳转是大型状态转换,可用本模式管理多 World 流程

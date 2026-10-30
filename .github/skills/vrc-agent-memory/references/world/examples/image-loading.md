@@ -189,11 +189,11 @@ https://<your-github-username>.github.io/<your-repo-name>/captions.csv
 
 ## 与知识库互补
 
-- **VRCImageDownloader 完整 API**: `memory/world/image-loading.md`(待建)
+- **VRCImageDownloader 完整 API**: `entities/world/udon/image-loading.md`(待建)
 - **VRCStringDownloader**: 同上
-- **Untrusted URLs 客户端设置**: `memory/world/supported-assets.md`(待建)
-- **VRCUrl**: `memory/api/vrc-url.md`(待建)
-- **Example Central**: `memory/sources/example-central.md`
+- **Untrusted URLs 客户端设置**: `entities/world/supported-assets.md`(待建)
+- **VRCUrl**: `entities/world/udon/video-players/www-whitelist.md`(待建)
+- **Example Central**: `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）`
 
 ## 相关 Udon 文档链接
 

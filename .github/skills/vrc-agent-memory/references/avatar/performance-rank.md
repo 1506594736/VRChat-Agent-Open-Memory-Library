@@ -97,9 +97,9 @@ confidence: High
 
 | 限制系统 | 触发时机 | 默认值 | 文档 |
 |---------|---------|--------|------|
-| **Dynamic Bone Limits** | 运行时 | Max Affected=32, Max Collision=8 | `memory/avatar/avatar-dynamic-bone-limits.md` |
-| **Particle System Limits** | 运行时 | ps_max_particles=50000 等 11 变量 + Penalty 公式 | `memory/avatar/avatar-particle-system-limits.md` |
-| **Minimum Performance Rank** | 用户配置 | N/A(用户在 Settings 设置) | `memory/avatar/avatar-fallback-system.md` |
+| **Dynamic Bone Limits** | 运行时 | Max Affected=32, Max Collision=8 | `entities/avatar/avatar-dynamic-bone-limits.md` |
+| **Particle System Limits** | 运行时 | ps_max_particles=50000 等 11 变量 + Penalty 公式 | `entities/avatar/avatar-particle-system-limits.md` |
+| **Minimum Performance Rank** | 用户配置 | N/A(用户在 Settings 设置) | `entities/avatar/avatar-fallback-system.md` |
 
 **关键区别**:
 - **Performance Rank**(本文档): 创作者控制,通过优化 Avatar 改进

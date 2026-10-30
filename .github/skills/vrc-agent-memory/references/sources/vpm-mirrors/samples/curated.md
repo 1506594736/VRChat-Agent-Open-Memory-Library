@@ -102,7 +102,7 @@ confidence: High
 - **核心功能**: 让 Shader 通过音频反应。在 VRC World 中通过 OSC 接收主机音频
 - **应用场景**: 舞厅、音乐可视化、动态光照
 - **架构**: Master Time Anchor + 8 通道音频 FFT
-- **知识库参考**: `memory/hybrid/osc-protocol.md` (AudioLink OSC 协议)
+- **知识库参考**: `concepts/hybrid/osc-protocol.md` (AudioLink OSC 协议)
 
 ### UdonSharp (v1.1.6)
 - **作者**: VRChat (Merlin)
@@ -115,13 +115,13 @@ confidence: High
 - **作者**: VRLabs
 - **核心功能**: World 创建辅助 (碰撞设置、Mirror、Player 区域配置、Mirror 优化)
 - **应用场景**: World 性能优化必备
-- **知识库参考**: `memory/world/performance-guide.md`
+- **知识库参考**: `entities/world/performance-guide.md`
 
 ### Avatars 3.0 Manager (v2.0.18)
 - **作者**:  Hai­Cat­fish
 - **核心功能**: Playable Layers (Base/Additive/Gesture/Action/FX) 可视化编辑
 - **应用场景**: Avatar 动画参数管理
-- **知识库参考**: `memory/avatar/playable-layers.md`
+- **知识库参考**: `entities/avatar/playable-layers.md`
 
 ### Gesture Manager (v3.8.2)
 - **作者**: BlackStartX
@@ -138,13 +138,13 @@ confidence: High
 - **作者**: VRChat
 - **核心功能**: SDK3 World 测试用客户端模拟器
 - **应用场景**: World 调试, Udon 行为验证
-- **知识库参考**: `memory/sources/clientsim.md`
+- **知识库参考**: `entities/world/clientsim/index.md`
 
 ### EasyQuestSwitch (v1.2.1)
 - **作者**: NathanNRsg
 - **核心功能**: 一键在 PC/Quest 平台设置之间切换 (资源、设置、Player 层)
 - **应用场景**: 跨平台 World 开发
-- **知识库参考**: `memory/platform/easyquestswitch.md`
+- **知识库参考**: `entities/platform/easyquestswitch.md`
 
 ---
 

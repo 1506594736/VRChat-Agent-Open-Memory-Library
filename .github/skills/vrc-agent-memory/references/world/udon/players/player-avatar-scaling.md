@@ -27,7 +27,7 @@ related:
 # Player Avatar Scaling — Avatar 缩放系统
 
 > Subtype: API 详解
-> 底层引用: `memory/api/player-api.md`
+> 底层引用: `entities/api/player-api.md`
 > 抓取日期: 2026-06-15
 
 ---
@@ -266,7 +266,7 @@ public override void OnAvatarEyeHeightChanged(VRCPlayerApi player, float eyeHeig
 
 | 知识库 | 关系 |
 |---|---|
-| `memory/api/player-api.md` | 底层 API 简略版 |
-| `memory/api/animator.md` | Avatar 缩放影响 Animator IK 目标(待补充) |
-| `memory/avatar/playable-layers.md` | Avatar 端缩放控制(独立于本文件的世界端控制) |
-| `memory/world/udon/avatar-events.md` | `OnAvatarChanged` / `OnAvatarEyeHeightChanged` 事件 |
+| `entities/api/player-api.md` | 底层 API 简略版 |
+| `entities/api/animator.md` | Avatar 缩放影响 Animator IK 目标(待补充) |
+| `entities/avatar/playable-layers.md` | Avatar 端缩放控制(独立于本文件的世界端控制) |
+| `entities/world/udon/avatar-events.md` | `OnAvatarChanged` / `OnAvatarEyeHeightChanged` 事件 |

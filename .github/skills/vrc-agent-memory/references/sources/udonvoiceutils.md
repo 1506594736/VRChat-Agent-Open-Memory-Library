@@ -628,9 +628,9 @@ private int GetPendingPlayerUpdates(int playerCount) {
 
 ### 后续可建文档
 
-- `memory/patterns/privacy-channel.md` — 多频道交集检测
-- `memory/patterns/player-list-reconcile.md` — OnPlayerLeft 三步清理
-- `memory/patterns/occlusion-by-player.md` — `!raycastHit.transform` Udon 特性
+- `本 skill 的 `patterns/privacy-channel.md`（v3 附录页，v5 未收录）` — 多频道交集检测
+- `本 skill 的 `patterns/player-list-reconcile.md`（v3 附录页，v5 未收录）` — OnPlayerLeft 三步清理
+- `本 skill 的 `patterns/occlusion-by-player.md`（v3 附录页，v5 未收录）` — `!raycastHit.transform` Udon 特性
 
 ---
 
@@ -750,27 +750,27 @@ private int GetPendingPlayerUpdates(int playerCount) {
 
 | 关联 | 文档 |
 |------|------|
-| **同步模式基础** | `memory/patterns/manual-sync-state.md`, `memory/patterns/owner-authoritative-interaction.md` |
-| **高级同步** | `memory/patterns/advanced-sync-patterns.md` (Packed Sync, Rate-Limited, **Dual-Copy** 已收录), `memory/patterns/bit-packed-flags.md` |
-| **执行顺序** | `memory/world/udon/animator-system.md`, `memory/world/examples/obstacle-course/` |
-| **MVC 模式** | `memory/world/udon/udonsharp/compilation.md` (TLP UdonUtils 介绍) |
-| **VRChat 音频 API** | `memory/world/udon/vrc-graphics/index.md` (VRCShader 部分) |
-| **失败案例** | `memory/reviews/common-failures.md` (FAIL-29 ~ 32 已收录 LuraSwitch2) |
-| **同步模式选型** | `memory/api/networking.md` |
-| **场景组件** | `memory/world/scene-components/vrc-objectsync.md` |
-| **互补参考工程** | `memory/sources/quickbrown-luraswitch2.md` |
+| **同步模式基础** | `concepts/patterns/manual-sync-state.md`, `concepts/patterns/owner-authoritative-interaction.md` |
+| **高级同步** | `concepts/patterns/advanced-sync-patterns.md` (Packed Sync, Rate-Limited, **Dual-Copy** 已收录), `concepts/patterns/bit-packed-flags.md` |
+| **执行顺序** | `entities/avatar/animator-system.md`, `memory/world/examples/obstacle-course/` |
+| **MVC 模式** | `entities/world/udon/udonsharp/compilation.md` (TLP UdonUtils 介绍) |
+| **VRChat 音频 API** | `entities/world/udon/vrc-graphics/index.md` (VRCShader 部分) |
+| **失败案例** | `concepts/patterns/index.md` (FAIL-29 ~ 32 已收录 LuraSwitch2) |
+| **同步模式选型** | `entities/api/networking.md` |
+| **场景组件** | `entities/world/scene-components/vrc-objectsync.md` |
+| **互补参考工程** | `entities/world/luraswitch2.md` |
 
 ---
 
 ## 下一步行动建议
 
-1. ✅ **新建** `memory/sources/udonvoiceutils.md` (本文件)
-2. ✅ **更新** `memory/sources/open-source-projects.md` 添加 A7
-3. ✅ **更新** `memory/sources/index.md` 注册新源
-4. ✅ **更新** `memory/patterns/index.md` 添加 6 个新模式速查
-5. ✅ **更新** `memory/FACT.md` 最后更新段 + 6 个新模式登记
-6. 🔜 **未来** — 创建独立的 `memory/patterns/dual-copy-sync.md` 等 6 个详细 pattern 文档
-7. 🔜 **未来** — 创建独立的 `memory/patterns/privacy-channel.md` / `player-list-reconcile.md` / `occlusion-by-player.md`
+1. ✅ **新建** `本 skill 的 `sources/udonvoiceutils.md`（v3 附录页，v5 未收录）` (本文件)
+2. ✅ **更新** `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` 添加 A7
+3. ✅ **更新** `entities/vrchatsdk/index.md` 注册新源
+4. ✅ **更新** `concepts/patterns/index.md` 添加 6 个新模式速查
+5. ✅ **更新** `FACT.md` 最后更新段 + 6 个新模式登记
+6. 🔜 **未来** — 创建独立的 `本 skill 的 `patterns/dual-copy-sync.md`（v3 附录页，v5 未收录）` 等 6 个详细 pattern 文档
+7. 🔜 **未来** — 创建独立的 `本 skill 的 `patterns/privacy-channel.md`（v3 附录页，v5 未收录）` / `player-list-reconcile.md` / `occlusion-by-player.md`
 
 ---
 

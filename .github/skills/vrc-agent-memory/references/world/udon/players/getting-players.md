@@ -26,7 +26,7 @@ related:
 # Getting Players — 获取玩家对象
 
 > Subtype: API 详解
-> 底层引用: `memory/api/player-api.md`
+> 底层引用: `entities/api/player-api.md`
 > 抓取日期: 2026-06-15
 
 ---
@@ -197,7 +197,7 @@ for (int i = 0; i < count; i++)
 }
 ```
 
-> ⚠️ **List<VRCPlayerApi> 在 Udon 中受限**,如需动态集合可参考 `memory/world/udon/data-containers.md` 的 Data Lists 方案。
+> ⚠️ **List<VRCPlayerApi> 在 Udon 中受限**,如需动态集合可参考 `entities/api/data-containers.md` 的 Data Lists 方案。
 
 ---
 

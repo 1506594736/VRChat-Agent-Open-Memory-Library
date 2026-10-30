@@ -27,7 +27,7 @@ related:
 
 > SDK Version: 3.10.x
 > Last Verified: 2026-06-20
-> Reference: `memory/sources/ulocalization.md`
+> Reference: `concepts/patterns/index.md`
 
 ---
 
@@ -268,7 +268,7 @@ public partial class Dispatcher : UdonSharpBehaviour {
 
 ## 关联文档
 
-- `memory/sources/ulocalization.md` — 项目溯源
-- `memory/patterns/hash-based-dispatch.md` — 配套 hash 分派
-- `memory/patterns/build-time-vs-runtime-separation.md` — 配套 Build-Runtime 分离
-- `memory/FACT.md` § ULocalization
+- `concepts/patterns/index.md` — 项目溯源
+- `concepts/patterns/hash-based-dispatch.md` — 配套 hash 分派
+- `comparisons/build-time-vs-runtime.md` — 配套 Build-Runtime 分离
+- `FACT.md` § ULocalization

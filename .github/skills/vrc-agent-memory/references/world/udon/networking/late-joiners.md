@@ -537,9 +537,9 @@ public class PlayerListManager : UdonSharpBehaviour {
 
 | 文档 | 关系 |
 |------|------|
-| `memory/world/udon/networking/index.md` | Networking 概述 |
-| `memory/world/udon/networking/events.md` | Event 不可用于 Late Joiner |
-| `memory/world/udon/networking/variables.md` | UdonSynced 变量自动同步 |
-| `memory/world/udon/networking/ownership.md` | 玩家离开导致 Owner 转移 |
-| `memory/patterns/late-joiner-state-restore.md` | Late Joiner 恢复模式 |
-| `memory/api/networking.md` | API 速查 |
+| `entities/world/udon/networking/index.md` | Networking 概述 |
+| `entities/world/udon/networking/events.md` | Event 不可用于 Late Joiner |
+| `entities/world/udon/networking/variables.md` | UdonSynced 变量自动同步 |
+| `entities/world/udon/networking/ownership.md` | 玩家离开导致 Owner 转移 |
+| `concepts/patterns/late-joiner-state-restore.md` | Late Joiner 恢复模式 |
+| `entities/api/networking.md` | API 速查 |

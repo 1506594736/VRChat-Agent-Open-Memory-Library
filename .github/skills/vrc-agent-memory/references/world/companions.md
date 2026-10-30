@@ -186,9 +186,9 @@ if (Physics.Raycast(origin, direction, out hit, maxDistance, layerMask))
 - **VRChat 2026.2.3 Release Notes**(Build 1864)
 - **VRChat 2026.2.3 Open Beta Notes**(Build 1863)
 - **VRChat 2026.2.3p1 Release Notes**(Build 1865) - Kath/Treats 升级
-- 相关:`memory/world/items.md` (旧版 Items 概念)
-- 相关:`memory/world/layers.md` (Layer 3 Item 定义)
-- 相关:`memory/avatar/accessories.md` (Avatar 端配饰,完全独立)
+- 相关:`entities/world/items.md` (旧版 Items 概念)
+- 相关:`entities/world/layers.md` (Layer 3 Item 定义)
+- 相关:`entities/avatar/accessories.md` (Avatar 端配饰,完全独立)
 
 ---
 

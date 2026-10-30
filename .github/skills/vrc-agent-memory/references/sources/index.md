@@ -88,7 +88,7 @@ confidence: High
 | **[vrc-avatar-performance-tools.md](vrc-avatar-performance-tools.md)** ⭐NEW | Thry Avatar Evaluator + VRAM Checker(409 Stars / 7 项官方未覆盖指标 + PC/Quest 双套 VRAM 阈值) | A | ✅ 完整 (2026-06-17) |
 
 **关联**: `memory/world/clientsim/` (4 系统文档 + 3 编辑器文档) 详细记录 ClientSim 架构
-**关联**: `memory/avatar/thry-avatar-evaluator-metrics.md` — 工具检测的 7 项指标详细阈值与方法
+**关联**: `entities/avatar/thry-avatar-evaluator-metrics.md` — 工具检测的 7 项指标详细阈值与方法
 
 ### 📦 开源项目源
 
@@ -105,7 +105,7 @@ confidence: High
 **QuickBrown LuraSwitch2 沉淀内容**:
 - 6 个新 Pattern 文档(master-follower-syncer / exclusive-control-selector / soft-detent-interpolation / fade-then-snap / editor-preview-component / material-propertyblock-safe-update)
 - 4 个新 FAIL 案例(FAIL-29 ~ FAIL-32)
-- **双重身份**: A6 案例研究 (`memory/sources/quickbrown-luraswitch2.md`) + C15 工具使用指南 (`memory/world/luraswitch2.md`)
+- **双重身份**: A6 案例研究 (`entities/world/luraswitch2.md`) + C15 工具使用指南 (`entities/world/luraswitch2.md`)
 - 创作者可直接从 BOOTH 下载使用：https://booth.pm/en/items/1969082
 
 **TLP UdonVoiceUtils 沉淀内容** (2026-06-20 ⭐NEW):
@@ -252,4 +252,4 @@ vpm-package-template.md
 |------|------|
 | `memory/references/` | 对比分析、跨验证记录 |
 | `特殊Agent提示词/` | 阶段报告(取代 V3.0 前的 journal/) |
-| `memory/FACT.md` | 案例研究来源标注(多机位导演系统 / 视频播放器 / 音频同步系统 参考工程) |
+| `FACT.md` | 案例研究来源标注(多机位导演系统 / 视频播放器 / 音频同步系统 参考工程) |

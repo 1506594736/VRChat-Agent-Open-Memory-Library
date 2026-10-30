@@ -279,9 +279,9 @@ void CopyIntoFlags()
 
 本文档是 AudioLink 系统**使用指南**(API、组件、UV 坐标)。如需了解从 AudioLink 提炼的**通用设计模式**(纹理编码、Master 时间锚点、漂移校正等),请参阅:
 
-- `memory/FACT.md` §核心设计模式 — 模式 1-5
-- `memory/world/udon/data-containers/byte-and-bit-operations.md` — 位域压缩底层原理
-- `memory/patterns/bit-packed-flags.md` — 位域压缩同步模式应用
+- `FACT.md` §核心设计模式 — 模式 1-5
+- `entities/world/udon/data-containers/byte-and-bit-operations.md` — 位域压缩底层原理
+- `concepts/patterns/bit-packed-flags.md` — 位域压缩同步模式应用
 
 > **设计模式 → 实际应用**:AudioLink 是这些设计模式的"代表实现",创作者可以参考其 API 用法,将这些模式应用到自己的项目中
 
@@ -291,6 +291,6 @@ void CopyIntoFlags()
 
 本节描述的开源 VRChat 音频同步系统(AudioLink)项目,见:
 
-- `memory/sources/open-source-projects.md` §音频同步类目
+- `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` §音频同步类目
 
 如需了解项目安装、VPM 配置、源码版本,参阅 `memory/sources/` 目录

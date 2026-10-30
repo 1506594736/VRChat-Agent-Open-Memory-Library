@@ -80,7 +80,7 @@ VRChat 官方不维护视频播放器 Prefab,但社区有三个主流实现:
 - 不需要"同步所有人看同一视频" → 可**仅用 VRC Video Player 组件**(不挂 UdonBehaviour)
 - 需要同步 → 使用 `UdonSyncPlayer` 提供的同步图,**或基于其实现自己的同步**
 
-详见: `memory/world/examples/udon-example-scene/udon-video-sync-player.md`
+详见: `entities/world/examples/udon-example-scene/udon-video-sync-player.md`
 
 ---
 
@@ -180,7 +180,7 @@ public class VideoController : UdonSharpBehaviour
 
 ### Udon Type Exposure 注意
 
-> **VRCUnityVideoPlayer 暴露的 API 必须在白名单中**,详细清单见 `memory/api/exposed-types.md` 和 `memory/api/udon-type-exposure.md`。
+> **VRCUnityVideoPlayer 暴露的 API 必须在白名单中**,详细清单见 `entities/api/exposed-types.md` 和 `entities/api/udon-type-exposure.md`。
 
 主要暴露方法(以 SDK 3.10.3 为例):
 
@@ -274,7 +274,7 @@ public void Start() {
 }
 ```
 
-> 完整 `VRCUrl` API 详见 `memory/world/udon/external-urls.md`。
+> 完整 `VRCUrl` API 详见 `entities/world/udon/external-urls.md`。
 
 ---
 
@@ -288,7 +288,7 @@ URL 同步:Variable Change 事件触发(单次)
 服务器时间锚点:Networking.GetServerTimeInSeconds()
 ```
 
-**生产级参考**: `memory/FACT.md` 中**视频播放器时间同步算法模式(参考工程)** —— VRChat 社区最完善的音视频同步实现。
+**生产级参考**: `FACT.md` 中**视频播放器时间同步算法模式(参考工程)** —— VRChat 社区最完善的音视频同步实现。
 
 | 模式 | 来源 | 特点 |
 |------|------|------|
@@ -346,25 +346,25 @@ ffmpeg -i input.mp4 -c copy -movflags +faststart output.mp4
 
 | 知识库 | 关系 |
 |--------|------|
-| `memory/world/udon/external-urls.md` | VRCUrl + 白名单基础 |
-| `memory/world/examples/udon-example-scene/udon-video-sync-player.md` | UdonSyncPlayer 完整实现 |
-| `memory/world/sdk-prefabs.md` | 8 个 SDK Prefab 总览 |
-| `memory/api/exposed-types.md` | U# 类型暴露完整清单(查 VRCUnityVideoPlayer / VRCAVProVideoPlayer) |
-| `memory/api/udon-type-exposure.md` | Type Exposure 索引 |
-| `memory/api/networking.md` | Manual Sync 规范 |
-| **`memory/FACT.md` → 视频播放器时间同步算法模式(参考工程)** | **生产级视频同步参考** |
-| `memory/FACT.md` → 音频同步系统(参考工程) | 音频同步(无网络)参考 |
+| `entities/world/udon/external-urls.md` | VRCUrl + 白名单基础 |
+| `entities/world/examples/udon-example-scene/udon-video-sync-player.md` | UdonSyncPlayer 完整实现 |
+| `entities/world/sdk-prefabs.md` | 8 个 SDK Prefab 总览 |
+| `entities/api/exposed-types.md` | U# 类型暴露完整清单(查 VRCUnityVideoPlayer / VRCAVProVideoPlayer) |
+| `entities/api/udon-type-exposure.md` | Type Exposure 索引 |
+| `entities/api/networking.md` | Manual Sync 规范 |
+| **`FACT.md` → 视频播放器时间同步算法模式(参考工程)** | **生产级视频同步参考** |
+| `FACT.md` → 音频同步系统(参考工程) | 音频同步(无网络)参考 |
 | `memory/world/udon/networking/` | 网络同步基础 |
-| `memory/patterns/manual-sync-state.md` | Manual Sync 模式 |
+| `concepts/patterns/manual-sync-state.md` | Manual Sync 模式 |
 
 ---
 
 ## 参见
 
-- **Video Player Allowlist**: `memory/world/udon/video-players/www-whitelist.md`
-- **Udon Video Sync Player 示例**: `memory/world/examples/udon-example-scene/udon-video-sync-player.md`
-- **VRCUrl & External URLs**: `memory/world/udon/external-urls.md`
-- **视频播放器时间同步算法模式(参考工程)**: `memory/FACT.md` (6. Manual Sync + Owner Authority)
+- **Video Player Allowlist**: `entities/world/udon/video-players/www-whitelist.md`
+- **Udon Video Sync Player 示例**: `entities/world/examples/udon-example-scene/udon-video-sync-player.md`
+- **VRCUrl & External URLs**: `entities/world/udon/external-urls.md`
+- **视频播放器时间同步算法模式(参考工程)**: `FACT.md` (6. Manual Sync + Owner Authority)
 - **社区 Prefab**:
   - VideoTXL: <https://github.com/vrctxl/VideoTXL> (原 Superbstom/VideoTXL 已 archived,已迁移至 vrctxl)
   - ProTV: <https://gitlab.com/techanon/protv> (原 Polar-Pumpkin/ProTV 已迁移至 GitLab)

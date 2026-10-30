@@ -26,7 +26,7 @@ related:
 # Player Positions — 玩家位置/旋转/追踪/速度/传送
 
 > Subtype: API 详解
-> 底层引用: `memory/api/player-api.md`
+> 底层引用: `entities/api/player-api.md`
 > 抓取日期: 2026-06-15
 
 ---
@@ -258,8 +258,8 @@ public void DelayedTeleport()
 #### 配合改进
 
 > 2026.2.3 同时发布:
-> - **Outgoing Queue Drop Policy**(详见 `memory/api/networking.md` §Outgoing Queue Drop Policy)
-> - **VRCObjectSync 可靠性增强**(详见 `memory/world/scene-components/vrc-objectsync.md` §2026.2.3 可靠性增强)
+> - **Outgoing Queue Drop Policy**(详见 `entities/api/networking.md` §Outgoing Queue Drop Policy)
+> - **VRCObjectSync 可靠性增强**(详见 `entities/world/scene-components/vrc-objectsync.md` §2026.2.3 可靠性增强)
 > - **Udon Teleport 四元数归一化**(本节)
 
 ---
@@ -409,8 +409,8 @@ public void DelayedRestore()
 
 | 知识库 | 关系 |
 |---|---|
-| `memory/api/player-api.md` | 底层 API 简略版 |
-| `memory/world/udon/players/player-forces.md` | 移动/速度/力相关 |
-| `memory/world/udon/players/player-avatar-scaling.md` | `GetPlayerEyeHeightAsMeters` |
+| `entities/api/player-api.md` | 底层 API 简略版 |
+| `entities/world/udon/players/player-forces.md` | 移动/速度/力相关 |
+| `entities/world/udon/players/player-avatar-scaling.md` | `GetPlayerEyeHeightAsMeters` |
 | `memory/world/udon/networking/` | 网络更新事件、传送同步 |
-| `memory/world/udon/networking/network-components.md` | `OnDeserialization` 注意事项 |
+| `entities/world/udon/networking/network-components.md` | `OnDeserialization` 注意事项 |

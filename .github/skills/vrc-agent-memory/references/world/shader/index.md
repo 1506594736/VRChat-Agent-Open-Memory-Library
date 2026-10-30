@@ -74,4 +74,4 @@ world/shader/
 
 - `memory/world/bakery/` — Bakery GPU Lightmapper
 - `memory/avatar/shader/` — Avatar Shader 知识库
-- `memory/world/performance-guide.md` — World 性能优化指南
+- `entities/world/performance-guide.md` — World 性能优化指南

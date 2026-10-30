@@ -372,9 +372,9 @@ UdonSharpEditorUtility.DestroyImmediate(target);
 
 | 现有知识库 | 应补充/引用 |
 |-----------|----------|
-| `memory/api/udonsharp-runtime.md` | **核心** — Proxy 系统、构建时组件处理与本文密切相关 |
-| `memory/sources/vpm-package-template.md` | VPM Package 中 Editor 文件夹组织 |
-| `memory/world/udon/vm-and-assembly.md` | Udon VM 与 Editor 集成 |
+| `entities/api/udonsharp-runtime.md` | **核心** — Proxy 系统、构建时组件处理与本文密切相关 |
+| `entities/platform/index.md` | VPM Package 中 Editor 文件夹组织 |
+| `entities/world/udon/vm-and-assembly.md` | Udon VM 与 Editor 集成 |
 
 ---
 

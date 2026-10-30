@@ -215,7 +215,7 @@ if (IsNetworkedObject(obj) && Stats.GetSleeping(obj))
 | **`VRC.SDK3.Network.Stats` API**(本文) | 程序化访问 | **Runtime** | 集成到 World 逻辑中 |
 | **VRChat 客户端 Stats 窗口** | 客户端 UI | **Runtime** | 用户/开发者可视化(见 task-08 world-debug-views) |
 | **Network ID Utility**(见 `network-id-utility.md`) | ID 管理 | **Editor Only** | 分配/导入/导出 Network ID |
-| **ClientSim**(见 `memory/sources/clientsim.md` 和 `memory/world/clientsim/index.md`) | Editor 内模拟网络环境 | **Editor Only** | 4 个调试窗口(Settings / PlayerObject / PlayerData / 主窗口) |
+| **ClientSim**(见 `entities/world/clientsim/index.md` 和 `entities/world/clientsim/index.md`) | Editor 内模拟网络环境 | **Editor Only** | 4 个调试窗口(Settings / PlayerObject / PlayerData / 主窗口) |
 
 ### ClientSim vs Network Stats API
 
@@ -237,7 +237,7 @@ if (IsNetworkedObject(obj) && Stats.GetSleeping(obj))
 | **远程玩家** | **不模拟** | 真实存在 |
 | **`byteCount` 语义** | 属性数量 | 实际字节数 |
 
-详细 ClientSim Networking 差异:见 `memory/world/clientsim/index.md` 的 "Networking Differences in ClientSim" 章节。
+详细 ClientSim Networking 差异:见 `entities/world/clientsim/index.md` 的 "Networking Differences in ClientSim" 章节。
 
 ---
 
@@ -258,7 +258,7 @@ if (IsNetworkedObject(obj) && Stats.GetSleeping(obj))
 
 ## 与带宽限制的关系
 
-> 📌 来自 `memory/api/networking.md` 的事实:
+> 📌 来自 `entities/api/networking.md` 的事实:
 > **VRChat 总带宽: ~11 KB/s**(所有玩家/对象总和)
 > **Manual sync: 280,496 bytes/serialization**
 > **Continuous sync: ~200 bytes/serialization**

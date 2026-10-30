@@ -348,9 +348,9 @@ public class PlayerData.Info {
 
 ## 相关知识库
 
-- `memory/api/persistence.md` - 完整 API 速查
-- `memory/world/examples/persistence/leaderboard.md` - 排行榜 Example Central 笔记
-- `memory/world/examples/persistence/persistent-idle-game.md` - Idle Game 笔记
-- `memory/world/examples/persistence/unlock-items.md` - 解锁物品笔记
-- `memory/patterns/late-joiner-state-restore.md` - Late Joiner 状态恢复模式
-- `memory/rules/networking-rules.md` - 网络同步规则
+- `entities/api/persistence.md` - 完整 API 速查
+- `entities/world/examples/persistence/leaderboard.md` - 排行榜 Example Central 笔记
+- `entities/world/examples/persistence/persistent-idle-game.md` - Idle Game 笔记
+- `entities/world/examples/persistence/unlock-items.md` - 解锁物品笔记
+- `concepts/patterns/late-joiner-state-restore.md` - Late Joiner 状态恢复模式
+- `concepts/rules/networking-rules.md` - 网络同步规则

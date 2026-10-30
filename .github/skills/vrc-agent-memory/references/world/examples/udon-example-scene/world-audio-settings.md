@@ -76,7 +76,7 @@ related:
 - `AudioSource.priority` — 音频源优先级(0 = 最高,256 = 最低)
 - `AudioSource.volume` — 音频源音量
 
-**参见**:`memory/api/audio.md`(如存在)、`memory/world/audio.md`
+**参见**:`entities/api/audio.md`(如存在)、`entities/api/audio.md`
 
 ---
 
@@ -134,6 +134,6 @@ public class WorldAudioSettings : UdonSharpBehaviour {
 
 ## 与相关知识库关联
 
-- **VRCPlayerApi 完整 API**:`memory/api/player.md`
-- **Audio Source Unity API**:`memory/api/audio.md`
+- **VRCPlayerApi 完整 API**:`entities/api/player-api.md`
+- **Audio Source Unity API**:`entities/api/audio.md`
 - **VRCWorld 整体架构**:[index.md](index.md)

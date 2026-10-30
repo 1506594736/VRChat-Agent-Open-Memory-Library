@@ -236,7 +236,7 @@ private void Update()
 
 **【未确认】** 官方 performance-tips 页面**未明确**提到字符串性能，但 Udon VM 中字符串操作有显著开销。
 
-**【FACT - memory/api/udonsharp-runtime.md / 视频播放器(参考工程)验证】**：
+**【FACT - entities/api/udonsharp-runtime.md / 视频播放器(参考工程)验证】**：
 
 ### 5.1 避免 `String +=` 累积
 
@@ -399,7 +399,7 @@ private void Update()
 
 ## 9. 网络同步优化（与 performance-tips 互补）
 
-**【FACT - memory/patterns/manual-sync-state.md 验证】**：
+**【FACT - concepts/patterns/manual-sync-state.md 验证】**：
 
 | 优化 | 说明 |
 |------|------|
@@ -409,7 +409,7 @@ private void Update()
 | **位域压缩** | 多个 bool 压缩为单个 byte |
 | **Master 时间锚点** | 同步一个时间戳，客户端本地计算 |
 
-> **【未确认】** 网络同步性能影响未在官方 performance-tips 中直接讨论，但 `memory/api/networking.md` 中有详细带宽限制（~11KB/s、280KB/serialization）。
+> **【未确认】** 网络同步性能影响未在官方 performance-tips 中直接讨论，但 `entities/api/networking.md` 中有详细带宽限制（~11KB/s、280KB/serialization）。
 
 ---
 
@@ -424,7 +424,7 @@ private void Update()
 
 ### 10.2 VRChat ClientSim
 
-**【FACT - memory/sources/clientsim.md 验证】** ClientSim 模拟 VRChat 客户端环境，可用于：
+**【FACT - entities/world/clientsim/index.md 验证】** ClientSim 模拟 VRChat 客户端环境，可用于：
 - 在 Editor 中测试 U# 性能
 - 验证同步行为
 - 无需进入 VRChat 实例即可调试
@@ -456,13 +456,13 @@ private void Update()
 
 | 现有知识库 | 应补充/引用 |
 |-----------|----------|
-| `memory/api/networking.md` | 同步模式选择与带宽限制 |
-| `memory/patterns/manual-sync-state.md` | Manual Sync + 阈值触发范式 |
-| `memory/patterns/owner-authoritative-interaction.md` | Owner Authority 模式 |
-| `memory/api/udonsharp-runtime.md` | Odin Serializer、GetProgramVariable 性能 |
-| `memory/world/performance-guide.md` | World 综合性能（材质、光照）|
-| `memory/sources/clientsim.md` | 性能测试环境 |
-| `memory/rules/udonsharp-language-limits.md` | 语言限制（无 Generic 等）的性能影响 |
+| `entities/api/networking.md` | 同步模式选择与带宽限制 |
+| `concepts/patterns/manual-sync-state.md` | Manual Sync + 阈值触发范式 |
+| `concepts/patterns/owner-authoritative-interaction.md` | Owner Authority 模式 |
+| `entities/api/udonsharp-runtime.md` | Odin Serializer、GetProgramVariable 性能 |
+| `entities/world/performance-guide.md` | World 综合性能（材质、光照）|
+| `entities/world/clientsim/index.md` | 性能测试环境 |
+| `concepts/rules/udonsharp-language-limits.md` | 语言限制（无 Generic 等）的性能影响 |
 
 ---
 

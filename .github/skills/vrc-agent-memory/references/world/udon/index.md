@@ -66,7 +66,7 @@ related:
 - **类比**: Unity Animator、Blender Shaders、Geometry Nodes、Unreal Blueprints
 - **优势**: VRChat SDK 内置,**不需要第三方工具**
 - **适用**: 完全没编程经验,或只做简单脚本
-- **文档**: `memory/world/udon/graph/index.md`
+- **文档**: `entities/world/udon/graph/index.md`
 
 ### 方式 2: UdonSharp(C# 入口) ⭐ 本 Agent 主战场
 
@@ -141,7 +141,7 @@ related:
 
 **为什么重要**: 当你在 Udon 日志中看到 `SystemInt32Array` 而不是 `int[]` 时,这是正常现象,不是 bug。
 
-> 详细 VM 逆向工程: `memory/rules/udon-vm-architecture.md`
+> 详细 VM 逆向工程: `concepts/rules/udon-vm-architecture.md`
 
 ---
 
@@ -152,29 +152,29 @@ related:
 | Udon Node Graph | `memory/world/udon/graph/` | 可视化编程 |
 | UdonSharp | `memory/world/udon/udonsharp/` | C# 入口 |
 | **Player API** | `memory/world/udon/players/` | 玩家交互 |
-| **AI Navigation** | `memory/world/udon/ai-navigation.md` | NavMeshAgent + 寻路 |
-| **Animation Events** | `memory/world/udon/animation-events.md` | Animator Event 触发的白名单 |
-| **Avatar Events** | `memory/world/udon/avatar-events.md` | OnAvatarChanged 玩家切 Avatar |
+| **AI Navigation** | `entities/world/udon/ai-navigation.md` | NavMeshAgent + 寻路 |
+| **Animation Events** | `entities/world/udon/animation-events.md` | Animator Event 触发的白名单 |
+| **Avatar Events** | `entities/world/udon/avatar-events.md` | OnAvatarChanged 玩家切 Avatar |
 | Data Containers | `memory/world/udon/data-containers/` | JSON 序列化 + 位/字节操作 ⭐ |
-| **Data Tokens** | `memory/world/udon/data-containers/data-tokens.md` | DataToken 类型系统 + 隐式装箱 + 提取值 |
-| **Data Lists** | `memory/world/udon/data-containers/data-lists.md` | DataList 完整 API + 嵌套 + 性能基准 |
-| **Data Dictionaries** | `memory/world/udon/data-containers/data-dictionaries.md` | DataDictionary 完整 API + 键值对 |
-| **VRCJSON** | `memory/world/udon/data-containers/vrcjson.md` | JSON 序列化/反序列化 + 错误处理 |
-| **Debugging Udon** | `memory/world/udon/debugging-udon-projects.md` | Debug 模式 + 断点 |
-| **Event Execution Order** | `memory/world/udon/event-execution-order.md` | ⭐ 关键:事件触发时序 |
-| **External URLs** | `memory/world/udon/external-urls.md` | VRCUrl + 白名单 |
-| **Image Loading** | `memory/world/udon/image-loading.md` | VRCImageDownloader + 4KB 限制 |
-| **Input Events** | `memory/world/udon/input-events.md` | Interact/Use/Trigger/Collision |
+| **Data Tokens** | `entities/world/udon/data-containers/data-tokens.md` | DataToken 类型系统 + 隐式装箱 + 提取值 |
+| **Data Lists** | `entities/world/udon/data-containers/data-lists.md` | DataList 完整 API + 嵌套 + 性能基准 |
+| **Data Dictionaries** | `entities/world/udon/data-containers/data-dictionaries.md` | DataDictionary 完整 API + 键值对 |
+| **VRCJSON** | `entities/world/udon/data-containers/vrcjson.md` | JSON 序列化/反序列化 + 错误处理 |
+| **Debugging Udon** | `entities/world/udon/debugging-udon-projects.md` | Debug 模式 + 断点 |
+| **Event Execution Order** | `entities/world/udon/event-execution-order.md` | ⭐ 关键:事件触发时序 |
+| **External URLs** | `entities/world/udon/external-urls.md` | VRCUrl + 白名单 |
+| **Image Loading** | `entities/world/udon/image-loading.md` | VRCImageDownloader + 4KB 限制 |
+| **Input Events** | `entities/world/udon/input-events.md` | Interact/Use/Trigger/Collision |
 | Midi in Udon | `memory/world/udon/midi/` | MIDI 钢琴输入 |
 | Networking | `memory/world/udon/networking/` | 网络同步 |
 | Persistence | `memory/world/udon/persistence/` | PlayerData + PlayerObject(实战教程 8 文档,2026-06-21) |
-| **String Loading** | `memory/world/udon/string-loading.md` | VRCStringDownloader |
-| UI Events | `memory/world/udon/ui-events.md` | Unity UI 事件白名单 |
+| **String Loading** | `entities/world/udon/string-loading.md` | VRCStringDownloader |
+| UI Events | `entities/world/udon/ui-events.md` | Unity UI 事件白名单 |
 | **Video Players** | `memory/world/udon/video-players/` | VRCUnityVideoPlayer / AVPro + 5s 限流 ⭐NEW 2026-06-15 |
 | VM and Assembly | `memory/world/udon/vm-and-assembly/` | Udon VM 字节码细节 |
 | VRCGraphics | `memory/world/udon/vrc-graphics/` | VRCGraphics API |
 | **VRCTween** | `memory/world/udon/vrctween/` | ⭐ **官方补间系统**(DOTween 封装,7 大类 + 虚拟补间)NEW 2026-06-21 |
-| World Debug Views | `memory/world/udon/world-debug-views.md` | 调试视图 |
+| World Debug Views | `entities/world/udon/world-debug-views.md` | 调试视图 |
 
 ---
 
@@ -186,11 +186,11 @@ VRChat 官方使用 [Canny 反馈板](https://vrchat.canny.io/udon) 收集 Udon 
 
 ## 与知识库互补
 
-- **Udon VM 架构逆向**: `memory/rules/udon-vm-architecture.md` ⭐ 9 指令详细文档
-- **UdonSharp 语言限制**: `memory/rules/udonsharp-language-limits.md` ⭐ C# → Udon 限制
-- **Udon 事件完整参考**: `memory/api/events-reference.md` ⭐ 事件方法签名
-- **UdonSharp 运行时系统**: `memory/api/udonsharp-runtime.md` ⭐ GetProgramVariable/SetProgramVariable
-- **Udon 编译管线**: `memory/world/udon/udonsharp/compilation.md` ⭐ 四阶段编译
+- **Udon VM 架构逆向**: `concepts/rules/udon-vm-architecture.md` ⭐ 9 指令详细文档
+- **UdonSharp 语言限制**: `concepts/rules/udonsharp-language-limits.md` ⭐ C# → Udon 限制
+- **Udon 事件完整参考**: `entities/api/events-reference.md` ⭐ 事件方法签名
+- **UdonSharp 运行时系统**: `entities/api/udonsharp-runtime.md` ⭐ GetProgramVariable/SetProgramVariable
+- **Udon 编译管线**: `entities/world/udon/udonsharp/compilation.md` ⭐ 四阶段编译
 
 ---
 
@@ -201,4 +201,4 @@ VRChat 官方使用 [Canny 反馈板](https://vrchat.canny.io/udon) 收集 Udon 
 > - Udon 脚本中,**`_onEnable()` 紧接 `_start()` 执行,中间没有任何空隙**
 > - 在 `_onEnable` 中**绝对不能**假设其他 UdonBehaviour 已 `_start`
 > - 所有需要"其他系统就绪"的初始化,必须放在 `_start` 中
-> - 完整事件顺序: `memory/world/udon/event-execution-order.md`
+> - 完整事件顺序: `entities/world/udon/event-execution-order.md`

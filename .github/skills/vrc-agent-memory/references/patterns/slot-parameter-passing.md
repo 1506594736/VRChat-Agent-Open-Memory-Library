@@ -208,7 +208,7 @@ ULocalization 用 3 槽位是为了同时支持 `set_text(value)` 和 `set_name(
 
 ## 关联文档
 
-- `memory/sources/ulocalization.md` — 项目溯源
-- `memory/patterns/hash-based-dispatch.md` — 配套的 hash 分派
-- `memory/patterns/code-generation-type-erasure.md` — 配套的代码生成
-- `memory/FACT.md` § ULocalization
+- `concepts/patterns/index.md` — 项目溯源
+- `concepts/patterns/hash-based-dispatch.md` — 配套的 hash 分派
+- `concepts/patterns/code-generation-type-erasure.md` — 配套的代码生成
+- `FACT.md` § ULocalization

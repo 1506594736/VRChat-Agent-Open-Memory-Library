@@ -118,5 +118,5 @@ public override void OnDrop()
 
 ### 关联文档
 
-- `memory/world/scene-components/vrc-objectsync.md` - 物理同步与所有权
-- `memory/api/events-reference.md` - OnPickup / OnDrop 事件签名
+- `entities/world/scene-components/vrc-objectsync.md` - 物理同步与所有权
+- `entities/api/events-reference.md` - OnPickup / OnDrop 事件签名

@@ -542,10 +542,10 @@ https://ramtype0.github.io/VpmRepository/index.json
 
 ### 知识库内链
 
-- `memory/avatar/ndmf-tools.md` — NDMF 生态体系总览
-- `memory/avatar/optimization-guide.md` — 减面章节
-- `memory/avatar/optimization-guide.md#polygons面数减面` — 减面工具对比表
-- `memory/avatar/performance-rank.md` — 性能等级标准
+- `entities/avatar/ndmf-tools.md` — NDMF 生态体系总览
+- `entities/avatar/optimization-guide.md` — 减面章节
+- `entities/avatar/optimization-guide.md#polygons面数减面` — 减面工具对比表
+- `entities/avatar/performance-rank.md` — 性能等级标准
 
 ### 外部权威
 

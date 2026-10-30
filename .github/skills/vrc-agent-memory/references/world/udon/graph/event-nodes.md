@@ -235,7 +235,7 @@ Udon 中所有"Event" 类别节点的清单。脚本通过 Event 监听行为并
 >
 > **签名修正**: 官方签名为 `MidiNoteOn/MidiNoteOff/MidiControlChange`(**无 `On` 前缀,无 `VRCPlayerApi player` 参数**),签名形如 `MidiNoteOn(int channel, int number, int velocity)`。
 >
-> 详细参考: `memory/world/udon/midi/index.md`、`memory/world/udon/midi/realtime-midi.md`
+> 详细参考: `entities/world/udon/midi/index.md`、`entities/world/udon/midi/realtime-midi.md`
 
 ---
 

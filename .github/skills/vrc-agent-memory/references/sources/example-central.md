@@ -146,7 +146,7 @@ Unity Editor Menu → VRChat SDK → Manage Packages
 
 ## 相关文档
 
-- `memory/sources/official-docs.md` - 官方文档入口
-- `memory/world/media-systems.md` - 媒体系统（视频/图片）
-- `memory/api/persistence.md` - 持久化系统
-- `memory/world/clientsim/index.md` - ClientSim 使用文档(World 调试工具)
+- `entities/vrchatsdk/index.md` - 官方文档入口
+- `v5 `entities/world/udon/video-players/` 与 `entities/world/udon/image-loading.md`` - 媒体系统（视频/图片）
+- `entities/api/persistence.md` - 持久化系统
+- `entities/world/clientsim/index.md` - ClientSim 使用文档(World 调试工具)

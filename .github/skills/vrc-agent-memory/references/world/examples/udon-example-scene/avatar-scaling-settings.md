@@ -82,4 +82,4 @@ related:
 
 - **VRCWorld 整体架构**:[index.md#vrcworld](index.md)
 - **Avatar 系统**:`memory/avatar/` 域
-- **VRCPipelineManager**:`memory/avatar/vrcpipeline-manager.md`
+- **VRCPipelineManager**:`entities/world/scene-components/index.md`

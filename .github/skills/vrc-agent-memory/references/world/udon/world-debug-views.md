@@ -31,7 +31,7 @@ related:
 > 来源:https://creators.vrchat.com/worlds/udon/world-debug-views/
 > 本地化日期:2026-06-15
 > 状态:FACT(VRChat 官方 Debug 工具)
-> 关联:`memory/api/networking.md`(Network Stats API)
+> 关联:`entities/api/networking.md`(Network Stats API)
 
 ---
 
@@ -298,7 +298,7 @@ Debug.LogWarning("Performance concern");
 
 ### 4.1 关键 API
 
-参考 `memory/api/networking.md` 完整列表,核心 API:
+参考 `entities/api/networking.md` 完整列表,核心 API:
 
 | API | 用途 |
 |-----|------|
@@ -440,10 +440,10 @@ public class NetworkHealthMonitor : UdonSharpBehaviour
 
 | 相关文档 | 用途 |
 |----------|------|
-| `memory/api/networking.md` | Network Stats API 完整参考 |
-| `memory/world/udon/using-build-test.md` | Build & Test 多客户端 |
-| `memory/world/udon/vm-and-assembly.md` | 字节码级调试 |
-| `memory/avatar/physbone.md`(待补充) | PhysBone 调试 |
+| `entities/api/networking.md` | Network Stats API 完整参考 |
+| `entities/world/udon/using-build-test.md` | Build & Test 多客户端 |
+| `entities/world/udon/vm-and-assembly.md` | 字节码级调试 |
+| `entities/avatar/physbones.md`(待补充) | PhysBone 调试 |
 
 ---
 
@@ -513,4 +513,4 @@ Right shift + ~ + 1
 | **帧时间分析** | 定位 GC spike 或物理负载 |
 | **玩家体验模拟** | 用同一指标对比不同 Avatar/World 性能 |
 
-详见 `memory/world/audio-steam.md` §4(Steam Audio Debug 字段)与本章节配合使用。
+详见 `entities/world/audio-steam.md` §4(Steam Audio Debug 字段)与本章节配合使用。

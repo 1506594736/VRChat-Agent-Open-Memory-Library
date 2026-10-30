@@ -362,9 +362,9 @@ public class PooledBullet : UdonSharpBehaviour {
 
 ## 关联文档
 
-- `memory/sources/sardinal.md` — 项目溯源
-- `memory/patterns/channel-routing.md` — 配套频道路由
-- `memory/patterns/inherited-subscriber.md` — 配套基类继承
-- `memory/patterns/build-time-vs-runtime-separation.md` — 静态订阅数据来源
-- `memory/patterns/iid-object-identity.md` — 动态订阅类型匹配
-- `memory/FACT.md` § Sardinal
+- `entities/world/luraswitch2.md` — 项目溯源
+- `concepts/patterns/channel-routing.md` — 配套频道路由
+- `concepts/patterns/inherited-subscriber.md` — 配套基类继承
+- `comparisons/build-time-vs-runtime.md` — 静态订阅数据来源
+- `concepts/patterns/iid-object-identity.md` — 动态订阅类型匹配
+- `FACT.md` § Sardinal

@@ -121,7 +121,7 @@ confidence: High
 
 ### 4.2 显示字段
 
-详见 `memory/world/udon/world-debug-views.md` §2.6 Audio Sources 章节:
+详见 `entities/world/udon/world-debug-views.md` §2.6 Audio Sources 章节:
 
 | 字段 | 含义 |
 |------|------|
@@ -176,7 +176,7 @@ confidence: High
 | **Meta XR Audio** | ❌ 未启用 |
 | **自定义 spatializer** | ❌ 未在白名单(Unity Asset/Script 限制) |
 
-> **白名单参考**:`memory/world/whitelisted-world-components.md`
+> **白名单参考**:`entities/world/whitelisted-world-components.md`
 > 历史问题 U-5(2026 审计):"是否支持其他空间音频方案(如 Steam Audio、Meta XR Audio)?"→ **部分解决**:Steam Audio 是,Meta XR Audio 仍未。
 
 ---
@@ -212,9 +212,9 @@ confidence: High
 - **VRChat 2025.4.2 Release Notes**(Build 1768) - Steam Audio 上线
 - **VRChat 2025.4.2 Open Beta Notes**(Build 1761) - Beta 阶段
 - **VRChat 2025.4.2p1 Release Notes**(Build 1769) - 重大修复
-- 相关:`memory/world/udon/world-debug-views.md` §2.6
-- 相关:`memory/world/whitelisted-world-components.md` - 音频组件白名单
-- 相关:`memory/patterns/unorthodox-patterns.md` - `OnAudioFilterRead` 音频线程(仍有效)
+- 相关:`entities/world/udon/world-debug-views.md` §2.6
+- 相关:`entities/world/whitelisted-world-components.md` - 音频组件白名单
+- 相关:`concepts/patterns/unorthodox-patterns.md` - `OnAudioFilterRead` 音频线程(仍有效)
 - 相关:https://issteamaudiooutyet.com/(官方梗站)
 
 ---

@@ -181,13 +181,13 @@ Networking 围绕 **三大核心概念** 设计:
 
 | 文档 | 关系 |
 |------|------|
-| `memory/api/networking.md` | API 速查(Networking 类、UdonBehaviour 同步成员) |
-| `memory/patterns/manual-sync-state.md` | Manual Sync 模式实现范式 |
-| `memory/patterns/owner-authoritative-interaction.md` | Owner Authority 模式 |
-| `memory/patterns/late-joiner-state-restore.md` | Late Joiner 状态恢复 |
-| `memory/patterns/bit-packed-flags.md` | 位域压缩同步(节省带宽) |
-| `memory/patterns/advanced-sync-patterns.md` | 高级同步模式 |
-| `memory/world/udon/networking/variables.md` | UdonSynced 字段类型详解 |
+| `entities/api/networking.md` | API 速查(Networking 类、UdonBehaviour 同步成员) |
+| `concepts/patterns/manual-sync-state.md` | Manual Sync 模式实现范式 |
+| `concepts/patterns/owner-authoritative-interaction.md` | Owner Authority 模式 |
+| `concepts/patterns/late-joiner-state-restore.md` | Late Joiner 状态恢复 |
+| `concepts/patterns/bit-packed-flags.md` | 位域压缩同步(节省带宽) |
+| `concepts/patterns/advanced-sync-patterns.md` | 高级同步模式 |
+| `entities/world/udon/networking/variables.md` | UdonSynced 字段类型详解 |
 | `memory/world/udon/networking/tools/` | **开发/调试工具**(Network ID Utility + Network Stats API) |
 
 ---
@@ -222,6 +222,6 @@ Networking 配套提供了两个开发/调试工具,用于解决开发期的常�
 | `tools/network-id-utility.md` | Editor 工具(分配/导入/导出 Network ID) | 本页 |
 | `tools/network-stats.md` | 运行时 API(程序化访问网络指标) | 本页 |
 | `debugging.md` | 调试方法论 + ClientSim 模拟 + VRChat 客户端 Stats 窗口 | `debugging.md` |
-| `memory/sources/clientsim.md` + `memory/world/clientsim/` | ClientSim 项目仓库元数据 + 4 个调试窗口 | `clientsim.md` |
+| `entities/world/clientsim/index.md` + `memory/world/clientsim/` | ClientSim 项目仓库元数据 + 4 个调试窗口 | `clientsim.md` |
 
 > ⚠️ **重要区分**:ClientSim **没有** 专门的 "Network 图表" 工具,它的 4 个窗口是 Settings / PlayerObject / PlayerData / Main。ClientSim 的核心价值是 **模拟网络行为**,而 Network Stats API 是 **可视化/程序化访问真实网络数据**。

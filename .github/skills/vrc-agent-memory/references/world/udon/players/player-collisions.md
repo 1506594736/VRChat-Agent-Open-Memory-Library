@@ -26,7 +26,7 @@ related:
 # Player Collisions — 玩家碰撞检测
 
 > Subtype: API 详解
-> 底层引用: `memory/api/player-api.md`
+> 底层引用: `entities/api/player-api.md`
 > 抓取日期: 2026-06-15
 
 ---
@@ -250,7 +250,7 @@ public override void OnPlayerTriggerExit(VRCPlayerApi player)
 
 | 知识库 | 关系 |
 |---|---|
-| `memory/api/player-api.md` | 底层 API 简略版 |
+| `entities/api/player-api.md` | 底层 API 简略版 |
 | `memory/world/examples/udon-example-scene/` | 官方碰撞示例 |
 | `memory/world/udon/networking/` | 碰撞 + 网络同步的相关注意事项 |
-| `memory/world/performance-guide.md` | Trigger 性能优化 |
+| `entities/world/performance-guide.md` | Trigger 性能优化 |

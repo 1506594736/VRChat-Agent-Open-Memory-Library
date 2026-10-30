@@ -170,8 +170,8 @@ confidence: High
 - **VRChat 2026.1.3p1 Open Beta Notes** - Look Editor 行为变更
 - **VRChat 2026.2.1p1 Release Notes** - 后续补丁
 - **VRChat Developer Update**(2026-04) - 详细 API 解释
-- 相关:`memory/avatar/vrcraycast.md` (Avatar 端 raycast 性能优化与 Accessories 兼容性)
-- 相关:`memory/avatar/performance-rank.md` (Accessories 计入 Performance Rank)
+- 相关:`entities/avatar/vrcraycast.md` (Avatar 端 raycast 性能优化与 Accessories 兼容性)
+- 相关:`entities/avatar/performance-rank.md` (Accessories 计入 Performance Rank)
 
 ---
 

@@ -75,7 +75,7 @@ related:
 | `*.vrcdn.cloud` | VRCDN |
 
 > **共享白名单**: `*.github.io` 和 `*.vrcdn.cloud` 同时在 **Image Loading** 白名单中
-> 详细: `memory/world/udon/external-urls.md`
+> 详细: `entities/world/udon/external-urls.md`
 
 ---
 
@@ -255,7 +255,7 @@ public class ConfigLoader : UdonSharpBehaviour
 }
 ```
 
-> VRCJson + Data Containers 详细: `memory/world/udon/data-containers/index.md` ⭐
+> VRCJson + Data Containers 详细: `entities/world/udon/data-containers/index.md` ⭐
 
 ---
 
@@ -350,11 +350,11 @@ void Start()
 
 ## 与知识库互补
 
-- **External URLs + 白名单**: `memory/world/udon/external-urls.md` ⭐
-- **Image Loading**: `memory/world/udon/image-loading.md` ⭐ 类似机制
-- **Data Containers + VRCJson**: `memory/world/udon/data-containers/index.md` ⭐ JSON 解析
-- **Udon 事件**: `memory/api/events-reference.md` ⭐ OnStringLoad* 签名
-- **Persistence**: `memory/api/persistence.md` ⭐ 与 String Loading 的取舍
+- **External URLs + 白名单**: `entities/world/udon/external-urls.md` ⭐
+- **Image Loading**: `entities/world/udon/image-loading.md` ⭐ 类似机制
+- **Data Containers + VRCJson**: `entities/world/udon/data-containers/index.md` ⭐ JSON 解析
+- **Udon 事件**: `entities/api/events-reference.md` ⭐ OnStringLoad* 签名
+- **Persistence**: `entities/api/persistence.md` ⭐ 与 String Loading 的取舍
 
 ---
 

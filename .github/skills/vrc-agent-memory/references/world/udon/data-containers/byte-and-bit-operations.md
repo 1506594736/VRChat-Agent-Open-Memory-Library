@@ -40,7 +40,7 @@ related:
 > 2. **`System.BitConverter`** —— C# 标准类,基本类型 ↔ `byte[]`
 > 3. **`System.Buffer`** —— C# 标准类,数组间高速内存块复制
 >
-> 配套必读:位域压缩同步模式 → `memory/patterns/bit-packed-flags.md`
+> 配套必读:位域压缩同步模式 → `concepts/patterns/bit-packed-flags.md`
 
 ---
 
@@ -285,7 +285,7 @@ Buffer.BlockCopy(byteArray, 0, restored, 0, byteArray.Length);
 
 > ⚠️ **【扩展】** 官方文档未明确列出位运算符,以下基于 C# 标准 + UdonSharp 编译验证。
 
-UdonSharp **完整支持 C# 位运算符**,这是位域压缩同步模式 (`memory/patterns/bit-packed-flags.md`) 的基础。
+UdonSharp **完整支持 C# 位运算符**,这是位域压缩同步模式 (`concepts/patterns/bit-packed-flags.md`) 的基础。
 
 ### 4.1 支持的位运算符
 
@@ -416,7 +416,7 @@ byte result2 = unchecked((byte)300);  // = 44 (300 mod 256)
 | 1 个 `[UdonSynced] short` (位标志) | 1 | 2 bytes (+ header) | ~75% |
 
 > **【官方】** Manual sync 限制 ~280KB/serialization,Continuous sync ~200 bytes/serialization。
-> 来源: `memory/api/networking.md`
+> 来源: `entities/api/networking.md`
 
 ### 6.2 何时用 byte vs int
 
@@ -511,7 +511,7 @@ public byte Flags
 
 ## 8. 与音频同步系统的 _flags 案例对比
 
-> **来源**: `memory/hybrid/audio-link.md` 位域压缩模式(参考工程)
+> **来源**: `concepts/hybrid/audio-link.md` 位域压缩模式(参考工程)
 
 ```csharp
 // 音频同步系统 _flags 案例
@@ -576,24 +576,24 @@ private void CopyIntoFlags()
 
 | 现有知识库 | 关联 |
 |-----------|------|
-| `memory/world/udon/data-containers/index.md` | **父文档**:Data Containers 概述 |
-| `memory/patterns/bit-packed-flags.md` | **核心模式**:位域压缩同步 (本任务是其底层原理) |
-| `memory/hybrid/audio-link.md` | **案例**:音频同步系统 _flags 字段(参考工程) |
-| `memory/api/networking.md` | **带宽限制** (~11KB/s, Manual 280KB) |
-| `memory/api/not-exposed.md` | **白名单确认**:BitConverter/Buffer 已暴露 |
+| `entities/world/udon/data-containers/index.md` | **父文档**:Data Containers 概述 |
+| `concepts/patterns/bit-packed-flags.md` | **核心模式**:位域压缩同步 (本任务是其底层原理) |
+| `concepts/hybrid/audio-link.md` | **案例**:音频同步系统 _flags 字段(参考工程) |
+| `entities/api/networking.md` | **带宽限制** (~11KB/s, Manual 280KB) |
+| `entities/api/not-exposed.md` | **白名单确认**:BitConverter/Buffer 已暴露 |
 
 ### 推荐阅读路径
 
 ```
 位域压缩需求?
   ↓
-看 memory/patterns/bit-packed-flags.md (使用模式)
+看 concepts/patterns/bit-packed-flags.md (使用模式)
   ↓
 看本文档 (字节/位操作底层原理)
   ↓
-看 memory/hybrid/audio-link.md (实际案例)
+看 concepts/hybrid/audio-link.md (实际案例)
   ↓
-看 memory/api/networking.md (带宽预算)
+看 entities/api/networking.md (带宽预算)
 ```
 
 ---
@@ -805,10 +805,10 @@ void CheckSerializationSize()
 
 ## 相关知识
 
-- `memory/world/udon/data-containers/index.md` — Data Containers 父文档
-- `memory/patterns/bit-packed-flags.md` — 位域压缩同步模式 ⭐
-- `memory/hybrid/audio-link.md` — 音频同步系统位域压缩案例(参考工程)
-- `memory/api/networking.md` — 带宽限制 (~11KB/s, Manual 280KB)
-- `memory/api/not-exposed.md` — 白名单黑名单
-- `memory/api/udon-type-exposure.md` — Udon Type Exposure 索引
+- `entities/world/udon/data-containers/index.md` — Data Containers 父文档
+- `concepts/patterns/bit-packed-flags.md` — 位域压缩同步模式 ⭐
+- `concepts/hybrid/audio-link.md` — 音频同步系统位域压缩案例(参考工程)
+- `entities/api/networking.md` — 带宽限制 (~11KB/s, Manual 280KB)
+- `entities/api/not-exposed.md` — 白名单黑名单
+- `entities/api/udon-type-exposure.md` — Udon Type Exposure 索引
 - 官方源: https://creators.vrchat.com/worlds/udon/data-containers/byte-and-bit-operations/

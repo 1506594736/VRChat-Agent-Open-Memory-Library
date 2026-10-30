@@ -225,7 +225,7 @@ public T ResolveRef<T>(int id) where T : class {
 
 ## 关联文档
 
-- `memory/sources/ulocalization.md` — 项目溯源
-- `memory/patterns/slot-parameter-passing.md` — 配套的 slot 传参
-- `memory/patterns/build-time-vs-runtime-separation.md` — 配套的 Build-Runtime 分离
-- `memory/FACT.md` § ULocalization
+- `concepts/patterns/index.md` — 项目溯源
+- `concepts/patterns/slot-parameter-passing.md` — 配套的 slot 传参
+- `comparisons/build-time-vs-runtime.md` — 配套的 Build-Runtime 分离
+- `FACT.md` § ULocalization

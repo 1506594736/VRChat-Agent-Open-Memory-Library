@@ -516,5 +516,5 @@ Debug.Log($"Double 0.1 as ULong = 0x{ulongToken.ULong:X16}");
 - **DataList**: [`./data-lists.md`](./data-lists.md) — 容器 API
 - **DataDictionary**: [`./data-dictionaries.md`](./data-dictionaries.md) — 容器 API
 - **VRCJSON**: [`./vrcjson.md`](./vrcjson.md) — JSON 序列化
-- **网络同步**: `memory/api/networking.md` — 容器同步模式
+- **网络同步**: `entities/api/networking.md` — 容器同步模式
 - **官方源**: https://creators.vrchat.com/worlds/udon/data-containers/data-tokens/

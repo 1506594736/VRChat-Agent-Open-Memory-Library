@@ -659,6 +659,6 @@ public class GameConfig : UdonSharpBehaviour
 - **DataList**: [`./data-lists.md`](./data-lists.md) — 动态数组容器
 - **VRCJSON**: [`./vrcjson.md`](./vrcjson.md) — 序列化/反序列化
 - **位/字节操作**: [`./byte-and-bit-operations.md`](./byte-and-bit-operations.md)
-- **网络同步**: `memory/api/networking.md` — JSON 同步模式
-- **Udon 限制**: `memory/rules/udonsharp-language-limits.md` — C# Dictionary 在 Udon 不可用
+- **网络同步**: `entities/api/networking.md` — JSON 同步模式
+- **Udon 限制**: `concepts/rules/udonsharp-language-limits.md` — C# Dictionary 在 Udon 不可用
 - **官方源**: https://creators.vrchat.com/worlds/udon/data-containers/data-dictionaries/

@@ -50,7 +50,7 @@ related:
 Q1: 同步的是状态还是动作？
 ├── 状态（持续可见）→ Q2
 └── 动作（瞬时触发）→ Network Event（非模式）
-   例: 音效、粒子、一次性动画 → memory/world/udon/networking/events.md
+   例: 音效、粒子、一次性动画 → entities/world/udon/networking/events.md
 
 Q2: Late joiner 需要看到吗？
 ├── 否 → Network Event（不需模式）
@@ -203,7 +203,7 @@ Q10: 需要"跨模块解耦通信"吗?
 
 ## 10 个新增模式 (TLP UdonVoiceUtils) ⭐U 2026-06-20
 
-> **来源标注**:`⭐U` = UdonVoiceUtils 模式,以区别于 LuraSwitch2 模式(无后缀)。所有 UVU 模式从 `memory/sources/udonvoiceutils.md` 提炼。
+> **来源标注**:`⭐U` = UdonVoiceUtils 模式,以区别于 LuraSwitch2 模式(无后缀)。所有 UVU 模式从 `本 skill 的 `sources/udonvoiceutils.md`（v3 附录页，v5 未收录）` 提炼。
 
 ### 1️⃣4️⃣ dual-copy-sync.md ⭐U NEW
 **适用**: 双源同步(本地热数据 + 网络冷数据)
@@ -269,7 +269,7 @@ Q10: 需要"跨模块解耦通信"吗?
 
 ## 5 个新增模式 (HoshinoLabs ULocalization) ⭐L NEW 2026-06-20
 
-> **来源标注**:`⭐L` = ULocalization 模式(全称 Localization)以区别于其他来源。所有 UL 模式从 `memory/sources/ulocalization.md` 提炼,聚焦于"如何用 Editor 端代码生成绕过 Udon VM 限制"。
+> **来源标注**:`⭐L` = ULocalization 模式(全称 Localization)以区别于其他来源。所有 UL 模式从 `concepts/patterns/index.md` 提炼,聚焦于"如何用 Editor 端代码生成绕过 Udon VM 限制"。
 
 ### 2️⃣4️⃣ hash-based-dispatch.md ⭐L NEW
 **适用**: UnityEvent listener 需要 Udon 端动态分派(100+ Component 类型 + 任意方法)
@@ -389,11 +389,11 @@ Q10: 需要"跨模块解耦通信"吗?
 
 | 关系 | 目录 |
 |------|------|
-| **规则约束** | `memory/rules/networking-rules.md`, `memory/rules/udonsharp-language-limits.md` |
-| **失败案例** | `memory/reviews/common-failures.md` |
-| **API 速查** | `memory/api/networking.md` |
+| **规则约束** | `concepts/rules/networking-rules.md`, `concepts/rules/udonsharp-language-limits.md` |
+| **失败案例** | `concepts/patterns/index.md` |
+| **API 速查** | `entities/api/networking.md` |
 | **应用层详解** | `memory/world/udon/networking/` |
-| **设计模式来源** | 3 个参考工程(多机位导演系统 / 视频播放器 / 音频同步系统) 已沉淀到 `memory/FACT.md`,具体项目信息见 `memory/sources/` |
+| **设计模式来源** | 3 个参考工程(多机位导演系统 / 视频播放器 / 音频同步系统) 已沉淀到 `FACT.md`,具体项目信息见 `memory/sources/` |
 
 ---
 
@@ -403,10 +403,10 @@ Q10: 需要"跨模块解耦通信"吗?
 
 | 设计模式类别 | 主要模式 | 文档 |
 |------|---------|------|
-| **多机位导演系统(参考工程)** | 5 层同步 + NetworkCallable + 双缓冲 + 指数衰减 + Slerp + 所有权分层 + NoVariableSync UI | `memory/FACT.md` §多机位导演系统 |
-| **视频播放器(参考工程)** | Manual Sync + Owner Authority + 时间同步算法 | `memory/FACT.md` §视频播放器 |
-| **音频同步系统(参考工程)** | Shader-Centric + Master 时间锚点 + 位域压缩 + 漂移校正 | `memory/FACT.md` §音频同步系统 |
-| **QuickBrown LuraSwitch2(参考工程)** ⭐NEW | Master-Follower Syncer + Exclusive Selector + SoftDetent + Fade-Snap + Editor Preview + MaterialPropertyBlock | `memory/sources/quickbrown-luraswitch2.md` + 6 个新 pattern 文档 |
-| **TLP UdonVoiceUtils(参考工程)** ⭐NEW | 10 个核心模式: Dual-Copy Sync + ExecutionOrder Chain + Strategy + Object Pool + Priority Arbitration + Master Ownership Defense + Gizmos + Trigger Fallback + Compile DEBUG + Auto Symbol | `memory/sources/udonvoiceutils.md` + 10 个新 pattern 文档 |
-| **HoshinoLabs ULocalization(参考工程)** ⭐NEW | 5 个 Udon 沙箱适配核心模式: Hash-Based Method Dispatch + IID Object Identity + Slot Parameter Passing + Code Generation Type Erasure + Build-Runtime Separation | `memory/sources/ulocalization.md` + 5 个新 pattern 文档 |
-| **HoshinoLabs Sardinal(参考工程)** ⭐NEW | 5 大 ULocalization 模式精简版 + 3 个 Sardinal 独有模式: Channel Routing + Inherited Subscriber + Hybrid Static+Dynamic Subscription | `memory/sources/sardinal.md` + 3 个新 pattern 文档 |
+| **多机位导演系统(参考工程)** | 5 层同步 + NetworkCallable + 双缓冲 + 指数衰减 + Slerp + 所有权分层 + NoVariableSync UI | `FACT.md` §多机位导演系统 |
+| **视频播放器(参考工程)** | Manual Sync + Owner Authority + 时间同步算法 | `FACT.md` §视频播放器 |
+| **音频同步系统(参考工程)** | Shader-Centric + Master 时间锚点 + 位域压缩 + 漂移校正 | `FACT.md` §音频同步系统 |
+| **QuickBrown LuraSwitch2(参考工程)** ⭐NEW | Master-Follower Syncer + Exclusive Selector + SoftDetent + Fade-Snap + Editor Preview + MaterialPropertyBlock | `entities/world/luraswitch2.md` + 6 个新 pattern 文档 |
+| **TLP UdonVoiceUtils(参考工程)** ⭐NEW | 10 个核心模式: Dual-Copy Sync + ExecutionOrder Chain + Strategy + Object Pool + Priority Arbitration + Master Ownership Defense + Gizmos + Trigger Fallback + Compile DEBUG + Auto Symbol | `本 skill 的 `sources/udonvoiceutils.md`（v3 附录页，v5 未收录）` + 10 个新 pattern 文档 |
+| **HoshinoLabs ULocalization(参考工程)** ⭐NEW | 5 个 Udon 沙箱适配核心模式: Hash-Based Method Dispatch + IID Object Identity + Slot Parameter Passing + Code Generation Type Erasure + Build-Runtime Separation | `concepts/patterns/index.md` + 5 个新 pattern 文档 |
+| **HoshinoLabs Sardinal(参考工程)** ⭐NEW | 5 大 ULocalization 模式精简版 + 3 个 Sardinal 独有模式: Channel Routing + Inherited Subscriber + Hybrid Static+Dynamic Subscription | `entities/world/luraswitch2.md` + 3 个新 pattern 文档 |

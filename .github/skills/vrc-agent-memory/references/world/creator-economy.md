@@ -167,5 +167,5 @@ if (Store.DoesPlayerOwnProduct(player, productId))
 
 ## 相关文档
 
-- `memory/sources/example-central.md` - Example Central 使用
-- `memory/api/networking.md` - 网络同步
+- `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` - Example Central 使用
+- `entities/api/networking.md` - 网络同步

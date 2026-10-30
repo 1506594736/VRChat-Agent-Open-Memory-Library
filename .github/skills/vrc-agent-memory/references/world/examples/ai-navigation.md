@@ -171,10 +171,10 @@ public class CourseManager : UdonSharpBehaviour
 
 ## 与知识库互补
 
-- **Udon Animator + Udon API**: `memory/world/animator-system.md`
-- **Networking 模式**: `memory/api/networking.md`
-- **VRCObjectSync**: `memory/sources/supported-assets.md`(待建)
-- **VRC Pickup**: `memory/world/components/pickup.md`(待建)
+- **Udon Animator + Udon API**: `entities/avatar/animator-system.md`
+- **Networking 模式**: `entities/api/networking.md`
+- **VRCObjectSync**: `entities/world/supported-assets.md`(待建)
+- **VRC Pickup**: `entities/api/pickups.md`(待建)
 
 ## 相关 Udon 文档链接
 

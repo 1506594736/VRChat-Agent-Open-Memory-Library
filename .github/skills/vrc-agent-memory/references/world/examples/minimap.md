@@ -192,11 +192,11 @@ if (Time.frameCount % 5 == 0)  // 每 5 帧更新一次
 
 ## 与知识库互补
 
-- **VRCGraphics 完整 API**: `memory/world/udon/vrc-graphics/index.md` ⭐ 直接互链
-- **RenderTexture 概念**: 通用 Unity 知识,`memory/unity-rendering.md`(待建)
-- **VRCPickup**: `memory/world/components/pickup.md`(待建)
-- **Networking.LocalPlayer.GetPosition()**: `memory/api/player-api.md`(待建)
-- **VRCShader.SetGlobal**: `memory/world/udon/vrc-graphics/index.md` 中相关章节
+- **VRCGraphics 完整 API**: `entities/world/udon/vrc-graphics/index.md` ⭐ 直接互链
+- **RenderTexture 概念**: 通用 Unity 知识,`entities/world/shader/index.md`(待建)
+- **VRCPickup**: `entities/api/pickups.md`(待建)
+- **Networking.LocalPlayer.GetPosition()**: `entities/api/player-api.md`(待建)
+- **VRCShader.SetGlobal**: `entities/world/udon/vrc-graphics/index.md` 中相关章节
 
 ## 相关 Udon 文档链接
 

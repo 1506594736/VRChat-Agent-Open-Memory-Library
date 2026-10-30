@@ -27,7 +27,7 @@ related:
 # Player Audio — 玩家语音与 Avatar 音频
 
 > Subtype: API 详解
-> 底层引用: `memory/api/player-api.md`
+> 底层引用: `entities/api/player-api.md`
 > 抓取日期: 2026-06-15
 
 ---
@@ -246,7 +246,7 @@ performerPlayer.SetVoiceDistanceFar(50f);        // 50米最远
 
 | 知识库 | 关系 |
 |---|---|
-| `memory/api/player-api.md` | 底层 API 简略版 |
-| `memory/api/audio.md` | 一般音频 API(待补充) |
-| `memory/world/examples/mute-others.md` | 静音其他玩家完整示例 (引用本文件) |
-| `memory/world/udon/audio.md` | 3D 音频/世界音频设置(待补充) |
+| `entities/api/player-api.md` | 底层 API 简略版 |
+| `entities/api/audio.md` | 一般音频 API(待补充) |
+| `entities/world/examples/mute-others.md` | 静音其他玩家完整示例 (引用本文件) |
+| `entities/api/audio.md` | 3D 音频/世界音频设置(待补充) |

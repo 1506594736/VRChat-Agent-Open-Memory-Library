@@ -89,4 +89,4 @@ Packages/com.vrchat.worlds/Samples/UdonExampleScene/UdonProgramSources/VRCWorldS
 ## 与相关知识库关联
 
 - **VRCWorld 整体架构**:[index.md](index.md)
-- **Networking 模式**:`memory/api/networking.md`
+- **Networking 模式**:`entities/api/networking.md`

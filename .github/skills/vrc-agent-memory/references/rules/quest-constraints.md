@@ -158,7 +158,7 @@ related:
 
 ### 3.2 物理与动态
 
-详见 `memory/avatar/avatar-dynamic-bone-limits.md` 与 `memory/avatar/avatar-particle-system-limits.md`。
+详见 `entities/avatar/avatar-dynamic-bone-limits.md` 与 `entities/avatar/avatar-particle-system-limits.md`。
 
 核心约束:
 
@@ -199,7 +199,7 @@ related:
 ### 3.6 OSC 通信(Avatar 端 OSC)
 
 > Quest 端 OSC **仅支持接收**(不能发送),且需要 OSCQuery 协议。
-> 详见 `memory/hybrid/osc-protocol.md` 与 `memory/avatar/vrcraycast.md`。
+> 详见 `concepts/hybrid/osc-protocol.md` 与 `entities/avatar/vrcraycast.md`。
 
 ---
 
@@ -283,11 +283,11 @@ related:
 
 ## 8. 相关文档
 
-- **World 性能优化**:`memory/world/performance-guide.md`
-- **Avatar 优化**:`memory/avatar/optimization-guide.md`
-- **PhysBone 限制**:`memory/avatar/avatar-dynamic-bone-limits.md`
-- **Particle 限制**:`memory/avatar/avatar-particle-system-limits.md`
-- **Udon 语言限制**:`memory/rules/udonsharp-language-limits.md`
-- **平台概览**:`memory/platform/index.md`
-- **World Components 限制**:`memory/world/scene-components/index.md`
-- **OSC 协议**:`memory/hybrid/osc-protocol.md`
+- **World 性能优化**:`entities/world/performance-guide.md`
+- **Avatar 优化**:`entities/avatar/optimization-guide.md`
+- **PhysBone 限制**:`entities/avatar/avatar-dynamic-bone-limits.md`
+- **Particle 限制**:`entities/avatar/avatar-particle-system-limits.md`
+- **Udon 语言限制**:`concepts/rules/udonsharp-language-limits.md`
+- **平台概览**:`entities/platform/index.md`
+- **World Components 限制**:`entities/world/scene-components/index.md`
+- **OSC 协议**:`concepts/hybrid/osc-protocol.md`

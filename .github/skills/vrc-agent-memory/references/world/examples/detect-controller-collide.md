@@ -147,9 +147,9 @@ public void __ResetCharacterController()
 
 ## 与知识库互补
 
-- **Player Collisions 完整 API**: `memory/api/events-reference.md` 中的 Player Collisions 章节
-- **VRCPlayerApi**: `memory/api/player-api.md`(待建)
-- **Trigger 事件**: `memory/world/components/trigger.md`(待建)
+- **Player Collisions 完整 API**: `entities/api/events-reference.md` 中的 Player Collisions 章节
+- **VRCPlayerApi**: `entities/api/player-api.md`(待建)
+- **Trigger 事件**: `entities/api/events-reference.md`(待建)
 
 ## 相关 Udon 文档链接
 

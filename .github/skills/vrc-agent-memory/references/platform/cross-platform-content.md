@@ -161,6 +161,6 @@ VCC → Add Package → EasyQuestSwitch
 
 ## 相关文档
 
-- `memory/platform/android-development.md` - Android 开发
-- `memory/avatar/performance-rank.md` - 性能标准
-- `memory/sources/example-central.md` - 示例中心
+- `entities/platform/android-development.md` - Android 开发
+- `entities/avatar/performance-rank.md` - 性能标准
+- `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` - 示例中心

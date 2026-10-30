@@ -270,7 +270,7 @@ private void LogState(string context)
 
 > **🔴 关键**: 每次 `Debug.Log` 都是 **EXTERN 调用**,在 Udon VM 中**非常昂贵**
 
-- 详见 `memory/rules/udon-vm-architecture.md`
+- 详见 `concepts/rules/udon-vm-architecture.md`
 - 不要在 `Update()` 中无脑 `Debug.Log`
 - 生产代码中应**移除调试日志**或用 `#if UNITY_EDITOR` 包裹
 
@@ -305,10 +305,10 @@ private void LogState(string context)
 
 ## 与知识库互补
 
-- **Udon VM 架构**: `memory/rules/udon-vm-architecture.md` ⭐ EXTERN 机制
-- **Udon 性能规则**: `memory/rules/performance-rules.md` ⭐ Debug.Log 成本
-- **UdonSharp 运行时**: `memory/api/udonsharp-runtime.md` ⭐ 异常监听机制
-- **Udon 编译管线**: `memory/world/udon/udonsharp/compilation.md` ⭐ Build 错误排查
+- **Udon VM 架构**: `concepts/rules/udon-vm-architecture.md` ⭐ EXTERN 机制
+- **Udon 性能规则**: `concepts/rules/performance-rules.md` ⭐ Debug.Log 成本
+- **UdonSharp 运行时**: `entities/api/udonsharp-runtime.md` ⭐ 异常监听机制
+- **Udon 编译管线**: `entities/world/udon/udonsharp/compilation.md` ⭐ Build 错误排查
 
 ---
 

@@ -321,10 +321,10 @@ public class SimplePenSystem : UdonSharpBehaviour {
 
 ## 相关知识库
 
-- `memory/api/persistence.md` - 完整 API 速查
-- `memory/world/udon/networking/ownership.md` - 所有权机制详解
-- `memory/world/udon/networking/variables.md` - UdonSynced 字段类型
-- `memory/world/examples/persistence/health-bar.md` - 血条 Example
-- `memory/world/examples/persistence/position-sync.md` - 位置同步 Example
-- `memory/world/examples/persistence/simple-rpg.md` - RPG Example
-- `memory/patterns/owner-authoritative-interaction.md` - Owner Authority 模式
+- `entities/api/persistence.md` - 完整 API 速查
+- `entities/world/udon/networking/ownership.md` - 所有权机制详解
+- `entities/world/udon/networking/variables.md` - UdonSynced 字段类型
+- `entities/world/examples/persistence/health-bar.md` - 血条 Example
+- `entities/world/examples/persistence/position-sync.md` - 位置同步 Example
+- `entities/world/examples/persistence/simple-rpg.md` - RPG Example
+- `concepts/patterns/owner-authoritative-interaction.md` - Owner Authority 模式

@@ -44,7 +44,7 @@ related:
 - [`editorscripting.md`](./editorscripting.md) — 自定义 Inspector、Proxies、Editor 工具
 - [`performance-tips.md`](./performance-tips.md) — 性能优化关键提示
 
-> **注**：`class-exposure-tree`（类暴露树）已本地化到 `memory/api/udon-type-exposure.md`，本目录不重复创建。
+> **注**：`class-exposure-tree`（类暴露树）已本地化到 `entities/api/udon-type-exposure.md`，本目录不重复创建。
 
 ---
 
@@ -224,7 +224,7 @@ public class RotatingCubeBehaviour : UdonSharpBehaviour
 
 ### Q1: UdonSharp 支持所有 Udon 特性吗？
 
-**【FACT】** 是的。Udon 支持的所有功能 U# 都能访问。可通过 [Class Exposure Tree](https://github.com/MerlinVR/UdonSharp/wiki/class-exposure-tree) 验证（已本地化到 `memory/api/udon-type-exposure.md`）。
+**【FACT】** 是的。Udon 支持的所有功能 U# 都能访问。可通过 [Class Exposure Tree](https://github.com/MerlinVR/UdonSharp/wiki/class-exposure-tree) 验证（已本地化到 `entities/api/udon-type-exposure.md`）。
 
 ### Q2: 一个 GameObject 上能有多个 UdonSharp UdonBehavior 吗？
 
@@ -240,12 +240,12 @@ public class RotatingCubeBehaviour : UdonSharpBehaviour
 
 | 现有知识库 | 应补充/引用 |
 |-----------|----------|
-| `memory/api/udonsharp-runtime.md` | 引用 [`attributes.md`](./attributes.md)、[`performance-tips.md`](./performance-tips.md) |
-| `memory/api/udon-type-exposure.md` | **互链** — 类暴露树的本地化位置 |
-| `memory/api/exposed-types.md` | 引用本文 §2 Supported C# Features |
-| `memory/api/not-exposed.md` | 引用本文 §3、§4 |
-| `memory/rules/udonsharp-language-limits.md` | 引用 [`attributes.md`](./attributes.md)、[`performance-tips.md`](./performance-tips.md) |
-| `memory/world/udon/vm-and-assembly.md` | 配合阅读（U# 是 C# 前端，VM 是运行时） |
+| `entities/api/udonsharp-runtime.md` | 引用 [`attributes.md`](./attributes.md)、[`performance-tips.md`](./performance-tips.md) |
+| `entities/api/udon-type-exposure.md` | **互链** — 类暴露树的本地化位置 |
+| `entities/api/exposed-types.md` | 引用本文 §2 Supported C# Features |
+| `entities/api/not-exposed.md` | 引用本文 §3、§4 |
+| `concepts/rules/udonsharp-language-limits.md` | 引用 [`attributes.md`](./attributes.md)、[`performance-tips.md`](./performance-tips.md) |
+| `entities/world/udon/vm-and-assembly.md` | 配合阅读（U# 是 C# 前端，VM 是运行时） |
 
 ---
 
@@ -259,5 +259,5 @@ public class RotatingCubeBehaviour : UdonSharpBehaviour
 
 ### 未知
 
-- **【未确认】** `class-exposure-tree` 官方 URL 内容已迁移至 `memory/api/udon-type-exposure.md`，两者同步状态需定期验证
+- **【未确认】** `class-exposure-tree` 官方 URL 内容已迁移至 `entities/api/udon-type-exposure.md`，两者同步状态需定期验证
 - **【未确认】** 官方文档未明确列出所有不支持的 C# 特性（如 `async/await`、`yield return`、`LINQ`），需通过实际编译验证

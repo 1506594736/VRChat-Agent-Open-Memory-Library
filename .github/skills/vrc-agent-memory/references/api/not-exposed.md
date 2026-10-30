@@ -216,6 +216,6 @@ related:
 
 ## 相关知识
 
-- `memory/api/udon-type-exposure.md` — Udon Type Exposure Tree 索引
-- `memory/api/exposed-types.md` — 已暴露类型详细清单
-- `memory/rules/udonsharp-language-limits.md` — UdonSharp 语言限制
+- `entities/api/udon-type-exposure.md` — Udon Type Exposure Tree 索引
+- `entities/api/exposed-types.md` — 已暴露类型详细清单
+- `concepts/rules/udonsharp-language-limits.md` — UdonSharp 语言限制

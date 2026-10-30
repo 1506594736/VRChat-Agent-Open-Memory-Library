@@ -24,7 +24,7 @@ related:
 # Drone API 总览 (VRCDroneApi)
 
 > Subtype: API 总览
-> 父级索引: [`memory/world/udon/players/index.md`](../index.md)
+> 父级索引: [`entities/world/udon/players/index.md`](../index.md)
 > 抓取日期: 2026-06-15
 
 ---
@@ -89,7 +89,7 @@ Udon Behaviour 上的 Trigger Collider 监听 **无人机** 进入时,会触发�
 > - 玩家以 **Drone 形态** 进入 Trigger → 触发 `OnDroneTriggerEnter`,**不会** 触发 `OnPlayerTriggerEnter`
 > - 同一玩家可 **先后** 触发两个事件(先 Player 后 Drone,或反之)
 >
-> 详见 [`getting-drones.md`](./getting-drones.md) 与 `memory/world/udon/players/player-collisions.md` 的对比。
+> 详见 [`getting-drones.md`](./getting-drones.md) 与 `entities/world/udon/players/player-collisions.md` 的对比。
 
 ---
 
@@ -108,9 +108,9 @@ Udon Behaviour 上的 Trigger Collider 监听 **无人机** 进入时,会触发�
 | 现有知识库 | 关系 |
 |---|---|
 | [`../index.md`](../index.md) | **父级** Player API 总览,Drone API 是其子分类 |
-| `memory/api/player-api.md` | 底层 `VRCPlayerApi` 文档,**`GetDrone()`** 是其延伸 |
-| `memory/api/events-reference.md` | 应补充 3 个 Drone Trigger 事件 |
-| `memory/world/udon/players/player-collisions.md` | Player Collisions 兄弟页面,Drone 与 Player Trigger 平行 |
+| `entities/api/player-api.md` | 底层 `VRCPlayerApi` 文档,**`GetDrone()`** 是其延伸 |
+| `entities/api/events-reference.md` | 应补充 3 个 Drone Trigger 事件 |
+| `entities/world/udon/players/player-collisions.md` | Player Collisions 兄弟页面,Drone 与 Player Trigger 平行 |
 
 ---
 

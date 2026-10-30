@@ -455,7 +455,7 @@ public override void OnDeserialization() {
 ```
 
 ### 规则
-参见 `memory/patterns/exclusive-control-selector.md` + `memory/rules/multi-vm-rules.md` §初始化时序
+参见 `concepts/patterns/exclusive-control-selector.md` + `concepts/rules/multi-vm-rules.md` §初始化时序
 
 ---
 
@@ -492,7 +492,7 @@ if (s.IsInterpolating && !s.IsInterpolationApplyingOutput) {
 ```
 
 ### 规则
-参见 `memory/patterns/master-follower-syncer.md` §回声排除
+参见 `concepts/patterns/master-follower-syncer.md` §回声排除
 
 ---
 
@@ -539,7 +539,7 @@ public float Value {
 ```
 
 ### 规则
-参见 `memory/rules/udonsharp-deep-pitfalls.md` (Editor-Only 反射陷阱)
+参见 `concepts/rules/udonsharp-deep-pitfalls.md` (Editor-Only 反射陷阱)
 
 ---
 
@@ -588,4 +588,4 @@ public void DeferredInitialize() {
 ```
 
 ### 规则
-参见 `memory/rules/multi-vm-rules.md` §初始化时序 + `memory/rules/performance-rules.md` §Update 成本
+参见 `concepts/rules/multi-vm-rules.md` §初始化时序 + `concepts/rules/performance-rules.md` §Update 成本

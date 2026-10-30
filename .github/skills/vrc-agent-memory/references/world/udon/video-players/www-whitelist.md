@@ -170,7 +170,7 @@ VRChat 视频播放器**默认只允许访问白名单内服务**的 URL。
 
 ## VRCUrl 类与白名单关系
 
-> **VRCUrl 是 Udon 访问外部 URL 的唯一方式**。详细 API 见 `memory/world/udon/external-urls.md`。
+> **VRCUrl 是 Udon 访问外部 URL 的唯一方式**。详细 API 见 `entities/world/udon/external-urls.md`。
 
 ### 行为矩阵
 
@@ -190,7 +190,7 @@ VRChat 视频播放器**默认只允许访问白名单内服务**的 URL。
 | `VRCUrl.Empty` | `static VRCUrl` | 空 URL 常量 |
 | `VRCUrl(string)` | 构造函数 | **仅 Editor 可用** |
 
-> Udon Type Exposure 状态: `VRCUrl` 暴露率 61.54% (8 个暴露成员),完整清单见 `memory/api/exposed-types.md`。
+> Udon Type Exposure 状态: `VRCUrl` 暴露率 61.54% (8 个暴露成员),完整清单见 `entities/api/exposed-types.md`。
 
 ---
 
@@ -277,20 +277,20 @@ public class RobustVideoPlayer : UdonSharpBehaviour
 
 | 知识库 | 关系 |
 |--------|------|
-| `memory/world/udon/video-players/index.md` | 父页面(Video Players 总览) |
-| `memory/world/udon/external-urls.md` | VRCUrl 类 + 白名单基础 |
-| `memory/world/udon/image-loading.md` | 4KB 图像白名单(参考) |
-| `memory/world/udon/string-loading.md` | VRCStringDownloader 白名单(参考) |
-| `memory/api/exposed-types.md` | VRCUrl 完整暴露 API |
-| `memory/world/examples/udon-example-scene/udon-video-sync-player.md` | UdonSyncPlayer 实现 |
-| `memory/FACT.md` → VVMW | 视频同步生产参考 |
-| `memory/FACT.md` → AudioLink | 音频零网络同步参考 |
+| `entities/world/udon/video-players/index.md` | 父页面(Video Players 总览) |
+| `entities/world/udon/external-urls.md` | VRCUrl 类 + 白名单基础 |
+| `entities/world/udon/image-loading.md` | 4KB 图像白名单(参考) |
+| `entities/world/udon/string-loading.md` | VRCStringDownloader 白名单(参考) |
+| `entities/api/exposed-types.md` | VRCUrl 完整暴露 API |
+| `entities/world/examples/udon-example-scene/udon-video-sync-player.md` | UdonSyncPlayer 实现 |
+| `FACT.md` → VVMW | 视频同步生产参考 |
+| `FACT.md` → AudioLink | 音频零网络同步参考 |
 
 ---
 
 ## 参见
 
-- **Video Players 总览**: `memory/world/udon/video-players/index.md`
-- **VRCUrl & External URLs**: `memory/world/udon/external-urls.md`
-- **Udon Type Exposure Tree**: `memory/api/udon-type-exposure.md`
+- **Video Players 总览**: `entities/world/udon/video-players/index.md`
+- **VRCUrl & External URLs**: `entities/world/udon/external-urls.md`
+- **Udon Type Exposure Tree**: `entities/api/udon-type-exposure.md`
 - **官方白名单原文**: <https://creators.vrchat.com/worlds/udon/video-players/www-whitelist/>

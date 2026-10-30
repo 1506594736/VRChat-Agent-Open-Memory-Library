@@ -84,31 +84,31 @@ ULocalization 是 VRChat UdonSharp 的本地化系统，**不是从零构建的�
 
 Udon 没有委托/函数指针，ULocalization 用 MD5(Type+Method) hash + 自动生成 wrapper 方法 + `SendCustomEvent(hash)` 间接分派。**完美绕过 Udon 限制，零反射开销**。
 
-→ 沉淀到 `memory/patterns/hash-based-dispatch.md`
+→ 沉淀到 `concepts/patterns/hash-based-dispatch.md`
 
 ### 2. IID Object Identity (整数身份映射)
 
 Udon 不能用 Dictionary 索引普通 C# 对象，ULocalization 用 Editor 端 `IID.GenerateId` 顺序分配 int，运行时所有引用通过 int 索引。跨 Build 引用稳定。
 
-→ 沉淀到 `memory/patterns/iid-object-identity.md`
+→ 沉淀到 `concepts/patterns/iid-object-identity.md`
 
 ### 3. Slot-Based Parameter Passing (槽位参数传递)
 
 `SendCustomEvent` 不接受参数，ULocalization 用 3 个 object 字段（`_l_t` / `_l_p` / `_l_a`）作为参数槽位，调用前手动填入，生成方法从槽位读取。
 
-→ 沉淀到 `memory/patterns/slot-parameter-passing.md`
+→ 沉淀到 `concepts/patterns/slot-parameter-passing.md`
 
 ### 4. Code Generation with Type Erasure (代码生成 + 类型擦除)
 
 Udon 没有泛型方法，ULocalization 用 Type.FullName MD5 hash 作为 type ID，每个具体类型生成 switch case + 元组模式（`object[2]` = `(shim, int id)`）实现类型安全。
 
-→ 沉淀到 `memory/patterns/code-generation-type-erasure.md`
+→ 沉淀到 `concepts/patterns/code-generation-type-erasure.md`
 
 ### 5. Build-Time vs Runtime Separation (构建时与运行时分离)
 
 Unity Editor API 在 Udon 不可用，ULocalization 把所有反射/LINQ/缓存放到 Editor 端，注入 27 个字段到 Udon，运行时仅做 O(1) 查表。Build 阶段禁用并清理原始 LocalizeEvent。
 
-→ 沉淀到 `memory/patterns/build-time-vs-runtime-separation.md`
+→ 沉淀到 `comparisons/build-time-vs-runtime.md`
 
 ### 6. God Shim 模式
 
@@ -128,15 +128,15 @@ Udon 不能直接调用 SmartFormat 库，重写最小子集（正则解析 + 16
 
 | 沉淀位置 | 提取内容 |
 |----------|----------|
-| `memory/FACT.md` § ULocalization(参考工程) | 5 大核心模式摘要 + 工程参数 |
-| `memory/patterns/hash-based-dispatch.md` | 哈希分派完整模式 + 代码骨架 |
-| `memory/patterns/iid-object-identity.md` | 整数身份映射完整模式 + 代码骨架 |
-| `memory/patterns/slot-parameter-passing.md` | 槽位传参完整模式 + 代码骨架 |
-| `memory/patterns/code-generation-type-erasure.md` | 代码生成 + 类型擦除完整模式 + 代码骨架 |
-| `memory/patterns/build-time-vs-runtime-separation.md` | Build-Runtime 分离完整模式 + 代码骨架 |
-| `memory/sources/open-source-projects.md` | A7 案例研究型参考工程条目 |
-| `memory/sources/index.md` | 新来源登记 |
-| `memory/patterns/index.md` | 14-18 号新模式 + 决策树更新 |
+| `FACT.md` § ULocalization(参考工程) | 5 大核心模式摘要 + 工程参数 |
+| `concepts/patterns/hash-based-dispatch.md` | 哈希分派完整模式 + 代码骨架 |
+| `concepts/patterns/iid-object-identity.md` | 整数身份映射完整模式 + 代码骨架 |
+| `concepts/patterns/slot-parameter-passing.md` | 槽位传参完整模式 + 代码骨架 |
+| `concepts/patterns/code-generation-type-erasure.md` | 代码生成 + 类型擦除完整模式 + 代码骨架 |
+| `comparisons/build-time-vs-runtime.md` | Build-Runtime 分离完整模式 + 代码骨架 |
+| `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` | A7 案例研究型参考工程条目 |
+| `entities/vrchatsdk/index.md` | 新来源登记 |
+| `concepts/patterns/index.md` | 14-18 号新模式 + 决策树更新 |
 | *(Session 分析报告 V3.0 起写入 `特殊Agent提示词/`)* | 工作过程记录 |
 
 ---

@@ -218,15 +218,15 @@ int allQueued = NetworkCalling.GetAllQueuedEvents();
 
 | 子页面 | 主题 |
 |--------|------|
-| `memory/world/udon/networking/index.md` | Networking 概述、带宽限制速查、Manual vs Continuous 决策树 |
-| `memory/world/udon/networking/compatibility.md` | 跨版本兼容、降级策略、Serialization 限制 |
-| `memory/world/udon/networking/events.md` | 完整 Network Events 列表、`[NetworkCallable]`、速率限制(5-100/s) |
-| `memory/world/udon/networking/variables.md` | 完整 `[UdonSynced]` 字段类型表、序列化大小、FieldChangeCallback |
-| `memory/world/udon/networking/ownership.md` | 完整所有权转移流程、Master vs InstanceOwner、SetOwner 安全 |
-| `memory/world/udon/networking/late-joiners.md` | Late Joiner 同步策略、Buffer Events、OnPlayerJoined 模式 |
-| `memory/world/udon/networking/network-components.md` | VRCObjectSync、VRCPickup、VRCObjectPool、Networking 属性/事件 |
-| `memory/world/udon/networking/debugging.md` | World Debug Views、ClientSim 调试、Stats API |
-| `memory/world/udon/networking/performance.md` | 10 条带宽优化规则、对象池、合并序列化 |
-| `memory/world/udon/networking/network-details.md` | 内部字节细节、Manual vs Continuous 字节差异、数组陷阱 |
+| `entities/world/udon/networking/index.md` | Networking 概述、带宽限制速查、Manual vs Continuous 决策树 |
+| `entities/world/udon/networking/compatibility.md` | 跨版本兼容、降级策略、Serialization 限制 |
+| `entities/world/udon/networking/events.md` | 完整 Network Events 列表、`[NetworkCallable]`、速率限制(5-100/s) |
+| `entities/world/udon/networking/variables.md` | 完整 `[UdonSynced]` 字段类型表、序列化大小、FieldChangeCallback |
+| `entities/world/udon/networking/ownership.md` | 完整所有权转移流程、Master vs InstanceOwner、SetOwner 安全 |
+| `entities/world/udon/networking/late-joiners.md` | Late Joiner 同步策略、Buffer Events、OnPlayerJoined 模式 |
+| `entities/world/udon/networking/network-components.md` | VRCObjectSync、VRCPickup、VRCObjectPool、Networking 属性/事件 |
+| `entities/world/udon/networking/debugging.md` | World Debug Views、ClientSim 调试、Stats API |
+| `entities/world/udon/networking/performance.md` | 10 条带宽优化规则、对象池、合并序列化 |
+| `entities/world/udon/networking/network-details.md` | 内部字节细节、Manual vs Continuous 字节差异、数组陷阱 |
 
 > 数据来源:VRChat 官方 Creator Docs(2025-11-13 更新版本),本地化日期 2026-06-15。

@@ -254,7 +254,7 @@ foreach (var target in targets)
 ```
 
 **UdonSharp SetProgramVariable + SendCustomEvent 模式**:
-- 详细参考 `memory/api/udonsharp-runtime.md`
+- 详细参考 `entities/api/udonsharp-runtime.md`
 - 这种模式允许**中央协调者**通知**多个观察者**同时更新
 
 ### 可观察变量(供其他程序订阅)
@@ -278,12 +278,12 @@ foreach (var target in targets)
 
 ## 与知识库互补
 
-- **DataList / DataDict**: `memory/world/udon/data-containers/index.md` ⭐ 直接互链
-- **FieldChangeCallback**: `memory/api/udonsharp-runtime.md` ⭐
-- **SetProgramVariable 模式**: `memory/api/udonsharp-runtime.md` ⭐
-- **OnPlayerTriggerStay 完整 API**: `memory/api/events-reference.md`
-- **AvatarEyeHeight**: `memory/api/player-api.md`(待建)
-- **Mute Others(基于区域静音)**: `memory/world/examples/mute-others.md` ⭐ Challenge 提示直接引用本示例
+- **DataList / DataDict**: `entities/world/udon/data-containers/index.md` ⭐ 直接互链
+- **FieldChangeCallback**: `entities/api/udonsharp-runtime.md` ⭐
+- **SetProgramVariable 模式**: `entities/api/udonsharp-runtime.md` ⭐
+- **OnPlayerTriggerStay 完整 API**: `entities/api/events-reference.md`
+- **AvatarEyeHeight**: `entities/api/player-api.md`(待建)
+- **Mute Others(基于区域静音)**: `entities/world/examples/mute-others.md` ⭐ Challenge 提示直接引用本示例
 
 ## 相关 Udon 文档链接
 

@@ -204,7 +204,7 @@ public override void OnDroneTriggerStay(VRCDroneApi drone)
 > 📌 **关键设计**:
 > - 想同时支持两种形态,必须 **同时实现两套事件** (`OnPlayerTriggerEnter` + `OnDroneTriggerEnter`)
 > - 两个事件的 `GetPlayer()` 返回 **同一个** `VRCPlayerApi`(若该玩家两种形态都进过 Trigger)
-> - 详细 Collider 配置见 `memory/world/udon/players/player-collisions.md`
+> - 详细 Collider 配置见 `entities/world/udon/players/player-collisions.md`
 
 ---
 
@@ -286,7 +286,7 @@ public class DroneCheckpoint : UdonSharpBehaviour
 |---|---|
 | `VRCPlayerApi.GetDrone()` | `GetDrone()` (本文件首次详细出现) |
 | `VRCDroneApi.GetPlayer()` | 本文件首次详细出现 |
-| `OnDroneTriggerEnter/Exit/Stay` | `memory/api/events-reference.md` 应补充这 3 个事件 |
+| `OnDroneTriggerEnter/Exit/Stay` | `entities/api/events-reference.md` 应补充这 3 个事件 |
 
 ---
 

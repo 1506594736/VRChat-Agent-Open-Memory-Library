@@ -579,9 +579,9 @@ Total VRAM VeryPoor?
 
 ## 关联文档
 
-- `memory/sources/vrc-avatar-performance-tools.md` — 工具本身介绍
-- `memory/avatar/performance-rank.md` — 官方 Performance Rank 标准
-- `memory/avatar/performance-benchmarks.md` — JustSleightly 性能基准
-- `memory/avatar/optimization-guide.md` — Kuriko 完整最佳化实操
-- `memory/avatar/ndmf-tools.md` — NDMF 工具生态(AAO / Meshia / TexTransTool)
-- `memory/avatar/animator-system.md` — Animator 基础知识
+- `entities/avatar/thry-avatar-evaluator-metrics.md` — 工具本身介绍
+- `entities/avatar/performance-rank.md` — 官方 Performance Rank 标准
+- `entities/avatar/performance-benchmarks.md` — JustSleightly 性能基准
+- `entities/avatar/optimization-guide.md` — Kuriko 完整最佳化实操
+- `entities/avatar/ndmf-tools.md` — NDMF 工具生态(AAO / Meshia / TexTransTool)
+- `entities/avatar/animator-system.md` — Animator 基础知识

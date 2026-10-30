@@ -81,7 +81,7 @@ Settings → Safety tab → "Performance Options" 按钮(右上角)
 | **Max Affected Transforms** | 单个 Avatar Dynamic Bone Affected Transforms 超过此值,**所有** Dynamic Bone + Dynamic Bone Collider 组件禁用 | **32** |
 | **Max Collision Checks** | Dynamic Bone Collider Checks 超过此值,Dynamic Bone Collider 组件禁用 | **8** |
 
-> 详细定义见 `memory/avatar/performance-rank.md` §PhysBone 部分
+> 详细定义见 `entities/avatar/performance-rank.md` §PhysBone 部分
 
 ### 3.1 超限行为(CRITICAL)
 
@@ -228,10 +228,10 @@ Settings → Safety tab → "Performance Options" 按钮(右上角)
 
 ## 9. 相关文档
 
-- `memory/avatar/performance-rank.md` — Performance Rank 标准
-- `memory/avatar/optimization-guide.md` — PhysBone 优化实操
-- `memory/avatar/avatar-particle-system-limits.md` — 用户端 Particle Limits(同 config.json)
-- `memory/avatar/performance-benchmarks.md` — PhysBone 性能基准
+- `entities/avatar/performance-rank.md` — Performance Rank 标准
+- `entities/avatar/optimization-guide.md` — PhysBone 优化实操
+- `entities/avatar/avatar-particle-system-limits.md` — 用户端 Particle Limits(同 config.json)
+- `entities/avatar/performance-benchmarks.md` — PhysBone 性能基准
 
 ---
 

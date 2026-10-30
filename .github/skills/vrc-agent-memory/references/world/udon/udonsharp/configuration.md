@@ -232,9 +232,9 @@ namespace MyTeam.Worlds
 
 | 现有知识库 | 应补充/引用 |
 |-----------|----------|
-| `memory/api/udonsharp-runtime.md` | 编译管线与编辑器集成相关 |
-| `memory/sources/vpm-package-template.md` | VPM Package 开发的 CI 配置参考 |
-| `memory/rules/udonsharp-language-limits.md` | 编译错误处理与限制 |
+| `entities/api/udonsharp-runtime.md` | 编译管线与编辑器集成相关 |
+| `entities/platform/index.md` | VPM Package 开发的 CI 配置参考 |
+| `concepts/rules/udonsharp-language-limits.md` | 编译错误处理与限制 |
 
 ---
 

@@ -205,10 +205,10 @@ public class SomeExample : UdonSharpBehaviour
 
 ## 与知识库互补
 
-- **Udon 事件完整参考**: `memory/api/events-reference.md`
-- **Udon 编译管线**: `memory/world/udon/udonsharp/compilation.md`
-- **UdonSharp 运行时系统**: `memory/api/udonsharp-runtime.md`
-- **带参网络同步**: `memory/api/networking.md` 中的 [NetworkCallable]
+- **Udon 事件完整参考**: `entities/api/events-reference.md`
+- **Udon 编译管线**: `entities/world/udon/udonsharp/compilation.md`
+- **UdonSharp 运行时系统**: `entities/api/udonsharp-runtime.md`
+- **带参网络同步**: `entities/api/networking.md` 中的 [NetworkCallable]
 
 ## 相关 Udon 文档链接
 

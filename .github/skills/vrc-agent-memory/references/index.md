@@ -164,7 +164,7 @@ related:
 | **OSC 系统** | `hybrid/osc-protocol.md` ← ⭐ 完整协议数据库 |
 | **AudioLink 系统** | `hybrid/audio-link.md` ← ⭐ 音频可视化核心 |
 | Avatar↔World 交互 | `hybrid/` 目录（待建设） |
-| 设计模式借鉴 | `memory/FACT.md` → 核心设计模式 section |
+| 设计模式借鉴 | `FACT.md` → 核心设计模式 section |
 
 ---
 

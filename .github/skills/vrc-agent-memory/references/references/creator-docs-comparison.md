@@ -41,7 +41,7 @@ related:
 | --- | --- | --- | --- | --- |
 | PhysBones Affected Transforms | 16 | 64 | 128 | 256 |
 
-**当前知识库记录** (`memory/avatar/performance-rank.md`):
+**当前知识库记录** (`entities/avatar/performance-rank.md`):
 | 指标 | Excellent | Good | Medium | Poor |
 |------|-----------|------|--------|------|
 | **PB 影响骨头数** | 16 | 64 | 128 | 256 |
@@ -69,7 +69,7 @@ related:
 - Continuous sync 限制约 **200 bytes/serialization**
 
 **当前知识库**:
-- `memory/api/networking.md` 未记录这些具体数值
+- `entities/api/networking.md` 未记录这些具体数值
 - 需要更新
 
 ---
@@ -90,7 +90,7 @@ related:
 **官方文档描述**:
 > VRChat stores User Data in a compressed format. If your world's data is easy to compress, you may be able to store more than 300 KB (compressed into 100 KB by VRChat).
 
-**当前知识库** (`memory/api/persistence.md`):
+**当前知识库** (`entities/api/persistence.md`):
 - 记录了 100KB per player per world 限制
 - 未记录压缩行为和 300KB 原始数据上限
 
@@ -172,21 +172,21 @@ related:
 | 文件 | 状态 |
 |------|------|
 | `参考文献/creator-docs-对比记录.md` | ✅ 已创建 |
-| `memory/world/udon/vrc-graphics/index.md` | ✅ 已创建 |
-| `memory/world/udon/data-containers/index.md` | ✅ 已创建(已迁移) |
-| `memory/world/creator-economy.md` | ✅ 已创建 |
-| `memory/platform/android-development.md` | ✅ 已创建 |
-| `memory/platform/cross-platform-content.md` | ✅ 已创建 |
-| `memory/platform/mobile-ui-optimization.md` | ✅ 已创建 |
-| `memory/sources/example-central.md` | ✅ 已创建 |
+| `entities/world/udon/vrc-graphics/index.md` | ✅ 已创建 |
+| `entities/world/udon/data-containers/index.md` | ✅ 已创建(已迁移) |
+| `entities/world/creator-economy.md` | ✅ 已创建 |
+| `entities/platform/android-development.md` | ✅ 已创建 |
+| `entities/platform/cross-platform-content.md` | ✅ 已创建 |
+| `entities/platform/mobile-ui-optimization.md` | ✅ 已创建 |
+| `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` | ✅ 已创建 |
 
 ### 已更新文件
 | 文件 | 更新内容 |
 |------|---------|
-| `memory/api/networking.md` | 带宽限制 + [NetworkCallable] |
-| `memory/api/persistence.md` | 压缩行为 |
-| `memory/FACT.md` | 新增工程记录 |
-| `memory/index.md` | 新增入口 + 文件清单 |
+| `entities/api/networking.md` | 带宽限制 + [NetworkCallable] |
+| `entities/api/persistence.md` | 压缩行为 |
+| `FACT.md` | 新增工程记录 |
+| `index.md` | 新增入口 + 文件清单 |
 
 ### 无冲突项
 检查后未发现与现有知识库的实质性冲突。所有差异已记录为新增内容而非冲突。

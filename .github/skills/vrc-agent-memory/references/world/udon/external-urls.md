@@ -107,8 +107,8 @@ void Start()
 }
 ```
 
-> 详细 Image Loading: `memory/world/udon/image-loading.md` ⭐ VRCImageDownloader 用法
-> 详细 String Loading: `memory/world/udon/string-loading.md` ⭐ VRCStringDownloader 用法
+> 详细 Image Loading: `entities/world/udon/image-loading.md` ⭐ VRCImageDownloader 用法
+> 详细 String Loading: `entities/world/udon/string-loading.md` ⭐ VRCStringDownloader 用法
 
 ### VRCUrlInputField: 用户运行时输入
 
@@ -228,10 +228,10 @@ public void OnInputChanged()
 
 ## 与知识库互补
 
-- **Image Loading**: `memory/world/udon/image-loading.md` ⭐ VRCImageDownloader
-- **String Loading**: `memory/world/udon/string-loading.md` ⭐ VRCStringDownloader
-- **UI Events**: `memory/world/udon/ui-events.md` ⭐ VRCUrlInputField 在 UI 事件白名单内
-- **Udon 事件**: `memory/api/events-reference.md` ⭐ OnStringLoad* 事件
+- **Image Loading**: `entities/world/udon/image-loading.md` ⭐ VRCImageDownloader
+- **String Loading**: `entities/world/udon/string-loading.md` ⭐ VRCStringDownloader
+- **UI Events**: `entities/world/udon/ui-events.md` ⭐ VRCUrlInputField 在 UI 事件白名单内
+- **Udon 事件**: `entities/api/events-reference.md` ⭐ OnStringLoad* 事件
 
 ---
 

@@ -464,10 +464,10 @@ public class FlagController : UdonSharpBehaviour {
 
 | 文档 | 关系 |
 |------|------|
-| `memory/world/udon/networking/index.md` | Networking 概述 |
-| `memory/world/udon/networking/compatibility.md` | 字段增删与兼容性 |
-| `memory/world/udon/networking/network-details.md` | 序列化字节数详解 |
-| `memory/world/udon/networking/performance.md` | 带宽优化 |
-| `memory/api/networking.md` | API 速查 |
-| `memory/patterns/bit-packed-flags.md` | 位域压缩模式 |
-| `memory/patterns/manual-sync-state.md` | Manual Sync 模式 |
+| `entities/world/udon/networking/index.md` | Networking 概述 |
+| `entities/world/udon/networking/compatibility.md` | 字段增删与兼容性 |
+| `entities/world/udon/networking/network-details.md` | 序列化字节数详解 |
+| `entities/world/udon/networking/performance.md` | 带宽优化 |
+| `entities/api/networking.md` | API 速查 |
+| `concepts/patterns/bit-packed-flags.md` | 位域压缩模式 |
+| `concepts/patterns/manual-sync-state.md` | Manual Sync 模式 |

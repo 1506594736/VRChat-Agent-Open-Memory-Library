@@ -269,6 +269,6 @@ public class CameraInfoDisplay : UdonSharpBehaviour
 
 ## 相关文档
 
-- `memory/world/udon/vrc-graphics/index.md` - VRCShader / VRCGraphics API + Shader Globals
-- `memory/world/vrc-quality-settings.md` - VRCQualitySettings（同一上级页面）
-- `memory/world/performance-guide.md` - 渲染性能优化
+- `entities/world/udon/vrc-graphics/index.md` - VRCShader / VRCGraphics API + Shader Globals
+- `entities/world/vrc-quality-settings.md` - VRCQualitySettings（同一上级页面）
+- `entities/world/performance-guide.md` - 渲染性能优化

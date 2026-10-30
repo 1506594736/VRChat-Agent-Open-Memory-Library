@@ -78,7 +78,7 @@ Fallback 必须是**全平台构建**的简单 Avatar,Good 性能等级起步。
 - **可解决**:
   - 你可以点 **"Show Avatar"** 强制显示(代价:帧数下降)
   - 对方创作者:优化 Avatar
-- **参考**: `memory/avatar/performance-rank.md`
+- **参考**: `entities/avatar/performance-rank.md`
 
 ### 3.2 File Size Blocked
 
@@ -247,12 +247,12 @@ Fallback 必须是**全平台构建**的简单 Avatar,Good 性能等级起步。
 
 ## 8. 相关文档
 
-- `memory/avatar/performance-rank.md` — Performance Rank 标准
-- `memory/avatar/thry-avatar-evaluator-metrics.md` — 7 项检测指标
-- `memory/avatar/optimization-guide.md` — 优化实操
-- `memory/platform/cross-platform-content.md` — 跨平台开发
-- `memory/platform/android-development.md` — Quest 端要求
-- `memory/platform/easyquestswitch.md` — PC/Quest 切换工具
+- `entities/avatar/performance-rank.md` — Performance Rank 标准
+- `entities/avatar/thry-avatar-evaluator-metrics.md` — 7 项检测指标
+- `entities/avatar/optimization-guide.md` — 优化实操
+- `entities/platform/cross-platform-content.md` — 跨平台开发
+- `entities/platform/android-development.md` — Quest 端要求
+- `entities/platform/easyquestswitch.md` — PC/Quest 切换工具
 
 ---
 

@@ -164,7 +164,7 @@ VRChat World 维护一个**封闭的 Script 白名单**，分为 **10 个组件�
 
 **注意**:
 - `WorldParticleCollider` 是 Unity 旧粒子系统专用，Unity 5.4+ 已弃用
-- `Camera` 允许，但受 `memory/world/vrc-camera-settings.md` 限制
+- `Camera` 允许，但受 `entities/world/vrc-camera-settings.md` 限制
 - `Light` 允许但需注意阴影/烘焙
 
 ### 2. VRChat Components (15 个)
@@ -345,22 +345,22 @@ VRChat World 维护一个**封闭的 Script 白名单**，分为 **10 个组件�
 
 | 现有知识 | 关联 |
 |---|---|
-| `memory/api/not-exposed.md` | **未暴露 API 黑名单**——非白名单 Script 直接失败 |
-| `memory/api/udon-type-exposure.md` | Udon Type Exposure Tree 索引 |
-| `memory/api/exposed-types.md` | 详细暴露类型清单 |
-| `memory/rules/vrchat-api-exposure.md` | API 暴露判断 |
-| `memory/avatar/vrc-constraints.md` | VRC Constraints（与 Unity Constraints 对比） |
-| `memory/world/items.md` | Layer / Mirror / Physics |
-| `memory/world/sdk-prefabs.md` | SDK Prefab 使用的具体组件 |
-| `memory/world/supported-assets.md` | 第三方 Scripted Asset（Final IK / Dynamic Bone / PPSv2 / AVPro） |
-| `memory/world/creator-economy.md` | Store API 相关 |
-| `memory/world/udon/data-containers/index.md` | Udon 数据容器 |
+| `entities/api/not-exposed.md` | **未暴露 API 黑名单**——非白名单 Script 直接失败 |
+| `entities/api/udon-type-exposure.md` | Udon Type Exposure Tree 索引 |
+| `entities/api/exposed-types.md` | 详细暴露类型清单 |
+| `concepts/rules/vrchat-api-exposure.md` | API 暴露判断 |
+| `entities/avatar/vrc-constraints.md` | VRC Constraints（与 Unity Constraints 对比） |
+| `entities/world/items.md` | Layer / Mirror / Physics |
+| `entities/world/sdk-prefabs.md` | SDK Prefab 使用的具体组件 |
+| `entities/world/supported-assets.md` | 第三方 Scripted Asset（Final IK / Dynamic Bone / PPSv2 / AVPro） |
+| `entities/world/creator-economy.md` | Store API 相关 |
+| `entities/world/udon/data-containers/index.md` | Udon 数据容器 |
 
 ### Quest 平台限制
 
 > "The Android version of VRChat has some exceptions to this list. Check [here](/platforms/android/quest-content-limitations#components) for more info."
 
-详细限制见 `memory/platform/android-development.md`。**关键差异**:
+详细限制见 `entities/platform/android-development.md`。**关键差异**:
 - TextMeshPro ✅ 保留
 - PPSv2 ❌ 不可用
 - Final IK ❌ 不可用
@@ -427,7 +427,7 @@ VRChat World 维护一个**封闭的 Script 白名单**，分为 **10 个组件�
 ### 起步检查
 
 1. **World 上传前**——检查每个 GameObject 上的 Component 是否在白名单
-2. **跨平台发布前**——使用 `EasyQuestSwitch` 自动处理 PC/Quest 差异（`memory/platform/easyquestswitch.md`）
+2. **跨平台发布前**——使用 `EasyQuestSwitch` 自动处理 PC/Quest 差异（`entities/platform/easyquestswitch.md`）
 3. **升级 SDK 时**——重新检查白名单变更
 
 ### 选型决策
@@ -473,7 +473,7 @@ VRChat World 维护一个**封闭的 Script 白名单**，分为 **10 个组件�
 - **VRChat Constraints**: https://creators.vrchat.com/common-components/constraints/
 - **VRChat PhysBones**: https://creators.vrchat.com/common-components/physbones/
 - **VRChat Contacts**: https://creators.vrchat.com/common-components/contacts/
-- **相关知识**: `memory/api/not-exposed.md` (反向参考：黑名单)
-- **相关知识**: `memory/api/udon-type-exposure.md` (类型暴露树)
-- **相关知识**: `memory/platform/android-development.md` (Quest 限制)
-- **相关知识**: `memory/platform/easyquestswitch.md` (平台切换工具)
+- **相关知识**: `entities/api/not-exposed.md` (反向参考：黑名单)
+- **相关知识**: `entities/api/udon-type-exposure.md` (类型暴露树)
+- **相关知识**: `entities/platform/android-development.md` (Quest 限制)
+- **相关知识**: `entities/platform/easyquestswitch.md` (平台切换工具)

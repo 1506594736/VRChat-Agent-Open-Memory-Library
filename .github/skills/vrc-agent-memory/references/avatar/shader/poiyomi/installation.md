@@ -242,7 +242,7 @@ Patreon $10+/月订阅
 |----------|------|
 | **Poiyomi Introduction 原文** | `参考文献/Poiyomi/00-introduction.md` |
 | **Poiyomi Download & Install 原文** | `参考文献/Poiyomi/01-download-install.md` |
-| **VPM 包元数据** | `memory/sources/vpm-mirrors/samples/poiyomi.md` |
+| **VPM 包元数据** | `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）` |
 | **5 变体详解** | `./shader-variants.md` |
 | **Pro vs Toon 详解** | `./pro-vs-toon.md` |
 | **Poiyomi 主索引** | `./index.md` |

@@ -238,7 +238,7 @@ Avatar Compressor (LAC):
 | **中复杂度** | ASTC_5x5 | 4.80 bpp |
 | **高复杂度** | ASTC_4x4 | 8.00 bpp，最高画质 |
 
-> ⚠️ Quest 平台严禁使用 DXT/BC 系列（详见 `memory/platform/android-development.md`）
+> ⚠️ Quest 平台严禁使用 DXT/BC 系列（详见 `entities/platform/android-development.md`）
 
 ---
 
@@ -285,7 +285,7 @@ LAC 自动识别贴图类型并应用不同压缩策略：
 
 ### 与 performance-rank.md 关系
 
-LAC 直接改善 `memory/avatar/performance-rank.md` 中的 **Texture Memory** 指标（PC < 75MB Good / < 40MB Excellent）。
+LAC 直接改善 `entities/avatar/performance-rank.md` 中的 **Texture Memory** 指标（PC < 75MB Good / < 40MB Excellent）。
 
 ---
 
@@ -297,7 +297,7 @@ LAC 直接改善 `memory/avatar/performance-rank.md` 中的 **Texture Memory** �
 | **依赖 VRChat SDK 3.10+** | 旧版 SDK 不兼容 |
 | **不处理几何** | Mesh/Bone/PhysBone 优化仍需 AAO |
 | **不处理材质球合并** | Material Slot 优化仍需 TexTransTool |
-| **需要 Unity 2022.3.22f1** | 与 VRChat 强制版本绑定（详见 `memory/_always-load.md` 核心约束） |
+| **需要 Unity 2022.3.22f1** | 与 VRChat 强制版本绑定（详见 `_always-load.md` 核心约束） |
 
 ---
 
@@ -335,12 +335,12 @@ VPM 一键安装清单（更新版）:
 
 ## 相关文档
 
-- `memory/avatar/ndmf-tools.md` — NDMF 工具生态总览（LAC 在 AAO 之前执行）
-- `memory/avatar/optimization-guide.md` — Texture Memory 优化原则（LAC 自动化了这些原则）
-- `memory/avatar/performance-rank.md` — 性能等级标准（LAC 主要改善 Texture Memory 指标）
-- `memory/platform/android-development.md` — Quest 平台贴图格式限制
-- `memory/platform/easyquestswitch.md` — PC/Quest 平台切换工具
-- `memory/avatar/modular-avatar.md` — NDMF 框架基础
+- `entities/avatar/ndmf-tools.md` — NDMF 工具生态总览（LAC 在 AAO 之前执行）
+- `entities/avatar/optimization-guide.md` — Texture Memory 优化原则（LAC 自动化了这些原则）
+- `entities/avatar/performance-rank.md` — 性能等级标准（LAC 主要改善 Texture Memory 指标）
+- `entities/platform/android-development.md` — Quest 平台贴图格式限制
+- `entities/platform/easyquestswitch.md` — PC/Quest 平台切换工具
+- `entities/avatar/modular-avatar.md` — NDMF 框架基础
 
 ---
 

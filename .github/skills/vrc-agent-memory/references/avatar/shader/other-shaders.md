@@ -102,7 +102,7 @@ avatar/shader/
 - 节点编辑器，完全可定制
 - 不适合 Avatar（无 fur/dissolve 等功能）
 
-**详细文档**：`memory/world/shader/graphlit.md`
+**详细文档**：`entities/world/shader/graphlit.md`
 
 ---
 
@@ -112,12 +112,12 @@ avatar/shader/
 |--------|------|------|
 | URP/HDRP 着色器 | ❌ 禁止 | VRChat 只支持 BRP |
 
-> 📌 VRCFury 是 Avatar 自动化**工具**（不是 Shader），不在本知识库范围内。详见 `memory/avatar/vrcfury-reference.md`
+> 📌 VRCFury 是 Avatar 自动化**工具**（不是 Shader），不在本知识库范围内。详见 `entities/avatar/vrcfury-reference.md`
 
 ---
 
 ## 相关文档
 
 - `memory/world/shader/` — World Shader 知识库
-- `memory/avatar/performance-rank.md` — Avatar 性能排名
+- `entities/avatar/performance-rank.md` — Avatar 性能排名
 - `memory/world/bakery/` — Bakery 光照烘焙

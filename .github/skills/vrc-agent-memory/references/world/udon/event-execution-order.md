@@ -28,7 +28,7 @@ related:
 > 来源: https://creators.vrchat.com/worlds/udon/event-execution-order/
 > 抓取日期: 2026-06-15
 > 状态: ✅ FACT (官方文档,**关键文档**)
-> 关联: `memory/api/events-reference.md` ⭐ 事件方法签名
+> 关联: `entities/api/events-reference.md` ⭐ 事件方法签名
 
 ---
 
@@ -72,7 +72,7 @@ _start()     ──┘
 
 ### 详细机制(来自 Udon VM 逆向)
 
-> 来自 `memory/rules/udon-vm-architecture.md` 的事件执行流程:
+> 来自 `concepts/rules/udon-vm-architecture.md` 的事件执行流程:
 
 ```csharp
 RunEventAdvanced("_onEnable", canRunBeforeStart: true)  // ✅ 允许 Start 前
@@ -173,7 +173,7 @@ RunEventAdvanced("_interact", canRunBeforeStart: false) // ❌ Start 后才可
 - **本地玩家**: `OnAvatarChanged` 先于 `OnAvatarEyeHeightChanged`
 - **远程玩家**: 时序**不固定**(`OnAvatarEyeHeightChanged` 可能先于 `OnAvatarChanged`)
 
-> 详细: `memory/world/udon/avatar-events.md`
+> 详细: `entities/world/udon/avatar-events.md`
 
 ### Network 序列化
 
@@ -182,7 +182,7 @@ Owner 端: 业务代码 → OnPreSerialization → [网络传输] → OnPostSeri
 Non-Owner:  [网络接收] → OnDeserialization → 业务代码
 ```
 
-> 详细: `memory/api/networking.md`
+> 详细: `entities/api/networking.md`
 
 ---
 
@@ -233,7 +233,7 @@ void Update() { CheckForChange(); }
 
 ## Udon VM 内部执行流程(逆向工程)
 
-> 来自 `memory/rules/udon-vm-architecture.md`
+> 来自 `concepts/rules/udon-vm-architecture.md`
 
 ### 事件检测(ProcessEntryPoints)
 
@@ -275,18 +275,18 @@ RunEventAdvanced("eventName", canRunBeforeStart)
   → 变量变化时自动触发
 ```
 
-> 详细: `memory/api/udonsharp-runtime.md`
+> 详细: `entities/api/udonsharp-runtime.md`
 
 ---
 
 ## 与知识库互补
 
-- **Udon 事件完整参考**: `memory/api/events-reference.md` ⭐ 事件方法签名
-- **Udon VM 架构**: `memory/rules/udon-vm-architecture.md` ⭐ RunEventAdvanced 机制
-- **UdonSharp 运行时**: `memory/api/udonsharp-runtime.md` ⭐ FieldChangeCallback
-- **Networking 序列化**: `memory/api/networking.md` ⭐ OnPre/Post/Deserialization
-- **Avatar 事件**: `memory/world/udon/avatar-events.md` ⭐ Avatar 加载时序
-- **Animation 事件**: `memory/world/udon/animation-events.md` ⭐ Animator 时序
+- **Udon 事件完整参考**: `entities/api/events-reference.md` ⭐ 事件方法签名
+- **Udon VM 架构**: `concepts/rules/udon-vm-architecture.md` ⭐ RunEventAdvanced 机制
+- **UdonSharp 运行时**: `entities/api/udonsharp-runtime.md` ⭐ FieldChangeCallback
+- **Networking 序列化**: `entities/api/networking.md` ⭐ OnPre/Post/Deserialization
+- **Avatar 事件**: `entities/world/udon/avatar-events.md` ⭐ Avatar 加载时序
+- **Animation 事件**: `entities/world/udon/animation-events.md` ⭐ Animator 时序
 
 ---
 
@@ -340,5 +340,5 @@ public override void PostLateUpdate()  // 自定义事件
 
 ### 关联文档
 
-- `memory/api/events-reference.md` - 自定义事件绑定
+- `entities/api/events-reference.md` - 自定义事件绑定
 - SDK 3.10.2 Release Notes - EventTiming.PostLateUpdate/FixedUpdate 引入

@@ -369,7 +369,7 @@ Action Menu → OSC → Enabled
 
 #### 文档引用
 
-> 完整内容详见 `memory/world/audio-steam.md` §"Voice 音量滑块范围变更"
+> 完整内容详见 `entities/world/audio-steam.md` §"Voice 音量滑块范围变更"
 
 ### ⚠️ 官方 OSC 不暴露原始 VR 硬件按键(2026-06-15 补充 / 2026-06-30 修正)
 
@@ -418,7 +418,7 @@ VRChat 官方未提供 `/input/Oculus_Cross_Left` 之类的地址。**要让外�
 
 ### 替代方案:Udon 内直接读取
 
-如果不需要外部应用,直接在 Udon 中用 Unity Input API 读取 X 键(详见 `memory/world/udon/input-events.md` "精确按键识别限制"章节):
+如果不需要外部应用,直接在 Udon 中用 Unity Input API 读取 X 键(详见 `entities/world/udon/input-events.md` "精确按键识别限制"章节):
 
 ```csharp
 bool xHeld = Input.GetButton("Oculus_CrossPlatform_Button2");

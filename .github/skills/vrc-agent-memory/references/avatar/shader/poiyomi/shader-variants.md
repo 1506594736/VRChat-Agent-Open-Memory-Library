@@ -213,7 +213,7 @@ Quest 版本 → 复制 Material,切换到 Micro 变体
 
 Poiyomi 与 **EasyQuestSwitch** 兼容(VRChat 官方工具),可一键切换 PC/Quest 变体。
 
-详见 `memory/platform/easyquestswitch.md`(知识库已有)。
+详见 `entities/platform/easyquestswitch.md`(知识库已有)。
 
 ---
 
@@ -231,8 +231,8 @@ Poiyomi 与 **EasyQuestSwitch** 兼容(VRChat 官方工具),可一键切换 PC/Q
 
 **测试建议**:
 1. 在目标平台实际测试(VRChat 客户端 + Performance Rank)
-2. 使用 `memory/avatar/performance-rank.md` 校验等级
-3. 配合 `memory/avatar/optimization-guide.md` 优化
+2. 使用 `entities/avatar/performance-rank.md` 校验等级
+3. 配合 `entities/avatar/optimization-guide.md` 优化
 
 ---
 

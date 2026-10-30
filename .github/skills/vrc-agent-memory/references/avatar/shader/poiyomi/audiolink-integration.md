@@ -45,7 +45,7 @@ related:
 
 Poiyomi 10.0 提供**完整的 AudioLink 集成**,覆盖从频段驱动 → 频谱可视化 → 体积颜色投射的全流程。配合 World 端 AudioLink Controller,可让 Avatar 实时响应 World 内音频。
 
-> **AudioLink 基础**: 详见 `https://audiolink.dev/`,本知识库 `memory/hybrid/osc-protocol.md` 有 OSC 集成说明。
+> **AudioLink 基础**: 详见 `https://audiolink.dev/`,本知识库 `concepts/hybrid/osc-protocol.md` 有 OSC 集成说明。
 
 ---
 
@@ -248,7 +248,7 @@ Material → AudioLink → Volume: 0.1
 | **AL Volume Color 原文** | `参考文献/Poiyomi/62-volume-color.md` |
 | **Poiyomi Installation** | `./installation.md` |
 | **Poiyomi Modular System** | `./modular-system.md` |
-| **OSC 协议** | `memory/hybrid/osc-protocol.md` |
+| **OSC 协议** | `concepts/hybrid/osc-protocol.md` |
 | **Poiyomi 主索引** | `./index.md` |
 
 ---

@@ -34,7 +34,7 @@ related:
 > 2026-02-11 起,v3.00 已被 **LuraSwitch2 v1.06 (2026-03-06, VN3 License)** 取代。
 > 本文件保留 v3.00 案例研究作为**历史参考**,因 6 个 Pattern (`master-follower-syncer.md`、`exclusive-control-selector.md`、`soft-detent-interpolation.md`、`fade-then-snap.md`、`editor-preview-component.md`、`material-propertyblock-safe-update.md`) 均提炼自 v3.00 源码。
 >
-> **如需使用最新工具**,请参阅 `memory/world/luraswitch2.md` (v1.06 重写版)。
+> **如需使用最新工具**,请参阅 `entities/world/luraswitch2.md` (v1.06 重写版)。
 > 6 个 Pattern 文档已在 2026-06-21 添加"历史版本标注",明确说明核心思想仍适用于 Udon 沙箱。
 >
 > 旧版 Legacy 下载: https://drive.google.com/drive/folders/1iEdCZLwvuorDIdn5Yc4e7Nk8HHzVzoXb
@@ -55,12 +55,12 @@ related:
 >
 > ⚠️ **2026-02-11 迁移声明**:旧版 **Lura's Switch v3.00 (Persistence)** 已被 **LuraSwitch2 v1.06 (2026-03-06)** 取代。
 > 本文件保留 v3.00 案例研究作为**历史参考**,因 6 个 Pattern 提炼自 v3.00 源码。
-> **推荐使用**:见 `memory/world/luraswitch2.md` (v1.06 重写版,VN3 License)。
+> **推荐使用**:见 `entities/world/luraswitch2.md` (v1.06 重写版,VN3 License)。
 > 旧版 Legacy 下载:https://drive.google.com/drive/folders/1iEdCZLwvuorDIdn5Yc4e7Nk8HHzVzoXb
 
 > **🔄 双重身份说明**：
 > - **A6 案例研究型**（本文件）：分析 39 个 .cs 源码（v3.00）→ 沉淀 6 个通用 Pattern（去项目化,作为历史参考）
-> - **C15 工具使用指南型**（`memory/world/luraswitch2.md`,2026-06-21 重写）：作为可推荐工具，介绍 v1.06 + VN3 License + 9+ Prefab/安装教程
+> - **C15 工具使用指南型**（`entities/world/luraswitch2.md`,2026-06-21 重写）：作为可推荐工具，介绍 v1.06 + VN3 License + 9+ Prefab/安装教程
 > - 两者互补：模式层给创作者"理解原理"，工具层给创作者"直接拿来用"
 
 ---
@@ -202,10 +202,10 @@ LuraSwitch2/
 
 ### 已沉淀到知识库
 - 6 个新 Pattern 文档(`memory/patterns/*.md`)
-- 4 个新 FAIL 案例(`memory/reviews/common-failures.md` FAIL-29 ~ FAIL-32)
-- `memory/FACT.md` 案例研究型参考工程追加
-- `memory/_always-load.md` 文档速查表
-- `memory/patterns/index.md` 模式索引
+- 4 个新 FAIL 案例(`concepts/patterns/index.md` FAIL-29 ~ FAIL-32)
+- `FACT.md` 案例研究型参考工程追加
+- `_always-load.md` 文档速查表
+- `concepts/patterns/index.md` 模式索引
 
 ### 知识优先级
 L3 社区标准（QuickBrown 是高质量开源项目,非官方但工程深度高）

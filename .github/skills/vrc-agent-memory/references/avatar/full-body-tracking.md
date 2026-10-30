@@ -247,7 +247,7 @@ VRChat 支持使用 Lighthouse 生态追踪器(HTC Vive Tracker / Tundra Tracker
 
 ### 7.1 与 IK 2.0
 
-- 详见 `memory/avatar/ik-2.0.md`
+- 详见 `entities/avatar/ik-2.0.md`
 - IK 2.0 是 FBT 系统的**重大更新**
 - Lock Types(Lock Hip/Head/Both)是新功能
 - 启动参数 `--calibration-range` 等
@@ -301,10 +301,10 @@ VRChat 支持使用 Lighthouse 生态追踪器(HTC Vive Tracker / Tundra Tracker
 
 ## 10. 相关文档
 
-- `memory/avatar/ik-2.0.md` — IK 2.0(FBT 重大更新)
-- `memory/world/udon/players/player-positions.md` — FBT 与 AvatarRoot
-- `memory/platform/cross-platform-content.md` — 跨平台
-- `memory/FACT.md §多机位导演系统` — FBT 在 World 中的应用
+- `entities/avatar/ik-2.0.md` — IK 2.0(FBT 重大更新)
+- `entities/world/udon/players/player-positions.md` — FBT 与 AvatarRoot
+- `entities/platform/cross-platform-content.md` — 跨平台
+- `FACT.md §多机位导演系统` — FBT 在 World 中的应用
 
 ---
 

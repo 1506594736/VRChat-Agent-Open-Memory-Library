@@ -311,8 +311,8 @@ A: 内容相同，添加任意一个即可。mirror 这边的"重复"是历史�
 - [vpm-repos-syncronizer 源码](https://github.com/vrcd-community/vpm-repos-syncronizer) — 同步器 GitHub 仓库 (推测)
 - [VCC 下载](https://vrchat.com/home/download) — VRChat Creator Companion
 - [ALCOM 下载](https://github.com/nicokraus/ALCOM) — AlphaBlend CC
-- 知识库: `memory/sources/example-central.md` (VCC 内的示例中心)
-- 知识库: `memory/platform/easyquestswitch.md` (PC/Quest 切换工具)
+- 知识库: `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` (VCC 内的示例中心)
+- 知识库: `entities/platform/easyquestswitch.md` (PC/Quest 切换工具)
 
 ---
 

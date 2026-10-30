@@ -375,9 +375,9 @@ public override void OnMasterTransferred(VRCPlayerApi newMaster) {
 
 | 文档 | 关系 |
 |------|------|
-| `memory/world/udon/networking/index.md` | Networking 概述 |
-| `memory/world/udon/networking/events.md` | SendCustomNetworkEvent(Owner 模式) |
-| `memory/world/udon/networking/variables.md` | synced 变量写入权限 |
-| `memory/world/udon/networking/network-components.md` | VRCPickup 自动所有权 |
-| `memory/api/networking.md` | API 速查 |
-| `memory/patterns/owner-authoritative-interaction.md` | Owner 模式实现 |
+| `entities/world/udon/networking/index.md` | Networking 概述 |
+| `entities/world/udon/networking/events.md` | SendCustomNetworkEvent(Owner 模式) |
+| `entities/world/udon/networking/variables.md` | synced 变量写入权限 |
+| `entities/world/udon/networking/network-components.md` | VRCPickup 自动所有权 |
+| `entities/api/networking.md` | API 速查 |
+| `concepts/patterns/owner-authoritative-interaction.md` | Owner 模式实现 |

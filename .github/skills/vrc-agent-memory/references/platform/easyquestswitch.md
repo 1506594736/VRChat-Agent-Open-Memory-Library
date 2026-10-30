@@ -279,7 +279,7 @@ EasyQuestSwitch 提供了 Bakery 光照组件的 PC/Quest 切换支持。
 
 ### 7.2 与知识库 Bakery 的关系
 
-> **补充说明**: EasyQuestSwitch 的 Bakery 集成与 `memory/world/bakery/index.md` 是**互补关系**：
+> **补充说明**: EasyQuestSwitch 的 Bakery 集成与 `entities/world/bakery/index.md` 是**互补关系**：
 > - 知识库 Bakery = 光照烘焙技术文档
 > - EasyQuestSwitch = Bakery 组件的 PC/Quest 切换方案
 

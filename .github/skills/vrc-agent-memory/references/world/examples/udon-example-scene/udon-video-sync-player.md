@@ -229,13 +229,13 @@ public void Resync() {
 
 ## 与相关知识库关联
 
-- **Manual Sync 模式**:`memory/api/networking.md`
-- **时间同步算法**:参考 `memory/FACT.md` 中 **视频播放器时间同步算法(参考工程)**(更复杂的生产实现)
-- **Video Player API**:`memory/api/video-player.md`(参见 task-17)
+- **Manual Sync 模式**:`entities/api/networking.md`
+- **时间同步算法**:参考 `FACT.md` 中 **视频播放器时间同步算法(参考工程)**(更复杂的生产实现)
+- **Video Player API**:`entities/world/udon/video-players/index.md`(参见 task-17)
 
 ---
 
 ## 参见
 
 - **视频播放器时间同步算法模式(参考工程)**:本地知识库,生产级视频同步参考(更完善的 VRCUrl + 时间同步实现)
-- **Manual Sync 完整规范**:`memory/api/networking.md`
+- **Manual Sync 完整规范**:`entities/api/networking.md`

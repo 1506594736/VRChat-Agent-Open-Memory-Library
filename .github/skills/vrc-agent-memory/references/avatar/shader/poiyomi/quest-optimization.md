@@ -127,8 +127,8 @@ Quest 是 Android 移动 GPU(Adreno 650 / XR2 Gen 2),与 PC 桌面 GPU 性能差
 | **Quest Excellent** | < 5 MB | 512 KB |
 
 **优化工具**:
-- **Avatar Compressor (LAC)**: 自动压缩 → `memory/avatar/lac-avatar-compressor.md`
-- **Avatar Optimizer (AAO)**: 通用优化 → `memory/avatar/avatar-optimizer.md`
+- **Avatar Compressor (LAC)**: 自动压缩 → `entities/avatar/lac-avatar-compressor.md`
+- **Avatar Optimizer (AAO)**: 通用优化 → `entities/avatar/avatar-optimizer.md`
 
 ### 4.3 多边形预算
 
@@ -137,7 +137,7 @@ Quest 是 Android 移动 GPU(Adreno 650 / XR2 Gen 2),与 PC 桌面 GPU 性能差
 | **Quest Good** | < 32,000 | ≤ 5 |
 | **Quest Excellent** | < 20,000 | ≤ 3 |
 
-详见 `memory/avatar/performance-rank.md` §Quest 等级。
+详见 `entities/avatar/performance-rank.md` §Quest 等级。
 
 ### 4.4 物理骨骼预算
 
@@ -147,7 +147,7 @@ Quest 是 Android 移动 GPU(Adreno 650 / XR2 Gen 2),与 PC 桌面 GPU 性能差
 | **PhysBone Transform** | 64 (官方) |
 | **Particle System** | 极有限 |
 
-详见 `memory/avatar/avatar-dynamic-bone-limits.md` + `memory/avatar/avatar-particle-system-limits.md`。
+详见 `entities/avatar/avatar-dynamic-bone-limits.md` + `entities/avatar/avatar-particle-system-limits.md`。
 
 ---
 
@@ -176,7 +176,7 @@ Avatar
 
 **EasyQuestSwitch** 是 VRChat 官方工具,可一键切换 PC/Quest 变体。
 
-详见 `memory/platform/easyquestswitch.md`。
+详见 `entities/platform/easyquestswitch.md`。
 
 ```text
 安装 EasyQuestSwitch VPM:
@@ -204,7 +204,7 @@ Quest 也支持 **VRC Light Volumes**(2026.1+),但需要调低参数:
 | **Volume Size** | 1.0 | 0.5 |
 | **Volume Light Count** | 4 | 2 |
 
-详见 `memory/world/vrc-light-volumes.md` §Quest 章节。
+详见 `entities/world/vrc-light-volumes.md` §Quest 章节。
 
 ---
 
@@ -271,9 +271,9 @@ Quest 也支持 **VRC Light Volumes**(2026.1+),但需要调低参数:
 | **Poiyomi Pro vs Toon** | `./pro-vs-toon.md` |
 | **Poiyomi AudioLink 集成** | `./audiolink-integration.md` |
 | **Poiyomi Modular System** | `./modular-system.md` |
-| **VRChat Performance Rank** | `memory/avatar/performance-rank.md` |
-| **Avatar 优化指南** | `memory/avatar/optimization-guide.md` |
-| **EasyQuestSwitch** | `memory/platform/easyquestswitch.md` |
+| **VRChat Performance Rank** | `entities/avatar/performance-rank.md` |
+| **Avatar 优化指南** | `entities/avatar/optimization-guide.md` |
+| **EasyQuestSwitch** | `entities/platform/easyquestswitch.md` |
 | **Poiyomi 主索引** | `./index.md` |
 
 ---

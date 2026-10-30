@@ -227,12 +227,12 @@ if (Networking.LocalPlayer.IsUserInVR()) { ... }
 
 ## 与知识库互补
 
-- **VRCPlayerApi 完整 API**: `memory/api/player-api.md`(待建)
-- **IsUserInVR 详细行为**: `memory/api/player-api.md`(待建)
-- **VRC_UIShape 详细使用**: `memory/platform/mobile-ui-optimization.md` ⭐
-- **TeleportTo API**: `memory/api/events-reference.md` 中 Player Positions 章节
-- **ClientSim 已知限制**: `memory/sources/clientsim.md` ⭐
-- **EditorOnly Tag**: `memory/unity/editor-tags.md`(待建)
+- **VRCPlayerApi 完整 API**: `entities/api/player-api.md`(待建)
+- **IsUserInVR 详细行为**: `entities/api/player-api.md`(待建)
+- **VRC_UIShape 详细使用**: `entities/platform/mobile-ui-optimization.md` ⭐
+- **TeleportTo API**: `entities/api/events-reference.md` 中 Player Positions 章节
+- **ClientSim 已知限制**: `entities/world/clientsim/index.md` ⭐
+- **EditorOnly Tag**: `entities/platform/index.md`(待建)
 
 ## 相关 Udon 文档链接
 

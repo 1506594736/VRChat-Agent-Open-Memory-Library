@@ -34,7 +34,7 @@ confidence: High
 
 > SDK Version: 3.10.3
 > Export Date: 2026-06-11
-> **关联参考**:`memory/world/udon/vm-and-assembly.md` - Udon Types 命名规则(`VRC.SDKBase.VRCPlayerApi+TrackingData` → `VRCSDKBaseVRCPlayerApiTrackingData`)
+> **关联参考**:`entities/world/udon/vm-and-assembly.md` - Udon Types 命名规则(`VRC.SDKBase.VRCPlayerApi+TrackingData` → `VRCSDKBaseVRCPlayerApiTrackingData`)
 
 ---
 
@@ -48,7 +48,7 @@ confidence: High
 > - `VRCUdonUdonBehaviour` → `VRCUdonCommonInterfacesIUdonEventReceiver`(Array 后缀规则仍适用)
 > - `VRCInstantiate` 是唯一"伪造"的 Udon 类型名
 >
-> **完整规则与示例**:见 `memory/world/udon/vm-and-assembly.md` §"Udon Types"
+> **完整规则与示例**:见 `entities/world/udon/vm-and-assembly.md` §"Udon Types"
 
 ---
 
@@ -185,9 +185,9 @@ Udon Type Exposure Tree 描述了 VRChat Udon VM 暴露的 Unity API 类型和�
 
 ## 相关知识
 
-- `memory/api/exposed-types.md` — 已暴露类型详细清单
-- `memory/api/not-exposed.md` — 未暴露 API 黑名单
-- `memory/rules/udonsharp-language-limits.md` — UdonSharp 语言限制
-- `memory/api/udonsharp-runtime.md` — UdonSharp 运行时系统
-- `memory/world/udon/vm-and-assembly.md` — **官方字节码规范**(Udon Type 命名规则、EXTERN 签名、9 Opcodes)
-- `memory/rules/udon-vm-architecture.md` — Udon VM 架构(逆向分析)
+- `entities/api/exposed-types.md` — 已暴露类型详细清单
+- `entities/api/not-exposed.md` — 未暴露 API 黑名单
+- `concepts/rules/udonsharp-language-limits.md` — UdonSharp 语言限制
+- `entities/api/udonsharp-runtime.md` — UdonSharp 运行时系统
+- `entities/world/udon/vm-and-assembly.md` — **官方字节码规范**(Udon Type 命名规则、EXTERN 签名、9 Opcodes)
+- `concepts/rules/udon-vm-architecture.md` — Udon VM 架构(逆向分析)

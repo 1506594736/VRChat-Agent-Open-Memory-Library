@@ -308,7 +308,7 @@ related:
 
 ## 沉淀到知识库的内容
 
-### 通用模式（8 个）→ `memory/FACT.md` + `memory/patterns/`
+### 通用模式（8 个）→ `FACT.md` + `memory/patterns/`
 
 | 模式 | 文档 | 来源 |
 |------|------|------|
@@ -318,10 +318,10 @@ related:
 | 冷却期防同步风暴 | `FACT.md` §视频播放器 | `OWNER_SYNC_COOLDOWN_TICKS` |
 | 双缓冲状态分离 | `FACT.md` §视频播放器 | `localXxx` + `[UdonSynced] xxx` |
 | Performer 模式延迟补偿 | `FACT.md` §视频播放器 | `PerformerLatency` |
-| 播放后端抽象 | `memory/patterns/strategy-pattern-udon.md` | `Handler` 接口 |
-| 字符串拼接避冲突 | `memory/patterns/data-encoding-tricks.md` | `\u2029` Paragraph Separator |
+| 播放后端抽象 | `本 skill 的 `patterns/strategy-pattern-udon.md`（v3 附录页，v5 未收录）` | `Handler` 接口 |
+| 字符串拼接避冲突 | `本 skill 的 `patterns/data-encoding-tricks.md`（v3 附录页，v5 未收录）` | `\u2029` Paragraph Separator |
 
-### 案例研究档案 → `memory/sources/vvmw.md`
+### 案例研究档案 → `entities/world/vvmw.md`
 
 包含完整项目档案（5 大模块 + 13 个 Releases + 9 大功能 + 9 大集成 + 4 种显示模式 + 工程评价）
 
@@ -336,8 +336,8 @@ related:
 > 仓库：https://github.com/JLChnToZ/VVMW
 
 **作为知识来源时**：
-> 来源：`memory/sources/vvmw.md`（案例研究 + 8 个 Pattern 来源）
-> 工具使用：`memory/world/vvmw.md`（本文件）
+> 来源：`entities/world/vvmw.md`（案例研究 + 8 个 Pattern 来源）
+> 工具使用：`entities/world/vvmw.md`（本文件）
 
 ---
 
@@ -345,15 +345,15 @@ related:
 
 | 文档 | 关系 |
 |------|------|
-| `memory/sources/vvmw.md` | **本项目的案例研究型源文档**（A2） |
-| `memory/world/udon/video-players/index.md` | 视频播放器总览（SDK 基础） |
-| `memory/world/udon/video-players/www-whitelist.md` | 视频 URL 白名单 |
-| `memory/hybrid/audio-link.md` | AudioLink 集成（VVMW 集成之一） |
-| `memory/world/vrc-light-volumes.md` | VRC Light Volumes（VVMW 集成之一） |
-| `memory/FACT.md` §视频播放器 | **时间同步算法模式（参考工程）** |
-| `memory/patterns/manual-sync-state.md` | Manual Sync 基础 |
-| `memory/world/udon/external-urls.md` | VRCUrl 基础 |
-| `memory/api/persistence.md` | PlayerData API（持久化用） |
-| `memory/world/performance-guide.md` | World 性能优化（多实例屏幕场景） |
+| `entities/world/vvmw.md` | **本项目的案例研究型源文档**（A2） |
+| `entities/world/udon/video-players/index.md` | 视频播放器总览（SDK 基础） |
+| `entities/world/udon/video-players/www-whitelist.md` | 视频 URL 白名单 |
+| `concepts/hybrid/audio-link.md` | AudioLink 集成（VVMW 集成之一） |
+| `entities/world/vrc-light-volumes.md` | VRC Light Volumes（VVMW 集成之一） |
+| `FACT.md` §视频播放器 | **时间同步算法模式（参考工程）** |
+| `concepts/patterns/manual-sync-state.md` | Manual Sync 基础 |
+| `entities/world/udon/external-urls.md` | VRCUrl 基础 |
+| `entities/api/persistence.md` | PlayerData API（持久化用） |
+| `entities/world/performance-guide.md` | World 性能优化（多实例屏幕场景） |
 | `memory/world/udon/video-players/` | 视频播放器底层知识 |
-| `memory/hybrid/udon-world-plugins.md` | 推荐 Udon 世界插件索引 |
+| `concepts/hybrid/udon-world-plugins.md` | 推荐 Udon 世界插件索引 |
