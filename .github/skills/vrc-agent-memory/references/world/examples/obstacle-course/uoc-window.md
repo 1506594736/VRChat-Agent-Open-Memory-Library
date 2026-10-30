@@ -187,7 +187,7 @@ related:
 | 工具 | 用途 | 文档 |
 |------|------|------|
 | **Obstacle Course Toolkit** | Jam 项目专用,集中管理 Checkpoint/PowerUp/Player 数量 | 本文档 |
-| **Example Central** | 一站式获取 VRChat 官方示例项目 | `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` |
+| **Example Central** | 一站式获取 VRChat 官方示例项目 | `sources/example-central.md` |
 | **ClientSim** | Editor 内模拟 VRChat 客户端(无 VRChat 也能测试) | `entities/world/clientsim/index.md` |
 | **EasyQuestSwitch** | PC ↔ Quest 平台切换自动化 | `entities/platform/easyquestswitch.md` |
 | **VRChat SDK Build Panel** | 通用 World/Avatar 上传 | (内建) |

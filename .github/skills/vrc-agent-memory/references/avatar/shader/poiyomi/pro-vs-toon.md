@@ -278,7 +278,7 @@ Poiyomi Toon Micro (免费) ← Quest 首选
 | **Poiyomi Download & Install** | `参考文献/Poiyomi/01-download-install.md` |
 | **Poiyomi Modular System** | `./modular-system.md` |
 | **Poiyomi Shader Variants** | `./shader-variants.md` |
-| **VPM 包元数据(含 Patreon 鉴权)** | `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）` |
+| **VPM 包元数据(含 Patreon 鉴权)** | `sources/vpm-mirrors/samples/poiyomi.md` |
 | **Poiyomi 主索引** | `./index.md` |
 
 ---

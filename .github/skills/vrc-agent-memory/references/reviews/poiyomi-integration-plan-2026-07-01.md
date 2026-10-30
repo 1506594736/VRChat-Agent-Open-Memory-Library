@@ -188,7 +188,7 @@ confidence: High
 
 | 文件 | 内容性质 | 版本 | 状态 |
 |------|----------|------|------|
-| `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）` | VPM 包元数据 | 8.1.166 Toon / 9.3.66 Pro | 🔴 同步失败,信息陈旧 |
+| `sources/vpm-mirrors/samples/poiyomi.md` | VPM 包元数据 | 8.1.166 Toon / 9.3.66 Pro | 🔴 同步失败,信息陈旧 |
 | `entities/world/vrc-light-volumes.md` | Light Volumes 兼容 (Line 340, 439) | "Poiyomi Toon 9.2.67+" | ✅ 准确 |
 | `entities/avatar/avatar-optimizer.md` | UV Tile Discard 设计 (Line 341) | 未指定版本 | ⚠️ 上下文简短 |
 | `entities/avatar/teaching-methodology.md` | 教学资源列表 (Line 129) | 无版本 | ✅ 概述性引用 |
@@ -283,7 +283,7 @@ Poiyomi 10.0 (2026+ 当前分阶段推出) ← 我们抓取的版本
 | `_always-load.md` | 需添加 Poiyomi 关键约束 | P2 | Stage 3 |
 | `entities/avatar/shader/index.md` | ✅ 已更新 (1.2) | P0 | 已完成 |
 | `entities/avatar/shader/other-shaders.md` | ✅ 已更新 (1.1) | P0 | 已完成 |
-| `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）` | 需添加 10.0 演进说明 | P1 | Stage 3 |
+| `sources/vpm-mirrors/samples/poiyomi.md` | 需添加 10.0 演进说明 | P1 | Stage 3 |
 | `FACT.md` | 需添加 Poiyomi 完整入库记录 | P1 | Stage 3 |
 | `entities/avatar/performance-rank.md` | 无需更新(与 Poiyomi 关系间接) | - | 跳过 |
 
@@ -397,7 +397,7 @@ memory/avatar/shader/poiyomi/
 | 添加 Poiyomi 路由 | `index.md` | 在 Avatar 域添加 `shader/poiyomi/index.md` 引用 |
 | 更新 Poiyomi 章节 | `entities/avatar/index.md` | 添加 Poiyomi 子域引用 |
 | 关键约束 | `_always-load.md` | 添加 Poiyomi 5 变体速查 |
-| 10.0 演进说明 | `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）` | 添加"10.0 版本演进"章节 |
+| 10.0 演进说明 | `sources/vpm-mirrors/samples/poiyomi.md` | 添加"10.0 版本演进"章节 |
 | 入库记录 | `FACT.md` | 添加 Poiyomi 完整入库记录 |
 
 ### 3.6 Stage 4: 缺口修复 (长期 P2)
@@ -519,8 +519,8 @@ Week 2 (2026-07-08 ~ 2026-07-14)
 
 - **主索引**: `参考文献/Poiyomi/INDEX.md`
 - **Avatar Shader 集成**: `entities/avatar/shader/index.md` §1.3 Poiyomi Shaders
-- **VPM 包元数据**: `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）`
-- **本计划**: `本 skill 的 `reviews/poiyomi-integration-plan-2026-07-01.md`（v3 附录页，v5 未收录）`
+- **VPM 包元数据**: `sources/vpm-mirrors/samples/poiyomi.md`
+- **本计划**: `reviews/poiyomi-integration-plan-2026-07-01.md`
 
 ### 5.4 关联决策记录
 

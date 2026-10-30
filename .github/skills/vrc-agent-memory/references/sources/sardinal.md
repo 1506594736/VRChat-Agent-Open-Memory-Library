@@ -284,7 +284,7 @@ public void HandleUI(...) { ... }
 | `concepts/patterns/channel-routing.md` ⭐S NEW | Sardinal 独有：频道过滤 |
 | `concepts/patterns/inherited-subscriber.md` ⭐S NEW | Sardinal 独有：基类订阅者自动继承 |
 | `concepts/patterns/hybrid-subscription-modes.md` ⭐S NEW | Sardinal 独有：静态+动态双订阅 |
-| `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` | A9 案例研究型参考工程条目 |
+| `sources/open-source-projects.md` | A9 案例研究型参考工程条目 |
 | `entities/vrchatsdk/index.md` | 新来源登记 |
 | `concepts/patterns/index.md` | 29-31 号新模式 + 决策树更新 + 速查表 |
 | *(Session 分析报告 V3.0 起写入 `特殊Agent提示词/`)* | 工作过程记录 |

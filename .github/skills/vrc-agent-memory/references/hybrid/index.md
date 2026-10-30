@@ -84,5 +84,5 @@ related:
 ## 相关知识
 
 - `FACT.md` → 核心设计模式 section
-- `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` → 开源参考工程
+- `sources/open-source-projects.md` → 开源参考工程
 - `entities/api/player-api.md` → VRCPlayerApi 追踪接口

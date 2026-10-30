@@ -120,7 +120,7 @@ public override void OnPlayerRestored(VRCPlayerApi player)
 
 - `entities/api/persistence.md` - 底层 API 参考(PlayerData / PlayerObject 完整方法签名)
 - `entities/api/networking.md` - `[UdonSynced]` 网络同步机制(与 PlayerObject 互链)
-- `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` - Example Central 使用指南
+- `sources/example-central.md` - Example Central 使用指南
 - `entities/world/clientsim/index.md` - ClientSim 编辑器模拟(支持 PlayerData 调试窗口)
 
 ## 验收标准

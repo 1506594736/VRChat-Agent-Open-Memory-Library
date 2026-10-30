@@ -158,7 +158,7 @@ VRChat Worlds SDK 在 `Packages > VRChat SDK - Worlds > Samples > UdonExampleSce
 
 | 现有知识 | 关联 Prefab |
 |---|---|
-| `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` | Example Central 提供更多高级示例 |
+| `sources/example-central.md` | Example Central 提供更多高级示例 |
 | `entities/world/items.md` | VRCMirror 反射 Item 的修复 |
 | `entities/world/udon/data-containers/index.md` | VideoSync 可能使用 DataToken 存储 URL |
 | `entities/world/creator-economy.md` | Store API 可在 Pedestal 中集成 |
@@ -250,5 +250,5 @@ VRChat Worlds SDK 在 `Packages > VRChat SDK - Worlds > Samples > UdonExampleSce
 - **相关页面**: https://creators.vrchat.com/worlds/components/vrc_mirrorreflection/
 - **相关页面**: https://creators.vrchat.com/worlds/udon/video-players/
 - **相关页面**: https://creators.vrchat.com/worlds/examples/udon-example-scene/simple-pen-system/
-- **相关知识**: `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` (更高级示例)
+- **相关知识**: `sources/example-central.md` (更高级示例)
 - **相关知识**: `entities/world/creator-economy.md` (Store API 集成)

@@ -178,7 +178,7 @@ related:
 | `entities/platform/android-development.md` | ✅ 已创建 |
 | `entities/platform/cross-platform-content.md` | ✅ 已创建 |
 | `entities/platform/mobile-ui-optimization.md` | ✅ 已创建 |
-| `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` | ✅ 已创建 |
+| `sources/example-central.md` | ✅ 已创建 |
 
 ### 已更新文件
 | 文件 | 更新内容 |

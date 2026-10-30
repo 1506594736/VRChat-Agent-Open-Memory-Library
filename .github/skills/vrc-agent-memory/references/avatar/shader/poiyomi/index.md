@@ -250,7 +250,7 @@ Patreon $10+/月 → Discord 绑定 → #pro-downloads 下载 → Import 到 Uni
 | **Poiyomi 原始数据主索引** | `参考文献/Poiyomi/INDEX.md` |
 | **Poiyomi Introduction 原文** | `参考文献/Poiyomi/00-introduction.md` |
 | **Poiyomi 全部 65 文档** | `参考文献/Poiyomi/*.md` |
-| **VPM 包元数据** | `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）` |
+| **VPM 包元数据** | `sources/vpm-mirrors/samples/poiyomi.md` |
 | **Avatar Shader 主索引** | `../index.md` |
 | **lilToon 知识库** | `../liltoon/index.md` |
 | **SCSS 知识库** | `../scss.md` |

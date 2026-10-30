@@ -193,7 +193,7 @@ https://<your-github-username>.github.io/<your-repo-name>/captions.csv
 - **VRCStringDownloader**: 同上
 - **Untrusted URLs 客户端设置**: `entities/world/supported-assets.md`(待建)
 - **VRCUrl**: `entities/world/udon/video-players/www-whitelist.md`(待建)
-- **Example Central**: `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）`
+- **Example Central**: `sources/example-central.md`
 
 ## 相关 Udon 文档链接
 

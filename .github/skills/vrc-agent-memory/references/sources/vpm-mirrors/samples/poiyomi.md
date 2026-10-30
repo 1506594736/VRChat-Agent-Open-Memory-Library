@@ -183,7 +183,7 @@ VCC → Add Repository → https://poiyomi.github.io/vpm/index.json
 |------|------|------|
 | **原始数据 .md** | 65 | `参考文献/Poiyomi/` |
 | **主题知识文档** | 8 | `memory/avatar/shader/poiyomi/` |
-| **整合计划** | 1 | `本 skill 的 `reviews/poiyomi-integration-plan-2026-07-01.md`（v3 附录页，v5 未收录）` |
+| **整合计划** | 1 | `reviews/poiyomi-integration-plan-2026-07-01.md` |
 
 **主题文档清单**:
 - `index.md` - Poiyomi 知识库总览

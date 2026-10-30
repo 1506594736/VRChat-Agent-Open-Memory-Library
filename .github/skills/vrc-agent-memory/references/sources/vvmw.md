@@ -135,8 +135,8 @@ Idle → Loading → Playing → Paused
 | 4 | **冷却期防同步风暴** | `OWNER_SYNC_COOLDOWN_TICKS = 3s` | `FACT.md` §视频播放器 |
 | 5 | **双缓冲状态分离** | `localXxx` + `[UdonSynced] xxx` | `FACT.md` §视频播放器 + `patterns/dual-copy-variables.md` |
 | 6 | **Performer 模式延迟补偿** | `PerformerLatency` | `FACT.md` §视频播放器 |
-| 7 | **播放后端抽象（Strategy 模式）** | `Handler` 接口 | `本 skill 的 `patterns/strategy-pattern-udon.md`（v3 附录页，v5 未收录）` |
-| 8 | **字符串拼接避冲突** | `\u2029` Paragraph Separator | `本 skill 的 `patterns/data-encoding-tricks.md`（v3 附录页，v5 未收录）` |
+| 7 | **播放后端抽象（Strategy 模式）** | `Handler` 接口 | `patterns/strategy-pattern-udon.md` |
+| 8 | **字符串拼接避冲突** | `\u2029` Paragraph Separator | `patterns/data-encoding-tricks.md` |
 
 ## 9 大功能特性
 
@@ -230,7 +230,7 @@ Idle → Loading → Playing → Paused
 - `FACT.md` §视频播放器时间同步算法模式（2026-06-06）
 - `concepts/patterns/manual-sync-state.md` Manual Sync 规范
 - `entities/world/udon/video-players/index.md` 视频播放器总览（已引用 VVMW）
-- `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` A2 案例研究
+- `sources/open-source-projects.md` A2 案例研究
 
 ### 知识优先级
 L3 社区标准（VRChat 生态最流行的视频播放器之一）

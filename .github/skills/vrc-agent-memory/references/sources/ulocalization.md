@@ -134,7 +134,7 @@ Udon 不能直接调用 SmartFormat 库，重写最小子集（正则解析 + 16
 | `concepts/patterns/slot-parameter-passing.md` | 槽位传参完整模式 + 代码骨架 |
 | `concepts/patterns/code-generation-type-erasure.md` | 代码生成 + 类型擦除完整模式 + 代码骨架 |
 | `comparisons/build-time-vs-runtime.md` | Build-Runtime 分离完整模式 + 代码骨架 |
-| `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` | A7 案例研究型参考工程条目 |
+| `sources/open-source-projects.md` | A7 案例研究型参考工程条目 |
 | `entities/vrchatsdk/index.md` | 新来源登记 |
 | `concepts/patterns/index.md` | 14-18 号新模式 + 决策树更新 |
 | *(Session 分析报告 V3.0 起写入 `特殊Agent提示词/`)* | 工作过程记录 |

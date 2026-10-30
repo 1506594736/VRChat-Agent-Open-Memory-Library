@@ -318,8 +318,8 @@ related:
 | 冷却期防同步风暴 | `FACT.md` §视频播放器 | `OWNER_SYNC_COOLDOWN_TICKS` |
 | 双缓冲状态分离 | `FACT.md` §视频播放器 | `localXxx` + `[UdonSynced] xxx` |
 | Performer 模式延迟补偿 | `FACT.md` §视频播放器 | `PerformerLatency` |
-| 播放后端抽象 | `本 skill 的 `patterns/strategy-pattern-udon.md`（v3 附录页，v5 未收录）` | `Handler` 接口 |
-| 字符串拼接避冲突 | `本 skill 的 `patterns/data-encoding-tricks.md`（v3 附录页，v5 未收录）` | `\u2029` Paragraph Separator |
+| 播放后端抽象 | `patterns/strategy-pattern-udon.md` | `Handler` 接口 |
+| 字符串拼接避冲突 | `patterns/data-encoding-tricks.md` | `\u2029` Paragraph Separator |
 
 ### 案例研究档案 → `entities/world/vvmw.md`
 

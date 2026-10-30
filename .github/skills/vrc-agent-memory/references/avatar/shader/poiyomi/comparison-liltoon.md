@@ -317,8 +317,8 @@ Avatar
 | **Poiyomi Quest 优化** | `./quest-optimization.md` |
 | **lilToon 知识库** | `../liltoon/index.md` |
 | **SCSS 知识库** | `../scss.md` |
-| **Poiyomi VPM 数据** | `本 skill 的 `sources/vpm-mirrors/samples/poiyomi.md`（v3 附录页，v5 未收录）` |
-| **lilToon VPM 数据** | `本 skill 的 `sources/vpm-mirrors/samples/lilxyzw.md`（v3 附录页，v5 未收录）` |
+| **Poiyomi VPM 数据** | `sources/vpm-mirrors/samples/poiyomi.md` |
+| **lilToon VPM 数据** | `sources/vpm-mirrors/samples/lilxyzw.md` |
 | **Poiyomi 主索引** | `./index.md` |
 
 ---

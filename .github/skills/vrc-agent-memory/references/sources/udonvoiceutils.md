@@ -628,9 +628,9 @@ private int GetPendingPlayerUpdates(int playerCount) {
 
 ### 后续可建文档
 
-- `本 skill 的 `patterns/privacy-channel.md`（v3 附录页，v5 未收录）` — 多频道交集检测
-- `本 skill 的 `patterns/player-list-reconcile.md`（v3 附录页，v5 未收录）` — OnPlayerLeft 三步清理
-- `本 skill 的 `patterns/occlusion-by-player.md`（v3 附录页，v5 未收录）` — `!raycastHit.transform` Udon 特性
+- `patterns/privacy-channel.md` — 多频道交集检测
+- `patterns/player-list-reconcile.md` — OnPlayerLeft 三步清理
+- `patterns/occlusion-by-player.md` — `!raycastHit.transform` Udon 特性
 
 ---
 
@@ -764,13 +764,13 @@ private int GetPendingPlayerUpdates(int playerCount) {
 
 ## 下一步行动建议
 
-1. ✅ **新建** `本 skill 的 `sources/udonvoiceutils.md`（v3 附录页，v5 未收录）` (本文件)
-2. ✅ **更新** `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` 添加 A7
+1. ✅ **新建** `sources/udonvoiceutils.md` (本文件)
+2. ✅ **更新** `sources/open-source-projects.md` 添加 A7
 3. ✅ **更新** `entities/vrchatsdk/index.md` 注册新源
 4. ✅ **更新** `concepts/patterns/index.md` 添加 6 个新模式速查
 5. ✅ **更新** `FACT.md` 最后更新段 + 6 个新模式登记
-6. 🔜 **未来** — 创建独立的 `本 skill 的 `patterns/dual-copy-sync.md`（v3 附录页，v5 未收录）` 等 6 个详细 pattern 文档
-7. 🔜 **未来** — 创建独立的 `本 skill 的 `patterns/privacy-channel.md`（v3 附录页，v5 未收录）` / `player-list-reconcile.md` / `occlusion-by-player.md`
+6. 🔜 **未来** — 创建独立的 `patterns/dual-copy-sync.md` 等 6 个详细 pattern 文档
+7. 🔜 **未来** — 创建独立的 `patterns/privacy-channel.md` / `player-list-reconcile.md` / `occlusion-by-player.md`
 
 ---
 

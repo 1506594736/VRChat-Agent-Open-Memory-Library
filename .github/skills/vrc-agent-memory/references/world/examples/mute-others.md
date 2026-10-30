@@ -188,7 +188,7 @@ if (player.isLocal) continue;  // 关键: 自己的语音不受影响
 
 **完整资源**:
 - **推荐插件索引**: `concepts/hybrid/udon-world-plugins.md` ⭐NEW 2026-06-20
-- **深度案例研究**: `本 skill 的 `sources/udonvoiceutils.md`（v3 附录页，v5 未收录）` (35 个 .cs + 10 大难题 + 10 个设计模式)
+- **深度案例研究**: `sources/udonvoiceutils.md` (35 个 .cs + 10 大难题 + 10 个设计模式)
 - **VPM 仓库**: `https://raw.githubusercontent.com/Guribo/UdonVoiceUtils/main/package.json`
 
 ## 相关 Udon 文档链接

@@ -43,7 +43,7 @@ related:
 | **质量验证** | 经过知识库深度分析(FACT/Source 文档) |
 | **设计规范** | 遵循 VRChat 最佳实践(同步、Ownership、Quest 兼容) |
 
-**与 `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` 的区别**:
+**与 `sources/open-source-projects.md` 的区别**:
 - `sources/open-source-projects.md` = **案例研究**型参考工程(不推荐给创作者,仅分析其设计模式)
 - 本文档 = **工具使用**型推荐(创作者可直接装到自己的 World 中使用)
 
@@ -111,10 +111,10 @@ related:
 
 #### 完整资源
 
-- **案例研究**: `本 skill 的 `sources/udonvoiceutils.md`（v3 附录页，v5 未收录）` (深度分析,10 章节,10 大难题,工程评价)
+- **案例研究**: `sources/udonvoiceutils.md` (深度分析,10 章节,10 大难题,工程评价)
 - **互补示例**: `entities/world/examples/mute-others.md` (官方基础版,适合学习)
 - **设计模式**: `concepts/patterns/index.md` (10 个 ⭐U 模式: dual-copy-sync / execution-order-chain / strategy-pattern-udon / object-pool-udon / priority-arbitration / master-ownership-defense / gizmos-relationship / trigger-event-fallback / compile-time-debug-strip / auto-scripting-symbol)
-- **API 索引**: `本 skill 的 `sources/udonvoiceutils.md`（v3 附录页，v5 未收录）` §8 (PlayerAudio* API 完整列表)
+- **API 索引**: `sources/udonvoiceutils.md` §8 (PlayerAudio* API 完整列表)
 
 #### 安装方式
 
@@ -266,7 +266,7 @@ https://xtlcdn.github.io/vpm/
 
 | 关系 | 目录 |
 |------|------|
-| **案例研究溯源** | `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）`(所有推荐插件都必须先入案例研究) |
+| **案例研究溯源** | `sources/open-source-projects.md`(所有推荐插件都必须先入案例研究) |
 | **设计模式沉淀** | `concepts/patterns/index.md`(插件实现的通用模式) |
 | **官方示例互补** | `memory/world/examples/`(基础教学 vs 工业级) |
 | **API 参考** | `memory/api/`(VRCPlayerApi 音频相关 API) |

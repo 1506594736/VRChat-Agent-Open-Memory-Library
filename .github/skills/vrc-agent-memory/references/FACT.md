@@ -196,7 +196,7 @@ memory/
 - **性能热点**：SendAudioOutputData 每帧 8 次 SetFloatArray(约 2ms 开销)
 - **实验性功能保护**：audioDataToggle 默认关闭(VRCAsyncGPUReadback 成本高)
 
-> **📚 参考实现**:本节提炼自开源 VRChat 音频同步框架,见 `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` §音频同步类目
+> **📚 参考实现**:本节提炼自开源 VRChat 音频同步框架,见 `sources/open-source-projects.md` §音频同步类目
 
 ### 多机位导演系统网络同步架构 ✅ (参考工程)
 - **5 层同步体系**：Manual + Continuous + NetworkCallable + SafeMod(排除) + NoVariableSync
@@ -207,7 +207,7 @@ memory/
 - **所有权分层**：操作者 vs 被跟踪者所有权分离
 - **UI 转发模式**：NoVariableSync + SetProgramVariable
 
-> **📚 参考实现**:本节提炼自开源 VRChat 多机位导演系统,见 `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` §多机位导演类目
+> **📚 参考实现**:本节提炼自开源 VRChat 多机位导演系统,见 `sources/open-source-projects.md` §多机位导演类目
 
 ---
 
@@ -223,7 +223,7 @@ memory/
 | UdonVoiceUtils 工程化模式 | 10 个 | `concepts/patterns/index.md` #14-#23 |
 | ULocalization 沙箱适配模式 | 5 个 | `concepts/patterns/index.md` #24-#28 |
 | Sardinal 消息总线模式 | 3 个 | `concepts/patterns/index.md` #29-#31 |
-| 案例研究 A1-A9 | 9 个 | `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` |
+| 案例研究 A1-A9 | 9 个 | `sources/open-source-projects.md` |
 | 推荐工具 C1-C16 | 16 个 | `concepts/hybrid/udon-world-plugins.md` |
 
 **快速查阅入口**：

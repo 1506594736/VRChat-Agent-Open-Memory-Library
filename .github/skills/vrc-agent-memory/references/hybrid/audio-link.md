@@ -291,6 +291,6 @@ void CopyIntoFlags()
 
 本节描述的开源 VRChat 音频同步系统(AudioLink)项目,见:
 
-- `本 skill 的 `sources/open-source-projects.md`（v3 附录页，v5 未收录）` §音频同步类目
+- `sources/open-source-projects.md` §音频同步类目
 
 如需了解项目安装、VPM 配置、源码版本,参阅 `memory/sources/` 目录

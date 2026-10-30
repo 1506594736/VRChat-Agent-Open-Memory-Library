@@ -203,7 +203,7 @@ Q10: 需要"跨模块解耦通信"吗?
 
 ## 10 个新增模式 (TLP UdonVoiceUtils) ⭐U 2026-06-20
 
-> **来源标注**:`⭐U` = UdonVoiceUtils 模式,以区别于 LuraSwitch2 模式(无后缀)。所有 UVU 模式从 `本 skill 的 `sources/udonvoiceutils.md`（v3 附录页，v5 未收录）` 提炼。
+> **来源标注**:`⭐U` = UdonVoiceUtils 模式,以区别于 LuraSwitch2 模式(无后缀)。所有 UVU 模式从 `sources/udonvoiceutils.md` 提炼。
 
 ### 1️⃣4️⃣ dual-copy-sync.md ⭐U NEW
 **适用**: 双源同步(本地热数据 + 网络冷数据)
@@ -407,6 +407,6 @@ Q10: 需要"跨模块解耦通信"吗?
 | **视频播放器(参考工程)** | Manual Sync + Owner Authority + 时间同步算法 | `FACT.md` §视频播放器 |
 | **音频同步系统(参考工程)** | Shader-Centric + Master 时间锚点 + 位域压缩 + 漂移校正 | `FACT.md` §音频同步系统 |
 | **QuickBrown LuraSwitch2(参考工程)** ⭐NEW | Master-Follower Syncer + Exclusive Selector + SoftDetent + Fade-Snap + Editor Preview + MaterialPropertyBlock | `entities/world/luraswitch2.md` + 6 个新 pattern 文档 |
-| **TLP UdonVoiceUtils(参考工程)** ⭐NEW | 10 个核心模式: Dual-Copy Sync + ExecutionOrder Chain + Strategy + Object Pool + Priority Arbitration + Master Ownership Defense + Gizmos + Trigger Fallback + Compile DEBUG + Auto Symbol | `本 skill 的 `sources/udonvoiceutils.md`（v3 附录页，v5 未收录）` + 10 个新 pattern 文档 |
+| **TLP UdonVoiceUtils(参考工程)** ⭐NEW | 10 个核心模式: Dual-Copy Sync + ExecutionOrder Chain + Strategy + Object Pool + Priority Arbitration + Master Ownership Defense + Gizmos + Trigger Fallback + Compile DEBUG + Auto Symbol | `sources/udonvoiceutils.md` + 10 个新 pattern 文档 |
 | **HoshinoLabs ULocalization(参考工程)** ⭐NEW | 5 个 Udon 沙箱适配核心模式: Hash-Based Method Dispatch + IID Object Identity + Slot Parameter Passing + Code Generation Type Erasure + Build-Runtime Separation | `concepts/patterns/index.md` + 5 个新 pattern 文档 |
 | **HoshinoLabs Sardinal(参考工程)** ⭐NEW | 5 大 ULocalization 模式精简版 + 3 个 Sardinal 独有模式: Channel Routing + Inherited Subscriber + Hybrid Static+Dynamic Subscription | `entities/world/luraswitch2.md` + 3 个新 pattern 文档 |

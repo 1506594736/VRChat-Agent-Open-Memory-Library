@@ -192,7 +192,7 @@ VRChat Worlds 仅支持 **4 个外部 Scripted Asset**：**TextMeshPro**（必�
 | `entities/world/whitelisted-world-components.md` | 完整白名单组件清单 |
 | `memory/avatar/` | PhysBones 在 Avatar 域的详细文档 |
 | `entities/world/performance-guide.md` | 后期处理对 GPU 的影响 |
-| `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` | Post Processing v2 实战案例 |
+| `sources/example-central.md` | Post Processing v2 实战案例 |
 
 ### Asset 选择决策
 

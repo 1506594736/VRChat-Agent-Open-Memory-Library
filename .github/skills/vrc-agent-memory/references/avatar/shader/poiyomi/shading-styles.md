@@ -235,7 +235,7 @@ Poiyomi 10.0 提供 **9 种 Lighting Type**,从卡通(Texture Ramp)到 PBR(Reali
 | Cloth | ❌ 404 | 推断文档,影响小 |
 | SDF | ❌ 404 | 推断文档,影响中 |
 
-**Stage 4 重抓计划**: 见 `本 skill 的 `reviews/poiyomi-integration-plan-2026-07-01.md`（v3 附录页，v5 未收录）` §3.6
+**Stage 4 重抓计划**: 见 `reviews/poiyomi-integration-plan-2026-07-01.md` §3.6
 
 ---
 

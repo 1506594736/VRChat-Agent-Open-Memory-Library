@@ -64,7 +64,7 @@ related:
 | A4 | VRChat Agent Skills 模板(参考工程) | `memory/rules/`、`concepts/patterns/advanced-sync-patterns.md` | SMART 原则 + 18 条 NEVER 清单 + 5 层存储决策框架 + 6 种 Networking Anti-Patterns |
 | A5 | 第三方客户端(VRCX) | `entities/vrchatsdk/index.md` | API 客户端最佳实践 + 跨平台状态同步 UX |
 | **A6/C15** | **QuickBrown LuraSwitch2 (Lura's Switch)** | `entities/world/luraswitch2.md` + `entities/world/luraswitch2.md` | **双重身份**: 案例研究沉淀 6 模式 + 工具推荐给创作者直接使用。BOOTH 免费 + UV License。Master-Follower Syncer + Exclusive Selector + SoftDetent + Fade-Snap + Editor Preview + MaterialPropertyBlock + 4 个 FAIL 案例 |
-| A7 | TLP UdonVoiceUtils (UVU) | `本 skill 的 `sources/udonvoiceutils.md`（v3 附录页，v5 未收录）` | **10 个核心模式**: 双副本同步 + 执行顺序链 + 策略模式 + 对象池 + 优先级仲裁 + Master 所有权三层防御 + Gizmos 关系可视化 + Trigger 事件兜底 + 编译期 DEBUG 剥离 + 自动宏定义 |
+| A7 | TLP UdonVoiceUtils (UVU) | `sources/udonvoiceutils.md` | **10 个核心模式**: 双副本同步 + 执行顺序链 + 策略模式 + 对象池 + 优先级仲裁 + Master 所有权三层防御 + Gizmos 关系可视化 + Trigger 事件兜底 + 编译期 DEBUG 剥离 + 自动宏定义 |
 | **A8** ⭐NEW 2026-06-20 | **HoshinoLabs ULocalization** | `concepts/patterns/index.md` | **5 个 Udon 沙箱适配核心模式**: Hash-Based Method Dispatch + IID Object Identity + Slot-Based Parameter Passing + Code Generation with Type Erasure + Build-Time vs Runtime Separation + CloneDetector + God Shim + SmartLiteFormatter |
 | **A9** ⭐NEW 2026-06-20 | **HoshinoLabs Sardinal** | `entities/world/luraswitch2.md` | **通用消息总线(Pub/Sub with parameters)** + 5 大 ULocalization 模式精简版(10 字段 vs 27 字段 + 16 Publish 重载 vs 3 槽位) + 3 个 Sardinal 独有新模式(Channel Routing 频道路由 / Inherited Subscriber 基类继承 / Hybrid Static+Dynamic Subscription 双订阅模式) |
 
@@ -112,7 +112,7 @@ related:
 | C11 | 光照烘焙(Bakery) | `memory/world/bakery/` | 2 文件 |
 | C12 | 编辑器模拟(ClientSim) | `memory/world/clientsim/` | 8 文件 |
 | C13 | Creator Economy(SDK) | `entities/world/creator-economy.md` | — |
-| C14 | Example Central(SDK) | `本 skill 的 `sources/example-central.md`（v3 附录页，v5 未收录）` | — |
+| C14 | Example Central(SDK) | `sources/example-central.md` | — |
 | **C15** ⭐NEW 2026-06-20 | **Lura's Switch (QuickBrown LuraSwitch2)** | `entities/world/luraswitch2.md` | 9 种开关 Prefab + 3 同步模式 + 多入口 + PC/Quest 适配 + UV License 免费商用 |
 | **C16** ⭐NEW 2026-06-20 | **VizVid (VVMW)** | `entities/world/vvmw.md` | 5 大模块（Builtin/AVPro/Image/Playlist/Locale）+ 9 大功能（视频/直播/AVPro/低延迟/历史记录/本地化/UI 等）+ 9 大集成（AudioLink/LTCGI/VRCLightVolumes/Topaz/UdonAuth/YTTL/PlayerData/Stream Key/AVPro）+ 4 种显示模式 + 13 个 Releases + PC/Quest 跨平台 + 12+ 语言本地化 |
 
