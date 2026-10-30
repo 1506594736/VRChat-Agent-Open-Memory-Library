@@ -56,13 +56,26 @@ Confirm the class from the page metadata and stated dependencies rather than fro
 
 ## Self-check before delivering UdonSharp code
 
-Knowledge pages describe the constraints; they do not enforce them. Before delivering any UdonSharp `.cs` file, re-read the applicable rule pages and check the code against them manually:
+Knowledge pages describe the constraints; they do not enforce them. After writing or
+modifying any UdonSharp `.cs` file, run the validator before delivering:
+
+```
+bash tools/udon-validate/udon-validate.sh <path>                    # Linux / macOS / WSL / Git Bash
+powershell -File tools/udon-validate/udon-validate.ps1 <path>       # Windows
+```
+
+- Exit code `1` means BLOCKED or ERROR findings. Fix them and re-run; do not deliver code that still fails.
+- Exit code `0` with warnings still means the code may be wrong at runtime. A warning about a missing `RequestSerialization()` or a missing ownership guard is a real defect, not noise: those cases pass every single-player test and only fail in a populated instance.
+- A pass is not proof the code compiles — the tool does static pattern matching, not Roslyn analysis. Unity still decides.
+- To add or correct a rule, edit `tools/udon-validate/rules.tsv`; the engines read it generically.
+
+If the tool is unavailable, fall back to reading the rule pages directly:
 
 - `concepts/rules/udonsharp-language-limits.md` — banned C# features and their replacements
 - `concepts/rules/udonsharp-deep-pitfalls.md` — silent-failure cases
 - `entities/api/networking.md` and `concepts/rules/networking-rules.md` — sync and ownership
 
-Pay particular attention to defects that fail silently at runtime rather than at compile time: a `[UdonSynced]` field written without an ownership guard, a mutation without `RequestSerialization()`, or state only delivered by a one-time event that late joiners never receive. State plainly when you have not verified something, rather than asserting it.
+State plainly when you have not verified something, rather than asserting it.
 
 ## Assess evidence
 

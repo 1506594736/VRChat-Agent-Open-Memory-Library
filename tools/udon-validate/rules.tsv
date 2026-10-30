@@ -1,0 +1,50 @@
+# UdonSharp rule table — the single place to add or correct a rule.
+#
+# TAB separated, seven columns:
+#   level    BLOCKED | WARNING
+#   id       short stable identifier
+#   scope    udon   = only files declaring UdonSharpBehaviour
+#            always = every .cs file
+#   kind     literal = compare pattern verbatim (safe for ( ) [ ] etc.)
+#            regex   = pattern is an ERE
+#   pattern  text to look for, matched against comment/string-masked source
+#   absent   ERE whose PRESENCE cancels this rule; use "-" for none
+#   message  what to tell the user
+#
+# The `absent` column is what keeps this list trustworthy. A rule that fires on
+# correct code trains people to ignore the whole output, so anything that is
+# only a defect in combination is expressed as "present but missing X".
+#
+# Rule sources: v5 knowledge base concepts/rules/udonsharp-language-limits.md
+# and concepts/rules/udonsharp-deep-pitfalls.md; cross-checked against the rule
+# set of niaka3dayo/agent-skills-vrc-udon (MIT, see engine/LICENSE).
+
+# ---- hard compile failures in Udon runtime ---------------------------------
+
+BLOCKED	U0001	udon	regex	(^|[^A-Za-z0-9_])async[[:space:]]+[A-Za-z_(]	-	async methods are not supported in Udon. Use SendCustomEventDelayedSeconds() to schedule work.
+BLOCKED	U0002	udon	regex	(^|[^A-Za-z0-9_])await[[:space:]]	-	await is not supported in Udon. Use SendCustomEventDelayedSeconds() to schedule work.
+BLOCKED	U0003	udon	regex	(^|[^A-Za-z0-9_])try[[:space:]]*\{	-	try/catch is not supported in Udon. Use explicit null and bounds checks instead.
+BLOCKED	U0004	udon	regex	(^|[^A-Za-z0-9_])catch[[:space:]]*[({]	-	try/catch is not supported in Udon. Use explicit null and bounds checks instead.
+BLOCKED	U0005	udon	regex	(^|[^A-Za-z0-9_])finally[[:space:]]*\{	-	try/finally is not supported in Udon.
+BLOCKED	U0006	udon	regex	(^|[^A-Za-z0-9_])yield[[:space:]]+return	-	yield return (coroutines) are not supported in Udon. Use SendCustomEventDelayedSeconds().
+BLOCKED	U0007	udon	literal	StartCoroutine(	-	StartCoroutine is not available in Udon. Use SendCustomEventDelayedSeconds().
+BLOCKED	U0008	udon	literal	.AddListener(	-	AddListener() takes a delegate, which Udon does not support. Wire the Inspector OnClick event to a Udon behaviour method instead.
+BLOCKED	U0009	always	regex	using[[:space:]]+System\.IO	-	(System.IO) is not available in Udon. Use VRCStringDownloader or VRCImageDownloader.
+BLOCKED	U0010	always	regex	using[[:space:]]+System\.Net	-	System.Net is not available in Udon. Use VRCStringDownloader or VRCImageDownloader.
+BLOCKED	U0011	udon	regex	(^|[^A-Za-z0-9_])(int|float|byte|short|long|double|bool|string|char)[[:space:]]*\[[[:space:]]*,	-	Multi-dimensional arrays (T[,]) are not supported in Udon. Use jagged arrays (T[][]) or flatten to one dimension.
+BLOCKED	U0012	udon	literal	GetComponent<UdonBehaviour>	-	GetComponent<UdonBehaviour>() is not exposed. Use (UdonBehaviour)GetComponent(typeof(UdonBehaviour)).
+
+# ---- patterns that compile but fail silently at runtime --------------------
+
+WARNING	U0101	udon	regex	(^|[^A-Za-z0-9_])List[[:space:]]*<	-	Generic List<T> is not supported in Udon runtime. Use DataList, DataDictionary, or a plain array. Verify this is not Editor-only field initializer code.
+WARNING	U0102	udon	regex	(^|[^A-Za-z0-9_])Dictionary[[:space:]]*<	-	Generic Dictionary<K,V> is not supported in Udon runtime. Use DataDictionary.
+WARNING	U0103	udon	regex	(^|[^A-Za-z0-9_])System\.Linq	-	LINQ is not supported in Udon runtime. Write explicit loops.
+WARNING	U0104	udon	literal	=>	-	Lambda expressions are not supported in Udon runtime. Check whether this is Editor-only field initializer code.
+
+# ---- networking correctness ------------------------------------------------
+# These defects pass every local single-player test and only surface in a
+# populated instance, which is exactly why they are worth flagging.
+
+WARNING	U0201	udon	literal	[UdonSynced]	RequestSerialization	This file writes [UdonSynced] fields but never calls RequestSerialization(). Under Manual sync the change stays local and other players never see it.
+WARNING	U0202	udon	literal	[UdonSynced]	(IsOwner|SetOwner|Networking\.)	This file has [UdonSynced] fields but no ownership check. A non-owner write is discarded, usually without any error.
+WARNING	U0203	udon	literal	NoVariableSync	-	NoVariableSync mode declared. Confirm no [UdonSynced] fields exist in this behaviour, or they will never synchronize.
