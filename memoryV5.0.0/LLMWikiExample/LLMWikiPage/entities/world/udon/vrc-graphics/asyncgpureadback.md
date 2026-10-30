@@ -271,7 +271,7 @@ public void ProcessDataOnMainThread()
 **关键优势**:
 - 音频驱动 Shader → **零网络同步开销**
 - GPU 端直接计算 → CPU 端几乎无开销
-- 完整参考实现见 [[audio-link]]
+- 完整参考实现见 [[concepts/hybrid/audio-link]]
 
 ---
 

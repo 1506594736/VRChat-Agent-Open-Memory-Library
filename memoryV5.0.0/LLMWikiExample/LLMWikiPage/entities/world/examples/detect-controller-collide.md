@@ -153,7 +153,7 @@ public void __ResetCharacterController()
 
 - **Player Collisions 完整 API**: [[entities/api/events-reference]] 中的 Player Collisions 章节
 - **VRCPlayerApi**: [[entities/api/player-api]](待建)
-- **Trigger 事件**: [[contact]]
+- **Trigger 事件**: [[entities/avatar/contact]]
 
 ## 相关 Udon 文档链接
 

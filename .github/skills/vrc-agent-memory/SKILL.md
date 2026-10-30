@@ -45,20 +45,15 @@ Before recommending an avatar optimization tool, determine which class it belong
 
 Confirm the class from the page metadata and stated dependencies rather than from the author's or community's description. If a tool is editor-only measurement, state that explicitly and assign the actual fix to a build-time tool. Do not present a measurement tool as an optimization measure, and do not assume a tool is an NDMF plugin because it ships as a VPM package.
 
-## Validate UdonSharp output
+## Self-check before delivering UdonSharp code
 
-Knowledge pages describe the constraints; they do not enforce them. After writing or modifying any UdonSharp `.cs` file, run the bundled static validator before delivering:
+Knowledge pages describe the constraints; they do not enforce them. Before delivering any UdonSharp `.cs` file, re-read the applicable rule pages and check the code against them manually:
 
-```
-powershell -NoProfile -ExecutionPolicy Bypass -File udon-guard/validate.ps1 <path-to-file-or-directory>
-```
+- `concepts/rules/udonsharp-language-limits.md` — banned C# features and their replacements
+- `concepts/rules/udonsharp-deep-pitfalls.md` — silent-failure cases
+- `entities/api/networking.md` and `concepts/rules/networking-rules.md` — sync and ownership
 
-- Exit code `1` means BLOCKED/ERROR findings. Fix them and re-run; do not deliver code that still fails.
-- Exit code `0` with WARNING items means the code may still be wrong at runtime, notably missing `RequestSerialization()` or an ownership guard. Treat those as defects, not noise.
-- The validator catches known high-frequency patterns, not complete type checking. A pass is not proof the code compiles.
-- When a rule is unclear, look it up in the knowledge pages listed in `udon-guard/README.md` rather than guessing a workaround.
-
-`udon-guard/` sits outside the knowledge root and is not covered by the read-only rule below; it is this repository's own tooling, not VRChat knowledge.
+Pay particular attention to defects that fail silently at runtime rather than at compile time: a `[UdonSynced]` field written without an ownership guard, a mutation without `RequestSerialization()`, or state only delivered by a one-time event that late joiners never receive. State plainly when you have not verified something, rather than asserting it.
 
 ## Assess evidence
 

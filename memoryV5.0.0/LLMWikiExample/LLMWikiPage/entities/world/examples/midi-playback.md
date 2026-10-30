@@ -222,7 +222,7 @@ public class LogoButton : UdonSharpBehaviour
 
 - **Udon 事件完整参考**: [[entities/api/events-reference]]
 - **VRC SDK3 MIDI 命名空间**: [[entities/vrchatsdk/homepage|VRChat SDK]]
-- **AudioLink 系统**: [[audio-link]](参考音频驱动视觉的另一种方式)
+- **AudioLink 系统**: [[concepts/hybrid/audio-link]](参考音频驱动视觉的另一种方式)
 
 ## 相关 Udon 文档链接
 

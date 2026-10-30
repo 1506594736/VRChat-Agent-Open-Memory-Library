@@ -196,7 +196,7 @@ https://<your-github-username>.github.io/<your-repo-name>/captions.csv
 - **VRCImageDownloader 完整 API**: [[image-loading]]
 - **VRCStringDownloader**: 同上
 - **Untrusted URLs 客户端设置**: [[entities/world/supported-assets]](待建)
-- **VRCUrl**: [[external-urls]]
+- **VRCUrl**: [[entities/world/udon/external-urls]]
 - **Example Central**: （来源：Example Central，本地整理）
 
 ## 相关 Udon 文档链接

@@ -160,7 +160,7 @@ public override void MidiControlChange(int channel, int number, int value) { }
 | **MIDI Playback 示例** | [[entities/world/examples/midi-playback]] | 4-Grid LogoButton 完整实现 |
 | **Udon 事件完整参考** | [[entities/api/events-reference]] | 3 个 MIDI 事件签名 + 调用约束 |
 | **MIDI 节点(图)** | [[entities/world/udon/graph/event-nodes]] | Udon Node Graph 中的 MIDI 事件节点 |
-| **AudioLink** | [[audio-link]] | 音频数据驱动的另一种方式(Shader-Centric) |
+| **AudioLink** | [[concepts/hybrid/audio-link]] | 音频数据驱动的另一种方式(Shader-Centric) |
 
 ---
 

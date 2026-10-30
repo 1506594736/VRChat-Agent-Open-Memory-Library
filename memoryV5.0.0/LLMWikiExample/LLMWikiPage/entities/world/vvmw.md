@@ -321,8 +321,8 @@ updated: 2026-06-21
 | 冷却期防同步风暴 | `FACT.md` §视频播放器 | `OWNER_SYNC_COOLDOWN_TICKS` |
 | 双缓冲状态分离 | `FACT.md` §视频播放器 | `localXxx` + `[UdonSynced] xxx` |
 | Performer 模式延迟补偿 | `FACT.md` §视频播放器 | `PerformerLatency` |
-| 播放后端抽象 | ``策略模式（模式库待整理，见 [[code-generation-type-erasure]]）`` | `Handler` 接口 |
-| 字符串拼接避冲突 | [[byte-and-bit-operations]] | `\u2029` Paragraph Separator |
+| 播放后端抽象 | ``策略模式（模式库待整理，见 [[concepts/patterns/code-generation-type-erasure]]）`` | `Handler` 接口 |
+| 字符串拼接避冲突 | [[entities/world/udon/data-containers/byte-and-bit-operations]] | `\u2029` Paragraph Separator |
 
 ### 案例研究档案 → [VVMW（GitHub）](https://github.com/JLChnToZ/VVMW)
 

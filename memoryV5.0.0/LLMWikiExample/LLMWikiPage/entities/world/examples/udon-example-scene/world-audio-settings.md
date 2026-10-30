@@ -138,6 +138,6 @@ public class WorldAudioSettings : UdonSharpBehaviour {
 
 ## 与相关知识库关联
 
-- **VRCPlayerApi 完整 API**:[[player-api]]
+- **VRCPlayerApi 完整 API**:[[entities/api/player-api]]
 - **Audio Source Unity API**:[[entities/api/audio]]
 - **VRCWorld 整体架构**:[index.md](index.md)

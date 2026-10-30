@@ -287,7 +287,7 @@ var child = grids[gridIndex].GetChild(noteNumber % 12);
 | **实时 MIDI** | [`./realtime-midi.md`](realtime-midi.md) | 真实设备输入 |
 | **MIDI Playback 示例** | [[entities/world/examples/midi-playback]] | 4-Grid LogoButton 完整实现 |
 | **Udon 事件完整参考** | [[entities/api/events-reference]] | 事件方法 + 调用约束 |
-| **AudioLink** | [[audio-link]] | 音频驱动视觉的另一种方式 |
+| **AudioLink** | [[concepts/hybrid/audio-link]] | 音频驱动视觉的另一种方式 |
 | **MIDI 节点(图)** | [[entities/world/udon/graph/event-nodes]] | Node Graph 中的 MIDI 事件 |
 | **MIDI Standard Files** | https://midi.org/standard-midi-files | SMF 规范 |
 

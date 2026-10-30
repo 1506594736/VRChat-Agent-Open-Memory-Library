@@ -198,7 +198,7 @@ if (Time.frameCount % 5 == 0)  // 每 5 帧更新一次
 
 - **VRCGraphics 完整 API**: [[entities/world/udon/vrc-graphics/index]] ⭐ 直接互链
 - **RenderTexture 概念**: 通用 Unity 知识,``unity-rendering``(待建)
-- **VRCPickup**: [[pickups]]
+- **VRCPickup**: [[entities/api/pickups]]
 - **Networking.LocalPlayer.GetPosition()**: [[entities/api/player-api]](待建)
 - **VRCShader.SetGlobal**: [[entities/world/udon/vrc-graphics/index]] 中相关章节
 
