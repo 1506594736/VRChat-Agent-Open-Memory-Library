@@ -3,10 +3,10 @@ title: "Allowlisted World Components"
 category: world
 knowledge_level: applied
 status: active
-source: 本地知识库整理
+source: creators.vrchat.com/worlds/whitelisted-world-components
 source_type: community
-version: 1.0
-last_review: 2026-06-20
+version: 1.1
+last_review: 2026-10-30
 confidence: Medium
 tags:
   - world
@@ -26,7 +26,7 @@ related:
 
 > 来源: VRChat 官方文档 (https://creators.vrchat.com/worlds/whitelisted-world-components/)
 > 源 URL Last Updated: **Nov 25, 2025**
-> 抓取日期: 2026-06-15
+> 抓取日期: 2026-06-15 (2026-10-30 复核：补齐 LODGroup，修正分类计数为 77/63，合计 222)
 > 置信度: High
 
 ---
@@ -46,7 +46,7 @@ related:
 
 ## Conclusion
 
-VRChat World 维护一个**封闭的 Script 白名单**，分为 **10 个组件集合**，总计约 **200+ 个可用组件**。**任何不在白名单中的 Script 在 World 中将静默失败**。Quest 平台有额外限制（见脚注）。白名单的**核心动机是安全 + 性能**——禁止 I/O、网络、反射、动态加载等危险 API。
+VRChat World 维护一个**封闭的 Script 白名单**，分为 **10 个组件集合**，总计 **222 个可用组件**。**任何不在白名单中的 Script 在 World 中将静默失败**。Quest 平台有额外限制（见脚注）。白名单的**核心动机是安全 + 性能**——禁止 I/O、网络、反射、动态加载等危险 API。
 
 ---
 
@@ -54,7 +54,7 @@ VRChat World 维护一个**封闭的 Script 白名单**，分为 **10 个组件�
 
 | # | 组件集合 | 数量 | 类别 |
 |---|---|---|---|
-| 1 | Unity Components | 76 | Unity 内置 |
+| 1 | Unity Components | 77 | Unity 内置 |
 | 2 | VRChat Components | 15 | VRChat SDK |
 | 3 | Dynamic Bone | 2 | 第三方（已弃用） |
 | 4 | Text Mesh Pro | 11 | Unity 内置 |
@@ -63,7 +63,7 @@ VRChat World 维护一个**封闭的 Script 白名单**，分为 **10 个组件�
 | 7 | Post Processing Stack V2 | 3 | 后期处理 |
 | 8 | AVPro | 7 | 视频播放 |
 | 9 | Oculus Spatializer Unity | 4 | 空间音频 |
-| 10 | Final IK | 62 | 反向运动学 |
+| 10 | Final IK | 63 | 反向运动学 |
 
 ---
 
@@ -99,6 +99,7 @@ VRChat World 维护一个**封闭的 Script 白名单**，分为 **10 个组件�
 - Light
 - LightProbeGroup
 - LightProbeProxyVolume
+- LODGroup
 - LineRenderer
 - MeshFilter
 - MeshRenderer
