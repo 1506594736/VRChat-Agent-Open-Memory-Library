@@ -23,9 +23,27 @@ The adjacent `references/` directory contains legacy v3 material. Do not use it 
 ## Retrieve progressively
 
 - On first use in a task, read `_always-load.md` and `FACT.md`, then use `index.md` to route to relevant domains. Reuse already loaded, unchanged context.
+- `FACT.md` is a curated index, not a complete file listing. When a topic may exist but is absent from it, list or grep the domain directory before concluding the library lacks coverage.
 - Search relevant titles, aliases, paths, and text. Read matching sections and necessary surrounding context. Do not load the entire library for an ordinary question.
 - Follow related pages to resolve dependencies or uncertainty. Expand retrieval until evidence is sufficient or explain the remaining gap; there is no fixed three-document or 200-line cutoff.
 - For implementation and review, read applicable `concepts/rules/` pages and API references. Apply Udon restrictions to Udon code, not indiscriminately to Editor scripts or external applications.
+
+## Route common questions
+
+Use these entry points before answering from memory; read the page, do not restate it here.
+
+- **Avatar performance optimization, tool selection, or "can I install all of these together"** → `entities/avatar/avatar-optimization-stack.md`, then the per-tool page it links. That page owns the tool-responsibility matrix, coexistence conflicts, staged rollout order, and rollback order. Do not answer multi-tool stacking questions from a single tool's page.
+- **Name collisions between a project and its fork** → verify VPM package identifier and VPM repository URL, not the display name or repository title. Packages can share injected layer names while differing in defaults.
+
+## Distinguish tool classes
+
+Before recommending an avatar optimization tool, determine which class it belongs to; the classes are not interchangeable.
+
+- **Build-time optimizer (NDMF plugin)** — modifies the avatar during build or Play Mode through the NDMF pipeline.
+- **Editor-only measurement tool** — reads and reports metrics via menu commands, modifies nothing, and does not enter the build pipeline. A measurement tool cannot fix a metric; it only locates it.
+- **Runtime or in-game tool** — acts after upload.
+
+Confirm the class from the page metadata and stated dependencies rather than from the author's or community's description. If a tool is editor-only measurement, state that explicitly and assign the actual fix to a build-time tool. Do not present a measurement tool as an optimization measure, and do not assume a tool is an NDMF plugin because it ships as a VPM package.
 
 ## Assess evidence
 

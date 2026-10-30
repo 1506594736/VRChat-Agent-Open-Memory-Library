@@ -17,20 +17,27 @@ aliases:
   - Cheatsheet
 
 related:
-  - world/bakery/index.md
-  - world/items.md
-  - world/supported-assets.md
-  - world/creator-economy.md
-  - world/shader/index.md
-  - avatar/shader/poiyomi/index.md
-  - avatar/shader/liltoon/index.md
+  - entities/world/bakery/index.md
+  - entities/world/items.md
+  - entities/world/supported-assets.md
+  - entities/world/creator-economy.md
+  - entities/world/shader/index.md
+  - entities/avatar/shader/poiyomi/index.md
+  - entities/avatar/shader/liltoon/index.md
 
-source: 本地知识库整理
+source: 本地知识库整理（v3 核心约束速查，路径已对齐 v5 LLMWikiPage 目录）
 source_type: community
-version: 3.0
-last_review: 2026-07-01
+version: 3.1
+last_review: 2026-10-30
 confidence: High
 ---
+
+---
+
+> ⚠️ **版本范围提示**：本文件是 **v3 时代的核心约束速查**，保留其摘要内容供快速自检；
+> 其中**路径已于 2026-10-30 对齐到 v5 `LLMWikiPage/` 目录树**，但**约束条文本身未按 v5 重新校订**。
+> 凡涉及版本号、工具默认值、指标阈值等可能随版本变化的数值，**以 `FACT.md` 与对应 v5 知识页为准**，本文件不作为最终依据。
+> 若本文件与 v5 页面冲突，以 v5 页面为准，并说明该冲突属于既有速查与现行知识的版本差。
 
 ---
 # VRChat 全领域核心约束速查
@@ -76,7 +83,7 @@ L5 必须标注【推断】; 证据不足必须标注【未确认】
 □ 热路径 GetComponent/Find?
 □ 非 Owner 写入 UdonSynced?
 □ Enum 比较 cast 到 int?
-□ API 是否在 Udon 中暴露？ → 检查 memory/api/udon-type-exposure.md
+□ API 是否在 Udon 中暴露？ → 检查 entities/api/udon-type-exposure.md
 ```
 
 ## World Domain — 网络同步核心
@@ -111,7 +118,7 @@ L5 必须标注【推断】; 证据不足必须标注【未确认】
 6. PlayerObject 所有权不可转移(防偷),必须加 VRCEnablePersistence 才持久化
 7. 命名空间:用 <Prefab名>-<功能> 前缀避免冲突
 8. 字符串值 ~50 字符,Key 名 128 字符(建议上限)
-→ 详细:memory/world/udon/persistence/index.md
+→ 详细:entities/world/udon/persistence/index.md
 ```
 
 ## World Domain — 禁止清单
@@ -207,7 +214,7 @@ Base → Additive → Gesture → Action → FX（最后，最高优先级）
 | Global Themes(4 主题) | ❌ | ✅ |
 | Pro 价格 | 免费 | Patreon $10+/月 |
 
-→ 详细:`memory/avatar/shader/poiyomi/`(8 主题文档)⭐NEW
+→ 详细:`entities/avatar/shader/poiyomi/`(8 主题文档)⭐NEW
 
 ### Quest Avatar 硬性规则
 
@@ -217,7 +224,7 @@ Base → Additive → Gesture → Action → FX（最后，最高优先级）
 ❌ 禁用 Voronoi 3D / Constellation / Internal Parallax
 ⚠️ AudioLink 限 4 频段(Micro)
 ⚠️ Material 数量 ≤ 5
-→ 详见 memory/avatar/shader/poiyomi/quest-optimization.md
+→ 详见 entities/avatar/shader/poiyomi/quest-optimization.md
 ```
 
 ### Shader 选择决策(2 步)
@@ -244,79 +251,79 @@ External Integration / Tracking（待建设）
 
 | 需要 | 去 |
 |---|---|
-| World 代码/网络/性能 | `memory/rules/` |
-| World API | `memory/api/` (grep) |
-| **Udon 官方文档本地化** | `memory/world/udon/` ⭐ 11+ 单页(2026-06-21 +VRCTween 子目录) |
-| **Udon 事件执行顺序** | `memory/world/udon/event-execution-order.md` ⭐_onEnable→_start 无间隔 |
-| **Udon Persistence 实战** | `memory/world/udon/persistence/` ⭐ 8 文档(PlayerData/PlayerObject/100KB/3 模式)NEW 2026-06-21 |
-| **Udon VM 字节码** | `memory/world/udon/vm-and-assembly.md` 9 Opcodes 官方规范 |
-| **VRCTween(官方补间)** | `memory/world/udon/vrctween/index.md` ⭐ DOTween 封装,7 大类补间 + 虚拟补间 + 复用模式 ⭐NEW 2026-06-21 (2026-06-22 已校验与官方 5-28 一致) |
+| World 代码/网络/性能 | `concepts/rules/` |
+| World API | `entities/api/` (grep) |
+| **Udon 官方文档本地化** | `entities/world/udon/` ⭐ 11+ 单页(2026-06-21 +VRCTween 子目录) |
+| **Udon 事件执行顺序** | `entities/world/udon/event-execution-order.md` ⭐_onEnable→_start 无间隔 |
+| **Udon Persistence 实战** | `entities/world/udon/persistence/` ⭐ 8 文档(PlayerData/PlayerObject/100KB/3 模式)NEW 2026-06-21 |
+| **Udon VM 字节码** | `entities/world/udon/vm-and-assembly.md` 9 Opcodes 官方规范 |
+| **VRCTween(官方补间)** | `entities/world/udon/vrctween/index.md` ⭐ DOTween 封装,7 大类补间 + 虚拟补间 + 复用模式 ⭐NEW 2026-06-21 (2026-06-22 已校验与官方 5-28 一致) |
 | **VRCTween 原始英文 / DOTween 底层** | `参考文献/VRCTween-Official-*.md` + `参考文献/DOTween-Underlying-Engine.md` ← 5 份原始快照(2026-06-22 抓取) |
-| World 设计模式 | `memory/patterns/` ⭐ 31 个(7 原有 + 6 LuraSwitch2 + 10 UVU + 5 ULocalization 沙箱适配 + 3 Sardinal 独有) |
-| **Master-Follower Syncer** | `memory/patterns/master-follower-syncer.md` ⭐NEW |
-| **Exclusive Control Selector** | `memory/patterns/exclusive-control-selector.md` ⭐NEW |
-| **Soft Detent Interpolation** | `memory/patterns/soft-detent-interpolation.md` ⭐NEW |
-| **Avatar Accessories (2026.2.1+)** | `memory/avatar/accessories.md` ⭐NEW 2026-06-30 |
-| **VRCRaycast (Avatar, SDK 3.10.3+)** | `memory/avatar/vrcraycast.md` ⭐NEW 2026-06-30 |
-| **Companions vs Props (2026.2.3)** | `memory/world/companions.md` ⭐NEW 2026-06-30 |
-| **Steam Audio (替换 ONSP, 2025.4.2+)** | `memory/world/audio-steam.md` ⭐NEW 2026-06-30 |
-| **Fade-Then-Snap** | `memory/patterns/fade-then-snap.md` ⭐NEW |
-| **Editor Preview Component** | `memory/patterns/editor-preview-component.md` ⭐NEW |
-| **MaterialPropertyBlock Safe Update** | `memory/patterns/material-propertyblock-safe-update.md` ⭐NEW |
-| **Hash-Based Method Dispatch** | `memory/patterns/hash-based-dispatch.md` ⭐NEW 2026-06-20 |
-| **IID Object Identity** | `memory/patterns/iid-object-identity.md` ⭐NEW 2026-06-20 |
-| **Slot-Based Parameter Passing** | `memory/patterns/slot-parameter-passing.md` ⭐NEW 2026-06-20 |
-| **Code Generation with Type Erasure** | `memory/patterns/code-generation-type-erasure.md` ⭐NEW 2026-06-20 |
-| **Build-Time vs Runtime Separation** | `memory/patterns/build-time-vs-runtime-separation.md` ⭐NEW 2026-06-20 |
-| **QuickBrown LuraSwitch2 源（案例研究 A6,v3.00 历史）** | `memory/sources/quickbrown-luraswitch2.md` ⭐NEW |
-| **LuraSwitch2 工具使用指南（C15,v1.06 重写版）** | `memory/world/luraswitch2.md` ⭐REWRITTEN 2026-06-21 (2026-03-06 最新版) |
-| **VizVid (VVMW) 源（案例研究 A2）** | `memory/sources/vvmw.md` ⭐NEW 2026-06-20（视频播放器） |
-| **VizVid (VVMW) 工具使用指南（C16）** | `memory/world/vvmw.md` ⭐NEW 2026-06-20（推荐创作者使用） |
-| **HoshinoLabs ULocalization 源** | `memory/sources/ulocalization.md` ⭐NEW 2026-06-20 |
-| **HoshinoLabs Sardinal 源** | `memory/sources/sardinal.md` ⭐NEW 2026-06-20 (通用消息总线) |
-| **Channel-Based Pub/Sub Routing** | `memory/patterns/channel-routing.md` ⭐NEW 2026-06-20 (Sardinal 独有) |
-| **Inherited Subscriber** | `memory/patterns/inherited-subscriber.md` ⭐NEW 2026-06-20 (Sardinal 独有) |
-| **Hybrid Static+Dynamic Subscription** | `memory/patterns/hybrid-subscription-modes.md` ⭐NEW 2026-06-20 (Sardinal 独有) |
-| World 审查 | `memory/reviews/` |
-| **光照系统** | `memory/world/vrc-light-volumes.md` |
-| **光照烘焙** | `memory/world/bakery/light-baking-guide.md` |
-| **遮挡剔除** | `memory/world/occlusion-culling-guide.md` |
-| **World Shader** | `memory/world/shader/` ← Graphlit 节点编辑器 |
-| **VRCGraphics / Shader Globals** | `memory/world/udon/vrc-graphics/index.md` |
-| **Udon Node Graph(可视化)** | `memory/world/udon/graph/` ← Interface/Flow/Event/搜索/类型 ⭐NEW 2026-06-15 |
-| **VRCCameraSettings** | `memory/world/vrc-camera-settings.md` ⭐NEW |
-| **VRCQualitySettings** | `memory/world/vrc-quality-settings.md` ⭐NEW |
-| **ClientSim(World 测试)** | `memory/world/clientsim/index.md` ⭐NEW 2026-06-15 |
-| **Obstacle Course(World Jam 2)** | `memory/world/examples/obstacle-course/` ⭐NEW 2026-06-15 |
-| **Items in Udon Worlds** | `memory/world/items.md` ← ⭐ Layer 3 + Udon 不可引用 Items ⭐NEW 2026-06-15 |
-| **VRChat Community Labs** | `memory/world/community-labs.md` ⭐NEW 2026-06-30(World 发布系统 + Trust Rank User + 每周 1 个) |
-| **Unity Layers in VRChat** | `memory/world/layers.md` ← ⭐ 32 Layer 分配 + Physics 安全模式 ⭐NEW 2026-06-15 |
-| **SDK Prefabs** | `memory/world/sdk-prefabs.md` ← ⭐ 8 个 Udon 示例 Prefab ⭐NEW 2026-06-15 |
-| **Supported Scripted Assets** | `memory/world/supported-assets.md` ← ⭐ TMP/PPSv2/FinalIK/DynamicBone 白名单 ⭐NEW 2026-06-15 |
-| **Allowlisted World Components** | `memory/world/whitelisted-world-components.md` ← ⭐ 完整 Script 白名单 (10 集合) ⭐NEW 2026-06-15 |
-| **Video Players** | `memory/world/udon/video-players/` ← ⭐ VRCUnityVideoPlayer / AVPro + URL 白名单 ⭐NEW 2026-06-15 |
-| Avatar Animator | `memory/avatar/animator-system.md` |
-| **Avatar 自动纹理压缩 (LAC)** | `memory/avatar/lac-avatar-compressor.md` ⭐NEW 2026-06-17 |
-| **MA 响应式层合并 (MA2BT)** | `memory/avatar/ma2bt.md` ⭐NEW 2026-06-17 |
-| **Avatar 优化器 (AAO)** | `memory/avatar/avatar-optimizer.md` ⭐NEW 2026-06-17 |
-| **TexTransTool (TTT)** | `memory/avatar/tex-trans-tool.md` ⭐NEW 2026-06-17 |
-| **VRCFury 客观参考** | `memory/avatar/vrcfury-reference.md` ⭐NEW 2026-06-17 |
-| **Meshia 减面** | `memory/avatar/meshia-mesh-simplification.md` ⭐NEW 2026-06-17 |
-| **Thry 性能检测指标** | `memory/avatar/thry-avatar-evaluator-metrics.md` ⭐NEW 2026-06-17 |
-| **NDMF 工具生态** | `memory/avatar/ndmf-tools.md` ⭐执行顺序 |
-| **VRChat Trust Rank** | `memory/avatar/trust-rank.md` ⭐(2026-06-30) 7 等级 + 上传权限 + Nuisance |
-| **VRChat Safety System** | `memory/avatar/safety-system.md` ⭐(2026-06-30) Shield Level + 8 特性 + Safe Mode |
-| **Avatar Fallback System** | `memory/avatar/avatar-fallback-system.md` ⭐NEW 2026-06-30(5 原因 + 上传流程 + Grandfathered) |
-| **用户端 Dynamic Bone Limits** | `memory/avatar/avatar-dynamic-bone-limits.md` ⭐NEW 2026-06-30(默认 32/8 + config.json) |
-| **用户端 Particle System Limits** | `memory/avatar/avatar-particle-system-limits.md` ⭐NEW 2026-06-30(11 变量 + Penalty + Quest 不可禁用) |
-| **Full-Body Tracking** | `memory/avatar/full-body-tracking.md` ⭐NEW 2026-06-30(8 tracker + Rigging + 实验性) |
-| **IK 2.0** | `memory/avatar/ik-2.0.md` ⭐NEW 2026-06-30(Lock Types + 5 启动参数) |
-| **Avatar 交互权限** | `memory/avatar/avatar-interaction-permissions.md` ⭐NEW 2026-06-30(Mode + PANIC) |
-| **Public Avatar Cloning** | `memory/avatar/public-avatar-cloning.md` ⭐NEW 2026-06-30 |
-| Avatar 其他 | `memory/avatar/` |
-| Hybrid/OSC | `memory/hybrid/` |
-| **VRChatSDK API** | `memory/vrchatsdk/index.md` ⭐NEW 2026-06-15 域索引 |
-| 跨平台开发 | `memory/platform/index.md` ⭐NEW 2026-06-15 域索引 |
-| 杂项(后处理/无障碍) | `memory/misc/index.md` ⭐NEW 2026-06-15 域索引 |
-| 知识版本 | `memory/FACT.md` |
-| 文档对比记录 | `memory/references/index.md` ⭐NEW 2026-06-15 域索引 |
+| World 设计模式 | `concepts/patterns/` ⭐ 31 个(7 原有 + 6 LuraSwitch2 + 10 UVU + 5 ULocalization 沙箱适配 + 3 Sardinal 独有) |
+| **Master-Follower Syncer** | `concepts/patterns/master-follower-syncer.md` ⭐NEW |
+| **Exclusive Control Selector** | `concepts/patterns/exclusive-control-selector.md` ⭐NEW |
+| **Soft Detent Interpolation** | `concepts/patterns/soft-detent-interpolation.md` ⭐NEW |
+| **Avatar Accessories (2026.2.1+)** | `entities/avatar/accessories.md` ⭐NEW 2026-06-30 |
+| **VRCRaycast (Avatar, SDK 3.10.3+)** | `entities/avatar/vrcraycast.md` ⭐NEW 2026-06-30 |
+| **Companions vs Props (2026.2.3)** | `entities/world/companions.md` ⭐NEW 2026-06-30 |
+| **Steam Audio (替换 ONSP, 2025.4.2+)** | `entities/world/audio-steam.md` ⭐NEW 2026-06-30 |
+| **Fade-Then-Snap** | `concepts/patterns/fade-then-snap.md` ⭐NEW |
+| **Editor Preview Component** | `concepts/patterns/editor-preview-component.md` ⭐NEW |
+| **MaterialPropertyBlock Safe Update** | `concepts/patterns/material-propertyblock-safe-update.md` ⭐NEW |
+| **Hash-Based Method Dispatch** | `concepts/patterns/hash-based-dispatch.md` ⭐NEW 2026-06-20 |
+| **IID Object Identity** | `concepts/patterns/iid-object-identity.md` ⭐NEW 2026-06-20 |
+| **Slot-Based Parameter Passing** | `concepts/patterns/slot-parameter-passing.md` ⭐NEW 2026-06-20 |
+| **Code Generation with Type Erasure** | `concepts/patterns/code-generation-type-erasure.md` ⭐NEW 2026-06-20 |
+| **Build-Time vs Runtime Separation** | `comparisons/build-time-vs-runtime.md` ⭐NEW 2026-06-20 |
+| **QuickBrown LuraSwitch2 源（案例研究 A6,v3.00 历史）** | `entities/world/luraswitch2.md` ⭐NEW |
+| **LuraSwitch2 工具使用指南（C15,v1.06 重写版）** | `entities/world/luraswitch2.md` ⭐REWRITTEN 2026-06-21 (2026-03-06 最新版) |
+| **VizVid (VVMW) 源（案例研究 A2）** | `entities/world/vvmw.md` ⭐NEW 2026-06-20（视频播放器） |
+| **VizVid (VVMW) 工具使用指南（C16）** | `entities/world/vvmw.md` ⭐NEW 2026-06-20（推荐创作者使用） |
+| **HoshinoLabs ULocalization 源** | `concepts/patterns/index.md` ⭐NEW 2026-06-20 |
+| **HoshinoLabs Sardinal 源** | `concepts/patterns/channel-routing.md` ⭐NEW 2026-06-20 (通用消息总线) |
+| **Channel-Based Pub/Sub Routing** | `concepts/patterns/channel-routing.md` ⭐NEW 2026-06-20 (Sardinal 独有) |
+| **Inherited Subscriber** | `concepts/patterns/inherited-subscriber.md` ⭐NEW 2026-06-20 (Sardinal 独有) |
+| **Hybrid Static+Dynamic Subscription** | `concepts/patterns/hybrid-subscription-modes.md` ⭐NEW 2026-06-20 (Sardinal 独有) |
+| World 审查 | `concepts/patterns/` |
+| **光照系统** | `entities/world/vrc-light-volumes.md` |
+| **光照烘焙** | `entities/world/bakery/light-baking-guide.md` |
+| **遮挡剔除** | `entities/world/occlusion-culling-guide.md` |
+| **World Shader** | `entities/world/shader/` ← Graphlit 节点编辑器 |
+| **VRCGraphics / Shader Globals** | `entities/world/udon/vrc-graphics/index.md` |
+| **Udon Node Graph(可视化)** | `entities/world/udon/graph/` ← Interface/Flow/Event/搜索/类型 ⭐NEW 2026-06-15 |
+| **VRCCameraSettings** | `entities/world/vrc-camera-settings.md` ⭐NEW |
+| **VRCQualitySettings** | `entities/world/vrc-quality-settings.md` ⭐NEW |
+| **ClientSim(World 测试)** | `entities/world/clientsim/index.md` ⭐NEW 2026-06-15 |
+| **Obstacle Course(World Jam 2)** | `entities/world/examples/obstacle-course/` ⭐NEW 2026-06-15 |
+| **Items in Udon Worlds** | `entities/world/items.md` ← ⭐ Layer 3 + Udon 不可引用 Items ⭐NEW 2026-06-15 |
+| **VRChat Community Labs** | `entities/world/community-labs.md` ⭐NEW 2026-06-30(World 发布系统 + Trust Rank User + 每周 1 个) |
+| **Unity Layers in VRChat** | `entities/world/layers.md` ← ⭐ 32 Layer 分配 + Physics 安全模式 ⭐NEW 2026-06-15 |
+| **SDK Prefabs** | `entities/world/sdk-prefabs.md` ← ⭐ 8 个 Udon 示例 Prefab ⭐NEW 2026-06-15 |
+| **Supported Scripted Assets** | `entities/world/supported-assets.md` ← ⭐ TMP/PPSv2/FinalIK/DynamicBone 白名单 ⭐NEW 2026-06-15 |
+| **Allowlisted World Components** | `entities/world/whitelisted-world-components.md` ← ⭐ 完整 Script 白名单 (10 集合) ⭐NEW 2026-06-15 |
+| **Video Players** | `entities/world/udon/video-players/` ← ⭐ VRCUnityVideoPlayer / AVPro + URL 白名单 ⭐NEW 2026-06-15 |
+| Avatar Animator | `entities/avatar/animator-system.md` |
+| **Avatar 自动纹理压缩 (LAC)** | `entities/avatar/lac-avatar-compressor.md` ⭐NEW 2026-06-17 |
+| **MA 响应式层合并 (MA2BT)** | `entities/avatar/ma2bt.md` ⭐NEW 2026-06-17 |
+| **Avatar 优化器 (AAO)** | `entities/avatar/avatar-optimizer.md` ⭐NEW 2026-06-17 |
+| **TexTransTool (TTT)** | `entities/avatar/tex-trans-tool.md` ⭐NEW 2026-06-17 |
+| **VRCFury 客观参考** | `entities/avatar/vrcfury-reference.md` ⭐NEW 2026-06-17 |
+| **Meshia 减面** | `entities/avatar/meshia-mesh-simplification.md` ⭐NEW 2026-06-17 |
+| **Thry 性能检测指标** | `entities/avatar/thry-avatar-evaluator-metrics.md` ⭐NEW 2026-06-17 |
+| **NDMF 工具生态** | `entities/avatar/ndmf-tools.md` ⭐执行顺序 |
+| **VRChat Trust Rank** | `entities/avatar/trust-rank.md` ⭐(2026-06-30) 7 等级 + 上传权限 + Nuisance |
+| **VRChat Safety System** | `entities/avatar/safety-system.md` ⭐(2026-06-30) Shield Level + 8 特性 + Safe Mode |
+| **Avatar Fallback System** | `entities/avatar/avatar-fallback-system.md` ⭐NEW 2026-06-30(5 原因 + 上传流程 + Grandfathered) |
+| **用户端 Dynamic Bone Limits** | `entities/avatar/avatar-dynamic-bone-limits.md` ⭐NEW 2026-06-30(默认 32/8 + config.json) |
+| **用户端 Particle System Limits** | `entities/avatar/avatar-particle-system-limits.md` ⭐NEW 2026-06-30(11 变量 + Penalty + Quest 不可禁用) |
+| **Full-Body Tracking** | `entities/avatar/full-body-tracking.md` ⭐NEW 2026-06-30(8 tracker + Rigging + 实验性) |
+| **IK 2.0** | `entities/avatar/ik-2.0.md` ⭐NEW 2026-06-30(Lock Types + 5 启动参数) |
+| **Avatar 交互权限** | `entities/avatar/avatar-interaction-permissions.md` ⭐NEW 2026-06-30(Mode + PANIC) |
+| **Public Avatar Cloning** | `entities/avatar/public-avatar-cloning.md` ⭐NEW 2026-06-30 |
+| Avatar 其他 | `entities/avatar/` |
+| Hybrid/OSC | `concepts/hybrid/` |
+| **VRChatSDK API** | `entities/vrchatsdk/index.md` ⭐NEW 2026-06-15 域索引 |
+| 跨平台开发 | `entities/platform/index.md` ⭐NEW 2026-06-15 域索引 |
+| 杂项(后处理/无障碍) | `concepts/misc/index.md` ⭐NEW 2026-06-15 域索引 |
+| 知识版本 | `FACT.md` |
+| 文档对比记录 | `comparisons/index.md` ⭐NEW 2026-06-15 域索引 |

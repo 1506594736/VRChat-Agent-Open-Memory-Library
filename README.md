@@ -4,7 +4,7 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![Version: v5.0.0](https://img.shields.io/badge/Version-v5.0.0-blue.svg)](CHANGELOG.md)
-[![Pages: 414](https://img.shields.io/badge/Pages-414-blue.svg)]()
+[![Pages: 415](https://img.shields.io/badge/Pages-415-blue.svg)]()
 [![Frontmatter: 100%](https://img.shields.io/badge/Frontmatter-100%25-brightgreen.svg)]()
 [![Dead Links: 0](https://img.shields.io/badge/Dead_Links-0-brightgreen.svg)]()
 [![Language: 中文](https://img.shields.io/badge/Language-中文-red.svg)]()
@@ -36,7 +36,7 @@
 git clone https://github.com/RhineLab-magellan/VRChat-Agent-Creator-Library.git
 cd VRChat-Agent-Creator-Library
 
-# 2️⃣ 指定知识根（414 个 Markdown 知识页）
+# 2️⃣ 指定知识根（415 个 Markdown 知识页）
 #    memoryV5.0.0/LLMWikiExample/LLMWikiPage/
 ```
 
@@ -46,7 +46,7 @@ cd VRChat-Agent-Creator-Library
 # 3️⃣ 示例：加载到 LangChain（示意，具体切块/嵌入按你的管线调整）
 from langchain.document_loaders import TextLoader
 
-# 知识根：LLMWikiPage/ 共 414 页；index.md 是路由入口（整目录请用 DirectoryLoader）
+# 知识根：LLMWikiPage/ 共 415 页；index.md 是路由入口（整目录请用 DirectoryLoader）
 loader = TextLoader("memoryV5.0.0/LLMWikiExample/LLMWikiPage/index.md")
 docs = loader.load()
 # ... 接你的 RAG / 向量化 / 检索代码
@@ -80,7 +80,7 @@ VRChat 创作者的知识高度碎片化——官方文档、SDK 源码、开源
 
 ## ✨ 核心特性 (Features)
 
-- 📚 **414 个知识页**，覆盖 World、Avatar、API、Platform、VRChatSDK、Rules、Patterns、Hybrid 等 10+ 领域（约 3.90 MB）。
+- 📚 **415 个知识页**，覆盖 World、Avatar、API、Platform、VRChatSDK、Rules、Patterns、Hybrid 等 10+ 领域（约 3.90 MB）。
 - 🤖 **100% YAML frontmatter** — 任意页面可被机器解析，可直接喂给 RAG / 向量化管线。
 - 🔗 **0 死链** — 全库使用 `[[wikilink]]` + 相对链接 + `http(s)://` URL 互连，图谱全库可解析。
 - 🎯 **可信度分级** — 每页标注 `high / medium / low`，区分官方事实、社区共识与推断。
@@ -97,7 +97,7 @@ VRChat 创作者的知识高度碎片化——官方文档、SDK 源码、开源
 
 ```mermaid
 flowchart TD
-    ROOT["LLMWikiPage/ · 414 页"] --> IDX["index.md 路由地图"]
+    ROOT["LLMWikiPage/ · 415 页"] --> IDX["index.md 路由地图"]
     ROOT --> FACT["FACT.md 结构树"]
     ROOT --> ALW["_always-load.md 核心约束"]
     ROOT --> ENT["entities/ · 351 · 实体域"]
@@ -152,7 +152,7 @@ boot_files:
   - memoryV5.0.0/LLMWikiExample/LLMWikiPage/FACT.md           # 知识库结构树 + 长期事实
 ```
 
-> 一致建议给 Agent 的通用策略：先附加 `_always-load.md`（核心约束）→ 再附加 `FACT.md`（结构）→ 按需用 `index.md` 路由到的具体域文件。上下文敏感时不要一次性载入全部 414 页。
+> 一致建议给 Agent 的通用策略：先附加 `_always-load.md`（核心约束）→ 再附加 `FACT.md`（结构）→ 按需用 `index.md` 路由到的具体域文件。上下文敏感时不要一次性载入全部 415 页。
 
 ### 场景 3：Obsidian / 直接阅读（人类）
 
@@ -256,7 +256,7 @@ confidence: high | medium | low
 
 最新发布 **v5.0.0** 的三大变化：
 
-- 🏗️ **形态转型** — 以「纯知识发布包」形态发布，知识根收敛为 `LLMWikiExample/LLMWikiPage/`（414 页），目录重构为 `entities / concepts / comparisons / queries / meta`；
+- 🏗️ **形态转型** — 以「纯知识发布包」形态发布，知识根收敛为 `LLMWikiExample/LLMWikiPage/`（415 页），目录重构为 `entities / concepts / comparisons / queries / meta`；
 - 📚 **新增约 50 页知识** — Unity 场景组件专页（约 45 页）、工具页（udonsharp-linter、unity-mcp 等）、VRCBillboard API 等；
 - ✅ **四指标发布就绪** — C1 自包含 / C2 置信度 / C3 Fact Index / C4 标签全门通过，独立审查零违例。
 

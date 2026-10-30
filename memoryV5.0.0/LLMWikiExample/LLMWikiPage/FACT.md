@@ -27,17 +27,18 @@ related:
   - [[entities/avatar/full-body-tracking.md]]
   - [[entities/avatar/ik-2.0.md]]
   - [[entities/avatar/shader/poiyomi/shader-locking-mechanism.md]]
+  - [[entities/avatar/avatar-optimization-stack.md]]
   - [[entities/world/community-labs.md]]
 
 source: 本地知识库整理
 source_type: community
-version: 3.3
-last_review: 2026-08-20
+version: 3.4
+last_review: 2026-10-30
 confidence: High
 type: summary
 created: 2026-07-04
 sources: 本地知识库整理
-updated: 2026-08-20
+updated: 2026-10-30
 ---
 # FACT.md - VRChat 技术知识库
 
@@ -166,6 +167,23 @@ LLMWikiPage/                     # 知识页根（现行知识库）
 - ⚠️ **Shader Locking**: VRChat 上传时自动 Lock 材质（剥离未用功能、烘焙常量、属性不可动画）。Poiyomi 提供 `Animated` / `Renamed` 标记让属性保持可动画；LilToon 无内置机制（需手动 Lock）。d4rkAvatarOptimizer **不支持** Poiyomi Renamed 模式（Issue #182 Open）
 
 > 完整对比见 `entities/avatar/camera-tools.md` §1 / §2.1 / §3.1 + `entities/avatar/shader/poiyomi/shader-locking-mechanism.md`
+
+### Avatar 优化工具分类与共存（2026-10-24 补充）
+
+> 来源：`entities/avatar/avatar-optimization-stack.md`（各项目 README / package.json，`[PROJECT-SOURCE]`）
+> 多工具选型、叠加顺序、冲突排查**先看该页**，本条只保留必须常驻的分类事实。
+
+**三类工具不可互换**：
+
+| 类别 | 行为 | 能否修指标 |
+|------|------|-----------|
+| 构建期优化（NDMF 插件） | 构建 / Play Mode 时改写资源 | ✅ 能 |
+| 编辑器测量工具 | 只读统计并报告 | ❌ 不能，仅定位 |
+| 运行期 / 游戏内工具 | 上传后生效 | 视具体工具 |
+
+- ⚠️ **"VPM 包"不等于"NDMF 插件"**：工具可以是 VPM 分发的纯 Editor 工具（如 Thry Performance Tools，`vpmDependencies: {}`、`type: tool`、仅 `Editor/`），它**不进入构建管线、不改变任何指标**。不得把测量工具列为"优化方案"。
+- ⚠️ **同名≠同包**：项目与其 fork 可能注入同名图层但包标识、VPM 源、默认值均不同（如 `com.puddingkc.ma2bt` 与 `com.zhuozhi.ma2bt-pro`，注入层同为 `MA_To_BlendTree_Layer`，**不可同时安装**）。核对时以 VPM 包名 + VPM 仓库 URL 为准，不以显示名或仓库标题为准。
+- ⚠️ **同装不等于冲突**：TTT×AAO、LAC×AAO、Meshia×AAO 是互补关系；真正需要排序的是 VRCFury×MA、VRCFury `Parameter Compressor`×MA `Sync Parameter Sequence`（硬冲突）、VRCFury `Direct Tree Optimizer`×MA2BT、AAO `Animator Optimizer`×MA2BT。详见该页 §3。
 
 ### VRChat Avatar 相机已知问题（2026-07-04 补充）
 
